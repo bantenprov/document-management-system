@@ -1,2 +1,2 @@
 # Document Management System
-Repositori untuk menyimpan online dokumen
+Repositori untuk menyimpan dokumen online
