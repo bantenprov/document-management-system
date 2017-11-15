@@ -1,2 +1,2 @@
-# document-management-system
-Repositori untuk menyimpan flowchart Provinsi Banten
+# Document Management System
+Repositori untuk menyimpan online dokumen
