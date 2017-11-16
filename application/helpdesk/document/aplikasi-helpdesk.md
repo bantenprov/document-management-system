@@ -10,7 +10,7 @@ Pertama buka aplikasi web base http://helpdesk.bantenprov.go.id/ dari browser ya
 
 ## Tampilan Beranda
 
-[![Beranda Helpdesk Pemprov Banten](http://img.bangunbanten.com/helpdesk/helpdesk-pemprov-banten-beranda.png)](http://img.bangunbanten.com/helpdesk/helpdesk-pemprov-banten-beranda.png)
+[![Beranda Helpdesk Pemprov Banten](../images/helpdesk-pemprov-banten-beranda.png)](../images/helpdesk-pemprov-banten-beranda.png)
 
 Setelah itu kita klik menu Log In sesuai dengan id yang sudah diberikan seperti gambar dibawah ini 
 
