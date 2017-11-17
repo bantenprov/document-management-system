@@ -3,6 +3,7 @@ Repositori untuk menyimpan dokumen online
 ## Folder tree
 ```
 - application
+-- [APPLICATION NAME]/document
 -- [APPLICATION NAME]/images
 -- [APPLICATION NAME]/flowchart
 -- [APPLICATION NAME]/flowchart-images
