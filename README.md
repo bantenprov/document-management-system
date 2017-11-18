@@ -7,7 +7,7 @@ Repositori untuk menyimpan dokumen online
 -- [APPLICATION NAME]/images
 -- [APPLICATION NAME]/flowchart
 -- [APPLICATION NAME]/flowchart-images
-- design-analisys
+- design-analysis
 -- [APPLICATION NAME]/document
 -- [APPLICATION NAME]/images
 -- [APPLICATION NAME]/flowchart
