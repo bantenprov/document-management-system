@@ -1,5 +1,5 @@
 # Document Management System
-Repositori untuk menyimpan dokumen online
+Repository to stored the online dokumen
 ## Folder tree
 ```
 - application
@@ -17,6 +17,13 @@ Repositori untuk menyimpan dokumen online
 -- [SOP NAME]/images
 -- [SOP NAME]/flowchart
 -- [SOP NAME]/flowchart-images
+- concept
+-- it-governance
+-- it-governance/document
+-- it-governance/images
+-- it-governance/flowchart
+-- it-governance/flowchart-images
+
 ```
 ## 1. Dokumentasi Aplikasi
 - [Helpdesk](https://github.com/bantenprov/document-management-system/blob/master/application/helpdesk/document/aplikasi-helpdesk.md)
