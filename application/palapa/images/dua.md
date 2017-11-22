@@ -1,4 +1,0 @@
-# PERANCANGAN APLIKASI Sistem Informasi PORTAL WEB PEMERINTAH
-
-## Abstrak
-

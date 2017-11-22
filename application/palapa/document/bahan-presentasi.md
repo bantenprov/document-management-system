@@ -67,51 +67,51 @@ Teknologi yang digunakan dalam aplikasi PALAPA:
 
 ## Desain Tampilan
 * **Simpul Jaringan Pemerintah Daerah**
-[![Simpul jaringan Pemerintah Daerah](../images/designaplikasipalapa.png)](../images/designaplikasipalapa.png)
+[![Simpul jaringan Pemerintah Daerah](../images/design-aplikasi-palapa.png)](../images/design-aplikasi-palapa.png)
 
 * **Arsitektur Aplikasi PALAPA - Elememn JIGN / Simpul Jaringan**
-[![Arsitektur Aplikasi PALAPA - Elememn JIGN / Simpul Jaringan](../images/untitleddiagram.1png.png)](../images/untitleddiagram.1png.png)
+[![Arsitektur Aplikasi PALAPA - Elememn JIGN / Simpul Jaringan](../images/untitled-diagram.png)](../images/untitled-diagram.png)
 
 * **Arsitektur Simpul Jaringan**
-[![Arsitektur Simpul Jaringan](../images/arsitektursimpuljaringan.png)](../images/arsitektursimpuljaringan.png)
+[![Arsitektur Simpul Jaringan](../images/arsitektur-simpul-jaringan.png)](../images/arsitektur-simpul-jaringan.png)
 
 * **Arsitektur PALAPA **
-[![Arsitektur PALAPA](../images/arsitekturaplikasipalapa.png)](../images/arsitekturaplikasipalapa.png)
+[![Arsitektur PALAPA](../images/arsitektur-aplikasi-palapa.png)](../images/arsitektur-aplikasi-palapa.png)
 
-[![Arsitektur PALAPA2](../images/arsitekturaplikasipalapa2.png)](../images/arsitekturaplikasipalapa2.png)
+[![Arsitektur PALAPA2](../images/arsitektu-raplikasi-palapa2.png)](../images/arsitektur-aplikasi-palapa2.png)
 
-[![Arsitektur PALAPA3](../images/arsitekturaplikasipalapa3.png)](../images/arsitekturaplikasipalapa3.png)
+[![Arsitektur PALAPA3](../images/arsitektur-aplikasi-palapa3.png)](../images/arsitektur-aplikasi-palapa3.png)
 
 * **Use Case Diagram - Browse / Explore**
-[![Use Case Diagram - Browse / Explore](../images/usecasediagram-browse/explore.png)](../images/usecasediagram-browse/explore.png)
+[![Use Case Diagram - Browse / Explore](../images/use-case-diagram-browse/explore.png)](../images/use-case-diagram-browse/explore.png)
 
 * **Use Case Diagram PALAPA**
-[![Use Case Diagram PALAPA](../images/usecasediagrampalapa.png)](../images/usecasediagrampalapa.png)
+[![Use Case Diagram PALAPA](../images/use-case-diagram-palapa.png)](../images/use-case-diagram-palapa.png)
 
 * **Use Case Diagram - Kelole Grup**
-[![Use Case Diagram - Kelole Grup](../images/usecasediagramkelolagroup.png)](../images/usecasediagramkelolagroup.png)
+[![Use Case Diagram - Kelole Grup](../images/use-case-diagram-kelola-group.png)](../images/use-case-diagram-kelola-group.png)
 
 * **Use Case Diagram - Kelola Style (SLD)**
-[![Use Case Diagram - Kelola Style (SLD)](../images/usecasediagramkelolastyle-sld.png)](../images/usecasediagramkelolastyle-sld.png)
+[![Use Case Diagram - Kelola Style (SLD)](../images/use-case-diagram-kelola-style-sld.png)](../images/use-case-diagram-kelola-style-sld.png)
 
 * **Use Case Diagram - Kelola Dataset**
-[![Use Case Diagram - Kelola Dataset](../images/usecasediagramkeloladataset.png)](../images/usecasediagramkeloladataset.png)
+[![Use Case Diagram - Kelola Dataset](../images/use-case-diagram-kelola-dataset.png)](../images/use-case-diagram-kelola-dataset.png)
 
 * **Kelola Dataset - KUGI**
-[![Kelola Dataset - KUGI](../images/keloladataset-kugi.png)](../images/keloladataset-kugi.png)
+[![Kelola Dataset - KUGI](../images/kelola-dataset-kugi.png)](../images/kelola-dataset-kugi.png)
 
 * **Kelola Dataset - KUGI Upload Dataset+Metadata ke Dev DB**
-[![Kelola Dataset - KUGI Upload Dataset+Metadata ke Dev DB](../images/keloladataset_kugi_upload_dataset.png)](../images/keloladataset_kugi_upload_dataset.png)
+[![Kelola Dataset - KUGI Upload Dataset+Metadata ke Dev DB](../images/kelola-dataset-kugi-upload-dataset.png)](../images/kelola-dataset-kugi-upload-dataset.png)
 
 * **Kelola Dataset - KUGI DB Sync & Metadata Update**
-[![Kelola Dataset - KUGI DB Sync & Metadata Update](../images/keloladataset_kugi_db_sync.png)](../images/keloladataset_kugi_db_sync.png)
+[![Kelola Dataset - KUGI DB Sync & Metadata Update](../images/kelola-dataset-kugi-db-sync.png)](../images/kelola-dataset-kugi-db-sync.png)
 
 * **Use Case Diagram - Kelola Metadata**
-[![Use Case Diagram - Kelola Metadata](../images/kelolametadata.png)](../images/kelolametadata.png)
+[![Use Case Diagram - Kelola Metadata](../images/use-case-diagram-kelola-data-metadata.png)](../images/use-case-diagram-kelola-data-metadata.png)
 
 * **Tampilan Aplikasi PALAPA**
-[![Tampilan Aplikasi PALAPA](../images/tampilanaplikasipalapa.png)](../images/tampilanaplikasipalapa.png)
+[![Tampilan Aplikasi PALAPA](../images/tampilan-aplikasi-palapa.png)](../images/tampilanaplikasipalapa.png)
 
-[![Tampilan Aplikasi PALAPA2](../images/tampilanaplikasipalapa2.png)](../images/tampilanaplikasipalapa2.png)
+[![Tampilan Aplikasi PALAPA2](../images/tampilan-aplikasi-palapa2.png)](../images/tampilanaplikasipalapa2.png)
 
-[![Tampilan Aplikasi PALAPA3](../images/tampilanaplikasipalapa3.png)](../images/tampilanaplikasipalapa3.png)
+[![Tampilan Aplikasi PALAPA3](../images/tampilan-aplikasi-palapa3.png)](../images/tampilanaplikasipalapa3.png)
