@@ -3,15 +3,37 @@ Repository to stored the online dokumen
 ## Folder tree
 ```
 - application
--- [APPLICATION NAME]/document
--- [APPLICATION NAME]/images
--- [APPLICATION NAME]/flowchart
--- [APPLICATION NAME]/flowchart-images
-- design-analysis
--- [APPLICATION NAME]/document
--- [APPLICATION NAME]/images
--- [APPLICATION NAME]/flowchart
--- [APPLICATION NAME]/flowchart-images
+-- Dashboard Pimpinan
+--- Disain dan Perancangan
+--- Pengkodean
+--- Integrasi
+--- Implementasi
+-- Portal Pemerintah Provinsi Banten
+--- Disain dan Perancangan
+--- Pengkodean
+--- Integrasi
+--- Implementasi
+-- Layanan Kesehatan
+--- Disain dan Perancangan
+--- Pengkodean
+--- Integrasi
+--- Implementasi
+-- Epormas
+-- SOP Online
+--- Disain dan Perancangan
+--- Pengkodean
+--- Integrasi
+--- Implementasi
+-- Banten Satu Data
+--- Disain dan Perancangan
+--- Pengkodean
+--- Integrasi
+--- Implementasi
+-- Simtem Informasi Barang Daerah
+--- Disain dan Perancangan
+--- Pengkodean
+--- Integrasi
+--- Implementasi
 - sop
 -- [SOP NAME]/document
 -- [SOP NAME]/images
