@@ -5,33 +5,33 @@ Repository to stored the online dokumen
 - application
 -- Dashboard Pimpinan
 --- Disain dan Perancangan
---- Pengkodean
+--- Pengembangan
 --- Integrasi
 --- Implementasi
 -- Portal Pemerintah Provinsi Banten
 --- Disain dan Perancangan
---- Pengkodean
+--- Pengembangan
 --- Integrasi
 --- Implementasi
 -- Layanan Kesehatan
 --- Disain dan Perancangan
---- Pengkodean
+--- Pengembangan
 --- Integrasi
 --- Implementasi
 -- Epormas
 -- SOP Online
 --- Disain dan Perancangan
---- Pengkodean
+--- Pengembangan
 --- Integrasi
 --- Implementasi
 -- Banten Satu Data
 --- Disain dan Perancangan
---- Pengkodean
+--- Pengembangan
 --- Integrasi
 --- Implementasi
 -- Simtem Informasi Barang Daerah
 --- Disain dan Perancangan
---- Pengkodean
+--- Pengembangan
 --- Integrasi
 --- Implementasi
 - sop
