@@ -1,4 +1,4 @@
-[![cover](http://img.bangunbanten.com/dashboard/cover-dashboard-pimpinan.jpeg)](http://img.bangunbanten.com/dashboard/cover-dashboard-pimpinan.jpeg)
+[![cover-dashboard-pimpinan](../images/cover-dashboard-pimpinan.jpeg)](../images/cover-dashboard-pimpinan.jpeg)
 
 ## ABSTRAK
 Sistem Dashboard merupakan suatu sistem berbasis komputer yang dapat membantu suatu pemerintahan untuk meningkatkan kinerja dalam pengambilan keputusan dan memecahkan masalah yang umumnya berada di dalam wilayah dengan dimensi yang beragam. Sistem informasi sekarang sudah banyak tersedia di berbagai pemerintahan bertujuan untuk mewujudkan visi dan misi pemerintahan. Dewasa ini perkembangan teknologi komputer sangatlah pesat. Dengan menggunakan aplikasi komputer akan didapat informasi mengenai suatu tampilan objek yang ditampilkan lebih hidup dan menarik. Adanya kemajuan teknologi ini memungkinkan Sistem aplikasi Dashboard dapat memberikan jalan yang terbaik dan lebih menarik untuk masyarakat. dengan adanya Sistem aplikasi Dashboard Pemerintahan Provinsi Banten Berbasis Web mampu memberikan keputusan terbaik dalam melakukan pemantauan dalam laporan.
@@ -58,7 +58,7 @@ Adapun penyusun melakukan beberapa penelitian yang dilakukan dengan :
 ### 2.1 Metode Yang digunakan
 Menggunakan metode *prototyping* untuk melakukan perancangan sistem informasi berbasis web.
 Ilustrasi alur *prototyping*
-[![Ilustrasi Alur Prototyping](http://img.bangunbanten.com/potret/jalur-proses-dan-perancangan-data-base-use-case/20171018_alur-prototype.png)](http://img.bangunbanten.com/potret/jalur-proses-dan-perancangan-data-base-use-case/20171018_alur-prototype.png)
+[![ilustrasi-alur-prototyping](../images/alur-prototype.png)](../images/alur-prototype.png)
 ### 2.2 Metode Pengumpulan Data
 Untuk mengumpulkan data yang diperlukan untuk membangun sistem ini diadakan wawancara dan studi pustaka. Pengumpulan data ini diperlukan untuk mengetahui permasalahan dan gambaran sistem yang sedang berjalan sehingga dapat mengembangkannya untuk membentuk sistem baru yang dapat mendukung sistem yang sedang berjalan.
 1). Wawancara ini dilakukan kepada Pemprov Banten. Wawancara dilakukan kepada sistem analist Pemprov Banten untuk mengetahui permasalahan dalam proses pendataan yang sedang berjalan sekarang.
@@ -71,93 +71,93 @@ Permodelan rancangan sistem yang digunakan adalah UML (Unified Modeling Language
 
 ### 3.2.1 Use Cace Diagram
 #### 3.2.1.1 Use Case Diagram Super Admin
-[![ Use Case Diagram Super Admin](http://img.bangunbanten.com/dashboard/use-case-super-admin.jpg)](http://img.bangunbanten.com/dashboard/use-case-super-admin.jpg)
+[![use-case-diagram-super-admin](../images/use-case-super-admin.jpg)](../images/use-case-super-admin.jpg)
 #### 3.2.1.1 Use Case Diagram Admin
-[![ Use Case Diagram Admin](http://img.bangunbanten.com/dashboard/dashboard/use-case-diagram-admin-ok.jpg)](http://img.bangunbanten.com/dashboard/dashboard/use-case-diagram-admin-ok.jpg)
+[![use case diagram admin](../images/use-case-diagram-admin.jpg)](../images/use-case-diagram-admin.jpg)
 #### 3.2.1.2 Use Case Diagram Dinas
-[![ Use Case Diagram Dinas](http://img.bangunbanten.com/dashboard/dashboard/use-case-dinas.jpg)](http://img.bangunbanten.com/dashboard/dashboard/use-case-dinas.jpg)
+[![use-case-diagram-dinas](../images/use-case-dinas.jpg)](../images/use-case-dinas.jpg)
 
 ### 3.2.2 Activity Diagram
 
 #### 3.2.2.1 Activity Diagram Super Admin
-[![ Activity Diagram Super Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-super-admin.jpg)](http://img.bangunbanten.com/dashboard/activity-diagram-super-admin.jpg)
+[![activity-diagram-super-admin](../images/activity-diagram-super-admin.jpg)](../images/activity-diagram-super-admin.jpg)
 #### 3.2.2.2 Activity Diagram Input Data Super Admin
-[![ Activity Diagram Input Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-input-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-input-data-super-admin.jpg)
+[![activity-diagram-input-data-super-admin](../images/activity-diagram-input-data-super-admin.jpg)](../images/activity-diagram-input-data-super-admin.jpg)
 #### 3.2.2.3 Activity Diagram Edit Data Super Admin
-[![Activity Diagram Edit Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-edit-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-edit-data-super-admin.jpg)
+[![activity-diagram-edit-data-super-admin](../images/activity-diagram-edit-data-super-admin.jpg)](../images/activity-diagram-edit-data-super-admin.jpg)
 #### 3.2.2.4 Activity Diagram Delete Data Super Admin
-[![Activity Diagram Delete Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-delete-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-delete-data-super-admin.jpg)
+[![activity-diagram-delete-data-super-admin](../images/activity-diagram-delete-data-super-admin.jpg)](../images/activity-diagram-delete-data-super-admin.jpg)
 #### 3.2.2.5 Activity Diagram View Data Super Admin
-[![Activity Diagram View Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-view-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-view-data-super-admin.jpg)
+[![activity-diagram-view-data-super-admin](../images/activity-diagram-view-data-super-admin.jpg)](../images/activity-diagram-view-data-super-admin.jpg)
 #### 3.2.2.6 Activity Diagram Admin
-[![ Activity Diagram Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-admin-oke.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-admin-oke.jpg)
+[![activity-diagram-admin](../images/activity-diagram-admin.jpg)](../images/activity-diagram-admin.jpg)
 #### 3.2.2.7. Activity Diagram Input Data Admin
-[![Activity Diagram Input Data Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-input-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-input-data-admin.jpg)
+[![activity-diagram-input-data-admin](../images/activity-diagram-input-data-admin.jpg)](../images/activity-diagram-input-data-admin.jpg)
 #### 3.2.2.8 Activity Diagram Edit Data Admin
-[![Activity Diagram Edit Data Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-edit-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-edit-data-admin.jpg)
+[![activity-diagram-edit-data-admin](../images/activity-diagram-edit-data-admin.jpg)](../images/activity-diagram-edit-data-admin.jpg)
 #### 3.2.2.9 Activity Diagram Delete Data Admin
-[![Activity Diagram Delete Data Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-delete-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-delete-data-admin.jpg)
+[![activity-diagram-delete-data-admin](../images/activity-diagram-delete-data-admin.jpg)](../images/activity-diagram-delete-data-admin.jpg)
 #### 3.2.2.10 Activity Diagram View Data Admin
-[![Activity Diagram View Data Admin](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-view-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-view-data-admin.jpg)
+[![activity-diagram-view-data-admin](../images/activity-diagram-view-data-admin.jpg)](../images/activity-diagram-view-data-admin.jpg)
 #### 3.2.2.11 Activity Diagram Gubernur
-[![ Activity Diagram Gubernur](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-gubernur-oke.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-gubernur-oke.jpg)
+[![activity diagram gubernur](../images/activity-diagram-gubernur.jpg)](../images/activity-diagram-gubernur.jpg)
 #### 3.2.2.12 Activity Diagram View Gubernur
-[![Activity Diagram View Data Gubernur](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-view-data-gubernur.jpg)](http://img.bangunbanten.com/dashboard/dashboard/activity-diagram-view-data-gubernur.jpg)
+[![activity-diagram-view-data-gubernur](../images/activity-diagram-view-data-gubernur.jpg)](../images/activity-diagram-view-data-gubernur.jpg)
 ### 3.2.3 Sequence Diagram
 #### 3.2.3.1 Sequence Diagram Login Super Admin
-[![ Activity Diagram Gubernur](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-super-admin.jpg)
+[![sequence-diagram-super-admin](../images/sequence-diagram-super-admin.jpg)](../images/sequence-diagram-super-admin.jpg)
 #### 3.2.3.2 Sequence Diagram Input Data Super Admin
-[![ Sequence Diagram Input Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-input-data-super-admin.jpg)
+[![sequence-diagram-super-admin](../images/sequence-diagram-super-admin.jpg)](../images/sequence-diagram-super-admin.jpg)
 #### 3.2.3.3 Sequence Diagram Edit Data Super Admin
-[![ Sequence Diagram Edit Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-edit-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-edit-data-admin.jpg)
+[![sequence-diagram-edit-data-admin](../images/sequence-diagram-edit-data-admin.jpg)](../images/sequence-diagram-edit-data-admin.jpg)
 #### 3.2.3.4 Sequence Diagram Delete Data Super Admin
-[![ Sequence Diagram Delete Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-delete-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-delete-data-super-admin.jpg)
+[![sequence-diagram-delete-data-super-admin](../images/sequence diagram delete data super admin.jpg)](../images/sequence-diagram-delete-data-super-admin.jpg)
 #### 3.2.3.5 Sequence Diagram View Data Super Admin
-[![ Sequence Diagram View Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-view-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-view-super-admin.jpg)
+[![sequence-diagram-view-super-admin](../images/sequence-diagram-view-super-admin.jpg)](../images/sequence-diagram-view-super-admin.jpg)
 #### 3.2.3.6 Sequence Diagram Login Admin
-[![ Sequence Diagram Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-login-admin-oke.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-login-admin-oke.jpg)
+[![sequence-diagram-login-admin](../images/sequence-diagram-login-admin.jpg)](../images/sequence-diagram-login-admin.jpg)
 #### 3.2.3.7 Sequence Diagram Input Data Admin
-[![ sequence-diagram-input-data-admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-input-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-input-data-admin.jpg)
+[![sequence-diagram-input-data-admin](../images/sequence-diagram-input-data-admin.jpg)](../images/sequence-diagram-input-data-admin.jpg)
 #### 3.2.3.8 Sequence Diagram Edit Data Admin
-[![ Sequence Diagram Edit Data Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-edit-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/equence-diagram-edit-data-admin.jpg)
+[![sequence-diagram-edit-data-admin](../images/sequence-diagram-edit-data-admin.jpg)](../images/sequence-diagram-edit-data-admin.jpg)
 #### 3.2.3.9 Sequence Diagram Delete Data Admin
-[![ Sequence Diagram Delete Data Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-delete-data-admin.jpg)](http://img.bangunbanten.com/dashboard/sequence-diagram-delete-data-admin.jpg)
+[![sequence-diagram-delete-data-admin](../images/sequence-diagram-delete-data-admin.jpg)](../images/sequence-diagram-delete-data-admin.jpg)
 #### 3.2.3.10 Sequence Diagram View Data Admin
-[![ Sequence Diagram View Data Admin](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-view-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-view-data-admin.jpg)
+[![sequence-diagram-view-data-admin](../images/sequence-diagram-view-data-admin.jpg)](../images/sequence-diagram-view-data-admin.jpg)
 #### 3.2.3.11 Sequence Diagram Login Gubernur
-[![ Sequence Diagram Gubernur](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-login-gubernur-oke.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-login-gubernur-oke.jpg)
+[![sequence-diagram-login-gubernur](../images/sequence-diagram-login-gubernur.jpg)](../images/sequence-diagram-login-gubernur.jpg)
 #### Sequence Diagram View Gubernur
-[![ Sequence Diagram View Gubernur](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-view-gubernur.jpg)](http://img.bangunbanten.com/dashboard/dashboard/sequence-diagram-view-gubernur.jpg)
+[![sequence-diagram-view-gubernur](../images/sequence-diagram-view-gubernur.jpg)](../images/sequence-diagram-view-gubernur.jpg)
 ### 3.2.4 State Chart Diagram
 #### 3.2.4.1 State Chart Diagram Login Super Admin
-[![ State Chart Diagram Login Super Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-login-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-login-super-admin.jpg)
+[![state-chart-diagram-login-super-admin](../images/state-chart-diagram-login-super-admin.jpg)](../images/state-chart-diagram-login-super-admin.jpg)
 #### 3.2.4.2 State Chart Diagram Input Data Super Admin
-[![ State Chart Diagram Input Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-input-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-input-data-super-admin.jpg)
+[![state-chart-diagram-input-data-super-admin](../images/state-chart-diagram-input-data-super-admin.jpg)](../images/state-chart-diagram-input-data-super-admin.jpg)
 #### 3.2.4.3 State Chart Diagram Edit Data Super Admin
-[![ State Chart Diagram Edit Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-edit-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-edit-data-super-admin.jpg)
+[![state-chart-diagram-edit-data-super-admin](../images/state-chart-diagram-edit-data-super-admin.jpg)](../images/state-chart-diagram-edit-data-super-admin.jpg)
 #### 3.2.4.4 State Chart Diagram Delete Data Super Admin
-[![ State Chart Diagram Delete Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-delete-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-delete-data-super-admin.jpg)
+[![state-chart-diagram-delete-data-super-admin](../images/state-chart-diagram-delete-data-super-admin.jpg)](../images/state-chart-diagram-delete-data-super-admin.jpg)
 #### 3.2.4.5 State Chart Diagram View Data Super Admin
-[![ State Chart Diagram View Data Super Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-view-data-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-view-data-super-admin.jpg)
+[![state-chart-diagram-view-data-super-admin](../images/state-chart-diagram-view-data-super-admin.jpg)](../images/state-chart-diagram-view-data-super-admin.jpg)
 #### 3.2.4.6 State Chart Diagram Login Admin
-[![ State Chart Diagram Login Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-login-admin-oke.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-login-admin-oke.jpg)
+[![state-chart-diagram-login-admin](../images/state-chart-diagram-login-admin.jpg)](../images/state-chart-diagram-login-admin.jpg)
 #### 3.2.4.7 State Chart Diagram Input Data Admin
-[![ State Chart Diagram Input Data Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-input-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-input-data-admin.jpg)
+[![state-chart-diagram-input-data-admin](../images/state-chart-diagram-input-data-admin.jpg)](../images/state-chart-diagram-input-data-admin.jpg)
 #### 3.2.4.8 State Chart Diagram Edit Data Admin
-[![ State Chart Diagram Edit Data Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-edit-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-edit-data-admin.jpg)
+[![state-chart-diagram-edit-data-admin](../images/state-chart-diagram-edit-data-admin.jpg)](../images/state-chart-diagram-edit-data-admin.jpg)
 #### 3.2.4.9 State Chart Diagram Delete data Admin
-[![ State Chart Diagram Delete data Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-delete-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-delete-data-admin.jpg)
+[![state-chart-diagram-delete-data-admin](../images/state-chart-diagram-delete-data-admin.jpg)](../images/state-chart-diagram-delete-data-admin.jpg)
 #### 3.2.4.10 State Chart Diagram View Data Admin
-[![ State Chart Diagram View Data Admin](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-view-data-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-view-data-admin.jpg)
+[![state-chart-diagram-view-data-admin](../images/state-chart-diagram-view-data-admin.jpg)](../images/state-chart-diagram-view-data-admin.jpg)
 #### 3.2.4.11 State Chart Diagram Gubernur
-[![ State Chart Diagram Gubernur](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-login-gubernur-oke.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-login-gubernur-oke.jpg)
+[![state-chart-diagram-login-gubernur](../images/state-chart-diagram-login-gubernur.jpg)](../images/state-chart-diagram-login-gubernur.jpg)
 #### 3.2.4.12 State Chart Diagram View Data Gubernur
-[![ State Chart Diagram View Data Gubernur](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-view-data-gubernur.jpg)](http://img.bangunbanten.com/dashboard/dashboard/state-chart-diagram-view-data-gubernur.jpg)
+[![state-chart-diagram-view-data-gubernur](../images/state-chart-diagram-view-data-gubernur.jpg)](../images/state-chart-diagram-view-data-gubernur.jpg)
 ### 3.2.5 Deployment Diagram
-[![ Deployment Diagram](http://img.bangunbanten.com/dashboard/jpg/deployment-diagram.jpg)](http://img.bangunbanten.com/dashboard/jpg/deployment-diagram.jpg)
+[![deployment-diagram](../images/deployment-diagram.jpg)](../images/deployment-diagram.jpg)
 
 ### 3.2.6 Technology Stack Diagram
-[![ Technology Stack Diagram](http://img.bangunbanten.com/dashboard/jpg/technology-stack-diagram.jpg)](http://img.bangunbanten.com/dashboard/jpg/technology-stack-diagram.jpg)
+[![technology-stack-diagram](../images/technology-stack-diagram.jpg)](../images/technology-stack-diagram.jpg)
 
 ### 3.3 Tahapan Pekerjaan :
 Tahap-tahap atau langkah yang dilakukan dalam mengembangkan Sistem Informasi Dashboard Pimpinan adalah sebagai berikut:
@@ -178,25 +178,25 @@ Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum s
 ### 3.4 Hasil
 Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 #### 3.4.1 Struktur Menu Dashboard Pimpinan
-[![Struktur Menu Dashboard Pimpinan](http://img.bangunbanten.com/dashboard/dashboard-struktur-menu-pimpinan.jpeg)](http://img.bangunbanten.com/dashboard/dashboard-struktur-menu-pimpinan.jpeg)
+[![dashboard-struktur-menu-pimpinan](../images/dashboard-struktur-menu-pimpinan.jpeg)](../images/dashboard-struktur-menu-pimpinan.jpeg)
 #### 3.4.2 Layout Tampilan Depan
-[![ Layout Tampilan Depan](http://img.bangunbanten.com/dashboard/layout-dashboard-awal.jpg)](http://img.bangunbanten.com/dashboard/layout-dashboard-awal.jpg)
+[![layout-dashboard-awal](../images/layout-dashboard-awal.jpg)](../images/layout-dashboard-awal.jpg)
 #### 3.4.3 Layout Tampilan Login
-[![ Layout Tampilan Login](http://img.bangunbanten.com/dashboard/dashboard-awal-login.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-awal-login.jpg)
+[![dashboard-awal-login](../images/dashboard-awal-login.jpg)](../images/dashboard-awal-login.jpg)
 #### 3.4.4 Layout Tampilan Super Admin
-[![ Layout Tampilan Admin](http://img.bangunbanten.com/dashboard/dashboard-super-admin.jpg)](http://img.bangunbanten.com/dashboard/dashboard-super-admin.jpg.jpg)
+[![dashboard-super-admin](../images/dashboard-super-admin.jpg)](../images/dashboard-super-admin.jpg)
 #### 3.4.5 Layout Tampilan Admin
-[![ Layout Tampilan Admin](http://img.bangunbanten.com/dashboard/dashboard-admin.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-tampilan-admin.jpg)
+[![dashboard-admin](../images/dashboard-admin.jpg)](../images/dashboard-admin.jpg)
 #### 3.4.6 Layout Tampilan Gubernur
-[![ Layout Tampilan Gubernur](http://img.bangunbanten.com/dashboard/dashboard-gubernur.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-tampilan-gubernur.jpg)
+[![dashboard-gubernur](../images/dashboard-gubernur.jpg)](../images/dashboard-gubernur.jpg)
 #### 3.4.7 Layout Dashboard Kependudukan
-[![ Layout Dashboard Kependudukan](http://img.bangunbanten.com/dashboard/jpg/dashboard-kependudukan.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-kependudukan.jpg)
+[![dashboard-kependudukan](../images/dashboard-kependudukan.jpg)](../images/dashboard-kependudukan.jpg)
 #### 3.4.8 Layout Dashboard Kepegawaian
-[![ Layout Dashboard Kepegawaian](http://img.bangunbanten.com/dashboard/jpg/dashboard-kepegawaian.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-kepegawaian.jpg)
+[![dashboard-kepegawaian](../images/dashboard-kepegawaian.jpg)](../images/dashboard-kepegawaian.jpg)
 #### 3.4.9 Layout Dashboard Kependidikan
-[![ Layout Dashboard Kependidikan](http://img.bangunbanten.com/dashboard/jpg/dashboard-kependidikan.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-kependidikan.jpg)
+[![dashboard-kependidikan](../images/dashboard-kependidikan.jpg)](../images/dashboard-kependidikan.jpg)
 #### 3.4.10 Layout Dashboard Kesehatan
-[![ Layout Dashboard Kesehatan](http://img.bangunbanten.com/dashboard/jpg/dashboard-kesehatan.jpg)](http://img.bangunbanten.com/dashboard/jpg/dashboard-kesehatan.jpg)
+[![dashboard-kesehatan](../images/dashboard-kesehatan.jpg)](../images/dashboard-kesehatan.jpg)
 
 ## 4.PENUTUP
 Dengan adanya pembuatan dari sistem informasi dashboard ini dapat membantu dalam mencari informasi atau laporan yang terdapat di pemerintahan Banten, sehingga pimpinan tidak sulit jika ingin mencari informasi atau laporan yang ada dan dapat mempermudah pimpinan memonitoring kinerja para pegawai SKPD (Satuan Kerja Perangkat Daerah).
