@@ -31,7 +31,7 @@ Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (
 
 Masukkan User Id dan Password, Setelah di isi lengkap dan benar, klik button **Sign in** atau tekan tombol **Enter** pada keyboard. Sehingga akan menampilkan halaman utama sebagai berikut.
 
-[![[dashboard-home-awal](../images/dashboard-home-awal.png)](../images/dashboard-home-awal.png)
+[![dashboard-home-awal](../images/dashboard-home-awal.png)](../images/dashboard-home-awal.png)
 **Gambar 2. Tampilan Awal**
 
 #### 2. Menu Home
@@ -140,13 +140,13 @@ Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.
 **Gambar 25. Form Tabel Add Permissions**
 
 **User Profile**
-[![user-profile-admin-edit](../images/user-profile-admin-edit.png)](../images/user-profile-admin-edit.png)
+[![user-profile-admin-edit](../images/user-profile-admin-edit.jpeg)](../images/user-profile-admin-edit.jpeg)
 
-**Gambar 25. Profile User**
+**Gambar 26. Profile User**
 
 **Add New User**
 [![add-user-admin](../images/add-user-admin.png)](../images/add-user-admin.png)
-**Gambar 26. Form Tabel Add New User**
+**Gambar 27. Form Tabel Add New User**
 
 
 
