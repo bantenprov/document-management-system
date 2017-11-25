@@ -1,36 +1,37 @@
 [![cover-manual-book-dashboard-pimpinan](../images/cover-manual-book-dashboard-pimpinan.jpeg)](../images/cover-manual-book-dashboard-pimpinan.jpeg)
 
-Document manual book ini dibuat untuk memberikan panduan penggunaan aplikasi **Dashboard Pimpinan**, dimana Aplikasi Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah). Perangkat lunak yang di butuhkan untuk pengujian aplikasi adalah Ubuntu 17 sebagai Operasi System. Sumber daya manusia untuk menggunakan aplikasi ini terutama dari Pimpinan dinas Provini Banten, untuk penggunaan aplikasi ini terlebih dahulu diberikan pengenalan dan pelatihan yang cukup untuk menggunakan aplikasi *Dashboard Pimpinan*.
+Document manual book ini dibuat untuk memberikan panduan penggunaan aplikasi **Dashboard Pimpinan**, dimana Aplikasi Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah Pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah). Perangkat lunak yang di butuhkan untuk pengujian aplikasi adalah Ubuntu 17 sebagai Operasi System. Sumber daya manusia untuk menggunakan aplikasi ini terutama dari Pimpinan dinas Provinsi Banten, penggunaan aplikasi ini terlebih dahulu diberikan pengenalan dan pelatihan yang cukup untuk menggunakan aplikasi *Dashboard Pimpinan*.
 
 ### 1. Struktur Menu
 Adapun struktur menu pada aplikasi Dashboard Pimpinan adalah sebagai berikut:
-#### 1.1 **Menu Home**
+#### 1.1 Menu Home
 
-#### 1.2. **Menu Dashboard**
+#### 1.2 Menu Dashboard
 - **Kepegawaian**
 
-#### 1.3. **Menu Data Kepewaian**
+#### 1.3 Menu Data Kepegawaian
 - **List Pegawai**
 - **List Pegawai KPO**
 - **List Pegawai Esselon**
 - **List Usia ASN**
 - **List Pegawai Yang Akan Pensiun**
 
-#### 1.4. **Menu Users**
+#### 1.4 **Menu Users**
 - **Users List**
 - **Role User**
 - **User Profile**
 - **Permissions**
 - **Add new user**
 
-Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozilz Firefox atau yang lainnya) dengan menulis alamat url http://dashboard.bangunbanten.com kemudian tekan **Enter** pada tobol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
+Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard.bangunbanten.com kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
 
 [![tampilan-login-admin](../images/tampilan-login-admin.png)](../images/tampilan-login-admin.png)
+
 **Gambar 1. Tampilan Login**
 
-Masukkan User Id dan Password, Setelah di isi lenkap dan benar, klik button **Log in** atau tekan tombol **Enter** pada keyboard. Sehingga akan menampilkan halaman utama sebagai berikut.
+Masukkan User Id dan Password, Setelah di isi lengkap dan benar, klik button **Sign in** atau tekan tombol **Enter** pada keyboard. Sehingga akan menampilkan halaman utama sebagai berikut.
 
-[![tampilan-awal-dashboard-pimpinan](../images/tampilan-awal-dashboard-pimpinan.png)](../images/tampilan-awal-dashboard-pimpinan.png)
+[![[dashboard-home-awal](../images/dashboard-home-awal.png)](../images/dashboard-home-awal.png)
 **Gambar 2. Tampilan Awal**
 
 #### 2. Menu Home
@@ -49,95 +50,116 @@ Seperti ditunjukan pada gambar berikut ini:
 Untuk menampilkan detail dashboard Kepegawaian dengan mengklik tombol **view more**.
 maka akan ditampilkan detail grafik Jumlah pegawai, Kenaikan pangkat pegawai otomatis, Pegawai yang akan pensiun.Seperti ditunjukan pada gambar berikut ini:
 
-[![dashboard-view-more-detail-jumlah-pegawai](../images/dashboard-view-more-detail-jumlah-pegawai.png)](../images/dashboard-view-more-detail-jumlah-pegawai.png)
+[![dashboard-view-more-detail-jumlah-pegawai](../images/view-more-detail-jumlah-pegawai.png)](../images/view-more-detail-jumlah-pegawai.png)
 **Gambar 4. Detail Prosentase dan Grafik Jumlah Pegawai**
 
-[![dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
+[![dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
 **Gambar 5. Detail Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis**
 
-[![dashboard-view-more-detail-pensiun-pegawai](../images/dashboard-view-more-detail-pensiun-pegawai.png)](../images/dashboard-view-more-detail-pensiun-pegawai.png)
+[![dashboard-view-more-detail-pensiun-pegawai](../images/view-more-detail-pensiun-pegawai.png)](../images/view-more-detail-pensiun-pegawai.png)
 **Gambar 6. Detail Prosentase dan Grafik Pensiun Pegawai**
 
 #### 3. Menu Dashboard
 Didalam menu dashboard ada beberapa cakupan diantaranya *Kepegawaian* (yang didalamnya mencakup jumlah pegawai, kenaikan pangkat pegawai otomatis, pegawai yang akan pensiun).dengan mengklik tombol kepegawaian sistem aplikasi akan menampilkan seperti ditujukan pada gambar dibawah ini:
 
-[![dashboard-view-more-detail-jumlah-pegawai](../images/dashboard-view-more-detail-jumlah-pegawai.png)](../images/dashboard-view-more-detail-jumlah-pegawai.png)
+[![view-more-detail-jumlah-pegawai](../images/view-more-detail-jumlah-pegawai.png)](../images/view-more-detail-jumlah-pegawai.png)
 **Gambar 7.Prosentase dan Grafik Jumlah Pegawai**
 
-[![dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
+[![view-more-detail-kenaikan-pangkat-pegawai-otomatis](../images/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)](../images/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png)
 **Gambar 8. Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis**
 
-[![dashboard-view-more-detail-pensiun-pegawai](../images/dashboard-view-more-detail-pensiun-pegawai.png)](../images/dashboard-view-more-detail-pensiun-pegawai.png)
+[![view-more-detail-pensiun-pegawai](../images/view-more-detail-pensiun-pegawai.png)](../images/view-more-detail-pensiun-pegawai.png)
 **Gambar 9. Prosentase dan Grafik Pensiun Pegawai**
 
 #### 4. Menu Data Kepegawaian
-Pengguna atau Pimpinan dengan mengklik tombol Menu Data Kepegawaian akan melihat bagian isi menu diantaranya adalah:
-- **List Pegawai.**
-Dimana pimpinan bisa melihat data dari seluruh jumlah Pegawai, yang ada diseluruh Dinas Provinsi Banten.
-- **List Pegawai KPO**
-Dimana pimpinan bisa melihat data dari seluruh jumlah Pegawai KPO (Kenaikan Pangkat Otomatis), yang berada diseluruh Dinas Provinsi Banten.
-- **List Pegawai Esselon**
-Dimana pimpinan dapat melihat data dari seluruh jumlah pegawai Esselon, yang berada diseluruh Dinas Provinsi Banten.
-- **List Usia ASN**
-Dimana pimpinan dapat melihat data dari seluruh jumlah pegawai usia ASN, yang berada diseluruh Dinas Provinsi Banten.
-- **List Pegawai Yang Akan Pensiun**
-Dimana pimpinan dapat melihat data dari seluruh jumlah Pegawai yang akan pensiun, yang berada diseluruh Dinas Provinsi Banten.
-Bila pengguna atau Pimpinan mengklik dari menu yang ada, akan menampilkan gambar
-seperti dibawah ini:
+Menu Data Kepegawaian adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kepegawaian ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
 
+**List Pegawai**
 [![dashboard-list-tabel-pegawai](../images/dashboard-list-tabel-pegawai.png)](../images/dashboard-list-tabel-pegawai.png)
-**Gambar 10. List Data Pegawai**
+**Gambar 10. Data Jumlah Pegawai**
 
+[![form-tabel-tambah-pegawai-admin](../images/form-tabel-tambah-pegawai-admin.png)](../images/form-tabel-tambah-pegawai-admin.png)
+**Gambar 11. Form Tabel Tambah Jumlah Pegawai**
+
+**List Pegawai KPO**
 [![dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis](../images/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png)](../images/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png)
-**Gambar 11. List Data Pegawai Kenaikan Pangkat Otomatis**
+**Gambar 12. List Data Pegawai KPO**
 
+[![form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin](../images/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin.png)](../images/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin)
+**Gambar 13. Form Tabel Tambah Pegawai KPO**
+
+**List Pegawai Esselon**
 [![dashboard-list-tabel-jumlah-pegawai-esselon](../images/dashboard-list-tabel-jumlah-pegawai-esselon.png)](../images/dashboard-list-tabel-jumlah-pegawai-esselon.png)
-**Gambar 12. List Data Jumlah Pegawai Esselon**
+**Gambar 14. List Data Jumlah Pegawai Esselon**
 
+[![form-tabel-tambah-jumlah-pegawai-esselon-admin](../images/form-tabel-tambah-jumlah-pegawai-esselon-admin.png)](../images/form-tabel-tambah-jumlah-pegawai-esselon-admin.png)
+**Gambar 15. Form Tabel Tambah Jumlah Pegawai Esselon**
+
+**List Usia ASN**
 [![dashboard-list-tabel-jumlah-usia-asn](../images/dashboard-list-tabel-jumlah-usia-asn.png)](../images/dashboard-list-tabel-jumlah-usia-asn.png)
-**Gambar 13. List Data Jumlah Usia ASN**
+**Gambar 16. List Data Jumlah Usia ASN**
 
+[![form-tabel-tambah-Jumlah-usia-asn-admin](../images/form-tabel-tambah-Jumlah-usia-asn-admin.png)](../images/form-tabel-tambah-Jumlah-usia-asn-admin.png)
+**Gambar 17. Form Tabel Tambah Jumlah Usia ASN**
+
+**List Pegawai Yang Akan Pensiun**
 [![dashboard-list-tabel-pegawai-yang-akan-pensiun](../images/dashboard-list-tabel-pegawai-yang-akan-pensiun.png)](../images/dashboard-list-tabel-pegawai-yang-akan-pensiun.png)
-**Gambar 14. List Data Jumlah Pegawai Yang Akan Pensiun**
+**Gambar 18. List Data Jumlah Pegawai Yang Akan Pensiun**
+
+[![form-tabel-tambah-pegawai-yang-akan-pensiun-admin](../images/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png)](../images/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png)
+**Gambar 19. Form Tabel Tambah Jumlah Pegawai Yang Akan Pensiun**
 
 #### 5. Menu Users
-Menu Users adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada, Didalam menu users ada beberapa bagian isi, diantaranya adalah:
+Menu Users adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol **create** akan tampil form tabel untuk penambahan data. Didalam menu users ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:
 
-- **Users List**
-- **Role User**
-- **Permissions**
-- **Add New User**
-
-Dengan mengklik bagian dari isi menu User sistem aplikasi akan menampilkan gambar seperti dibawah ini:
-
+**Users List**
 [![users-list-tabel-admin](../images/users-list-tabel-admin.png)](../images/users-list-tabel-admin.png)
-**Gambar 15. List Tabel Admin**
+**Gambar 20. List Tabel Admin**
 
-Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini
+Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini
 
 [![add-user-admin](../images/add-user-admin.png)](../images/add-user-admin.png)
-**Gambar 16. Form Tabel Add New User**
+**Gambar 21. Form Tabel Add New User**
 
+**Role User**
 [![role-users-list-admin](../images/role-users-list-admin.png)](../images/role-users-list-admin.png)
-**Gambar 17. List Lore User**
+**Gambar 22. List Lore User**
 
 Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.
 
 [![form-tabel-add-role-user-admin](../images/form-tabel-add-role-user-admin.png)](../images/form-tabel-add-role-user-admin.png)
-**Gambar 18. Form Tabel Add Role User**
+**Gambar 23. Form Tabel Add Role User**
 
+**Permissions**
 [![permissions-list-admin](../images/permissions-list-admin.png)](../images/permissions-list-admin.png)
-**Gambar 19. List Permissions**
+**Gambar 24. List Permissions**
 
 Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.
 
-[![form-tabel-add-permission-admin](../images/form-tabel-add-permission-admin)](../images/form-tabel-add-permission-admin.png)
-**Gambar 20. Form Tabel Add Permissions**
+[![form-tabel-add-permission-admin](../images/form-tabel-add-permission-admin.png)](../images/form-tabel-add-permission-admin.png)
+**Gambar 25. Form Tabel Add Permissions**
 
-Klik tombol Add New User, sistem aplikasi akan menampilakan gambar di bawah ini.
+**User Profile**
+[![user-profile-admin-edit](../images/user-profile-admin-edit.png)](../images/user-profile-admin-edit.png)
 
+**Gambar 25. Profile User**
+
+**Add New User**
 [![add-user-admin](../images/add-user-admin.png)](../images/add-user-admin.png)
-**Gambar 21. Form Tabel Add New User**
+**Gambar 26. Form Tabel Add New User**
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
