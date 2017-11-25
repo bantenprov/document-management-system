@@ -3,16 +3,16 @@
 Linux BantOS adalah distro linux turunan debian yang dikembangkna oleh tim developer Banten yang berorientasi Banten Go Open Source. Linux BantOS dikembangkan secara terbuka dan bersama-sama untuk menghasilkan distro Linux yang dikhususkan untuk dunia Pemerintahan dan Pendidikan.
 
 ## Tampilan Aplikasi Linux BantOS
-**Halaman depan linux bantOS**
+**Halaman Depan Linux BantOS**
 [![tampilan-bantos](../images/tampilan-bantos.png)](../images/tampilan-bantos.png)
 
-Tampilan ini terdapat menu download,panduan,kontribusi,dan blog
+Tampilan ini terdapat menu menu seperti : panduan,kontribusi,dan blog. Dalam tampilan ini juga tersedia link untuk mendownload Linuv BantOS.
 
 ## Tampilan halam panduan 
-**Tampilan konten panduan**
+**Tampilan Konten Panduan**
 [![tampilan-konten](../images/tampilan-konten.png)](../images/tampilan-konten.png)
 
-di dalam konten ini terdapat informasi mengenai panduan seperti :
+Didalam konten ini terdapat informasi mengenai panduan seperti :
 1. apa itu bantos
 2. instalasi tealinux
 3. migration and upgrade
@@ -29,62 +29,62 @@ di dalam konten ini terdapat informasi mengenai panduan seperti :
 
 **Tampilan Apa Itu BantOS**
 [![apaitu-bantos](../images/apa-itu-bantos.png)](../images/apa-itu-bantos.png)
-Tampilan ini menjelaskan apa itu BantOS
+Tampilan ini menampilkan segala informasi umum tentang Linux BantOS
 
 **Tampilan Instalasi TeaLinuxOS**
 [![instalasi-tealinuxos](../images/instalasi-tealinuxos.png)](../images/instalasi-tealinuxos.png)
-Tampilan ini menampilkan panduan  untuk instalasi linuxOS
+Tampilan ini menampilkan panduan  dalam menginstalasi TealinuxOS
 
 **Migration and Upgrade**
 [![migration-and-upgrade](../images/migration-and-upgrade.png)](../images/migration-and-upgrade.png)
-tampilan ini menampilkan panduan untuk migrasi dan upgrade data linuxOS
+Tampilan ini menampilkan panduan untuk melakukan migrasi dan upgrade data TealinuxOS
 
 **Pengenalan Desktop Environment**
 [![pengenalan-desktop-environtment](../images/pengenalan-desktop-environtment.png)](../images/penngenalan-desktop-environment.png)
-Tampilan ini menampilkan Tampilan lingkungan dekstop TeaLinuxOS Pappermint dengan tema elegan dan simple namun bersahabat dengan pengguna.
+Tampilan ini menampilkan informasi tentang desktop Environment dan cara pemakaiannya.
 
 **Pengaturan dan Pilihan**
 [![pengaturan-dan-pilihan](../images/pengaturan-dan-pilihan.png)](../images/pengaturan-dan-pilihan.png)
-Tampilan ini menampilkan pengubahan menu,pengubahan informasi personal,perubahan tampilan,merubah tampilan tema,merubah tampilan icon
+Tampilan ini menampilkan tata cara untuk melakukan pengaturan dan pilihan-pilihan yang terdapat di TealinuxOS
 
 
 **Pengenalan Aplikasi Bawaan**
 [![pengenalan-aplikasi-bawaan](../images/pengenalan-aplikasi-bawaan.png)](../images/pengenalan-aplikasi-bawaan.png)
-Tampilan ini menjelaskan tentang sistem bawaan linux bantOS
+Tampilan ini menjelaskan tentang aplikasi bawaan yang tersedia di TealinuxOS.
 
 **Koneksi Jaringan dan Internet**
 [![koneksi-jaringan-dan-internet](../images/koneksi-jaringan-dan-internet.png)](../images/koneksi-jaringan-dan-internet.png)
-Tampilan ini mejelaskan tentang jaringan dan internet,mengecek jaringa,mengecek koneksi bekerja,dan mengecek informasi internet
+Tampilan ini mejelaskan tentang jaringan dan internet,mengecek jaringan,mengecek koneksi bekerja,dan mengecek informasi internet
 
-**print dan scan** 
+**Print dan Scan** 
 [![print-dan-scan](../images/print-dan-scan.png)](../print-dan-scan.png)
-Tampilan ini menjelaskan penggunaan print lokal dan scan
+Tampilan ini menjelaskan penggunaan print lokal dan scan pada TeaLinuxOS
 
-**mengelolaan aplikasi terinstal**
-[![mengeelolaan-aplikasi-terinstall](../images/mengelola-aplikasi-terisntall.png)](../images/menglola-aplikasi-terinstall.png)
-Tampilan ini mejelaskan pengelolaan aplikasi terisntall seperti menginstall software linux dab dan ubuntu
+**Mengelola Aplikasi Terinstal**
+[![mengeelola-aplikasi-terinstall](../images/mengelola-aplikasi-terinstall.png)](../images/mengelola-aplikasi-terinstall.png)
+Tampilan ini mejelaskan tata cara pengelolaan aplikasi yang sudah terinstall pada TeaLinuxOS seperti menginstall software linux dab dan ubuntu
 
-**menjaga keamanan komputer**
-[![menjaga-keamanan-komputer](../images/menjaga-keamanan-komputer.png)](../images/menjaga-keamanan-komputer.png)
-Tampilan ini menjeleaskan mengubah password secara bekala dan kunci layar ketika meninggalkan komputer
+**Menjaga Keamanan Komputer**
+[![menjaga-keamanan-komputer](../images/menajaga-keamanan-komputer.png)](../images/menajaga-keamanan-komputer.png)
+Tampilan ini menjeleaskan tentang tata cara mejaga keamanan TeaLinuxOS seperti mengubah password secara bekala dan kunci layar ketika meninggalkan komputer
 
 
-**perangkat keras**
+**Perangkat Keras**
 [![perangkat-keras](../images/perangkat-keras.png)](../images/perangkat-keras.png)
 Tampilan ini menjelaskan pembatasan beberapa driver ,mengatifkan pembatas driver,dan menonaktifkan perangkat driver.
 
-**tugas tugas administratif**
+**Tugas Tugas Administratif**
 [![tugas-tugas-administratif](../images/tugas-tugas-administratif.png)](../images/tugas-tugas-administratif.png)
-Tampilan ini menjelaskan mengelola user dan mengelola grup
+Tampilan ini menjelaskan tugas-tugas administratif seperti mengelola user dan mengelola grup
 
-**perintah baris**
+**Perintah Baris**
 [![perintah-baris](../images/perintah-baris.png)](../images/perintah-baris.png)
-Tampilan ini menjelaskan daftar perintah umum,menjalkan perintah hak,dan administrasi
+Tampilan ini menjelaskan tentang perintah-perintah yang terdapat di TeaLinuxOS seperti daftar perintah umum,menjalankan perintah hak,dan administrasi
 
 ## Kontribusi
-[![kontribusi](../images/kontribusi.png)](../images/kontribusi.png)
+[![kontribusi](../images/konstribusi.png)](../images/konstribusi.png)
 
-TeaLinuxOS untuk berkontribusi dan terlibat melakukan perubahan pada pengembangan TeaLinuxOS. Meskipun kamu bukan seorang programmer, kamu bisa berkontribusi dan membuat perubahan.
+tampilan ini mmenampilkan siapa saja yang berkontribusi dalam proyek TeaLinuxOS
 
 ## Blog
 [![blog](../images/blog.png)](../images/blog.png)
