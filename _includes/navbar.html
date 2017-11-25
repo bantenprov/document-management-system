@@ -1,0 +1,12 @@
+<header class="navbar navbar-expand-md navbar-dark site-navbar">
+  <a class="navbar-brand mr-2" href="{{ site.baseurl }}/">
+    <img src="{{ site.baseurl }}/assets/img/logo.png" width="36" height="36" alt="">
+    <span>DMS Bantenprov</span>
+  </a>
+
+  {% if page.layout != 'home' %}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#side-nav" aria-controls="side-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  {% endif %}
+</header>

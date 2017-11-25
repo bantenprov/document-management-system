@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    {% include header.html %}
+  </head>
+  <body class="document-page">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    {% include navbar.html %}
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-3 order-1 site-sidebar">
+          {% include sidebar.html %}
+        </div>
+        <main class="col-12 col-md-9 col-xl-9 py-3 pl-md-5 order-2 site-content" role="main">
+
+          {% include breadcrumb.html %}
+
+          <h1 class="document-title" id="content">{{ page.title }}</h1>
+          {{ content }}
+        </main>
+      </div>
+    </div>
+
+    {% include scripts.html %}
+  </body>
+</html>
