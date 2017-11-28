@@ -103,7 +103,9 @@ Permodelan rancangan sistem yang digunakan adalah UML (Unified Modeling Language
 #### 3.2.2.7. Activity Diagram Input Data Admin
 [![activity-diagram-input-data-admin](../images/desain-dan-perancangan/activity-diagram-input-data-admin.jpg)](../images/desain-dan-perancangan/activity-diagram-input-data-admin.jpg)
 #### 3.2.2.8 Activity Diagram Edit Data Admin
-[![activity-diagram-edit-data-admin](../images/dashboard-pimpinan/desain-dan-perancangan/activity-diagram-edit-data-admin.jpg)](../images/dashboard-pimpinan/desain-dan-perancangan/activity-diagram-edit-data-admin.jpg)
+#### ini edit
+[![activity-diagram-edit-data-admin](../images/desain-dan-perancangan/activity-diagram-edit-data-admin.jpg)](../images/desain-dan-perancangan/activity-diagram-edit-data-admin.jpg)
+
 #### 3.2.2.9 Activity Diagram Delete Data Admin
 [![activity-diagram-delete-data-admin](../images/desain-dan-perancangan/activity-diagram-delete-data-admin.jpg)](../images/desain-dan-perancangan/activity-diagram-delete-data-admin.jpg)
 #### 3.2.2.10 Activity Diagram View Data Admin
