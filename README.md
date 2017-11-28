@@ -76,7 +76,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 Example image:
 
-[![Alt](../images/desain-dan-perancangan/file-name.png)](../images/desain-dan-perancangan/file-name.png)
+[![Alt](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/file-name.png)](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/file-name.png)
 ```
 
 **Catatan:** Tidak disarankan untuk membuat berkas dan/atau direktori baru. Gunakan struktur berkas dan direktori yang sudah tersedia.
