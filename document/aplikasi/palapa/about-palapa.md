@@ -74,51 +74,51 @@ Teknologi yang digunakan dalam aplikasi PALAPA:
 
 ## Desain Tampilan
 * **Simpul Jaringan Pemerintah Daerah**
-[![Simpul jaringan Pemerintah Daerah](../images/about-palapa/design-aplikasi-palapa.png)](../images/about-palapa/design-aplikasi-palapa.png)
+[![Simpul jaringan Pemerintah Daerah](/document/aplikasi/palapa/images/about-palapa/design-aplikasi-palapa.png)](/document/aplikasi/palapa/images/about-palapa/design-aplikasi-palapa.png)
 
 * **Arsitektur Aplikasi PALAPA - Elememn JIGN / Simpul Jaringan**
-[![Arsitektur Aplikasi PALAPA - Elememn JIGN / Simpul Jaringan](../images/about-palapa/untitled-diagram.png)](../images/about-palapa/untitled-diagram.png)
+[![Arsitektur Aplikasi PALAPA - Elememn JIGN / Simpul Jaringan](/document/aplikasi/palapa/images/about-palapa/untitled-diagram.png)](/document/aplikasi/palapa/images/about-palapa/untitled-diagram.png)
 
 * **Arsitektur Simpul Jaringan**
-[![Arsitektur Simpul Jaringan](../images/about-palapa/arsitektur-simpul-jaringan.png)](../images/about-palapa/arsitektur-simpul-jaringan.png)
+[![Arsitektur Simpul Jaringan](/document/aplikasi/palapa/images/about-palapa/arsitektur-simpul-jaringan.png)](/document/aplikasi/palapa/images/about-palapa/arsitektur-simpul-jaringan.png)
 
 * **Arsitektur PALAPA**
-[![Arsitektur PALAPA](../images/about-palapa/arsitektur-aplikasi-palapa.png)](../images/about-palapa/arsitektur-aplikasi-palapa.png)
+[![Arsitektur PALAPA](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa.png)](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa.png)
 
-[![Arsitektur PALAPA2](../images/about-palapa/arsitektu-raplikasi-palapa2.png)](../images/about-palapa/arsitektur-aplikasi-palapa2.png)
+[![Arsitektur PALAPA2](/document/aplikasi/palapa/images/about-palapa/arsitektu-raplikasi-palapa2.png)](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa2.png)
 
-[![Arsitektur PALAPA3](../images/about-palapa/arsitektur-aplikasi-palapa3.png)](../images/about-palapa/arsitektur-aplikasi-palapa3.png)
+[![Arsitektur PALAPA3](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa3.png)](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa3.png)
 
 * **Use Case Diagram - Browse / Explore**
-[![Use Case Diagram - Browse / Explore](../images/about-palapa/use-case-diagram-browse/explore.png)](../images/about-palapa/use-case-diagram-browse/explore.png)
+[![Use Case Diagram - Browse / Explore](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)
 
 * **Use Case Diagram PALAPA**
-[![Use Case Diagram PALAPA](../images/about-palapa/use-case-diagram-palapa.png)](../images/about-palapa/use-case-diagram-palapa.png)
+[![Use Case Diagram PALAPA](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-palapa.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-palapa.png)
 
 * **Use Case Diagram - Kelole Grup**
-[![Use Case Diagram - Kelole Grup](../images/about-palapa/use-case-diagram-kelola-group.png)](../images/about-palapa/use-case-diagram-kelola-group.png)
+[![Use Case Diagram - Kelole Grup](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-group.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-group.png)
 
 * **Use Case Diagram - Kelola Style (SLD)**
-[![Use Case Diagram - Kelola Style (SLD)](../images/about-palapa/use-case-diagram-kelola-style-sld.png)](../images/about-palapa/use-case-diagram-kelola-style-sld.png)
+[![Use Case Diagram - Kelola Style (SLD)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-style-sld.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-style-sld.png)
 
 * **Use Case Diagram - Kelola Dataset**
-[![Use Case Diagram - Kelola Dataset](../images/about-palapa/use-case-diagram-kelola-dataset.png)](../images/about-palapa/use-case-diagram-kelola-dataset.png)
+[![Use Case Diagram - Kelola Dataset](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-dataset.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-dataset.png)
 
 * **Kelola Dataset - KUGI**
-[![Kelola Dataset - KUGI](../images/about-palapa/kelola-dataset-kugi.png)](../images/about-palapa/kelola-dataset-kugi.png)
+[![Kelola Dataset - KUGI](/document/aplikasi/palapa/images/about-palapa/kelola-dataset-kugi.png)](/document/aplikasi/palapa/images/about-palapa/kelola-dataset-kugi.png)
 
 * **Kelola Dataset - KUGI Upload Dataset+Metadata ke Dev DB**
-[![Kelola Dataset - KUGI Upload Dataset+Metadata ke Dev DB](../images/about-palapa/kelola-dataset-kugi-upload-dataset.png)](../images/about-palapa/kelola-dataset-kugi-upload-dataset.png)
+[![Kelola Dataset - KUGI Upload Dataset+Metadata ke Dev DB](/document/aplikasi/palapa/images/about-palapa/kelola-dataset-kugi-upload-dataset.png)](/document/aplikasi/palapa/images/about-palapa/kelola-dataset-kugi-upload-dataset.png)
 
 * **Kelola Dataset - KUGI DB Sync & Metadata Update**
-[![Kelola Dataset - KUGI DB Sync & Metadata Update](../images/about-palapa/kelola-dataset-kugi-db-sync.png)](../images/about-palapa/kelola-dataset-kugi-db-sync.png)
+[![Kelola Dataset - KUGI DB Sync & Metadata Update](/document/aplikasi/palapa/images/about-palapa/kelola-dataset-kugi-db-sync.png)](/document/aplikasi/palapa/images/about-palapa/kelola-dataset-kugi-db-sync.png)
 
 * **Use Case Diagram - Kelola Metadata**
-[![Use Case Diagram - Kelola Metadata](../images/about-palapa/use-case-diagram-kelola-data-metadata.png)](../images/about-palapa/use-case-diagram-kelola-data-metadata.png)
+[![Use Case Diagram - Kelola Metadata](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-data-metadata.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-kelola-data-metadata.png)
 
 * **Tampilan Aplikasi PALAPA**
-[![Tampilan Aplikasi PALAPA](../images/about-palapa/tampilan-aplikasi-palapa.png)](../images/about-palapa/tampilanaplikasipalapa.png)
+[![Tampilan Aplikasi PALAPA](/document/aplikasi/palapa/images/about-palapa/tampilan-aplikasi-palapa.png)](/document/aplikasi/palapa/images/about-palapa/tampilanaplikasipalapa.png)
 
-[![Tampilan Aplikasi PALAPA2](../images/about-palapa/tampilan-aplikasi-palapa2.png)](../images/about-palapa/tampilanaplikasipalapa2.png)
+[![Tampilan Aplikasi PALAPA2](/document/aplikasi/palapa/images/about-palapa/tampilan-aplikasi-palapa2.png)](/document/aplikasi/palapa/images/about-palapa/tampilanaplikasipalapa2.png)
 
-[![Tampilan Aplikasi PALAPA3](../images/about-palapa/tampilan-aplikasi-palapa3.png)](../images/about-palapa/tampilanaplikasipalapa3.png)
+[![Tampilan Aplikasi PALAPA3](/document/aplikasi/palapa/images/about-palapa/tampilan-aplikasi-palapa3.png)](/document/aplikasi/palapa/images/about-palapa/tampilanaplikasipalapa3.png)

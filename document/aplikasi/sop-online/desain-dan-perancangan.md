@@ -7,7 +7,7 @@ cat: sop-online
 toc: true
 ---
 
-[![cover](../images/desain-dan-perancangan/20171110_cover-sop.jpeg)](../images/desain-dan-perancangan/20171110_cover-sop.jpeg)
+[![cover](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171110_cover-sop.jpeg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171110_cover-sop.jpeg)
 
 ## ABSTRAK
 
@@ -40,9 +40,9 @@ Dalam jurnal ini akan mengembangkan standarisasi pengembangan aplikasi dari mula
 
 *Ilustrasi Alur Prototyping*
 
-[![Ilustrasi Alur Prototyping](../images/desain-dan-perancangan/20171018_alur-prototype.png)](../images/desain-dan-perancangan/20171018_alur-prototype.png)
+[![Ilustrasi Alur Prototyping](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_alur-prototype.png)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_alur-prototype.png)
 
-## 3. ANALISIS DAN PEMBAHASAN 
+## 3. ANALISIS DAN PEMBAHASAN
 
 ### 3.1 Kebutuhan Software dan Hardware
 
@@ -107,61 +107,61 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 *Use Case Diagram* Proses Pengajuan
 
-[![*Use Case Diagram* proses Pengajuan](../images/desain-dan-perancangan/20171010-use-case-diagram-proses-pengajuan.jpg)](../images/desain-dan-perancangan/20171010-use-case-diagram-proses-pengajuan.jpg)
+[![*Use Case Diagram* proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-proses-pengajuan.jpg)
 
 *Use Case Diagram* Staff OPD
 
-[![*Use Case Diagram* Staff OPD](../images/desain-dan-perancangan/20171009-use-case-diagram-staff-opd.jpg)](../images/desain-dan-perancangan/20171009-use-case-diagram-staff-opd.jpg)
+[![*Use Case Diagram* Staff OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-use-case-diagram-staff-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-use-case-diagram-staff-opd.jpg)
 
 *Use Case Diagram* Kepala Seksi OPD
 
-[![*Use Case Diagram* Kepala Seksi OPD](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-opd.jpg)](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-opd.jpg)
+[![*Use Case Diagram* Kepala Seksi OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-opd.jpg)
 
 *Use Case Diagram* Kepala Dinas OPD
 
-[![*Use Case Diagram* Kepala Dinas OPD](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-opd.jpg)](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-opd.jpg)
+[![*Use Case Diagram* Kepala Dinas OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-opd.jpg)
 
 *Use Case Diagram* Kepala Dinas KISP
 
-[![*Use Case Diagram* Kepala Dinas KISP](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-kisp.jpg)](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-kisp.jpg)
+[![*Use Case Diagram* Kepala Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-dinas-kisp.jpg)
 
 *Use Case Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP
 
-[![*Use Case Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](../images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
+[![*Use Case Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
 
 ##### 3.5.1.2 *Activity Diagram*
 
 *Activity Diagram* Proses Pengajuan
 
-[![*Activity Diagram* Proses Pengajuan](../images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)](../images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)
+[![*Activity Diagram* Proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)
 
 ##### 3.5.1.3 *Sequence Diagram*
 
 *Sequence Diagram* Proses Pengajuan
 
-[![*Sequence Diagram* Proses Pengajuan](../images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)](../images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)
+[![*Sequence Diagram* Proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)
 
 ##### 3.5.1.4 *State Chart Diagram*
 
 *State Chart Diagram* Staff OPD
 
-[![*State Chart Diagram* Staff OPD](../images/desain-dan-perancangan/20171010-state-chart-diagram-staff-opd.jpg)](../images/desain-dan-perancangan/20171010-state-chart-diagram-staff-opd.jpg)
+[![*State Chart Diagram* Staff OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-staff-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-staff-opd.jpg)
 
 *State Chart Diagram* Kepala Seksi OPD
 
-[![*State Chart Diagram* Kepala Seksi OPD](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-opd.jpg)](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-opd.jpg)
+[![*State Chart Diagram* Kepala Seksi OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-opd.jpg)
 
 *State Chart Diagram* Kepala Dinas OPD
 
-[![*State Chart Diagram* Kepala Dinas OPD](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-opd.jpg)](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-opd.jpg)
+[![*State Chart Diagram* Kepala Dinas OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-opd.jpg)
 
 *State Chart Diagram* Kepala Dinas KISP
 
-[![*State Chart Diagram* Kepala Dinas KISP](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-kisp.jpg)](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-kisp.jpg)
+[![*State Chart Diagram* Kepala Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-dinas-kisp.jpg)
 
 *State Chart Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP
 
-[![*State Chart Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](../images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
+[![*State Chart Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-state-chart-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
 
 #### 3.5.2 Proses Penganggaran
 
@@ -169,49 +169,49 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 *Use Case Diagram* Seksi pengembangan Aplikasi Dinas KISP / OPD
 
-[![*Use Case Diagram* Seksi pengembangan Aplikasi Dinas KISP / OPD](../images/desain-dan-perancangan/use-case.jpg)](../images/desain-dan-perancangan/use-case.jpg)
+[![*Use Case Diagram* Seksi pengembangan Aplikasi Dinas KISP / OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/use-case.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/use-case.jpg)
 
 *Use Case Diagram* Bappeda
 
-[![*Use Case Diagram* Bappeda](../images/desain-dan-perancangan/20171016_use-case-diagram-bappeda.jpg)](../images/desain-dan-perancangan/20171016_use-case-diagram-bappeda.jpg)
+[![*Use Case Diagram* Bappeda](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_use-case-diagram-bappeda.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_use-case-diagram-bappeda.jpg)
 
 *Use Case Diagram* BPKAD
 
-[![*Use Case Diagram* BPKAD](../images/desain-dan-perancangan/20171016_use-case-diagram-bpkad.jpg)](../images/desain-dan-perancangan/20171016_use-case-diagram-bpkad.jpg)
+[![*Use Case Diagram* BPKAD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_use-case-diagram-bpkad.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_use-case-diagram-bpkad.jpg)
 
 *Use Case Diagram* Adpem
 
-[![*Use Case Diagram* Adpem](../images/desain-dan-perancangan/20171016_use-case-diagram-adpem.jpg)](../images/desain-dan-perancangan/20171016_use-case-diagram-adpem.jpg)
+[![*Use Case Diagram* Adpem](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_use-case-diagram-adpem.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_use-case-diagram-adpem.jpg)
 
 ##### 3.5.2.2 *Activity Diagram*
 
 *Activity Diagram* Proses Penganggaran
 
-[![*Activity Diagram* Proses Penganggaran](../images/desain-dan-perancangan/20171016_activity-diagram-proses-pengajuan.jpg)](../images/desain-dan-perancangan/20171016_activity-diagram-proses-pengajuan.jpg)
+[![*Activity Diagram* Proses Penganggaran](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_activity-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_activity-diagram-proses-pengajuan.jpg)
 
 ##### 3.5.2.3 Sequence Diagaram
 
 *Sequence Diagram* Proses Penganggaran
 
-[![*Sequence Diagram* Proses Penganggaran](../images/desain-dan-perancangan/20171018_sequence-diagram-proses-penganggaran.png)](../images/desain-dan-perancangan/20171018_sequence-diagram-proses-penganggaran.png)
+[![*Sequence Diagram* Proses Penganggaran](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_sequence-diagram-proses-penganggaran.png)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_sequence-diagram-proses-penganggaran.png)
 
 ##### 3.5.2.4 *State Chart Diagram*
 
 *State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP / OPD
 
-[![*State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP / OPD](../images/desain-dan-perancangan/20171018_state-chart-diagram-seksi-dinas-kisp-opd.png)](../images/desain-dan-perancangan/20171018_state-chart-diagram-seksi-dinas-kisp-opd.png)
+[![*State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP / OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-seksi-dinas-kisp-opd.png)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-seksi-dinas-kisp-opd.png)
 
 *State Chart Diagram* Bappeda
 
-[![*State Chart Diagram* Bappeda](../images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bappeda.jpg)](../images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bappeda.jpg)
+[![*State Chart Diagram* Bappeda](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bappeda.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bappeda.jpg)
 
 *State Chart Diagram* BPKAD
 
-[![*State Chart Diagram* BPKAD](../images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bpkad.jpg)](../images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bpkad.jpg)
+[![*State Chart Diagram* BPKAD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bpkad.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-bpkad.jpg)
 
 *State Chart Diagram* Adpem
 
-[![*State Chart Diagram* Adpem](../images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-adpem.jpg)](../images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-adpem.jpg)
+[![*State Chart Diagram* Adpem](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-adpem.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-dinas-adpem.jpg)
 
 #### 3.5.3 Proses Pembuatan Aplikasi oleh Tim Internal
 
@@ -219,29 +219,29 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 * *Use Case Diagram* Proses Pembuatan Aplikasi oleh Tim Internal
 
-[![*Use Case Diagram* Proses Pembuatan Aplikasi oleh Tim Internal](../images/desain-dan-perancangan/20171010-use-case-proses-pembuatan-aplikasi-oleh-tim-internal.jpg)](../images/desain-dan-perancangan/20171010-use-case-proses-pembuatan-aplikasi-oleh-tim-internal.jpg)
+[![*Use Case Diagram* Proses Pembuatan Aplikasi oleh Tim Internal](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-proses-pembuatan-aplikasi-oleh-tim-internal.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-proses-pembuatan-aplikasi-oleh-tim-internal.jpg)
 
 ##### 3.5.3.2 *Activity Diagram*
 
 *Activity Diagram* Proses Pembuatan Aplikasi oleh Tim Internal
 
-[![*Activity Diagram* Proses Pembuatan Aplikasi oleh Tim Internal](../images/desain-dan-perancangan/20171010-activity-diagram-proses-pengerjaan-pihak-internal.jpg)](../images/desain-dan-perancangan/20171010-activity-diagram-proses-pengerjaan-pihak-internal.jpg)
+[![*Activity Diagram* Proses Pembuatan Aplikasi oleh Tim Internal](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengerjaan-pihak-internal.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengerjaan-pihak-internal.jpg)
 
 ##### 3.5.3.3 *Sequence Diagram*
 
 *Sequence Diagram* Proses Pembuatan Aplikasi oleh Tim Internal
 
-[![*Sequence Diagram* Proses Pembuatan Aplikasi oleh Tim Internal](../images/desain-dan-perancangan/20171010-sequence-diagram-proses-pembuatan-aplikasi-oleh-pihak-internal.jpg)](../images/desain-dan-perancangan/20171010-sequence-diagram-proses-pembuatan-aplikasi-oleh-pihak-internal.jpg)
+[![*Sequence Diagram* Proses Pembuatan Aplikasi oleh Tim Internal](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-sequence-diagram-proses-pembuatan-aplikasi-oleh-pihak-internal.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-sequence-diagram-proses-pembuatan-aplikasi-oleh-pihak-internal.jpg)
 
 ##### 3.5.3.4 *State Chart Diagram*
 
 *State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP
 
-[![*State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP](../images/desain-dan-perancangan/20171011-state-chart-diagram-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](../images/desain-dan-perancangan/20171011-state-chart-diagram-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
+[![*State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171011-state-chart-diagram-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171011-state-chart-diagram-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
 
 *State Chart Diagram* OPD
 
-[![*State Chart Diagram* OPD](../images/desain-dan-perancangan/20171011-state-chart-diagram-opd.jpg)](../images/desain-dan-perancangan/20171011-state-chart-diagram-opd.jpg)
+[![*State Chart Diagram* OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171011-state-chart-diagram-opd.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171011-state-chart-diagram-opd.jpg)
 
 #### 3.5.4 Proses Pembuatan Aplikasi oleh Pihak Ke-3
 
@@ -249,30 +249,30 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 * *Use Case Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3
 
-[![*Use Case Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3](../images/desain-dan-perancangan/20171018_proses-pembuatan-aplikasi-oleh-pihak-ke-3.jpg)](../images/desain-dan-perancangan/20171018_proses-pembuatan-aplikasi-oleh-pihak-ke-3.jpg)
+[![*Use Case Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_proses-pembuatan-aplikasi-oleh-pihak-ke-3.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_proses-pembuatan-aplikasi-oleh-pihak-ke-3.jpg)
 
 ##### 3.5.4.2 *Activity Diagram*
 
 *Activity Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3
 
-[![*Activity Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3](../images/desain-dan-perancangan/20171016_activity-diagram.jpg)](../images/desain-dan-perancangan/20171016_activity-diagram.jpg)
+[![*Activity Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_activity-diagram.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_activity-diagram.jpg)
 
 ##### 3.5.4.3 *Sequence Diagram*
 
 *Sequence Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3
 
-[![*Sequence Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3](../images/desain-dan-perancangan/20171019_sequence-diagram-pembuatan-aplikasi-oleh-pihak-ke-3.png)](../images/desain-dan-perancangan/20171019_sequence-diagram-pembuatan-aplikasi-oleh-pihak-ke-3.png)
+[![*Sequence Diagram* Proses Pembuatan Aplikasi oleh Pihak Ke-3](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171019_sequence-diagram-pembuatan-aplikasi-oleh-pihak-ke-3.png)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171019_sequence-diagram-pembuatan-aplikasi-oleh-pihak-ke-3.png)
 
 ##### 3.5.4.4 *State Chart Diagram*
 
 *State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP
 
-[![*State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP](../images/desain-dan-perancangan/20171016_state-chart-pengembangan-aplikasi-dinas-kisp.jpg)](../images/desain-dan-perancangan/20171016_state-chart-pengembangan-aplikasi-dinas-kisp.jpg)
+[![*State Chart Diagram* Seksi Pengembangan Aplikasi Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_state-chart-pengembangan-aplikasi-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171016_state-chart-pengembangan-aplikasi-dinas-kisp.jpg)
 
 *State Chart Diagram* Pihak Ke-3
 
-[![*State Chart Diagram* Pihak Ke-3](../images/desain-dan-perancangan/20171018_state-chart-diagram-pihak-ke-3.png)](../images/desain-dan-perancangan/20171018_state-chart-diagram-pihak-ke-3.png)
+[![*State Chart Diagram* Pihak Ke-3](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-pihak-ke-3.png)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-pihak-ke-3.png)
 
 *State Chart Diagram* OPD
 
-[![*State Chart Diagram* OPD](../images/desain-dan-perancangan/20171018_state-chart-diagram-opd.png)](../images/desain-dan-perancangan/20171018_state-chart-diagram-opd.png)
+[![*State Chart Diagram* OPD](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-opd.png)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171018_state-chart-diagram-opd.png)

@@ -7,7 +7,7 @@ cat: potret
 toc: true
 ---
 
-[![cover](../images/desain-dan-perancangan/20171110_cover-potret-banten.jpeg)](../images/desain-dan-perancangan/20171110_cover-potret-banten.jpeg)
+[![cover](/document/aplikasi/potret/images/desain-dan-perancangan/20171110_cover-potret-banten.jpeg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171110_cover-potret-banten.jpeg)
 
 ## ABSTRAK
 
@@ -50,7 +50,7 @@ Pada metode ini dibuat aplikasi dengan melakukan analisis terhadap sistem yang s
 
 Setelah mengetahui masalah yang masyarakat hadapi pada saat melakukan pengaduan, maka aka dirancang aplikasi yang sesuai dengan kebutuhan untuk mempermudah masyarakat melakukan pengaduan kepada pemerintah Pemprov Banten.
 * Ilustrasi Alur Prototyping
-[![Ilustrasi Alur Prototyping](../images/desain-dan-perancangan/20171018_alur-prototype.png)](../images/desain-dan-perancangan/20171018_alur-prototype.png)
+[![Ilustrasi Alur Prototyping](/document/aplikasi/potret/images/desain-dan-perancangan/20171018_alur-prototype.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171018_alur-prototype.png)
 
 Berikut ini adalah delapan aturan emas dalam perancangan user interface dalam pembuatan aplikasi yang dikemukakan oleh Shneiderman dan Plaisant (2010: 74) yaitu:
 
@@ -80,7 +80,7 @@ Berikut ini adalah delapan aturan emas dalam perancangan user interface dalam pe
 
 ## 3. HASIL DAN PEMBAHASAN
 
-### 3.1 Kebutuhan *Software* dan *Hardware* 
+### 3.1 Kebutuhan *Software* dan *Hardware*
 
 Adapun alat bantu *software* dan *hardware* dalam melakukan analis dan perancangan adalah sebagai berikut:
 
@@ -104,11 +104,11 @@ Permasalahan yang terjadi dalam melakukan pengaduan saat ini adalah sebagai beri
 2. Kurangnya informasi yang diterima oleh masyarakat tentang kelengkapan data yang harus dipenuhi untuk melakukan pengaduan.
 3. Bagi masyarakat yang bertempat tinggal jauh dari kantor pemerintah, proses pengaduan akan berjalan lama karena harus menempuh jarak yang jauh terlebih dahulu.
 
-### 3.3 Solusi 
+### 3.3 Solusi
 
 Dari hasil evaluasi produser yang berjalan masalah tidak terjadi pada saat pemrosesan pengaduan, tetapi masalah yang ada terkadang terjadi pada  masyarakat hendak mengambil dan mengisi formulir pengaduan. Maka, berikut ini adalah usulan pemecahan masalah yang dibuat:
 
-[![Alur Proses yang Diusulkan](../images/desain-dan-perancangan/20171018_alur-yang-diusulkan.png)](../images/desain-dan-perancangan/20171018_alur-yang-diusulkan.png)
+[![Alur Proses yang Diusulkan](/document/aplikasi/potret/images/desain-dan-perancangan/20171018_alur-yang-diusulkan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171018_alur-yang-diusulkan.png)
 
 ### 3.4 Perancangan Aplikasi
 
@@ -137,7 +137,7 @@ proses perancangan database terdiri dari 6 tahap:
 
 Gambar Perancangan Database Aplikasi Sistem Pengaduan Masyarakat:
 
-[![Perancangan Database](../images/desain-dan-perancangan/20171018_rancangan-database-potret-banten.jpg)](../images/desain-dan-perancangan/20171018_rancangan-database-potret-banten.jpg)
+[![Perancangan Database](/document/aplikasi/potret/images/desain-dan-perancangan/20171018_rancangan-database-potret-banten.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171018_rancangan-database-potret-banten.jpg)
 
 ### 3.6 Perancangan Sistem
 
@@ -145,98 +145,98 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 #### 3.6.1 *Use Case Diagram*
 
-[![Use Case Diagram](../images/desain-dan-perancangan/20171014_use-case-diagram.png)](../images/desain-dan-perancangan/20171014_use-case-diagram.png)
+[![Use Case Diagram](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_use-case-diagram.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_use-case-diagram.png)
 
 #### 3.6.2 *Activity Diagram*
 
 *Activity Diagram Registrasi User*
 
-[![Activity Diagram Registrasi User](../images/desain-dan-perancangan/20171014_activity-diagram-registrasi.png)](../images/desain-dan-perancangan/20171014_activity-diagram-registrasi.png)
+[![Activity Diagram Registrasi User](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_activity-diagram-registrasi.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_activity-diagram-registrasi.png)
 
 *Activity Diagram Login User*
 
-[![Activity Diagram Login User](../images/desain-dan-perancangan/20171014_activity-diagram-login-user.png)](../images/desain-dan-perancangan/20171014_activity-diagram-login-user.png)
+[![Activity Diagram Login User](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_activity-diagram-login-user.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_activity-diagram-login-user.png)
 
 *Activity Diagram Login Admin*
 
-[![Activity Diagram Login Admin](../images/desain-dan-perancangan/20171014_activity-diagram-login-admin.png)](../images/desain-dan-perancangan/20171014_activity-diagram-login-admin.png)
+[![Activity Diagram Login Admin](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_activity-diagram-login-admin.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171014_activity-diagram-login-admin.png)
 
 *Activity Diagram Upload* Laporan Pengaduan
 
-[![Activity Diagram Upload Laporan Pengaduan](../images/desain-dan-perancangan/20171016_activity-diagram-add-berita.png)](../images/desain-dan-perancangan/20171016_activity-diagram-add-berita.png)
+[![Activity Diagram Upload Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_activity-diagram-add-berita.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_activity-diagram-add-berita.png)
 
 *Activity Diagram Publish* Laporan Pengaduan
 
-[![Activity Diagram Publish Laporan Pengaduan](../images/desain-dan-perancangan/20171016_activity-diagram-publish-laporan.png)](../images/desain-dan-perancangan/20171016_activity-diagram-publish-laporan.png)
+[![Activity Diagram Publish Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_activity-diagram-publish-laporan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_activity-diagram-publish-laporan.png)
 
 *Activity Diagram* Melihat Laporan Pengaduan
 
-[![Activity Diagram Publish Laporan Pengaduan](../images/desain-dan-perancangan/20171016_activity-diagram-melihat-laporan.png)](../images/desain-dan-perancangan/20171016_activity-diagram-melihat-laporan.png)
+[![Activity Diagram Publish Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_activity-diagram-melihat-laporan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_activity-diagram-melihat-laporan.png)
 
 
 #### 3.6.3 *Sequence Diagram*
 
 *Sequence Diagram Registrasi User*
 
-[![Sequence Diagram Registrasi User](../images/desain-dan-perancangan/20171016_sequence-diagram-registrasi-user.jpg)](../images/desain-dan-perancangan/20171016_sequence-diagram-registrasi-user.jpg)
+[![Sequence Diagram Registrasi User](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-registrasi-user.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-registrasi-user.jpg)
 
 *Sequence Diagram Login Admin*
 
-[![Sequence Diagram Login Admin](../images/desain-dan-perancangan/20171016_sequence-diagram-login-admin.jpg)](../images/desain-dan-perancangan/20171016_sequence-diagram-login-admin.jpg)
+[![Sequence Diagram Login Admin](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-login-admin.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-login-admin.jpg)
 
 *Sequence Diagram Login User*
 
-[![Sequence Diagram Login User](../images/desain-dan-perancangan/20171016_sequence-diagram-login-user.jpg)](../images/desain-dan-perancangan/20171016_sequence-diagram-login-user.jpg)
+[![Sequence Diagram Login User](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-login-user.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-login-user.jpg)
 
 *Sequence Diagram Upload* Laporan Pengaduan
 
-[![Sequence Diagram Upload Laporan Pengaduan](../images/desain-dan-perancangan/20171016_sequence-diagram-add-berita.jpg)](../images/desain-dan-perancangan/20171016_sequence-diagram-add-berita.jpg)
+[![Sequence Diagram Upload Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-add-berita.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-add-berita.jpg)
 
 *Sequence Diagram Publish* Laporan Pengaduan
 
-[![Sequence Diagram Publish Laporan Pengaduan](../images/desain-dan-perancangan/20171016_sequence-diagram-publish-laporan.jpg)](../images/desain-dan-perancangan/20171016_sequence-diagram-publish-laporan.jpg)
+[![Sequence Diagram Publish Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-publish-laporan.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-publish-laporan.jpg)
 
 *Sequence Diagram* Melihat Laporan Pengaduan
 
-[![Sequence Diagram Melihat Laporan Pengaduan](../images/desain-dan-perancangan/20171016_sequence-diagram-lihat-laporan.jpg)](../images/desain-dan-perancangan/20171016_sequence-diagram-lihat-laporan.jpg)
+[![Sequence Diagram Melihat Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-lihat-laporan.jpg)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_sequence-diagram-lihat-laporan.jpg)
 
 #### 3.6.4 *State Chart Diagram*
 
 *State Chart Diagram Registrasi User*
 
-[![State Chart Diagram Registrasi User](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-registrasi-user.png)](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-registrasi-user.png)
+[![State Chart Diagram Registrasi User](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-registrasi-user.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-registrasi-user.png)
 
 *State Chart Diagram Login Admin*
 
-[![State Chart Diagram Login Admin](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-admin.png)](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-admin.png)
+[![State Chart Diagram Login Admin](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-admin.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-admin.png)
 
 *State Chart Diagram Login User*
 
-[![State Chart Diagram Login User](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-user.png)](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-user.png)
+[![State Chart Diagram Login User](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-user.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-login-user.png)
 
 *State Chart Diagram Upload* Laporan Pengaduan
 
-[![State Chart Diagram Upload Laporan Pengaduan](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-upload-berita.png)](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-upload-berita.png)
+[![State Chart Diagram Upload Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-upload-berita.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-upload-berita.png)
 
 *State Chart Diagram Publish* Laporan Pengaduan
 
-[![State Chart Diagram Publish Laporan Pengaduan](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-publish-laporan.png)](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-publish-laporan.png)
+[![State Chart Diagram Publish Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-publish-laporan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-publish-laporan.png)
 
 *State Chart Diagram* Melihat Laporan Pengaduan
 
-[![State Chart Diagram Melihat Laporan Pengaduan](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-lihat-laporan.png)](../images/desain-dan-perancangan/2017gliffy_state-chart-diagram-lihat-laporan.png)
+[![State Chart Diagram Melihat Laporan Pengaduan](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-lihat-laporan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017gliffy_state-chart-diagram-lihat-laporan.png)
 
 #### 3.6.5 *Class Diagram*
 
-[![Class Diagram](../images/desain-dan-perancangan/2017116_class-diagram.png)](../images/desain-dan-perancangan/2017116_class-diagram.png)
-    
+[![Class Diagram](/document/aplikasi/potret/images/desain-dan-perancangan/2017116_class-diagram.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017116_class-diagram.png)
+
 #### 3.6.6 *Deployment Diagram*
 
-[![Class Diagram](../images/desain-dan-perancangan/2017116_deployment-diagram.png)](../images/desain-dan-perancangan/2017116_deployment-diagram.png)
-    
+[![Class Diagram](/document/aplikasi/potret/images/desain-dan-perancangan/2017116_deployment-diagram.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017116_deployment-diagram.png)
+
 #### 3.6.7 *Technology Stack Diagram*
 
-[![Class Diagram](../images/desain-dan-perancangan/2017116_technology-stack-diagram.png)](../images/desain-dan-perancangan/2017116_technology-stack-diagram.png)
+[![Class Diagram](/document/aplikasi/potret/images/desain-dan-perancangan/2017116_technology-stack-diagram.png)](/document/aplikasi/potret/images/desain-dan-perancangan/2017116_technology-stack-diagram.png)
 
 #### 3.6.8 Desain Tampilan
 
@@ -244,37 +244,37 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 *Layout* Tampilan *Form Login*
 
-[![Layout Tampilan Form Login](../images/desain-dan-perancangan/20171016_layout-tampilan-login-admin.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-login-admin.png)
+[![Layout Tampilan Form Login](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-login-admin.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-login-admin.png)
 
 Dalam *layout* ini, hanya ada 2 *text input username* dan *text input password* dan 1 tombol *login*. *Text input username* berfungsi untuk memasukan *username user* dan *text input password* berfungsi untuk memasukkan *password user*. Tombol *login* berfungsi untuk memulai proses pengecekan *username* dan *password* di dalam database. Jika ada yang cocok maka proses *login* berhasil dan aplikasi akan menampilkan *dashboard*. Jika gagal maka aplikasi akan memberikan pemberitahuan, jika *username* dan *password* salah atau tidak ada di database.
 
 *Layout* Tampilan *Dashboard*
 
-[![Layout Tampilan Dashboard](../images/desain-dan-perancangan/20171016_layout-tampilan-dashboard.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-dashboard.png)
-          
+[![Layout Tampilan Dashboard](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-dashboard.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-dashboard.png)
+
 Dalam tampilan ini, aplikasi menampilkan Logo & Nama aplikasi, foto dan nama admin, list menu, jumlah user, jumlah laporan, jumlah laporan aktif, jumlah laporan tidak aktif, dan jumlah laporan dari masing-masing kategori.
 
 *Layout* Tampilan *Page* Laporan
 
-[![Layout Tampilan Page Laporan](../images/desain-dan-perancangan/20171016_layout-tampilan-page-laporan.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-page-laporan.png)
-          
+[![Layout Tampilan Page Laporan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-page-laporan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-page-laporan.png)
+
 Dalam tampilan ini, aplikasi menampilkan logo dan nama aplikasi, foto dan admin, *list menu*, *list* laporan dari masyarakat yang masuk. Dalam tampilan ini juga menampilkan *filter* pencarian laporan berdasarkan Kota, Kecamatan, Kelurahan. Secara *default* laporan yang masuk berstatus tidak aktif, jadi dalam tampilan *page* ini juga di sediakan tombol untuk mengaktifkan laporan agar, laporan dari masyarakat dapat tayang di aplikasi *mobile* dan *website*, dan ada juga tombol untuk menghapus laporan.
 
 *Layout* Tampilan *Detail* Laporan
 
-[![Layout Tampilan Detail Laporan](../images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan.png)
+[![Layout Tampilan Detail Laporan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan.png)
 
 Aplikasi akan menampilkan *layout* ini pada *tab* baru saat *user* mengklik judul laporan. Dalam *layout* ini aplikasi menampilkan laporan secara *detail*. Seperti judul, alamat, nama pelapor, 3 foto, saran, peta dan alamat, dan *info user* seperti nomor telepon dan *email*.
 
 *Layout* Tampilan *Page Report*
 
-[![Layout Tampilan Page Report](../images/desain-dan-perancangan/20171016_layout-tampilan-page-report.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-page-report.png)
+[![Layout Tampilan Page Report](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-page-report.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-page-report.png)
 
 Dalam tampilan *page report*, tidak jauh berbeda dari tampilan pada *page* laporan yang sudah dibahas sebelumnya, perbedaannya terdapat pada *filter* pencaharian, pada *page report* pencarian bisa berdasarkan kategori, dan tanggal kirim, atau berdasarkan kategori saja, atau berdasarkan tanggal kirim saja. Satu lagi perbedaan pada *page report* ini yaitu ada tombol cetak yang berfungsi untuk mencetak laporan baik yang sudah di *filter* atau belum.
 
 *Layout* Tampilan *List User*
 
-[![Layout Tampilan List User](../images/desain-dan-perancangan/20171016_layout-tampilan-list-user.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-list-user.png)
+[![Layout Tampilan List User](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-list-user.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-list-user.png)
 
 Tampilan ini hanya menampilkan *list user* yang sudah mendaftar lewat aplikasi android maupun website. Pada page ini aplikasi menampilkan list user dan filter pencarian yang berupa text input tanpa tombol cari. Aplikasi akan langsung mencari data berdasarkan apapun yang di ketikkan dalam text input tersebut.
 
@@ -282,43 +282,43 @@ Tampilan ini hanya menampilkan *list user* yang sudah mendaftar lewat aplikasi a
 
 *Layout* Tampilan *Form Registrasi user*
 
-[![Layout Tampilan Form Registrasi user](../images/desain-dan-perancangan/20171016_layout-tampilan-form-registrasi-user1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-form-registrasi-user1.png)
+[![Layout Tampilan Form Registrasi user](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-form-registrasi-user1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-form-registrasi-user1.png)
 
 Aplikasi akan menampilkan tampilan ini jika *user* belum terdaftar, jika *user* sudah pernah mendaftar aplikasi akan langsung menampilkan tampilan *dashboard (home)*. Dalam tampilan ini terdiri dari *header*, *4 text input* yang terdiri dari *username*, nama lengkap, *email*, dan nomor telepon atau HP. Dalam tampilan ini juga terdapat tombol registrasi untuk memulai proses registrasi. Masing-masing *text input* tidak boleh ada yang kosong, jika ada maka aplikasi akan menampilkan pemberitahuan bahwa data tidak lengkap pada saat *user* menyentuh tombol registrasi dan proses registrasi tidak akan dimulai.
 
 *Layout* Tampilan *Dashboard*
 
-[![Layout Tampilan Dashboard](../images/desain-dan-perancangan/20171016_layout-tampilan-dashboard1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-dashboard1.png)
+[![Layout Tampilan Dashboard](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-dashboard1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-dashboard1.png)
 
 Dalam *layout* ini hanya ada tombol menu yang berada di pojok kiri atas. Dalam *layout* ini juga terdapat *image slider* yang berfungsi untuk menampilkan *banner* yang akan berganti setiap 3 detik. Ada juga pilihan kategori laporan yang berbentuk *grid* atau baris, jumlah *item* dalam *grid* ini tergantung pada jumlah kategori yang ada dalam database.
 
 *Layout* Tampilan *List Menu*
 
-[![Layout Tampilan List Menu](../images/desain-dan-perancangan/20171016_layout-tampilan-list-menu1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-list-menu1.png)
+[![Layout Tampilan List Menu](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-list-menu1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-list-menu1.png)
 
 *Layout* tampilan *list menu* hanya terdiri dari *menu header* dan *list menu*. *List menu* terdiri dari beberapa *menu item* yaitu *Dashboard (Home)*, *profile user*, laporan, *draft*, *form offline*, sosial media (IG) dan informasi.
 
 *Layout* Tampilan *Profile User*
 
-[![Layout Tampilan Profile User](../images/desain-dan-perancangan/20171016_layout-tampilan-profile-user1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-profile-user1.png)
+[![Layout Tampilan Profile User](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-profile-user1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-profile-user1.png)
 
 Dalam *layout* tampilan ini terdapat tombol kembali yang berbeda di pojok kiri atas foto *user*, foto *cover* dan *layout data user* seperti nama lengkapt, *email*, nomor telepon dan hp, dan *username*. Dalam *layout* ini juga terdapat *list8 laporan dari *user* yang sudah dikirimkan.
 
 *Layout* Tampilan *List* Laporan *User*
 
-[![Layout Tampilan List Laporan User](../images/desain-dan-perancangan/20171016_layout-tampilan-list-laporan-user1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-list-laporan-user1.png)
+[![Layout Tampilan List Laporan User](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-list-laporan-user1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-list-laporan-user1.png)
 
 Dalam layout ini hanya terdapat tombol menu di pojok kiri atas, dan list laporan yang sudah diaktifkan oleh admin. Item dari list tersebut dapat disentuh dan nantinya aplikasi akan menampilkan detail laporan yang sudah dipilih.
 
 *Layout* Tampilan *Draft*
 
-[![Layout Tampilan Draft](../images/desain-dan-perancangan/20171016_layout-tampilan-draft1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-draft1.png)
+[![Layout Tampilan Draft](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-draft1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-draft1.png)
 
 *Layout* ini tidak jauh beda dengan *layout* laporan, bedanya *layout* ini menampilkan laporan yang belum dikirim oleh *user* karena kesengajaan atau karena ketidak tersediaan koneksi internet saat *user* membuat laporan. Dalam *layout* ini terdiri dari *list* laporan dan tombol menu, jika tombol menu di sentuh, akan keluar 2 tombol yang terdiri dari tombol hapus semua dan tombol *form offline*. Tombol hapus semua berfungsi menghapus semua laporan yang tersimpan. Sedangkan tombol *form offline* berfungsi untuk membuat laporan secara *offline* dan dapat disimpan dan dapat dikirim kapan saja saat perangkat *user* sudah terkoneksi dengan jaringan internet. Fungsi tombol *form offline* ini sama dengan fungsi menu *form offline*. Lalu jika *user* menyentuh *list item* yang ada dalam menu *draft* ini, aplikasi akan menampilkan *form update* yang akan dijelaskan nanti.
 
 *Layout* Tampilan *Detail* Laporan
 
-[![Layout Tampilan Detail Laporan](../images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan1.png)
+[![Layout Tampilan Detail Laporan](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-detail-laporan1.png)
 
 Dalam tampilan ini, terdiri dari tombol kembali yang ada di pojok kiri atas, *image slider* yang berfungsi menampilkan 3 foto laporan dan dapat di *slide* ke kiri dan kanan untuk melihat foto - foto dari laporan tersebut. Dalam *layout* ini juga terdapat *text* judul yang dapat menjadi *text header* jika *layout* ini di *slide* ke atas. Ada juga *text nama user*, nama kategori, dan tanggal *upload* (kirim).
 
@@ -326,24 +326,24 @@ Lalu ada *text* deskripsi, saran, dan kewenangan. Dan ada juga *text* alamat dan
 
 *Layout*  Tampilan *Menu Form offline*
 
-[![Layout Tampilan Menu Form offline](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-offline1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-offline1.png)
+[![Layout Tampilan Menu Form offline](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-offline1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-offline1.png)
 
 Tampilan ini hanya terdiri dari *list* kategori laporan dan tombol menu yang berada di kiri atas.
 
 *Layout* Tampilan *Form Online*
 
-[![Layout Tampilan Form Online](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-online1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-online1.png)
+[![Layout Tampilan Form Online](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-online1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-online1.png)
 
 Pada *layout* ini,terdiri dari tombol kembali, 3 *image preview* dan 3 tombol yang berfungsi untuk membuka kamera. Ada juga text alamat yang akan mencetak alamat yang di dapat melalui google maps saat tombol lokasi di sentuh. Dan ada 4 *Text input* nama dari judul, *input* nama sekolah, *input* deskripsi, dan *input* saran.  *Text input* nama sekolah hanya ada dalam katergori SMA dan SMK,sedangka untuk kategori lain hanya ada 3 *text input* yaitu judul, deskripsi, dan saran. Tombol kirim laporan berfungsi untuk mengirimkan laporan, jika laporan sudah berhasil masuk, maka akan di beli pemberitahuan berupa *alert*, jika tidak akan di beri pemberitahuan *error* dan deskripsi  *error*nya. Tombol simpan berfungsi menyimpan laporan kedalam *draft*. Dalam *form online* ini semua data yang ada dalam *form* harus terisi lengkap. Jika lengkap aplikasi akan memulai proses pengiriman laporan.
- 
+
 *Layout* Tampilan *Form Offline*
 
-[![Layout Tampilan Form Offline](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-offline1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-offline1.png)
+[![Layout Tampilan Form Offline](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-offline1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-offline1.png)
 
 Dalam tampilan ini tidak jauh berbeda dengan tampilan *form online*,bedanya dalam  *form* ini hanya terdapat tombol simpan. Dalam *form* ini data yang harus ada adalah 3 foto,titik lokasi yang bisa didapat dengan menyentuh tombol lokasi. Jika perangkat terhubung  dengan jaringan internet, maka *text* alamat akan mencetak koordinat titik lokasi. Dalam *form* ini juga harus ada judul laporan. Selebihnya dapat dilengkapi jika *user* ingin mengirim laporan tersebut.
 
 *Layout* Tampilan *Form Update*
 
-[![Layout Tampilan Form Update](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-update1.png)](../images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-update1.png)
+[![Layout Tampilan Form Update](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-update1.png)](/document/aplikasi/potret/images/desain-dan-perancangan/20171016_layout-tampilan-menu-form-update1.png)
 
 Pada tampilan ini terdapat 2 tombol pada *header layout*. Tombol kembali dan tombol hapus *draft*. Tombol hapus draft berfungsi untuk menghapus draft yang sedang di buka pada tampilan ini, Jika berhasil di hapus, maka aplikasi akan kembali ke *list draft*. Dalam *layout* tampilan ini hanya ada 3 *image preview*, tanpa ada 3 tombol kamera agar *user* tidak dapat mengganti atau sengaja mengahapus foto yang sudah di ambil sebelumnya, makan aplikasi akan menghapus data *draft* tersebut saat membukanya pada tampilan ini. Tampilan *form* ini juga tanpa tombol lokasi, karena *user* tidak boleh mengganti atau mengedit lokasi yang sudah di dapatkan sebelumnya dan jika *text* lokasi belum tercetak alamat, maka laporan ini belum bisa di kirim. Fungsi dan validasi kirim tobol laporan sama dengan tombol kirim laporan yang ada pada *form online*. Tombol *update draft* bergungsi untuk menyimpan data laporan yang sudah di *update8 tapi belum dapat dikirim.

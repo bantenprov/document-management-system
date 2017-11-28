@@ -7,7 +7,7 @@ cat: portal
 toc: true
 ---
 
-[![cover](../images/desain-dan-perancangan/20171110_cover-web-portal.jpeg)](../images/desain-dan-perancangan/20171110_cover-web-portal.jpeg)
+[![cover](/document/aplikasi/portal/images/desain-dan-perancangan/20171110_cover-web-portal.jpeg)](/document/aplikasi/portal/images/desain-dan-perancangan/20171110_cover-web-portal.jpeg)
 
 ## Abstrak
 
@@ -58,7 +58,7 @@ Menggunakan metode *Prototyping* untuk melakukan perancangan sistem informasi be
 
 Ilustrasi alur *Prototyping*
 
-[![Ilustrasi Alur Prototyping](../images/desain-dan-perancangan/20171018_alur-prototype.png)](../images/desain-dan-perancangan/20171018_alur-prototype.png)
+[![Ilustrasi Alur Prototyping](/document/aplikasi/portal/images/desain-dan-perancangan/20171018_alur-prototype.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171018_alur-prototype.png)
 
 ### 2.2 Metode Pengumpulan Data
 
@@ -74,8 +74,8 @@ Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan 
 ### 2.4 Ruang Lingkup Sistem Informasi / Aplikasi
 
  1. Menyediakan situs portal pemerintah seabgai wadah untuk semua informasi yang terdapat di setiap dinas / OPD ysng terdapat dilingkungan pemerintah provinsi Banten
- 2. Menyediakan proses pengajuan pengadaan / pengembangan sistem informasi / aplikasi /website secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemerintah Provinsi Banten. 
- 
+ 2. Menyediakan proses pengajuan pengadaan / pengembangan sistem informasi / aplikasi /website secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemerintah Provinsi Banten.
+
 ### 2.5 Waktu dan Jadwal Pelaksanaan dan Lokasi Kgiatan
 
  1. Waktu Pelaksanaan kegiatan : 4 bulan sejak dikeluarkan SPK sampai dengan Pemakaian
@@ -94,7 +94,7 @@ Banyak instansi pemerintah telah memanfaatkan revolusi digital dan menyediakan b
 
 ## 3. Hasil dan Pembahasan
 
-### 3.1  Perencanaan Aplikasi 
+### 3.1  Perencanaan Aplikasi
 
 Sistem informasi portal adalah wadah untuk mengumpulkan informasi-informasi tentang kepemerintahan, yang dmana sistem ini akan mempermudah masyarakat dalam mencari informasi yang ada di kepemerintahan.
 
@@ -104,46 +104,46 @@ Permodelan rancangan sistem yang digunakan adalah UML *(Unified Modeling Languag
 
 #### 3.2.1 *Use Case Diagram*
 
-[![Use Case Diagram](../images/desain-dan-perancangan/20171026_use-case-portal.png)](../images/desain-dan-perancangan/20171026_use-case-portal.png)
+[![Use Case Diagram](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_use-case-portal.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_use-case-portal.png)
 
 #### 3.2.2 *Activity Diagram*
 
 *Activity Diagram* Dinas / OPD
 
-[![Activity Diagram Dinas / OPD](../images/desain-dan-perancangan/20171026_activity-diagram-portal-dinas-opd.png)](../images/desain-dan-perancangan/20171026_activity-diagram-portal-dinas-opd.png)
+[![Activity Diagram Dinas / OPD](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_activity-diagram-portal-dinas-opd.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_activity-diagram-portal-dinas-opd.png)
 
 *Activity Diagram* User
 
-[![Activity Diagram User](../images/desain-dan-perancangan/20171026_activity-diagram-portal-user.png)](../images/desain-dan-perancangan/20171026_activity-diagram-portal-user.png)
+[![Activity Diagram User](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_activity-diagram-portal-user.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_activity-diagram-portal-user.png)
 
 *Activity Diagram* Admin
 
-[![Activity Diagram Admin](../images/desain-dan-perancangan/20171026_activity-diagram-portal-user.png)](../images/desain-dan-perancangan/20171026_activity-diagram-portal-admin.png)
+[![Activity Diagram Admin](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_activity-diagram-portal-user.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_activity-diagram-portal-admin.png)
 
 #### 3.2.3 *Sequence Diagram*
 
-[![Sequence Diagram](../images/desain-dan-perancangan/20171027_sequence-diagram-portal.png)](../images/desain-dan-perancangan/20171027_sequence-diagram-portal.png)
+[![Sequence Diagram](/document/aplikasi/portal/images/desain-dan-perancangan/20171027_sequence-diagram-portal.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171027_sequence-diagram-portal.png)
 
 #### 3.2.4 *State Chart Diagram*
 
 *State Chart Diagram* Dinas / OPD
-[![State Chart Diagram Dinas / OPD](../images/desain-dan-perancangan/20171026_state-chart-diagram-portal-dinas-opd.png)](../images/desain-dan-perancangan/20171026_state-chart-diagram-portal-dinas-opd.png)
+[![State Chart Diagram Dinas / OPD](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_state-chart-diagram-portal-dinas-opd.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_state-chart-diagram-portal-dinas-opd.png)
 
 *State Chart Diagram* User
 
-[![State Chart Diagram User](../images/desain-dan-perancangan/20171026_state-chart-diagram-portal-user.png)](../images/desain-dan-perancangan/20171026_state-chart-diagram-portal-user.png)
+[![State Chart Diagram User](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_state-chart-diagram-portal-user.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_state-chart-diagram-portal-user.png)
 
 *State Chart Diagram* Admin
 
-[![State Chart Diagram Admin](../images/desain-dan-perancangan/20171026_state-chart-diagram-portal-admin.png)](../images/desain-dan-perancangan/20171026_state-chart-diagram-portal-admin.png)
+[![State Chart Diagram Admin](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_state-chart-diagram-portal-admin.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_state-chart-diagram-portal-admin.png)
 
 #### 3.2.5 Deployment Diagram
 
-[![Deployment Diagram](../images/desain-dan-perancangan/20171013_deployment-diagram.png)](../images/desain-dan-perancangan/20171013_deployment-diagram.png)
+[![Deployment Diagram](/document/aplikasi/portal/images/desain-dan-perancangan/20171013_deployment-diagram.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171013_deployment-diagram.png)
 
 #### 3.2.6 Technology Stack Diagram
 
-[![Technology Stack Diagram](../images/desain-dan-perancangan/20171026_technology-stack-diagram.png)](../images/desain-dan-perancangan/20171026_technology-stack-diagram.png)
+[![Technology Stack Diagram](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_technology-stack-diagram.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_technology-stack-diagram.png)
 
 ### 3.3 Tahapan Pekerjaan
 
@@ -171,7 +171,7 @@ Setelah proses pengembangan sistem selesai dilakukan, tahapan selanjutnya adalah
 
 **Pengujian**
 
-Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode *prototype*, yaitu jika terjadi kesalahan/kekurangan baik proses maupun *output* sistem, maka kesalahan/kekurangan tersebut akan diperbaiki/ditambahkan, 
+Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode *prototype*, yaitu jika terjadi kesalahan/kekurangan baik proses maupun *output* sistem, maka kesalahan/kekurangan tersebut akan diperbaiki/ditambahkan,
 sehingga memungkinkan pengembang untuk kembali ke tahapan pertama yaitu analisa (jika kekurangan sistem memang tidak terdefinisikan dalam dokumen perancangan sistem).
 
 ### 3.4 Hasil
@@ -182,29 +182,29 @@ Berikut ini adalah hasil eksekusi sistem informasi portal
 
 Layout Tampilan Login Admin:
 
-[![Layout Tampilan Login](../images/desain-dan-perancangan/20171023_layout-login.png)](../images/desain-dan-perancangan/20171023_layout-login.png)
+[![Layout Tampilan Login](/document/aplikasi/portal/images/desain-dan-perancangan/20171023_layout-login.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171023_layout-login.png)
 
 Layout Tampilan Dashboard Admin:
 
-[![Layout Tampilan Login](../images/desain-dan-perancangan/20171027_design-tampilan-memilih-dashboard-admin.png)](../images/desain-dan-perancangan/20171027_design-tampilan-memilih-dashboard-admin.png)
+[![Layout Tampilan Login](/document/aplikasi/portal/images/desain-dan-perancangan/20171027_design-tampilan-memilih-dashboard-admin.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171027_design-tampilan-memilih-dashboard-admin.png)
 
 2. Layout Tampilan User
 
 Layout Tampilan Depan:
 
-[![Layout Tampilan Depan](../images/desain-dan-perancangan/20171026_design-tampilan-halamam-depan.png)](../images/desain-dan-perancangan/20171026_design-tampilan-halamam-depan.png)
+[![Layout Tampilan Depan](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-halamam-depan.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-halamam-depan.png)
 
 Layout Tampilan Memilih Konten:
 
-[![Layout Tampilan Memilih Konten](../images/desain-dan-perancangan/20171026_design-tampilan-memilih-konten.png)](../images/desain-dan-perancangan/20171026_design-tampilan-memilih-konten.png)
+[![Layout Tampilan Memilih Konten](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-memilih-konten.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-memilih-konten.png)
 
 Layout Tampilan Memilih Sub Konten:
 
-[![Layout Tampilan Memilih Sub Konten](../images/desain-dan-perancangan/20171026_design-tampilan-memilih-sub-konten.png)](../images/desain-dan-perancangan/20171026_design-tampilan-memilih-sub-konten.png)
+[![Layout Tampilan Memilih Sub Konten](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-memilih-sub-konten.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-memilih-sub-konten.png)
 
 Layout Tampilan Melihat Info Sub Konten:
 
-[![Layout Tampilan Melihat Info Sub Konten](../images/desain-dan-perancangan/20171026_design-tampilan-lihat-info-sub-konten.png)](../images/desain-dan-perancangan/20171026_design-tampilan-lihat-info-sub-konten.png)
+[![Layout Tampilan Melihat Info Sub Konten](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-lihat-info-sub-konten.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171026_design-tampilan-lihat-info-sub-konten.png)
 
 ## 4. Penutup
 
