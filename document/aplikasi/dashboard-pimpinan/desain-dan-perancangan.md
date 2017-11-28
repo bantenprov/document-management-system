@@ -413,4 +413,5 @@ Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 [![dashboard-kesehatan](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/dashboard-kesehatan.jpg)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/dashboard-kesehatan.jpg)
 
 ## 4.PENUTUP
+
 Dengan adanya pembuatan dari sistem informasi dashboard ini dapat membantu dalam mencari informasi atau laporan yang terdapat di pemerintahan Banten, sehingga pimpinan tidak sulit jika ingin mencari informasi atau laporan yang ada dan dapat mempermudah pimpinan memonitoring kinerja para pegawai SKPD (Satuan Kerja Perangkat Daerah).
