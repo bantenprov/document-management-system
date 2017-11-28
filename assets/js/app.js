@@ -13,14 +13,6 @@
     // Initialize Bootstrap popover with `data-toggle="popover"`.
     $('[data-toggle="popover"]').popover();
 
-    var typed = new Typed('.typed-element', {
-      stringsElement: '#typed-strings',
-      typeSpeed: 60,
-      loop: true,
-      showCursor: true,
-      cursorChar: "&nbsp;"
-    });
-
   });
 
 }(jQuery));
