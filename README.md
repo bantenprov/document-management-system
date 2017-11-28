@@ -40,7 +40,7 @@ toc: [true|false]
 - `cat` - isi dengan nama direktori tempat Anda menyimpan berkas ini.
 - `toc` - isi dengan `true` atau `false`. Pilih `true` jika ingin membuat daftar isi secara otomatis.
 
-Di bawah ini adalah contoh ketika Anda ingin menambahkan dokumen aplikasi pada bagian *layanan-kesehatan* dan dokumennya tentang *Desain dan Perancangan*:
+Di bawah ini adalah contoh ketika Anda ingin menambahkan dokumen aplikasi pada bagian ***layanan-kesehatan*** dan dokumennya tentang ***Desain dan Perancangan***:
 
 - Simpan dokumen di dalam direktori `document>aplikasi>layanan-kesehatan` dengan nama `desain-dan-perancangan.md`.
 - Simpan gambar dokumen di dalam direktori `document>aplikasi>layanan-kesehatan>images>desain-dan-perancangan`.
