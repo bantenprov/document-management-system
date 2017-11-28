@@ -135,7 +135,7 @@ Didalam *page* ini terdapat *form input* untuk mengedit rumah sakit didalam *for
 Didalam *page* ini berisi tentang informasi dan menu-menu pada bagian atas aplikasi.
 
 **Tampilan *Page* Registrasi**
-[![Page Registrasi](../images/implementasi/20171123_registrasi-dokter-dan-pasien.png)](../images/implementasi/20171123_registrasi-dokter-dan-pasien.png)
+[![Page Registrasi](../images/pengembangan/20171123_registrasi-dokter-dan-pasien.png)](../images/pengembangan/20171123_registrasi-dokter-dan-pasien.png)
 Untuk masuk kedalam *page* ini *user* sebelumnya harus memilih menu "DAFTAR" di menu-menu aplikasi pada halaman depan aplikasi lalu memilih menu "SIGN UP" pada menu "DAFTAR". Didalam *page* ini tedapat beberapa *field* untuk melakukan registrasi jika sudah terisi semua *user* dapat menekan tombol "SIGN UP" pada bagian bawah *form registrasi*.
 
 **Tampilan *page* Login**
