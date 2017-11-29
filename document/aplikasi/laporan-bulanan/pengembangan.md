@@ -1,9 +1,23 @@
+---
+layout: document
+title: Pengembangan
+description: Laporan Bulanan adalah suatu bentuk penyampaian informasi, data, atau berita baik secara lisan maupun tertulis dalam jangka satu bulan.
+group: aplikasi
+cat: laporan-bulanan
+toc: true
+---
+
 # Pengembangan Aplikasi Laporan Bulanan
 ## Biro Administrasi Pembangunan Provinsi Banten
 
 Laporan Bulanan adalah suatu bentuk penyampaian informasi, data, atau berita baik secara lisan maupun tertulis dalam jangka satu bulan. Didalam laporan terdapat kegiatan pencatatan, pengumpulan, pemeriksaan, pengetikan dan pengolahan data. Secara Umum Laporan Dapat Diartikan Sebagai bentuk penyampaian berita,keterangan,pemberitahuan ataupun pertanggungjawaban baik secara lisan maupun secara tertulis dari bawahan kepada atasan sesuai dengan hubungan wewenang dan tanggung jawab yang ada diantara mereka. Dan Salah satu cara pelaksanaan komunikasi dari pihak yang satu kepada pihak yang lainnya.
 
 Apliaksi Laporan Bulanan ini menampilkan laporan bulanan dari OPD-OPD (Organisasi Perangkat Daerah), berikut ini adalah tampilan yang terdapat diaplikasi **Laporan Bulanan**:
+
+## Daftar Isi
+
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## Tampilan Login
 [![Tampilan Login](/document/aplikasi/laporan-bulanan/images/halaman-login.png)](/document/aplikasi/laporan-bulanan/images/halaman-login.png)

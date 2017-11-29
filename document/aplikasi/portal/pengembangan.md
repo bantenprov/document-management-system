@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Pengembangan
-description: Deskripsi di sini.
+description: Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikehidupan ini banyak yang sudah beralih dibantu oleh teknologi informasi.
 group: aplikasi
 cat: portal
 toc: true
@@ -15,7 +15,7 @@ Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikeh
 
 *E-government* menjadi proses pemanfaatan tekhnologi informasi sebagai media untuk membantu menjalankan sistem pemerintahan secara lebih efektif dan efisien. Sebagai wujud dari penerapan e-government di Indonesia salah satunya adalah dengan pembuatan website pemerintah daerah. Saat ini belum terdapat portal yang menampung informasi yang ada di Banten sehingga jika mnasyarakat ingin mencari suatu informasi ia harus mencari website terkait dengan informasi yang dicari, sehingga agak merepotkan bagi masyarakat. Dengan adanya portal web ini diharapkan dapat membantu masyarakat dalam mencari informasi dan dinas terkait yang ingin men*share* informasi yang ia punya. Menyediakan situs portal pemerintah sebagai wadah untuk semua informasi yang terdapat di setiap dinas / OPD ysng terdapat dilingkungan pemerintah provinsi Banten.
 
-Untuk memulai akses User terhadap aplikasi **Portal Banten**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url : http://portal-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. 
+Untuk memulai akses User terhadap aplikasi **Portal Banten**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url : http://portal-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser.
 
 ### Tampilan menu utama
 [![tampilan-home-portal.png](/document/aplikasi/portal/images/pengembangan/tampilan-home-portal.png)](/document/aplikasi/portal/images/pengembangan/tampilan-home-portal.png)
