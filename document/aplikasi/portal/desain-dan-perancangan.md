@@ -33,19 +33,19 @@ Saat ini belum terdapat portal yang menampung informasi yang ada di Banten sehin
 
 Tujuan dari perancangan portal web ini adalah sebagai berikut:
 
- 1. Mempermudah masyarakat dalam mencari informasi
- 2. Wadah informasi dari semua dinas / OPD yang ada
+  1. Mempermudah masyarakat dalam mencari informasi
+  2. Wadah informasi dari semua dinas / OPD yang ada
 
 ### 1.3 Karakteristik Produk
 
- 1. dapat menyajikan informasi dari dinas / OPD terkait
- 2. Dikembangkan menggunakan *frmaework* atau biasa dikenal dengan berbasis web
- 3. *User Friendly* (menggunakan *interface* / antarmuka yang mudah digunakan oleh *user*
+  1. dapat menyajikan informasi dari dinas / OPD terkait
+  2. Dikembangkan menggunakan *frmaework* atau biasa dikenal dengan berbasis web
+  3. *User Friendly* (menggunakan *interface* / antarmuka yang mudah digunakan oleh *user*
 
 ### 1.4 Keluaran yang diinginkan
 
- 1. Tersedianya situs portal pemerintah Provonsi Banten bagi sistem informasi/aplikasi/website
- 2. Tersedianya dokumentasi API yang digunakan
+  1. Tersedianya situs portal pemerintah Provonsi Banten bagi sistem informasi/aplikasi/website
+  2. Tersedianya dokumentasi API yang digunakan
 
 ## 2. METODE PENELITIAN
 
@@ -73,24 +73,24 @@ Tim pengembang aplikasi akan melakukan analisis jika diperlukan dapat dilakukan 
 
 ### 2.4 Ruang Lingkup Sistem Informasi / Aplikasi
 
- 1. Menyediakan situs portal pemerintah seabgai wadah untuk semua informasi yang terdapat di setiap dinas / OPD ysng terdapat dilingkungan pemerintah provinsi Banten
- 2. Menyediakan proses pengajuan pengadaan / pengembangan sistem informasi / aplikasi /website secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemerintah Provinsi Banten.
+  1. Menyediakan situs portal pemerintah seabgai wadah untuk semua informasi yang terdapat di setiap dinas / OPD ysng terdapat dilingkungan pemerintah provinsi Banten
+  2. Menyediakan proses pengajuan pengadaan / pengembangan sistem informasi / aplikasi /website secara digital untuk seluruh Organisasi Perangkat Daerah dilingkungan Pemerintah Provinsi Banten.
 
 ### 2.5 Waktu dan Jadwal Pelaksanaan dan Lokasi Kgiatan
 
- 1. Waktu Pelaksanaan kegiatan : 4 bulan sejak dikeluarkan SPK sampai dengan Pemakaian
- 2. Lokasi Kegiatan : Kantor OPD terkait dan Dinas Komunikasi Informasi Statistika dan Persandian Pemerintah Provinsi Banten
+  1. Waktu Pelaksanaan kegiatan : 4 bulan sejak dikeluarkan SPK sampai dengan Pemakaian
+  2. Lokasi Kegiatan : Kantor OPD terkait dan Dinas Komunikasi Informasi Statistika dan Persandian Pemerintah Provinsi Banten
 
 ### 2.6 Model *E-Government*
 
 Banyak instansi pemerintah telah memanfaatkan revolusi digital dan menyediakan berbagai layanan pemerintah dan layanan informasi publik secara online untuk para pemangku kepentingan *E-Government*. Bersdasarkan pemangku kepentingan model *e-government* dapat dibedakan menjadi 4 yaitu :
 
-| **Model *E-government***    |      **Interaksi Antar Pemangku Kepentingan**       |
-|:----------: |:-------------: |
+|    **Model *E-government***    | **Interaksi Antar Pemangku Kepentingan** |
+| :----------------------------: | :--------------------------------------: |
 | Pemerintah ke Masyarakat (G2C) | Penyampaian layanan publik dan informasi satu arah oleh pemerintah kepada masyarakat |
-| Pemerintah ke Bisnis (G2B) | Terdiri dari transaksi - transaksi elektronik dimana pemerintah menyediakan berbagai informasi yang dibutuhkan kalangan bisnis untuk bertransaksi dengan pemerintah |
-| Pemerintah ke Pegawai (G2E) | Terdiri dari berbagai inisiatif yang memfasilitasi manejemen pelayanan dan komunikasi internal dengan pegawai pemerintah, contohnya : Sistem Informasi Kepegawaian * online* |
-| Pemerintah ke Pemerintah (G2G) | Memungkinkan komunikasi dan pertukaran informasi online antar departemen/satuan kerja atau lembaga/instansi pemerintah melalui database terintegrasi.  |
+|   Pemerintah ke Bisnis (G2B)   | Terdiri dari transaksi - transaksi elektronik dimana pemerintah menyediakan berbagai informasi yang dibutuhkan kalangan bisnis untuk bertransaksi dengan pemerintah |
+|  Pemerintah ke Pegawai (G2E)   | Terdiri dari berbagai inisiatif yang memfasilitasi manejemen pelayanan dan komunikasi internal dengan pegawai pemerintah, contohnya : Sistem Informasi Kepegawaian * online* |
+| Pemerintah ke Pemerintah (G2G) | Memungkinkan komunikasi dan pertukaran informasi online antar departemen/satuan kerja atau lembaga/instansi pemerintah melalui database terintegrasi. |
 
 ## 3. Hasil dan Pembahasan
 
@@ -182,7 +182,7 @@ Berikut ini adalah hasil eksekusi sistem informasi portal
 
 Layout Tampilan Login Admin:
 
-[![Layout Tampilan Login](/document/aplikasi/portal/images/desain-dan-perancangan/20171023_layout-login.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171023_layout-login.png)
+[![Layout Tampilan Login](/document/aplikasi/portal/images/desain-dan-perancangan/20171023_layout-login1.png)](/document/aplikasi/portal/images/desain-dan-perancangan/20171023_layout-login1.png)
 
 Layout Tampilan Dashboard Admin:
 
