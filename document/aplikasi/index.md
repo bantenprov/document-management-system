@@ -197,7 +197,7 @@ description: Index Dokumen Aplikasi.
   </a>
 </div>
 
-## Simbada
+## Sistem Informasi Barang Daerah
 
 <div class="list-group mb-3">
   <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/simbada/about-simbada/">
