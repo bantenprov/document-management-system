@@ -32,7 +32,7 @@ plugins:
 # Social
 title:              Document Management System
 description:        "Document Management System Provinsi Banten"
-social_logo_path:   /assets/img/KP3B.jpg
+social_logo_path:   /assets/img/kp3b.jpg
 
 # Custom variables
 cdn:
