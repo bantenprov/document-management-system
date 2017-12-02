@@ -2,9 +2,9 @@
 
 # Dashboard Kepegawaian
 ## Jumlah 
-| Jumlah Pegawai | URL/ Image | Ada | Tidak |
+| Dashboard | URL/ Image | Ada | Tidak |
 |----------------|------------|-----|-------|
-|                |[![ilustrasi-alur-prototyping](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)            |     |       |
+| Jumlah Pegawai |[![ilustrasi-alur-prototyping](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)            |     |       |
 |                |            |     |       |
 |                |            |     |       |
 
