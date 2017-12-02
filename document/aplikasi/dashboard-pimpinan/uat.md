@@ -2,8 +2,12 @@
 
 # Dashboard Kepegawaian
 ## Jumlah 
-| Jumlah Pegawai | URL | 
-http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian
+| Jumlah Pegawai | URL/ Image | Ada | Tidak |
+|----------------|------------|-----|-------|
+|                |[![ilustrasi-alur-prototyping](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/alur-prototype.png)            |     |       |
+|                |            |     |       |
+|                |            |     |       |
+
 
 # Dashboard Kepeendudukan
 
