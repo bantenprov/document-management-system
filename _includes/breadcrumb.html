@@ -82,6 +82,12 @@
       </li>
     {% endif %}
 
+    {% if page.cat == 'api' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/api/">API</a>
+      </li>
+    {% endif %}
+
     {% if page.title %}
       <li class="breadcrumb-item active">
         {{ page.title }}
