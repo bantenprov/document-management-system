@@ -133,7 +133,6 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 ##### 3.4.1.2 Workflow Transition
 **Workfow transitoin yang direncakan adalah sebagai berikut**:
 | name           | label          | description    |
-|----------------|----------------|----------------|
 | propose-to-verification | Verified | Laporan sudah diverifikasi oleh admin |
 | propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
 | verification-to-disposition | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
