@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+    Pengembangan &middot; Document Management System
+  
+</title>
+
+<!-- Meta -->
+<meta name="description" content="Document Management System Provinsi Banten">
+<meta name="author" content="">
+
+<!-- Twitter -->
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pengembangan">
+  <meta name="twitter:description" content="Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikehidupan ini banyak yang sudah beralih dibantu oleh teknologi informasi.">
+  <meta name="twitter:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+
+
+<!-- Facebook -->
+
+  <meta property="og:url" content="http://dms-01.dev.bantenprov.go.id/document/aplikasi/portal/pengembangan/">
+  <meta property="og:title" content="Pengembangan">
+  <meta property="og:description" content="Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikehidupan ini banyak yang sudah beralih dibantu oleh teknologi informasi.">
+  <meta property="og:type" content="website">
+
+<meta property="og:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:secure_url" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymouse">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymouse">
+
+<!-- Extras -->
+<link rel="stylesheet" href="/assets/css/app.css">
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico">
+
+  </head>
+  <body class="document-page">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    <header class="navbar navbar-expand-md navbar-dark site-navbar">
+  <a class="navbar-brand mr-2" href="/">
+    <img src="/assets/img/logo.png" width="36" height="36" alt="">
+    <span>DMS Bantenprov</span>
+  </a>
+
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#side-nav" aria-controls="side-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-3 order-1 site-sidebar">
+          <div class="collapse d-md-block" id="side-nav">
+  <div class="site-sidebar-nav-wrap">
+    <div class="nav flex-column">
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs01" href="/document/aplikasi/" aria-expanded="false" aria-controls="cs01">Aplikasi</a>
+        <div class="collapse js-sidenav" id="cs01">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/dashboard-pimpinan/" data-toggle="collapse" data-target="#cs0101" aria-expanded="false" aria-controls="cs0101">Dashboard Pimpinan</a>
+              <div class="collapse js-sidenav" id="cs0101">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal-pemerintah-provinsi-banten/" data-toggle="collapse" data-target="#cs0102" aria-expanded="false" aria-controls="cs0102">Portal Pemerintah Provinsi Banten</a>
+              <div class="collapse js-sidenav" id="cs0102">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/layanan-kesehatan/" data-toggle="collapse" data-target="#cs0103" aria-expanded="false" aria-controls="cs0103">Layanan Kesehatan</a>
+              <div class="collapse js-sidenav" id="cs0103">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/layanan-kesehatan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sop-online/" data-toggle="collapse" data-target="#cs0104" aria-expanded="false" aria-controls="cs0104">SOP Online</a>
+              <div class="collapse js-sidenav" id="cs0104">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/sop-online/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/banten-satu-data/" data-toggle="collapse" data-target="#cs0105" aria-expanded="false" aria-controls="cs0105">Banten Satu Data</a>
+              <div class="collapse js-sidenav" id="cs0105">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal/" data-toggle="collapse" data-target="#cs0106" aria-expanded="false" aria-controls="cs0106">Portal</a>
+              <div class="collapse js-sidenav" id="cs0106">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/potret/" data-toggle="collapse" data-target="#cs0107" aria-expanded="false" aria-controls="cs0107">Potret</a>
+              <div class="collapse js-sidenav" id="cs0107">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/potret/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/laporan-bulanan/" data-toggle="collapse" data-target="#csLapbul" aria-expanded="false" aria-controls="csLapbul">Laporan Bulanan</a>
+              <div class="collapse js-sidenav" id="csLapbul">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/laporan-bulanan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sistem-informasi-barang-daerah/" data-toggle="collapse" data-target="#cs0108" aria-expanded="false" aria-controls="cs0108">Sistem Informasi Barang Daerah</a>
+              <div class="collapse js-sidenav" id="cs0108">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/helpdesk/" data-toggle="collapse" data-target="#cs0109" aria-expanded="false" aria-controls="cs0109">Helpdesk</a>
+              <div class="collapse js-sidenav" id="cs0109">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/helpdesk/about-helpdesk/">About Helpdesk</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/palapa/" data-toggle="collapse" data-target="#cs01010" aria-expanded="false" aria-controls="cs01010">Palapa</a>
+              <div class="collapse js-sidenav" id="cs01010">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/palapa/about-palapa/">About Palapa</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/simbada/" data-toggle="collapse" data-target="#cs01011" aria-expanded="false" aria-controls="cs01011">Simbada</a>
+              <div class="collapse js-sidenav" id="cs01011">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/simbada/about-simbada/">About Simbada</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs02" href="/document/sop/" aria-expanded="false" aria-controls="cs02">SOP</a>
+        <div class="collapse js-sidenav" id="cs02">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/sop/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs03" href="/document/konsep/" aria-expanded="false" aria-controls="cs03">Konsep</a>
+        <div class="collapse js-sidenav" id="cs03">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/konsep/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        </div>
+        <main class="col-12 col-md-9 col-xl-9 py-3 pl-md-5 order-2 site-content" role="main">
+
+          <nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/document/">Document</a>
+    </li>
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/">Aplikasi</a>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/portal/">Portal</a>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <li class="breadcrumb-item active">
+        Pengembangan
+      </li>
+    
+  </ol>
+</nav>
+
+
+          <h1 class="document-title" id="content">Pengembangan</h1>
+          <p><a href="/document/aplikasi/portal/images/pengembangan/pengembangan-portal-banten.png"><img src="/document/aplikasi/portal/images/pengembangan/pengembangan-portal-banten.png" alt="cover portal" /></a></p>
+
+<h1 id="portal-banten">PORTAL BANTEN</h1>
+
+<p>Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikehidupan ini banyak yang sudah beralih dibantu oleh teknologi informasi. Teknologi yang dapat membantu lebih mudah, cepat, aman dan efektif jelas sangatlah membantu siapa saja yang memanfaatkannya, document dibuat untuk memberikan panduan penggunaan aplikasi <strong>Portal</strong>, Portal adalah aplikasi  <em>e-goverment</em> dengan sasaran agar maysarakat dapat dengan mudah memperoleh akses informasi. Untuk mencapai sasaran tersebut maka semua informasi perlu dikumpulkan dalam satu wadah portal web yang dapat dengan mudah diakses oleh masyarakat. dengan adanya web portal pemerintah ini dapat memudahkan masyarakat dalam mencari informasi tentang kegiatan dan info yang terdapat dipemerintah.</p>
+
+<p><em>E-government</em> menjadi proses pemanfaatan tekhnologi informasi sebagai media untuk membantu menjalankan sistem pemerintahan secara lebih efektif dan efisien. Sebagai wujud dari penerapan e-government di Indonesia salah satunya adalah dengan pembuatan website pemerintah daerah. Saat ini belum terdapat portal yang menampung informasi yang ada di Banten sehingga jika mnasyarakat ingin mencari suatu informasi ia harus mencari website terkait dengan informasi yang dicari, sehingga agak merepotkan bagi masyarakat. Dengan adanya portal web ini diharapkan dapat membantu masyarakat dalam mencari informasi dan dinas terkait yang ingin men<em>share</em> informasi yang ia punya. Menyediakan situs portal pemerintah sebagai wadah untuk semua informasi yang terdapat di setiap dinas / OPD ysng terdapat dilingkungan pemerintah provinsi Banten.</p>
+
+<p>Untuk memulai akses User terhadap aplikasi <strong>Portal Banten</strong>. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url : http://portal-01.dev.bantenprov.go.id kemudian tekan <strong>Enter</strong> pada tombol keyboard atau klik tombol <strong>Go</strong> pada browser.</p>
+
+<h3 id="tampilan-menu-utama">Tampilan menu utama</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/tampilan-home-portal.png"><img src="/document/aplikasi/portal/images/pengembangan/tampilan-home-portal.png" alt="tampilan-home-portal.png" /></a>
+ditampilan ini terdapat bebrapa <em>list</em> menu yang terdapat pada bagian atas aplikasi yaitu:
+Pages
+Blog
+Gallery
+News and event
+About Us
+Contact Us</p>
+
+<h3 id="tampilan-pages-content-only">Tampilan pages content only</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/pages-content-only"><img src="/document/aplikasi/portal/images/pengembangan/pages-content-only.png" alt="pages-content-only" /></a>
+Tampilan ini menjelaskan <em>content-content</em> mengenai aplikasi didalam halaman ini hanya menimbulkan content berupa tulisan tanpa ada gambar.</p>
+
+<h3 id="tampilan-pages-content-and-photo">Tampilan pages content and photo</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/pages-content-dan-photo.png"><img src="/document/aplikasi/portal/images/pengembangan/pages-content-dan-photo.png" alt="pages-content-dan-photo" /></a>
+Tampilan ini menampilkan <em>content-content</em> berupa gambar dengan pejelasan dari arti gambar tersebut.</p>
+
+<h3 id="tampilan-content-and-gallery">Tampilan content and gallery</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/pages-content-dan-gallery.png"><img src="/document/aplikasi/portal/images/pengembangan/pages-content-dan-gallery.png" alt="pages-content-dan-gallery" /></a>
+Tampilan ini mejelaskan <em>gallery</em> yang terdapat pada aplikasi dan penjelasan tentang <em>gallery</em> tersebut.</p>
+
+<h3 id="tampilan-blog">Tampilan blog</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/menu-blog.png"><img src="/document/aplikasi/portal/images/pengembangan/menu-blog.png" alt="menu-blog" /></a>
+Tampilan ini menampilkan <em>list</em> blog yang terdapat didalam PORTAL BANTEN, jika ingin melihat detail informasi pada blog <em>user</em> dapat mengklik judul blog untuk melihat informasi lebih detail.</p>
+
+<h3 id="tampilan-gallery">Tampilan gallery</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/menu-gallery.png"><img src="/document/aplikasi/portal/images/pengembangan/menu-gallery.png" alt="menu-gallery" /></a>
+Tampilan ini menampilkan <em>list gallery</em> yang terdapat pada aplikasi besert dengan foto-foto yang terdapat didalam <em>gallery</em>.</p>
+
+<h3 id="tampilan-news-and-event">Tampilan news and event</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/menu-news-dan-events.png"><img src="/document/aplikasi/portal/images/pengembangan/menu-news-dan-events.png" alt="menu-news-dan-events" /></a>
+Pada halaman ini <em>user</em> dapat melihat berita-berita dan acara yang akan berlangsung atau sedang dilangsungkan di provinsi Banten.</p>
+
+<h3 id="tampilan-about-us">Tampilan About Us</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/menu-about-us.png"><img src="/document/aplikasi/portal/images/pengembangan/menu-about-us.png" alt="menu-about-us" /></a>
+Halaman ini menjelaskan kepada <em>user</em> tentang aplikasi PORTAL BANTEN dan bagaimana menjalankan aplikasi PORTAL BANTEN.</p>
+
+<h3 id="contact-us">Contact Us</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/menu-contact-us.png"><img src="/document/aplikasi/portal/images/pengembangan/menu-contact-us.png" alt="Contact Us" /></a>
+Pada halaman ini <em>user</em> dapat melihat informasi mengenai tim pengembang maupun admin aplikasi dan dapat melakukan komunikasi dengan tim pengembang maupun admin dari aplikasi PORTAL BANTEN melalui <em>form</em> pesan yang telah disediakan.</p>
+
+<p>Untuk memulai akses Admin terhadap aplikasi <strong>Portal Banten</strong>. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url :  http://portal-01.dev.bantenprov.go.id/admin kemudian tekan <strong>Enter</strong> pada tombol keyboard atau klik tombol <strong>Go</strong> pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.</p>
+
+<h3 id="tampilan-login-admin">Tampilan login admin</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/login-portal.png"><img src="/document/aplikasi/portal/images/pengembangan/login-portal.png" alt="login-portal.png" /></a>
+Pada Halaman ini akan muncul <em>form login</em> yang berisikan Email Address dan Password yang harus diisi oleh admin untuk masuk ke dalam dashboard admin.</p>
+
+<h3 id="tampilan-konten-dashboard-admin">Tampilan Konten Dashboard Admin</h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-dashboard.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-dashboard.png" alt="Dashboard Admin" /></a>
+Pada Halaman ini berisikan dengan <em>list menu</em> pada sebelah kiri aplikasi dan informasi tentang aplikasi ataupun konten yang akan ditampilkan pada kolom utama aplikasi/</p>
+
+<h3 id="tampilan-kontan-general">Tampilan Kontan General</h3>
+<p>Pada Konten ini terdapat beberapa subkonten mengenai informasi yang umum pada aplikasi PORTAL BANTEN ini seperti :</p>
+
+<h4 id="tampilan-subkonten-client">Tampilan Subkonten <em>Client</em></h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-list-client.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-list-client.png" alt="Subkonten Client" /></a>
+Pada halaman ini terdapat tampilan <em>list client</em> yang berisikan informasi mengenai <em>client</em> yang menggunakan aplikasi. Pada Halaman ini admin dapat menambahkan, mengedit dan menghapus data <em>client</em>.</p>
+
+<h4 id="tampilan-tambah-client">Tampilan Tambah <em>Client</em></h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-tambah-client.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-tambah-client.png" alt="Tambah Client" /></a>
+Pada halaman ini terdapat <em>form</em> untuk menambah <em>client</em> yang harus diisi oleh admin untuk menambahkan <em>client</em> pada aplikasi PORTAL BANTEN.</p>
+
+<h4 id="tampilan-subkonten-location">Tampilan Subkonten <em>Location</em></h4>
+<p>Pada halaman ini terdapat konten mengenai lokasi-lokasi yang terdapat di provinsi Banten berdasarkan <em>mapping</em> yang tersedia di aplikasi.</p>
+
+<h4 id="tampilan-tambah-lokasi">Tampilan Tambah Lokasi</h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-tambah-lokasi.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-tambah-lokasi.png" alt="Tambah Lokasi" /></a>
+Pada halaman ini admin dapat menambah lokasi dan titik koordinat lokasi yang diinginkan.</p>
+
+<h3 id="tampilan-konten-page">Tampilan Konten <em>Page</em></h3>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-konten-pages.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-konten-pages.png" alt="Konten Pages" /></a>
+Pada halaman ini admin dapat menambah, mengedit dan meghapus <em>pages</em> apa saja yang akan ditampilkan pada aplikasi.</p>
+
+<h4 id="tampilan-tambah-pages">Tampilan Tambah <em>Pages</em></h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-tambah-pages.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-tambah-pages.png" alt="Tambah Pages" /></a>
+Pada Halaman ini akan muncul <em>form</em> menambahkan <em>pages</em> yang harus diisi oleh admin untuk menambahkan <em>pages</em>.</p>
+
+<h3 id="tampilan-konten-gallery">Tampilan Konten <em>Gallery</em></h3>
+<p>Konten ini adalah tempat untuk admin menyimpan atau mengolah data yang berupa gambar kedalam aplikasi. Pada konten ini terdapat 2 subkonten yaitu:</p>
+
+<h4 id="tampilan-subkonten-album">Tampilan Subkonten Album</h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-lihat-album.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-lihat-album.png" alt="Admin lihat album" /></a>
+Pada halaman ini terdapat <em>list</em> album yang berisikan informasi tentang album dan pada admin dapat menambah, mengedit dan menghapus album yang terdapat didalam aplikasi. dan pada halaman ini admin dapat menambahkan foto kedalam album.</p>
+
+<h4 id="tampilan-tambah-album">Tampilan Tambah Album</h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-tambah-album.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-tambah-album.png" alt="admin tambah album" /></a>
+Pada halaman ini terdapat <em>form input</em> album yang harus diisi oleh admin untuk menambahkan album.</p>
+
+<h4 id="tampilan-subkonten-foto">Tampilan Subkonten Foto</h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-lihat-foto.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-lihat-foto.png" alt="Admin lihat foto" /></a>
+Pada halaman ini terdapat <em>list</em> foto  yang berisikan informasi tentang foto yang terdapat didalam aplikasi.</p>
+
+<h3 id="tampilan-konten-blog">Tampilan Konten Blog</h3>
+<p>Pada halaman ini admin dapat melihat artikel apa saja yang akan di<em>share</em> ke aplikasi Portal Banten, Didalam konten ini terdapat 2 subkonten yaitu:</p>
+
+<h4 id="tampilan-subkonten-categories">Tampilan Subkonten <em>Categories</em></h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-lihat-kategori.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-lihat-kategori.png" alt="Tampilan Kategori" /></a>
+Pada halaman ini admin dapat melihat <em>list</em> kategori apa saja yang akan dipakai untuk artikel, didalam halaman ini admin dapat menambahkan, mengedit dan meghapus data kategori.</p>
+
+<h4 id="tampilan-menambahkan-categories">Tampilan Menambahkan <em>Categories</em></h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-tambah-kategori.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-tambah-kategori.png" alt="Tambah Kategori" /></a>
+Pada Halaman ini terdapat <em>form input</em> kategori untuk menambahkan jenis kategori yang akan dipakai diaplikasi.</p>
+
+<h4 id="tampilan-subkonten-artikel">Tampilan Subkonten Artikel</h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-lihat-artikel.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-lihat-artikel.png" alt="Lihat Artikel" /></a>
+Pada halaman ini terdapat <em>list</em> artikel yang ada diaplikasi dan disini admin dapat mengatur kapan waktunya artikel akan dioerlihatkan ke Portal Banten. Disini admin dapat menambahkan, mengedit dan menghapus artikel.</p>
+
+<h4 id="tampilan-tambah-artikel">Tampilan Tambah Artikel</h4>
+<p><a href="/document/aplikasi/portal/images/pengembangan/admin-tambah-artikel.png"><img src="/document/aplikasi/portal/images/pengembangan/admin-tambah-artikel.png" alt="Tambah Artikel" /></a>
+Pada halaman ini terdapat <em>form input</em> artikel yang harus diisi oleh admin untuk menambahkan artikel. Disini admin dapat mengatur waktu untuk artikel ditayangkan di aplikasi.</p>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js" integrity="sha384-/vxW1AJwEERwlhBTV8gBqWHZ478ylzMX61rSs2tfC34GZvqd5dwQvxZEgE1iocoa" crossorigin="anonymous"></script>
+
+<script src="/assets/js/app.js"></script>
+
+
+
+  </body>
+</html>

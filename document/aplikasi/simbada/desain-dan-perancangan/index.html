@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+    Desain dan Perancangan &middot; Document Management System
+  
+</title>
+
+<!-- Meta -->
+<meta name="description" content="Document Management System Provinsi Banten">
+<meta name="author" content="">
+
+<!-- Twitter -->
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Desain dan Perancangan">
+  <meta name="twitter:description" content="Sistem Informasi Manajemen Aset adalah sistem informasi berbasis intranet yang tujuannya menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada.">
+  <meta name="twitter:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+
+
+<!-- Facebook -->
+
+  <meta property="og:url" content="http://dms-01.dev.bantenprov.go.id/document/aplikasi/simbada/desain-dan-perancangan/">
+  <meta property="og:title" content="Desain dan Perancangan">
+  <meta property="og:description" content="Sistem Informasi Manajemen Aset adalah sistem informasi berbasis intranet yang tujuannya menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada.">
+  <meta property="og:type" content="website">
+
+<meta property="og:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:secure_url" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymouse">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymouse">
+
+<!-- Extras -->
+<link rel="stylesheet" href="/assets/css/app.css">
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico">
+
+  </head>
+  <body class="document-page">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    <header class="navbar navbar-expand-md navbar-dark site-navbar">
+  <a class="navbar-brand mr-2" href="/">
+    <img src="/assets/img/logo.png" width="36" height="36" alt="">
+    <span>DMS Bantenprov</span>
+  </a>
+
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#side-nav" aria-controls="side-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-3 order-1 site-sidebar">
+          <div class="collapse d-md-block" id="side-nav">
+  <div class="site-sidebar-nav-wrap">
+    <div class="nav flex-column">
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs01" href="/document/aplikasi/" aria-expanded="false" aria-controls="cs01">Aplikasi</a>
+        <div class="collapse js-sidenav" id="cs01">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/dashboard-pimpinan/" data-toggle="collapse" data-target="#cs0101" aria-expanded="false" aria-controls="cs0101">Dashboard Pimpinan</a>
+              <div class="collapse js-sidenav" id="cs0101">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal-pemerintah-provinsi-banten/" data-toggle="collapse" data-target="#cs0102" aria-expanded="false" aria-controls="cs0102">Portal Pemerintah Provinsi Banten</a>
+              <div class="collapse js-sidenav" id="cs0102">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/layanan-kesehatan/" data-toggle="collapse" data-target="#cs0103" aria-expanded="false" aria-controls="cs0103">Layanan Kesehatan</a>
+              <div class="collapse js-sidenav" id="cs0103">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/layanan-kesehatan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sop-online/" data-toggle="collapse" data-target="#cs0104" aria-expanded="false" aria-controls="cs0104">SOP Online</a>
+              <div class="collapse js-sidenav" id="cs0104">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/sop-online/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/banten-satu-data/" data-toggle="collapse" data-target="#cs0105" aria-expanded="false" aria-controls="cs0105">Banten Satu Data</a>
+              <div class="collapse js-sidenav" id="cs0105">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal/" data-toggle="collapse" data-target="#cs0106" aria-expanded="false" aria-controls="cs0106">Portal</a>
+              <div class="collapse js-sidenav" id="cs0106">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/potret/" data-toggle="collapse" data-target="#cs0107" aria-expanded="false" aria-controls="cs0107">Potret</a>
+              <div class="collapse js-sidenav" id="cs0107">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/potret/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/laporan-bulanan/" data-toggle="collapse" data-target="#csLapbul" aria-expanded="false" aria-controls="csLapbul">Laporan Bulanan</a>
+              <div class="collapse js-sidenav" id="csLapbul">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/laporan-bulanan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sistem-informasi-barang-daerah/" data-toggle="collapse" data-target="#cs0108" aria-expanded="false" aria-controls="cs0108">Sistem Informasi Barang Daerah</a>
+              <div class="collapse js-sidenav" id="cs0108">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/helpdesk/" data-toggle="collapse" data-target="#cs0109" aria-expanded="false" aria-controls="cs0109">Helpdesk</a>
+              <div class="collapse js-sidenav" id="cs0109">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/helpdesk/about-helpdesk/">About Helpdesk</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/palapa/" data-toggle="collapse" data-target="#cs01010" aria-expanded="false" aria-controls="cs01010">Palapa</a>
+              <div class="collapse js-sidenav" id="cs01010">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/palapa/about-palapa/">About Palapa</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/simbada/" data-toggle="collapse" data-target="#cs01011" aria-expanded="false" aria-controls="cs01011">Simbada</a>
+              <div class="collapse js-sidenav" id="cs01011">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/simbada/about-simbada/">About Simbada</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs02" href="/document/sop/" aria-expanded="false" aria-controls="cs02">SOP</a>
+        <div class="collapse js-sidenav" id="cs02">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/sop/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs03" href="/document/konsep/" aria-expanded="false" aria-controls="cs03">Konsep</a>
+        <div class="collapse js-sidenav" id="cs03">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/konsep/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        </div>
+        <main class="col-12 col-md-9 col-xl-9 py-3 pl-md-5 order-2 site-content" role="main">
+
+          <nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/document/">Document</a>
+    </li>
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/">Aplikasi</a>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/simbada/">Simbada</a>
+      </li>
+    
+
+    
+      <li class="breadcrumb-item active">
+        Desain dan Perancangan
+      </li>
+    
+  </ol>
+</nav>
+
+
+          <h1 class="document-title" id="content">Desain dan Perancangan</h1>
+          <p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/20171110_cover-simbada.jpeg"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/20171110_cover-simbada.jpeg" alt="cover" /></a></p>
+
+<h2 id="abstrak">ABSTRAK</h2>
+<p>Sistem Informasi Manajemen Aset adalah sistem informasi berbasis intranet yang tujuannya menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada.</p>
+
+<p>Untuk mengatasi masalah tersebut penulis mengantisipasi dengan menggunakan beberapa metode diantaranya, metode pengumpulan data seperti wawancara, dan studi pustaka, dan metode analisis. Sistem Informasi yang di gunakan dengan bahasa pemrograman <em>Ubuntu 17.04</em> serta menggunakan <em>Libre Office Writter 5</em> dengan komputer server berbasis LINUX.</p>
+
+<h2 id="daftar-isi">DAFTAR ISI</h2>
+
+<ul id="markdown-toc">
+  <li><a href="#abstrak" id="markdown-toc-abstrak">ABSTRAK</a></li>
+  <li><a href="#daftar-isi" id="markdown-toc-daftar-isi">DAFTAR ISI</a></li>
+  <li><a href="#1-pendahuluan" id="markdown-toc-1-pendahuluan">1. PENDAHULUAN</a>    <ul>
+      <li><a href="#11-latar-belakang" id="markdown-toc-11-latar-belakang">1.1 Latar Belakang</a></li>
+      <li><a href="#12-tujuan" id="markdown-toc-12-tujuan">1.2 Tujuan</a></li>
+      <li><a href="#13-manfaat" id="markdown-toc-13-manfaat">1.3 Manfaat</a></li>
+      <li><a href="#14-karakteristik-produk" id="markdown-toc-14-karakteristik-produk">1.4 Karakteristik Produk</a></li>
+    </ul>
+  </li>
+  <li><a href="#2-metode-penelitian" id="markdown-toc-2-metode-penelitian">2. METODE PENELITIAN</a>    <ul>
+      <li><a href="#21-metode-yang-digunakan" id="markdown-toc-21-metode-yang-digunakan">2.1 Metode yang Digunakan</a></li>
+      <li><a href="#22-metode-pengumpulan-data" id="markdown-toc-22-metode-pengumpulan-data">2.2 Metode Pengumpulan Data</a></li>
+      <li><a href="#23-metode-analisis" id="markdown-toc-23-metode-analisis">2.3 Metode Analisis</a></li>
+    </ul>
+  </li>
+  <li><a href="#3-hasil-dan-pembahasan" id="markdown-toc-3-hasil-dan-pembahasan">3. HASIL DAN PEMBAHASAN</a>    <ul>
+      <li><a href="#31-modul" id="markdown-toc-31-modul">3.1 Modul</a></li>
+      <li><a href="#32-perencanaan-aplikasi" id="markdown-toc-32-perencanaan-aplikasi">3.2 Perencanaan Aplikasi</a></li>
+      <li><a href="#33-perancangan-sistem" id="markdown-toc-33-perancangan-sistem">3.3 Perancangan Sistem</a>        <ul>
+          <li><a href="#331-use-case-diagram" id="markdown-toc-331-use-case-diagram">3.3.1 <em>Use Case Diagram</em></a></li>
+          <li><a href="#332-sequence-diagram" id="markdown-toc-332-sequence-diagram">3.3.2 <em>Sequence Diagram</em></a></li>
+          <li><a href="#333-activity-diagram" id="markdown-toc-333-activity-diagram">3.3.3 <em>Activity Diagram</em></a></li>
+          <li><a href="#334-state-chart-diagram" id="markdown-toc-334-state-chart-diagram">3.3.4 <em>State Chart Diagram</em></a></li>
+          <li><a href="#335-deployment-diagram" id="markdown-toc-335-deployment-diagram">3.3.5 Deployment Diagram</a></li>
+          <li><a href="#336-technology-stack-diagram" id="markdown-toc-336-technology-stack-diagram">3.3.6 Technology Stack Diagram</a></li>
+        </ul>
+      </li>
+      <li><a href="#34-tahapan-pekerjaan" id="markdown-toc-34-tahapan-pekerjaan">3.4 Tahapan Pekerjaan</a></li>
+      <li><a href="#35-hasil" id="markdown-toc-35-hasil">3.5 Hasil</a>        <ul>
+          <li><a href="#351-layout-tampilan-login" id="markdown-toc-351-layout-tampilan-login">3.5.1 Layout Tampilan Login</a></li>
+          <li><a href="#352-layout-tampilan-dashboard" id="markdown-toc-352-layout-tampilan-dashboard">3.5.2 Layout Tampilan Dashboard</a></li>
+          <li><a href="#353-layout-tampilan-list-aset" id="markdown-toc-353-layout-tampilan-list-aset">3.5.3 Layout Tampilan List Aset</a></li>
+          <li><a href="#353-layout-tampilan-input-aset" id="markdown-toc-353-layout-tampilan-input-aset">3.5.3 Layout Tampilan Input Aset</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#4-penutup" id="markdown-toc-4-penutup">4. PENUTUP</a></li>
+</ul>
+
+<h2 id="1-pendahuluan">1. PENDAHULUAN</h2>
+<h3 id="11-latar-belakang">1.1 Latar Belakang</h3>
+<p>Sejak dilaksanakanya otonomi daerah pada tahun 1999, tuntutan good governance bagi
+Pemerintah Daerah sangat tinggi. Otonomi daerah juga harus disadari sebagai suatu transformasi paradigma dalam penyelenggaraan pembangunan dan pemerintahan daerah, dimana pemerintah daerah memiliki otonomi yang lebih luas untuk mengelola sumber-sumber ekonomis daerah secara mandiri dan bertanggung jawab, yang hasilnya akan diorientasikan untuk meningkatkan kesejahteraan rakyat daerah tesebut.</p>
+
+<p>Pemanfaatan teknologi informasi mencakup 2(dua) aktivitas yaitu, 1) pengolahan data, pengolahan informasi, sistem manajemen dan proses kerja secara elektronik. 2) pemanfaatan teknologi informasi agar pelayanan publik dapat diakses secara mudah oleh masyarakat.</p>
+
+<p>Melihat semakin majunya perkembangan teknologi sekarang ini, dibutuhkan suatu sistem informasi yang bisa memudahkan serta meningkatkan efisiensi kinerja dalam berbagai hal. Hasil dari sistem informasi yang baik adalah sistem informasi yang memudahkan dan berguna bagi instansi yang menggunakan. Seiring dengan berkembangnya teknologi informasi dengan pesat dan banyaknya kebutuhan dalam teknologi informasi, dimana banyak instansi yang ingin menggunakan teknologi yang ada secara optimal sesuai kebutuhan demi mencapai hasil kerja yang baik bagi instansi tersebut.</p>
+
+<p>Pengelolaan aset yang berjalan saat ini memiliki kendala antara lain pencatatan dan perhitungan penyusutan aset tetap belum maksimal, membutuhkan waktu yang cukup lama untuk menghitung penyusutan aset tetap, dalam penyajian laporan yang kurang cepat dan akurat. Sistem Informasi Manajemen Aset adalah sebuah sistem informasi berbasis web dimana yang bertujuan untuk mengelola data-data aset tetap yang dimiliki setiap daerah. Dengan adanya sistem seperti ini diharapkan pengelolaan data aset-aset tetap milik daerah terorganisir dengan baik.</p>
+
+<h3 id="12-tujuan">1.2 Tujuan</h3>
+<p>Tujuan dari pengembangan sistem informasi manajemen aset dan persediaan barang adalah sebagai berikut :</p>
+<ol>
+  <li>Membuat rancangan sistem informasi manajemen aset dan persedian barang yang valid.</li>
+  <li>Menciptakan Keefektifan dalam kerja, sehingga pengolaan aset bisa dilakukan dengan baik.</li>
+  <li>Meningkatkan tertib administrasi pengelolaan barang daerah/aset daerah secara umum.</li>
+</ol>
+
+<h3 id="13-manfaat">1.3 Manfaat</h3>
+<p>maanfaat atau target dari penyusunan sistem informasi manajemen aset ini adalah :</p>
+<ol>
+  <li>Ketaatan kepada peraturan pengelolaan barang daerah/aset daerah.</li>
+  <li>Kemudahan dalam mengakses informasi mengenai barang daerah.</li>
+  <li>Keakuratan dalam menghitung nilai-nilai suatu dokumen/laporan yang dihasilkan.</li>
+</ol>
+
+<h3 id="14-karakteristik-produk">1.4 Karakteristik Produk</h3>
+<ol>
+  <li>Dapat menyajikan informasi setiap barang daerah secara keseleruhan pada pemerintahan maupun per-satuan kerja.</li>
+  <li>Di kembangkan menggunakan <em>framework</em> atau biasa kita kenal dengan berbasis web.</li>
+  <li><em>User friendly</em> (menggunakan <em>interface</em>/antar muka yang mudah digunakan oleh user)</li>
+</ol>
+
+<h2 id="2-metode-penelitian">2. METODE PENELITIAN</h2>
+<p>Untuk memperoleh data yang dapat menunjang aplikasi ini, maka di perlukan data teoritis dan data dinas terkait untuk mendapatkan data dan informasi yang berhubungan dengan aplikasi ini.
+Adapun penyusun melakukan beberapa penelitian yang dilakukan dengan :</p>
+<h3 id="21-metode-yang-digunakan">2.1 Metode yang Digunakan</h3>
+<p>Penulis menggunakan metode <em>Prototyping</em> untuk melakukan perancangan sistem informasi berbasis web.</p>
+
+<ul>
+  <li>Ilustrasi alur <em>Prototyping</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/alur-prototype/alur-prototype.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/alur-prototype/alur-prototype.png" alt="Ilustrasi Alur Prototyping" /></a></li>
+</ul>
+
+<h3 id="22-metode-pengumpulan-data">2.2 Metode Pengumpulan Data</h3>
+<p>Untuk mengumpulkan data yang diperlukan untuk membangun sistem ini diadakan wawancara dan studi pustaka. Pengumpulan data ini dilakukan untuk mengetahui permasalahan dan gambaran sistem yang sedang berjalan sehingga dapat mengembangkannya untuk membentuk sistem baru yang dapat mendukung sistem yang sedang berjalan.</p>
+<ul>
+  <li>Wawancara ini dilakukan kepada Pemprov Banten. Wawancara dilakukan kepada sistem analist Pemprov Banten untuk mengetahui permasalahan dalam proses pendataan yang sedang berjalan sekarang.</li>
+  <li>Studi pustaka, melakukan pengumpulan informasi dari buku text, internet sebagai referensi.</li>
+</ul>
+
+<h3 id="23-metode-analisis">2.3 Metode Analisis</h3>
+<p>Pada metode ini dibuat aplikasi dengan melakukan analisis terhadap sistem yang sedang berjalan, analisis permasalahan yang ada, dan memberikan solusi untuk mengatasi permasalahan yang ada.</p>
+
+<h2 id="3-hasil-dan-pembahasan">3. HASIL DAN PEMBAHASAN</h2>
+<h3 id="31-modul">3.1 Modul</h3>
+<p>Modul-modul Sistem Informasi Manajemen Aset dan Persediaan Barang yang dikerjakan sebagian besar adalah sebagai berikut :</p>
+<ol>
+  <li>
+    <p>Perencanaan
+  Perencanaan kebutuhan barang milik daerah disusun oleh masing-masing unit sesuai Rencana Kerja dan Anggaran Organisasi Perangkat Daerah (RKA-OPD) dengan memperhatikan standarisasi sarana dan prasarana kerja pemerintah daerah.</p>
+  </li>
+  <li>Pengadaan
+  Modul pengadaan ini berfungsi untuk mengelola data hasil pengadaan barang.
+  Modul pengadaaan ini dibagi menjadi 3(tiga) jenis pengadaan, yaitu sebagai berikut:
+    <ul>
+      <li>Pengadaan Barang Inventaris</li>
+      <li>Pengadaan Barang Pakai Habis</li>
+      <li>Pengadaan Pemeliharaan</li>
+    </ul>
+  </li>
+  <li>Penyimpanan dan Penyaluran
+  Modul penyimpanan dan pengeluaran ini berfungsi untuk menuangkan data penyimpanan barang hasil pengadaan, dan pengeluaran barang dari gudang.
+    <ul>
+      <li>penyimpanan
+penyimpanan barang daerah dilaksanakan dalam rangka pengurusan, penyelenggaraan, dan pengaturan barang penyediaan di dalam gudang/ruang penyimpanan sehingga dalam pengurusan barang persediaan barang agar setiap waktu diperlukan dapat dilayani dengan cepat dan akurat.
+Yang dihasilkan dari modul ini :</li>
+    </ul>
+  </li>
+  <li>Laporan buku barang inventaris</li>
+  <li>Laporan buku barang pakai habis</li>
+  <li>Laporan buku hasil pengadaan</li>
+  <li>Laporan kartu barng</li>
+  <li>Laporan kartu persediaan barang
+    <ul>
+      <li>Penyaluran</li>
+      <li>Sub modul penyaluran ini berfungsi untuk mencatat data barang yang keluar dari gudang ke unit kerja.
+Yang dihasilkan dari modul ini :</li>
+    </ul>
+  </li>
+  <li>Laporan buku penerimaan barang</li>
+  <li>Laporan buku pengeluaran barang</li>
+  <li>Laporan semester tentang penerimaan dan pengeluaran barang inventaris</li>
+  <li>Laporan semester tentang penerimaan dan pengeluaran barang habis pakai</li>
+  <li>
+    <p>laporan Stokopname</p>
+  </li>
+  <li>Penatausahaan
+  Dalam penatausahaan barang daerah dilakukan 3(tiga) kegiatan yang meliputi kegiatan pembukuan,inventarisasi, pelaporan.
+    <ul>
+      <li>Kartu Inventaris Barang (KIB) A, Tanah
+Sub Modul ini berfungsi untuk menghasilkan laporan barang-barang inventaris khususnya tanah.</li>
+      <li>Kartu Inventaris Barang (KIB) B, Mesin
+Sub modul ini berfungsi untuk mengelola data barang inventaris peralatan dan mesin.</li>
+      <li>Kartu Inventaris Barang (KIB) C, Gedung dan Bangunan
+Sub modul ini berfungsi untuk mengelola data barang inventaris gedung dan bangunan.</li>
+      <li>Kartu Inventaris Barang (KIB) D, Jalan, Irigasi dan Jaringan
+Sub modul ini berfungsi untuk mengelola data barang inventaris jalan, irigasi dan jaringan.</li>
+      <li>Kartu Inventaris Barang (KIB) E, Aset tetap lainnya
+Sub modul ini berfungsi untuk mengelola data aset daerah yang tidak termasuk dalam KIB A sampai dengan KIB D.</li>
+      <li>Kartu Inventaris Barang (KIB) F, Konstruksi dalam pengerjaan
+Sub modul ini berfungsi untuk mengelola data aset daerah yang dalam proses pengerjaan, dengan adanya KIB ini maka untuk proyek yang lebih dari satu tahun dapat didata sebagai barang daerah, walaupun belum selesai pengerjaan.</li>
+      <li>Buku Inventaris
+Sub modul ini berfungsi untuk menampilkan data seluruh jenis barang daerah berdasarkan bidang pemerintahan dan OPD, dimana dari KIB A, KIB B, KIB C, KIB D, KIB E, KIB F digabung menjadi satu dalam bentuk laporan di buku inventaris.</li>
+      <li>Rekapitulasi Buku Inventaris
+Sub modul ini berfungsi menampilkan rekapitulasi dari buku inventaris berdasarkan golongan barang dan bidang barang.</li>
+      <li>Kartu Inventaris ruangan
+Modul ini berfungsi untuk mencatat barang-barang inventaris yang berada disuatu ruangan untuk masing-masing unit. Modul ini kelola oleh masing-masing unit kerja pada tahun anggran tertentu.</li>
+      <li>Daftar aset tak berwujud
+Laporan ini menampilkan data aset tak berwujud seperti, <em>Software computer</em>, lisesnsi dan <em>franchise</em>, hak cipta <em>(copyright)</em>, paten atau hak lainnya, hasil kajian suatu penelitian yang memberikan manfaat jangka panjang.</li>
+      <li>Daftar aset lainnya
+Laporan daftar aset lainnya adalah laporan dari barang/aset yang dipisahkan dari KIB, dikarenakan dihentikan dari penggunaan aktif dan tidak memenuhi definisi aset tetap, kondisi barang tidak dapat digunakan atau hilang tetapi belum di SK kan, atau kondisi lainnya sehingga perlu dipisahkan dari KIB.</li>
+      <li>Penetapan Status Penggunaan Barang Milik Daerah
+Laporan yang akan digunakan untuk lampiran surat keputusan kepala daerah tentang penetapan status penggunaan barang daerah.</li>
+      <li>Laporan Mutasi Barang
+Menampilkan data mutasi secara rinci, yaitu bertambah dan berkurangnya mutasi pada periode tertentu (mutasi pertahun atau mutasi per semester).</li>
+      <li>Rekapitulasi Mutasi Barang
+Laporan rekapitulasi mutasi barang menampilkan rekap transaksi setiap OPD pada periode tertentu atau pada tahun berjalan, setiap OPD akan ditampilkan saldo awal ditambah bertambah ( Pengadaan APBD + rekon + mutasi OPD masuk + mutasi kode barang + mutasi aset lain-lain ) dikurangi berkurang ( SK penghapusan + Ekstracomtable + mutasi OPD keluar + mutasi kode barang + mutasi aset lain-lain ), sebelah kanan akan ditampilkan saldo akhir dari masing-masing OPD.</li>
+      <li>Daftar Barang hasil Rekon
+laporan ini menampilkan daftar barang yang di inputkan pada tahun berjalan yang bukan hasil belanja, tetapi dari hasil rekon atau hasil temuan barang yang belum tercatat dalam aset.</li>
+      <li>Daftar Barang Ekstracomtable
+Laporan ini menampilkan data belanja pada tahun berjalan yang nilai barangnya dibawah nilai kapitalisasi, dimana data ini dipisahkan sehingga tidak masuk menjadi aset, tetapi menjadi barang persediaan.</li>
+      <li>Daftar Mutasi kode barang (Reklasifikasi Barang)
+Laporan ini menampilkan data hasil reklasifikasi barang pada tahun berjalan, yang dimaksud dengan reklasifikasi barang disini adalah apabila pada pencatatan tahun sebelumnnya terdapat kesalahan pemberian kode barang, sehingga barang yang dimaskud dengan kode barang tidak cocok.</li>
+      <li>Daftar Mutasi Barang antar OPD berkurang
+Laporan ini menampilkan daftar mutasi barang berkurang pada tahun berjalan, yaitu yang pindah ke OPD lain.</li>
+      <li>Daftar Mutasi Barang antar OPD bertambah
+Laporan ini menampilkan daftar mutasi barang bertambah pada tahun berjalan, yaitu yang masuk dari OPD lain.</li>
+      <li>Daftar Penyusutan Aset
+Laporan ini menampilkan daftar barang yang mempunyai nilai penyusutan.</li>
+      <li><em>Eksecutive Summary</em>
+Laporan ini menampilkan rekapitulasi aset per golongan barang per OPD.</li>
+      <li>Rekap Daftar Mutasi Barang
+Adalah laporan yang menampilkan saldo awal, bertambah, berkurang, saldo akhir yang dikelompokan berdasarkan bidang barang, dimana bisa ditampilkan per OPD atau seluruhnya, dalam suatu pemerintahan daerah.</li>
+    </ul>
+  </li>
+</ol>
+
+<h3 id="32-perencanaan-aplikasi">3.2 Perencanaan Aplikasi</h3>
+<p>Sistem informasi manajemen aset dan pengadaan barang berbasis web adalah sistem pengelola data-data aset tetap milik pemerintah, yang dimana sistem informasi ini akan membantu mempermudah <em>user</em> dalam mengelola aset tetap dan penyediaan barang milik pemerintah.</p>
+
+<h3 id="33-perancangan-sistem">3.3 Perancangan Sistem</h3>
+<p>Permodelan rancangan sistem yang digunakan adalah UML <em>(Unified Modeling Language)</em>. Menurut Whitten dan Bentley (2007, p.381), Unified Modeling Language adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda – beda. UML yang digunakan terdiri dari use case diagram, state chart diagram, sequence diagram, activity diagram, class diagram, deployment diagram dan technology stack diagram.</p>
+
+<h4 id="331-use-case-diagram">3.3.1 <em>Use Case Diagram</em></h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/use-case/20171023_use-case-diagram-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/use-case/20171023_use-case-diagram-aset.png" alt="Use Case Diagram" /></a></p>
+
+<h4 id="332-sequence-diagram">3.3.2 <em>Sequence Diagram</em></h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/sequence-diagram/sequence-diagram-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/sequence-diagram/sequence-diagram-aset.png" alt="Sequence Diagram" /></a></p>
+
+<h4 id="333-activity-diagram">3.3.3 <em>Activity Diagram</em></h4>
+<ul>
+  <li>
+    <p><em>Activity Diagram Login Admin</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/20171014_activity-diagram-login-admin.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/20171014_activity-diagram-login-admin.png" alt="Activity Diagram Login Admin" /></a></p>
+  </li>
+  <li>
+    <p><em>Activity Diagram Input Data Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-input-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-input-aset.png" alt="Activity Diagram Input Data Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>Activity Diagram Lihat Data Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-lihat-laporan-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-lihat-laporan-aset.png" alt="Activity Diagram Lihat Data Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>Activity Diagram Edit Data Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-edit-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-edit-aset.png" alt="Activity Diagram Edit Data Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>Activity Diagram Hapus Data Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-hapus-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-hapus-aset.png" alt="Activity Diagram Hapus Data Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>Activity Diagram Cetak Data Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-cetak-laporan-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/activity-diagram/activity-diagram-cetak-laporan-aset.png" alt="Activity Diagram Cetak Data Aset" /></a></p>
+  </li>
+</ul>
+
+<h4 id="334-state-chart-diagram">3.3.4 <em>State Chart Diagram</em></h4>
+<ul>
+  <li>
+    <p><em>State Chart Diagram Login Admin</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-login-admin.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-login-admin.png" alt="State Chart Diagram Login Admin" /></a></p>
+  </li>
+  <li>
+    <p><em>State Chart Diagram Input Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-input-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-input-aset.png" alt="State Chart Diagram Input Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>State Chart Diagram Lihat Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-lihat-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-lihat-aset.png" alt="State Chart Diagram Lihat Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>State Chart Diagram Edit Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-edit-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-edit-aset.png" alt="State Chart Diagram Edit Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>State Chart Diagram Hapus Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/20171023_state-chart-diagram-hapus-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-hapus-aset.png" alt="State Chart Diagram Hapus Aset" /></a></p>
+  </li>
+  <li>
+    <p><em>State Chart Diagram Cetak Aset</em>
+<a href="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-export-aset.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/state-chart-diagram/state-chart-diagram-export-aset.png" alt="State Chart Diagram Cetak Aset" /></a></p>
+  </li>
+</ul>
+
+<h4 id="335-deployment-diagram">3.3.5 Deployment Diagram</h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/dep-tec-class/deployment-diagram.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/dep-tec-class/deployment-diagram.png" alt="Deployment Diagram" /></a></p>
+
+<h4 id="336-technology-stack-diagram">3.3.6 Technology Stack Diagram</h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/dep-tec-class/20171013_technology-stack-diagram.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/dep-tec-class/technology-stack-diagram.png" alt="Technology Stack Diagram" /></a></p>
+
+<h3 id="34-tahapan-pekerjaan">3.4 Tahapan Pekerjaan</h3>
+<p>Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Informasi Manajemen Aset dan Persediaan Barang adalah sebagai berikut :</p>
+<ol>
+  <li>Survey
+  Tim pengguna aplikasi akan melakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, fasilitas yang akan dibangun, data-data yang akan dibutuhkan, Dll.</li>
+  <li>Analisis dan perancangan sistem</li>
+  <li>Analisis dan perancangan sistem dilakukan setelah melakukan proses survey. Analisis dan perancangan sistem meliputi kegiatan : penetapan alur data/dokumen, penetapan produser, perancangan database, perancangan form dan perancangan <em>interface</em>/dialog layar.</li>
+  <li>Pembangunan sistem
+  Setelah melakukan survey dan perancangan sistem selesai dilakukan, tahapan selanjutnya adalah pembangunan sistem, yang meliputi : pembuatan struktur database, pembuatan kode program/coding, pembuatan laporan laporan.</li>
+  <li>Testing Sistem
+  Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode <em>prototyping</em> yaitu jika terjadi kesalahan/kekurangan baik proses ataupun output sistem, maka kesalahan tersebut akan diperbaiki/ditambahkan.</li>
+  <li>Pelatihan <em>(training)</em>
+  Pelatihan ini diberikan kepada operator pada satuan kerja dan operator serta administrator pada bagian kelengkapan/badan pengelola keuangan daerah. Pelatihan yang diberikan kepada operator meliputi penggunaan aplikasi dan <em>trobleshooting</em> secara umum, sedangkan pelatihan yang diberikan administrator meliputi penggunaan program secara keseluruhan, struktur database,sinkronisasi data dan <em>trobleshooting</em> secara mendetail.</li>
+  <li>Implementasi Sistem
+  Sistem akan dijalankan <em>(running)</em> jika sudah tidak ada permasalahan yang akan ditemukan dalam testing sistem. Akan tetapi tidak menutup kemungkinan jika masih terdapat kekurangan karena terjadinya perubahan peraturan maupun kebijakan yang mengharuskan perancangan ulang.</li>
+</ol>
+
+<h3 id="35-hasil">3.5 Hasil</h3>
+<p>Berikut ini adalah hasil eksekusi sistem informasi manajemen aset dan persedian barang.</p>
+<h4 id="351-layout-tampilan-login">3.5.1 Layout Tampilan Login</h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-login.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-login.png" alt="Layout Tampilan Login" /></a></p>
+
+<h4 id="352-layout-tampilan-dashboard">3.5.2 Layout Tampilan Dashboard</h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-dashboard.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-dashboard.png" alt="Layout Tampilan Dashboard" /></a></p>
+
+<h4 id="353-layout-tampilan-list-aset">3.5.3 Layout Tampilan List Aset</h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-list-laporan.png"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-list-laporan.png" alt="Layout Tampilan List Aset" /></a></p>
+
+<h4 id="353-layout-tampilan-input-aset">3.5.3 Layout Tampilan Input Aset</h4>
+<p><a href="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-input-aset"><img src="/document/aplikasi/simbada/images/desain-dan-perancangan/design-tampilan/layout-input-aset.png" alt="Layout Tampilan List Aset" /></a></p>
+
+<h2 id="4-penutup">4. PENUTUP</h2>
+<p>Dengan adanya pengembangan dari sistem informasi manajemen aset dan persedian barang ini untuk meningkatkan kinerja sistem yang telah ada dan berjalan sebelumnya menjadi lebih rapih dan tertata sehingga hasil yang dicapai pada sistem informasi manajemen aset dan persedian barang ini mempunyai kelebihan untuk memperoleh data yang cepat, tepat dan akurat mengenai aset dan persedian barang di Pemprov Banten. Sistem memberikan kemudahan dalam beberapa hal seperti : pencatatan data, pendataulangan, perhitungan jumlah dan nilai barang aset.</p>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js" integrity="sha384-/vxW1AJwEERwlhBTV8gBqWHZ478ylzMX61rSs2tfC34GZvqd5dwQvxZEgE1iocoa" crossorigin="anonymous"></script>
+
+<script src="/assets/js/app.js"></script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 612" enable-background="new 0 0 612 612" xml:space="preserve">
+<g id="transparent" sodipodi:docname="heart.svg" inkscape:version="0.48.1 r9760" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+	<path id="bg" fill="#FFEBEE" fill-opacity="0" d="M612,510c0,56.1-45.9,102-102,102H102C45.9,612,0,566.1,0,510V102C0,45.9,45.9,0,102,0h408
+		c56.1,0,102,45.9,102,102V510z"/>
+	<g id="H" enable-background="new    " transform="matrix(1.36,0,0,1.4926829,-110.16,-174.6439)">
+		<path fill="#F44336" d="m 203.57153,117.51185 c -31.45566,0 -63.06293,10.23721 -87.06387,34.8065 -47.999879,49.13857 -46.682643,124.89387 0,174.03247 L 305.99962,527 495.4916,326.35082 c 46.68673,-49.1386 47.99781,-124.8939 0,-174.03247 -47.9978,-47.09113 -126.12995,-47.09113 -174.12776,0 l -15.36422,16.37953 -15.3642,-16.37953 c -24.00914,-24.56929 -55.60821,-34.8065 -87.06389,-34.8065 z"/>
+	</g>
+</g>
+</svg>

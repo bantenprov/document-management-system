@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+    Pengembangan &middot; Document Management System
+  
+</title>
+
+<!-- Meta -->
+<meta name="description" content="Document Management System Provinsi Banten">
+<meta name="author" content="">
+
+<!-- Twitter -->
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pengembangan">
+  <meta name="twitter:description" content="YANKES adalah sebuah aplikasi yang akan dikeluarkan oleh pemerintah provinsi Banten untuk mendukung terlaksananya kesehatan masyarakat yang lebih baik.">
+  <meta name="twitter:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+
+
+<!-- Facebook -->
+
+  <meta property="og:url" content="http://dms-01.dev.bantenprov.go.id/document/aplikasi/layanan-kesehatan/pengembangan/">
+  <meta property="og:title" content="Pengembangan">
+  <meta property="og:description" content="YANKES adalah sebuah aplikasi yang akan dikeluarkan oleh pemerintah provinsi Banten untuk mendukung terlaksananya kesehatan masyarakat yang lebih baik.">
+  <meta property="og:type" content="website">
+
+<meta property="og:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:secure_url" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymouse">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymouse">
+
+<!-- Extras -->
+<link rel="stylesheet" href="/assets/css/app.css">
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico">
+
+  </head>
+  <body class="document-page">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    <header class="navbar navbar-expand-md navbar-dark site-navbar">
+  <a class="navbar-brand mr-2" href="/">
+    <img src="/assets/img/logo.png" width="36" height="36" alt="">
+    <span>DMS Bantenprov</span>
+  </a>
+
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#side-nav" aria-controls="side-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-3 order-1 site-sidebar">
+          <div class="collapse d-md-block" id="side-nav">
+  <div class="site-sidebar-nav-wrap">
+    <div class="nav flex-column">
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs01" href="/document/aplikasi/" aria-expanded="false" aria-controls="cs01">Aplikasi</a>
+        <div class="collapse js-sidenav" id="cs01">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/dashboard-pimpinan/" data-toggle="collapse" data-target="#cs0101" aria-expanded="false" aria-controls="cs0101">Dashboard Pimpinan</a>
+              <div class="collapse js-sidenav" id="cs0101">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal-pemerintah-provinsi-banten/" data-toggle="collapse" data-target="#cs0102" aria-expanded="false" aria-controls="cs0102">Portal Pemerintah Provinsi Banten</a>
+              <div class="collapse js-sidenav" id="cs0102">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/layanan-kesehatan/" data-toggle="collapse" data-target="#cs0103" aria-expanded="false" aria-controls="cs0103">Layanan Kesehatan</a>
+              <div class="collapse js-sidenav" id="cs0103">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/layanan-kesehatan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sop-online/" data-toggle="collapse" data-target="#cs0104" aria-expanded="false" aria-controls="cs0104">SOP Online</a>
+              <div class="collapse js-sidenav" id="cs0104">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/sop-online/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/banten-satu-data/" data-toggle="collapse" data-target="#cs0105" aria-expanded="false" aria-controls="cs0105">Banten Satu Data</a>
+              <div class="collapse js-sidenav" id="cs0105">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal/" data-toggle="collapse" data-target="#cs0106" aria-expanded="false" aria-controls="cs0106">Portal</a>
+              <div class="collapse js-sidenav" id="cs0106">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/potret/" data-toggle="collapse" data-target="#cs0107" aria-expanded="false" aria-controls="cs0107">Potret</a>
+              <div class="collapse js-sidenav" id="cs0107">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/potret/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/laporan-bulanan/" data-toggle="collapse" data-target="#csLapbul" aria-expanded="false" aria-controls="csLapbul">Laporan Bulanan</a>
+              <div class="collapse js-sidenav" id="csLapbul">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/laporan-bulanan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sistem-informasi-barang-daerah/" data-toggle="collapse" data-target="#cs0108" aria-expanded="false" aria-controls="cs0108">Sistem Informasi Barang Daerah</a>
+              <div class="collapse js-sidenav" id="cs0108">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/helpdesk/" data-toggle="collapse" data-target="#cs0109" aria-expanded="false" aria-controls="cs0109">Helpdesk</a>
+              <div class="collapse js-sidenav" id="cs0109">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/helpdesk/about-helpdesk/">About Helpdesk</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/palapa/" data-toggle="collapse" data-target="#cs01010" aria-expanded="false" aria-controls="cs01010">Palapa</a>
+              <div class="collapse js-sidenav" id="cs01010">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/palapa/about-palapa/">About Palapa</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/simbada/" data-toggle="collapse" data-target="#cs01011" aria-expanded="false" aria-controls="cs01011">Simbada</a>
+              <div class="collapse js-sidenav" id="cs01011">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/simbada/about-simbada/">About Simbada</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs02" href="/document/sop/" aria-expanded="false" aria-controls="cs02">SOP</a>
+        <div class="collapse js-sidenav" id="cs02">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/sop/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs03" href="/document/konsep/" aria-expanded="false" aria-controls="cs03">Konsep</a>
+        <div class="collapse js-sidenav" id="cs03">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/konsep/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        </div>
+        <main class="col-12 col-md-9 col-xl-9 py-3 pl-md-5 order-2 site-content" role="main">
+
+          <nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/document/">Document</a>
+    </li>
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/">Aplikasi</a>
+      </li>
+    
+
+    
+
+    
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/layanan-kesehatan/">Layanan Kesehatan</a>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <li class="breadcrumb-item active">
+        Pengembangan
+      </li>
+    
+  </ol>
+</nav>
+
+
+          <h1 class="document-title" id="content">Pengembangan</h1>
+          <p>YANKES adalah sebuah aplikasi yang akan dikeluarkan oleh pemerintah provinsi Banten untuk mendukung terlaksananya kesehatan masyarakat yang lebih baik. Didalam aplikasi ini masyarakat dapat mengakses informasi kesehatan yang terdapat di Banten, seperti melihat dokter, ruang rawat inap, info rumah sakit, jadwal dokter jaga dan informasi - informasi terkait kesehatan yang terdapat di Banten.</p>
+
+<p>Didalam aplikasi ini terdapat 3 <em>actor</em>  yang terlibat dalam pemakaian aplikasi yaitu: Super Admin, Admin Rumah Sakit dan <em>User</em> (Pasien dan Dokter) yang masing - masing dari <em>actor</em> ini mempunyai aktifitas yang berbeda antara satu dengan lainnya.</p>
+
+<p>Berikut ini adalah tampilan - tampilan yang terdapat didalam apliaksi YANKES:</p>
+
+<h2 id="tampilan-super-admin">Tampilan Super Admin</h2>
+
+<p><strong>Tampilan Login Super Admin</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_login-ars-dan-sa.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_login-ars-dan-sa.png" alt="Login Super Admin" /></a>
+Disaat membuka aplikasi YANKES untuk admin maka akan timbul <em>page login</em>. Disini terdapat 2 <em>field</em> yang harus diisi oleh super admin agar super admin dapat masuk kedalam halama utama super admin.</p>
+
+<p><strong>Dashboard Super Admin</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-halaman-depan.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-halaman-depan.png" alt="Dashboard Super Admin" /></a>
+Didalam <em>page</em> ini terdapat beberapa <em>list menu</em> yang dapat diolah oleh super admin yang akan terintegrasi dengan aplikasi YANKES. Didalam aplikasi super admin juga dapat melihat berapa jumlah pengunjung aplikasi YANKES dan berita berita yang diinput kedalam YANKES.</p>
+
+<p><strong>Tampilan Konten Admin Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-admin-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-admin-rs.png" alt="Konten Admin Rumah Sakit" /></a>
+Didalam <em>page</em> ini super admin dapat melihat siapa saja admin rumah sakit beserta informasi tentang admin rumah sakit tersebut. Dalam <em>page</em> ini super admin juga dapat menambahkan admin rumah sakit dengan cara memilih tombol “ <em>New Admin</em> (RS) “</p>
+
+<p><strong>Tampilan Tambah Admin RS</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-admin-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-admin-rs.png" alt="Tambah Admin RS" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> admin RS yang terdapat beberapa <em>field</em> yang harus diisi oleh super admin agar dapat menambahkan admin RS, setelah mengisi <em>field</em> yang tersedia super admin harus memilih tombiol “ <em>ADD</em> “. Jika terdapat kesalahan dalam pengisian baik sudah ada admin RS maupun kurang lengkap nya pengisian maka secara otomatis akan kembali kedalam <em>page form input</em> dan jika berhasil akan dialihkan kedalam <em>page</em> admin rumah sakit.</p>
+
+<p><strong>Tampilan Konten Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-dokter.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-dokter.png" alt="Tampilan Konten Dokter" /></a>
+Didalam <em>page</em> ini super admin dapat melihat, mengedit, menambahkan dan menghapus data dokter.</p>
+
+<p><strong>Tampilan Tambah Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-dokter.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-dokter.png" alt="Tambah Dokter" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> dokter yang harus diisi oleh super admin untuk bisa menambahkan dokter. Jika data sudah ada atau kurang lengkap maka ketika menekan tombol “ <em>ADD</em> “ akan kembali kedalam page tambah dokter dan jika tidak ada masalah maka akan dialihkan ke <em>page</em> dokter.</p>
+
+<p><strong>Tampilan Konten Berita</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-berita.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-berita.png" alt="Tampilan Berita" /></a>
+Dalam <em>page</em> ini super admin dapat melihat berita apa saja yang dapat diinput kedalam aplikasi YANKES, didalam <em>page</em> ini juga terdapat tombol untuk menambahkan berita. Didalam <em>page</em> ini juga terdapat tombol untuk menghapus ataupun mengedit berita yang sudah ada.</p>
+
+<p><strong>Tampilan Tambah Berita</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-berita.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-berita.png" alt="Tambah Berita" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> berita yang harus diisi oleh super admin untuk bisa menambahkan berita. Jika data sudah ada atau kurang lengkap maka ketika menekan tombol “ <em>ADD</em> “ akan kembali kedalam page tambah berita dan jika tidak ada masalah maka akan dialihkan ke <em>page</em> Berita.</p>
+
+<p><strong>Tampilan Konten Artikel</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-artikel.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-lihat-artikel.png" alt="Lihat Artikel" /></a>
+Dalam <em>page</em> ini super admin dapat melihat artikel apa saja yang dapat diinput kedalam aplikasi YANKES, didalam <em>page</em> ini juga terdapat tombol untuk menambahkan artikel. Didalam <em>page</em> ini juga terdapat tombol untuk menghapus ataupun mengedit artikel yang sudah ada.</p>
+
+<p><strong>Tampilan Tambah Artikel</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-artikel.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_sa-input-artikel.png" alt="Tambah Artikel" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> artikel yang harus diisi oleh super admin untuk bisa menambahkan artikel. Jika data sudah ada atau kurang lengkap maka ketika menekan tombol “ <em>ADD</em> “ akan kembali kedalam page tambah artikel dan jika tidak ada masalah maka akan dialihkan ke <em>page</em> Artikel.</p>
+
+<h2 id="tampilan-admin-rumah-sakit">Tampilan Admin Rumah Sakit</h2>
+
+<p><strong>Tampilan Login Admin</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_login-ars-dan-sa.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_login-ars-dan-sa.png" alt="Login Super Admin" /></a>
+Disaat membuka aplikasi YANKES untuk admin maka akan timbul <em>page login</em>. Disini terdapat 2 <em>field</em> yang harus diisi oleh admin agar admin dapat masuk kedalam halama utama admin.</p>
+
+<p><strong>Dashboard Admin RS</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-tampilan-depan.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-tampilan-depan.png" alt="Dashboard Admin RS" /></a>
+Didalam <em>page</em> ini terdapat <em>list menu</em> disebelah kiri <em>page</em> dan terdapat mengenai informasi yang terdapat di aplikasi YANKES disebelah kanan <em>page</em>.</p>
+
+<p><strong>Tampilan Konten Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-dokter.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-dokter.png" alt="Tampilan Konten dokter" /></a>
+Didalam <em>page</em> ini admin rumah sakit dapat melihat, mengedit dan menghapus data dokter dari aplikasi serta dapat menambahkan dokter dengan memilih tombol “ <em>New Doctor</em> “.</p>
+
+<p><strong>Tampilan Tambah Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-dokter.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-dokter.png" alt="Tambah Dokter" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> dokter yang harus diisi oleh admin rs untuk menambahkan dokter. Jika data dokter sudah ada atau tidak lengkap maka memilih tombol “<em>ADD</em> “ akan kembali kedalam <em>page</em> tambah dokter sedangkan jika berhasil akan pindah ke <em>page</em> dokter.</p>
+
+<p><strong>Tampilan Konten Dokter Jaga</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-dokter-jaga.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-dokter-jaga.png" alt="Tampilan Konten Dokter Jaga" /></a>
+Didalam <em>page</em> ini admin rumah sakit dapat melihat, mengedit dan menghapus data dokter jaga dari aplikasi serta dapat menambahkan dokter jaga dengan memilih tombol “ <em>Add Dokter jaga</em> “.</p>
+
+<p><strong>Tampilan Tambah Dokter Jaga</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-dokter-jaga.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-dokter-jaga.png" alt="Tambah Dokter Jaga" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> dokter jaga yang harus diisi oleh admin rs untuk menambahkan dokter jaga. Jika data dokter jaga sudah ada atau tidak lengkap maka memilih tombol “<em>ADD</em> “ akan kembali kedalam <em>page</em> tambah dokter jaga sedangkan jika berhasil akan pindah ke <em>page</em> dokter jaga.</p>
+
+<p><strong>Tampilan Konten Layanan</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-layanan.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-layanan.png" alt="Tampilan Konten Dokter Jaga" /></a>
+Didalam <em>page</em> ini admin rumah sakit dapat melihat, mengedit dan menghapus data layanan pada aplikasi YANKES serta dapat menambahkan layanan dengan memilih tombol “ <em>Add Layanan</em> “.</p>
+
+<p><strong>Tampilan Tambah Layanan</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-layanan.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-layanan.png" alt="Tambah Layanan" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> layanan yang harus diisi oleh admin rs untuk menambahkan layanan. Jika data layanan sudah ada atau tidak lengkap maka memilih tombol “<em>ADD</em> “ akan kembali kedalam <em>page</em> tambah layanan sedangkan jika berhasil akan pindah ke <em>page</em> layanan.</p>
+
+<p><strong>Tampilan Konten Kelas Ruangan</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-kelas-ruangan.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-kelas-ruangan.png" alt="Lihat kleas Ruangan" /></a>
+didalam <em>page</em> ini admin RS dapat melihat jenis-jenis kelas ruangan. Didalam <em>page</em> ini admin RS dapat mengedit dan menghapus data jenis ruangan dengan memilih tombol “<em>Edit</em> atau <em>Delete</em> “, serta menambahkan data jenis ruangan dengan memilih tombol “ <em>Add</em> Kelas Ruangan* “.</p>
+
+<p><strong>Tampilan Tambah Kelas Ruangan</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-kelas-ruangan.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-kelas-ruangan.png" alt="Tambah Kelas Ruangan" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> kelas ruangan yang harus diisi oleh admin RS untuk menambahkan data kelas ruangan.</p>
+
+<p><strong>Tampilan Konten Ruang Rawat</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-ruangan-rawat.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-ruangan-rawat.png" alt="Konten Ruang Rawat" /></a>
+didalam <em>page</em> ini admin RS dapat melihat jenis-jenis ruangan rawat. Didalam <em>page</em> ini admin RS dapat mengedit dan menghapus data jenis ruang rawat dengan memilih tombol “<em>Edit</em> atau <em>Delete</em> “, serta menambahkan data jenis ruang rawat dengan memilih tombol “ <em>Add</em> Ruang Rawat* “.</p>
+
+<p><strong>Tambah Ruang Rawat</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-ruangan-rawat.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-ruangan-rawat.png" alt="Input Ruang Rawat" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> ruang rawat yang harus diisi oleh admin RS untuk menambahkan data ruang rawat.</p>
+
+<p><strong>Tampilan Konten Tempat Tidur Pasien</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-tempat-tidur-pasien.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-tempat-tidur-pasien.png" alt="Lihat tempat Tidur Pasien" /></a>
+Didalam <em>page</em> ini admin RS dapat melihat tempat tidur pasien yang sudah terisi atau masih kosong. Didalam <em>page</em> ini admin RS dapat mengganti status tempat tidur pasien di tombol “ <em>Edit</em> “ ataupun menghapus data tempat tidur pasien dengan memilih tombol “ <em>delelte</em> “. Admin Rs juga dapat menambahkan data tempat idur pasien dengan memilih tombol “ <em>Add</em> Tempat Tidur “.</p>
+
+<p><strong>Tampilan Tambah tempat Tidur</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-tempat-tidur-pasien.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-input-tempat-tidur-pasien.png" alt="input tempat tidur pasien" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> tempat tidur pasien yang harus diisi oleh admin RS untuk menambahkan data tempat tidur pasien.</p>
+
+<p><strong>Tampilan Konten Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-lihat-rs.png" alt="Lihat Rumah Sakit" /></a>
+Didalam <em>page</em> ini admin RS dapat melihat informasi tentang rumah sakit dan dapat mengedit informasi rumah sakit dengan memilih <em>icon</em> pensil diujung kiri bawah <em>page</em>.</p>
+
+<p><strong>Tampilan Edit Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-edit-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-edit-rs.png" alt="Edit Rumah Sakit" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-edit-rs2.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-edit-rs2.png" alt="Edit Rumah Sakit" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-edit-rs3.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_ars-edit-rs3.png" alt="Edit Rumah Sakit" /></a>
+Didalam <em>page</em> ini terdapat <em>form input</em> untuk mengedit rumah sakit didalam <em>form</em> ini terdapat juga <em>field</em> untuk menambahkan foto dan lokasi map rumah sakit.</p>
+
+<h2 id="tampilan-untuk-user-pengguna-aplikasi">Tampilan Untuk <em>User</em> (Pengguna Aplikasi)</h2>
+
+<p><strong>Halaman Depan Aplikasi</strong></p>
+
+<p><a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes.png" alt="Halaman Depan Aplikasi" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes2.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes2.png" alt="Halaman Depan Aplikasi2" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes3.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes3.png" alt="Halaman Depan Aplikasi3" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes4.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes4.png" alt="Halaman Depan Aplikasi4" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes5.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_hal-depan-yankes5.png" alt="Halaman Depan Aplikasi5" /></a>
+Didalam <em>page</em> ini berisi tentang informasi dan menu-menu pada bagian atas aplikasi.</p>
+
+<p><strong>Tampilan <em>Page</em> Registrasi</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_registrasi-dokter-dan-pasien.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_registrasi-dokter-dan-pasien.png" alt="Page Registrasi" /></a>
+Untuk masuk kedalam <em>page</em> ini <em>user</em> sebelumnya harus memilih menu “DAFTAR” di menu-menu aplikasi pada halaman depan aplikasi lalu memilih menu “SIGN UP” pada menu “DAFTAR”. Didalam <em>page</em> ini tedapat beberapa <em>field</em> untuk melakukan registrasi jika sudah terisi semua <em>user</em> dapat menekan tombol “SIGN UP” pada bagian bawah <em>form registrasi</em>.</p>
+
+<p><strong>Tampilan <em>page</em> Login</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_login-dokter-dan-pasien.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171123_login-dokter-dan-pasien.png" alt="Tampilan Login" /></a>
+Untuk masuk kedalam <em>page</em> ini <em>user</em> sebelumnya harus memilih menu “DAFTAR” di menu-menu aplikasi pada halaman depan aplikasi lalu memilih menu “SIGN IN” pada menu “DAFTAR”. Didalam <em>page</em> ini tedapat beberapa <em>field</em> untuk melakukan <em>log in</em> jika sudah terisi semua <em>user</em> dapat menekan tombol “LOG IN” pada bagian bawah <em>form log in</em>.</p>
+
+<p><strong>Tampilan Konten Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-rumah-sakit.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-rumah-sakit.png" alt="Lihat Rumah Sakit" /></a>
+Didalam <em>page</em> ini <em>user</em> dapat melihat informasi tentang rumah sakit.Untuk melihat lebih <em>detail</em> tentang informasi rumah sakit <em>user</em> dapat memilih tombol “LIHAT” dibawah gambar rumah sakit.</p>
+
+<p><strong>Tampilan Profile Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_profile-rumah-sakit.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_profile-rumah-sakit.png" alt="Lihat Profile Rumah Sakit" /></a>
+Didalam <em>page</em> ini <em>user</em> dapat melihat informasi rumah sakit beserta dengan layanan yang tersedia dirumah sakit.</p>
+
+<p><strong>Tampilan Dokter Jaga Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-dokter-jaga-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-dokter-jaga-rs.png" alt="Lihat List Dokter Jaga Rumah Sakit" /></a>
+Tampilan ini berada didalam <em>page</em> profile rumah sakit yang tergabung dalam konten layanan rumah sakit. Disini <em>user</em> dapat melihat list dokter jaga rumah sakit beserta info spesialis dokter, hari jaga dan jam jaga.</p>
+
+<p><strong>Tampilan Layanan Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-layanan-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-layanan-rs.png" alt="Lihat Layanan rumah Sakit" /></a>
+Tampilan ini berada didalam <em>page</em> profile rumah sakit yang tergabung dalam konten layanan rumah sakit. Disini <em>user</em> dapat melihat layanan apa saja yang disediakan oleh rumah sakit baik layanan umum maupun layanan oleh dokter.</p>
+
+<p><strong>Tampilan Tempat Tidur Rawat Inap Rumah Sakit</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-tempat-tidur-rs.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-tempat-tidur-rs.png" alt="Lihat Tempat Inap rumah Sakit" /></a>
+Tampilan ini berada didalam <em>page</em> profile rumah sakit yang tergabung dalam konten layanan rumah sakit. Disini <em>user</em> dapat melihat ruang kamar inap yang kosongdan jenis kamar nya.</p>
+
+<p><strong>Tampilan Data Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-dokter.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-dokter.png" alt="Lihat List dokter" /></a>
+Ditampilan ini <em>user</em> bisa melihat informasi tentang dokter yang terdaftar diaplikasi YANKES dan untuk melihat informasi lebih lengkap <em>user</em> dapat memilih tombol “PROFILE” dibawah informasi dokter.</p>
+
+<p><strong>Tampilan Profile Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_profile-dokter.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_profile-dokter.png" alt="lihat profile dokter" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_jadwal-praktek.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_jadwal-praktek.png" alt="lihat profile dokter" /></a>
+Ditampilan ini <em>user</em> dapat melihat informasi dokter serta jadwal jaga dokter dan terdapat menu konsultasi didalam tampilan ini.</p>
+
+<p><strong>Tampilan Jadwal Praktek Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_jadwal-praktek.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_jadwal-praktek.png" alt="lihat jadwal praktek dokter" /></a>
+Tampilan ini berada didalam tampilan profile dokter, ditampilan ini <em>user</em> dapat melihat jadwal jaga dokter yang ingin dilihat.</p>
+
+<p><strong>Tampila Konsultasi Dokter</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-konsultasi.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-konsultasi.png" alt="Lihat Konsultasi" /></a>
+Tampilan ini berada didalam tampilan profile dokter, ditampilan ini pasien dapat melakukan konsultasi dengan dokter.</p>
+
+<p><strong>Tampilan Kamar Inap</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-kamar-inap.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-kamar-inap.png" alt="Lihat Kamar Inap" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-kamar-inap2.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-kamar-inap2.png" alt="Lihat Kamar Inap" /></a>
+Didalam tampilan ini <em>user</em> dapat melihat list rumah sakit dan kamar rawat inap yang tersedia dirumah sakit tersebut.</p>
+
+<p><strong>Tampilan News</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-news.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-news.png" alt="Lihat News" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-news2.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-news2.png" alt="Lihat News" /></a>
+Ditampilan ini <em>user</em> dapat melihat berita berita terkait yang berada di Provinsi Banten, untuk melihat lebih <em>detail</em> tentang berita <em>user</em> dapat memilih tombol “ READ MORE”.</p>
+
+<p><strong>Tampilan Detail News</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_lihat-detail-berita.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_lihat-detail-berita.png" alt="lihat detail berita" /></a>
+Ditampilam ini <em>user</em> dapat melihat detail berita dari tampilan “NEWS”.</p>
+
+<p><strong>Tampilan Blog (Artikel)</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-blog.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-blog.png" alt="Tampilan artikel" /></a>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-blog2.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-blog2.png" alt="Tampilan artikel" /></a>
+Didalam tampilan ini <em>user</em> dapat melihat artikel-artikel terkait kesehatan yang berada di Provinsi Banten, untuk melihat detail blog <em>user</em> dapat memilih tombol “READ MORE”.</p>
+
+<p><strong>Tampilan Detail Blog (Artikel)</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_lihat-detail-blog.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_lihat-detail-blog.png" alt="lihat detail blog" /></a>
+Didalam tampilan ini <em>user</em> dapat melihat detail dari blog (artikel).</p>
+
+<p><strong>Tampilan Contact</strong>
+<a href="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-contact-us.png"><img src="/document/aplikasi/layanan-kesehatan/images/pengembangan/20171124_konten-contact-us.png" alt="Tampilan Contact" /></a>
+Didalam tampilan ini <em>user</em> dapat melihat informasi tentang pengembang aplikasi YANKES serta dapat menghubungi pengembang.</p>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js" integrity="sha384-/vxW1AJwEERwlhBTV8gBqWHZ478ylzMX61rSs2tfC34GZvqd5dwQvxZEgE1iocoa" crossorigin="anonymous"></script>
+
+<script src="/assets/js/app.js"></script>
+
+
+
+  </body>
+</html>

@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  
+    Pengembangan &middot; Document Management System
+  
+</title>
+
+<!-- Meta -->
+<meta name="description" content="Document Management System Provinsi Banten">
+<meta name="author" content="">
+
+<!-- Twitter -->
+<meta name="twitter:site" content="@">
+<meta name="twitter:creator" content="@">
+
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Pengembangan">
+  <meta name="twitter:description" content="Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah Pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah).">
+  <meta name="twitter:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+
+
+<!-- Facebook -->
+
+  <meta property="og:url" content="http://dms-01.dev.bantenprov.go.id/document/aplikasi/dashboard-pimpinan/pengembangan/">
+  <meta property="og:title" content="Pengembangan">
+  <meta property="og:description" content="Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah Pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah).">
+  <meta property="og:type" content="website">
+
+<meta property="og:image" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:secure_url" content="http://dms-01.dev.bantenprov.go.id/assets/img/kp3b.jpg">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymouse">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymouse">
+
+<!-- Extras -->
+<link rel="stylesheet" href="/assets/css/app.css">
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" href="/favicon.ico">
+
+  </head>
+  <body class="document-page">
+    <a id="skippy" class="sr-only sr-only-focusable" href="#content">
+      <div class="container">
+        <span class="skiplink-text">Skip to main content</span>
+      </div>
+    </a>
+
+    <header class="navbar navbar-expand-md navbar-dark site-navbar">
+  <a class="navbar-brand mr-2" href="/">
+    <img src="/assets/img/logo.png" width="36" height="36" alt="">
+    <span>DMS Bantenprov</span>
+  </a>
+
+  
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#side-nav" aria-controls="side-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+</header>
+
+
+    <div class="container-fluid">
+      <div class="row flex-xl-nowrap">
+        <div class="col-12 col-md-3 col-xl-3 order-1 site-sidebar">
+          <div class="collapse d-md-block" id="side-nav">
+  <div class="site-sidebar-nav-wrap">
+    <div class="nav flex-column">
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs01" href="/document/aplikasi/" aria-expanded="false" aria-controls="cs01">Aplikasi</a>
+        <div class="collapse js-sidenav" id="cs01">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/dashboard-pimpinan/" data-toggle="collapse" data-target="#cs0101" aria-expanded="false" aria-controls="cs0101">Dashboard Pimpinan</a>
+              <div class="collapse js-sidenav" id="cs0101">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/dashboard-pimpinan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/dashboard-pimpinan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal-pemerintah-provinsi-banten/" data-toggle="collapse" data-target="#cs0102" aria-expanded="false" aria-controls="cs0102">Portal Pemerintah Provinsi Banten</a>
+              <div class="collapse js-sidenav" id="cs0102">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal-pemerintah-provinsi-banten/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/layanan-kesehatan/" data-toggle="collapse" data-target="#cs0103" aria-expanded="false" aria-controls="cs0103">Layanan Kesehatan</a>
+              <div class="collapse js-sidenav" id="cs0103">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/layanan-kesehatan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/layanan-kesehatan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sop-online/" data-toggle="collapse" data-target="#cs0104" aria-expanded="false" aria-controls="cs0104">SOP Online</a>
+              <div class="collapse js-sidenav" id="cs0104">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/sop-online/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sop-online/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/banten-satu-data/" data-toggle="collapse" data-target="#cs0105" aria-expanded="false" aria-controls="cs0105">Banten Satu Data</a>
+              <div class="collapse js-sidenav" id="cs0105">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/banten-satu-data/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/portal/" data-toggle="collapse" data-target="#cs0106" aria-expanded="false" aria-controls="cs0106">Portal</a>
+              <div class="collapse js-sidenav" id="cs0106">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/portal/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/portal/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/potret/" data-toggle="collapse" data-target="#cs0107" aria-expanded="false" aria-controls="cs0107">Potret</a>
+              <div class="collapse js-sidenav" id="cs0107">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/potret/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/potret/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/laporan-bulanan/" data-toggle="collapse" data-target="#csLapbul" aria-expanded="false" aria-controls="csLapbul">Laporan Bulanan</a>
+              <div class="collapse js-sidenav" id="csLapbul">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/laporan-bulanan/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/laporan-bulanan/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/sistem-informasi-barang-daerah/" data-toggle="collapse" data-target="#cs0108" aria-expanded="false" aria-controls="cs0108">Sistem Informasi Barang Daerah</a>
+              <div class="collapse js-sidenav" id="cs0108">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/sistem-informasi-barang-daerah/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/helpdesk/" data-toggle="collapse" data-target="#cs0109" aria-expanded="false" aria-controls="cs0109">Helpdesk</a>
+              <div class="collapse js-sidenav" id="cs0109">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/helpdesk/about-helpdesk/">About Helpdesk</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/helpdesk/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/palapa/" data-toggle="collapse" data-target="#cs01010" aria-expanded="false" aria-controls="cs01010">Palapa</a>
+              <div class="collapse js-sidenav" id="cs01010">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/palapa/about-palapa/">About Palapa</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/palapa/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/document/aplikasi/simbada/" data-toggle="collapse" data-target="#cs01011" aria-expanded="false" aria-controls="cs01011">Simbada</a>
+              <div class="collapse js-sidenav" id="cs01011">
+                <div class="nav flex-column">
+                  <div class="nav-item">
+                    <a class="nav-link" href="/document/aplikasi/simbada/about-simbada/">About Simbada</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/desain-dan-perancangan/">Desain dan Perancangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/pengembangan/">Pengembangan</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/integrasi/">Integrasi</a>
+                  </div>
+                  <div class="nav-item">
+                    <a class="nav-link disabled" href="/document/aplikasi/simbada/implementasi/">Implementasi</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs02" href="/document/sop/" aria-expanded="false" aria-controls="cs02">SOP</a>
+        <div class="collapse js-sidenav" id="cs02">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/sop/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/sop/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-item">
+        <a class="nav-link dropdown-toggle" data-toggle="collapse" data-target="#cs03" href="/document/konsep/" aria-expanded="false" aria-controls="cs03">Konsep</a>
+        <div class="collapse js-sidenav" id="cs03">
+          <div class="nav flex-column">
+            <div class="nav-item">
+              <a class="nav-link disabled" href="/document/konsep/a/">A</a>
+              <div class="nav flex-column">
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a1/">A1</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a2/">A2</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a3/">A3</a>
+                </div>
+                <div class="nav-item">
+                  <a class="nav-link disabled" href="/document/konsep/a/a4/">A4</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+        </div>
+        <main class="col-12 col-md-9 col-xl-9 py-3 pl-md-5 order-2 site-content" role="main">
+
+          <nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/document/">Document</a>
+    </li>
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/">Aplikasi</a>
+      </li>
+    
+
+    
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/dashboard-pimpinan/">Dashboard Pimpinan</a>
+      </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+      <li class="breadcrumb-item active">
+        Pengembangan
+      </li>
+    
+  </ol>
+</nav>
+
+
+          <h1 class="document-title" id="content">Pengembangan</h1>
+          <p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/cover-manual-book-dashboard-pimpinan.jpeg"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/cover-manual-book-dashboard-pimpinan.jpeg" alt="cover-manual-book-dashboard-pimpinan" /></a></p>
+
+<p>Document manual book ini dibuat untuk memberikan panduan penggunaan aplikasi <strong>Dashboard Pimpinan</strong>, dimana Aplikasi Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah Pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah). Perangkat lunak yang di butuhkan untuk pengujian aplikasi adalah Ubuntu 17 sebagai Operasi System. Sumber daya manusia untuk menggunakan aplikasi ini terutama dari Pimpinan dinas Provinsi Banten, penggunaan aplikasi ini terlebih dahulu diberikan pengenalan dan pelatihan yang cukup untuk menggunakan aplikasi <em>Dashboard Pimpinan</em>.</p>
+
+<h3 id="1-struktur-menu">1. Struktur Menu</h3>
+<p>Adapun struktur menu pada aplikasi Dashboard Pimpinan adalah sebagai berikut:</p>
+<h4 id="11-menu-home">1.1 Menu Home</h4>
+
+<h4 id="12-menu-dashboard">1.2 Menu Dashboard</h4>
+<ul>
+  <li><strong>Kepegawaian</strong></li>
+</ul>
+
+<h4 id="13-menu-data-kepegawaian">1.3 Menu Data Kepegawaian</h4>
+<ul>
+  <li><strong>List Pegawai</strong></li>
+  <li><strong>List Pegawai KPO</strong></li>
+  <li><strong>List Pegawai Esselon</strong></li>
+  <li><strong>List Usia ASN</strong></li>
+  <li><strong>List Pegawai Yang Akan Pensiun</strong></li>
+</ul>
+
+<h4 id="14-menu-users">1.4 <strong>Menu Users</strong></h4>
+<ul>
+  <li><strong>Users List</strong></li>
+  <li><strong>Role User</strong></li>
+  <li><strong>User Profile</strong></li>
+  <li><strong>Permissions</strong></li>
+  <li><strong>Add new user</strong></li>
+</ul>
+
+<p>Untuk memulai akses terhadap aplikasi <strong>Dashboard Pimpinan</strong>. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard.bangunbanten.com kemudian tekan <strong>Enter</strong> pada tombol keyboard atau klik tombol <strong>Go</strong> pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/tampilan-login-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/tampilan-login-admin.png" alt="tampilan-login-admin" /></a></p>
+
+<p><strong>Gambar 1. Tampilan Login</strong></p>
+
+<p>Masukkan User Id dan Password, Setelah di isi lengkap dan benar, klik button <strong>Sign in</strong> atau tekan tombol <strong>Enter</strong> pada keyboard. Sehingga akan menampilkan halaman utama sebagai berikut.</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-home-awal.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-home-awal.png" alt="dashboard-home-awal" /></a>
+<strong>Gambar 2. Tampilan Awal</strong></p>
+
+<h4 id="2-menu-home">2. Menu Home</h4>
+<p>Halaman muka (home) Dashboard Pimpinan Menampilkan 4 grafik:</p>
+
+<ul>
+  <li><em>Dashboard Kepegawaian</em></li>
+  <li><em>Dashboard Kependudukan</em></li>
+  <li><em>Dashboard Kesehatan</em></li>
+  <li><em>Dashboard Kependidikan</em></li>
+</ul>
+
+<p>Seperti ditunjukan pada gambar berikut ini:</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-home-awal.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-home-awal.png" alt="dashboard-home-awal" /></a>
+<strong>Gambar 3. Halaman Utama (Home)</strong></p>
+
+<p>Untuk menampilkan detail dashboard Kepegawaian dengan mengklik tombol <strong>view more</strong>.
+maka akan ditampilkan detail grafik Jumlah pegawai, Kenaikan pangkat pegawai otomatis, Pegawai yang akan pensiun.Seperti ditunjukan pada gambar berikut ini:</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-jumlah-pegawai.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-jumlah-pegawai.png" alt="dashboard-view-more-detail-jumlah-pegawai" /></a>
+<strong>Gambar 4. Detail Prosentase dan Grafik Jumlah Pegawai</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png" alt="dashboard-view-more-detail-kenaikan-pangkat-pegawai-otomatis" /></a>
+<strong>Gambar 5. Detail Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-pensiun-pegawai.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-pensiun-pegawai.png" alt="dashboard-view-more-detail-pensiun-pegawai" /></a>
+<strong>Gambar 6. Detail Prosentase dan Grafik Pensiun Pegawai</strong></p>
+
+<h4 id="3-menu-dashboard">3. Menu Dashboard</h4>
+<p>Didalam menu dashboard ada beberapa cakupan diantaranya <em>Kepegawaian</em> (yang didalamnya mencakup jumlah pegawai, kenaikan pangkat pegawai otomatis, pegawai yang akan pensiun).dengan mengklik tombol kepegawaian sistem aplikasi akan menampilkan seperti ditujukan pada gambar dibawah ini:</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-jumlah-pegawai.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-jumlah-pegawai.png" alt="view-more-detail-jumlah-pegawai" /></a>
+<strong>Gambar 7.Prosentase dan Grafik Jumlah Pegawai</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-kenaikan-pangkat-pegawai-otomatis.png" alt="view-more-detail-kenaikan-pangkat-pegawai-otomatis" /></a>
+<strong>Gambar 8. Prosentase dan Grafik Kenaikan Pangkat Pegawai Otomatis</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-pensiun-pegawai.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/view-more-detail-pensiun-pegawai.png" alt="view-more-detail-pensiun-pegawai" /></a>
+<strong>Gambar 9. Prosentase dan Grafik Pensiun Pegawai</strong></p>
+
+<h4 id="4-menu-data-kepegawaian">4. Menu Data Kepegawaian</h4>
+<p>Menu Data Kepegawaian adalah yang dipergunakan untuk Superadmin dan Admin, dimana bisa untuk Input, Hapus, Edit, Update, View data yang ada diseluruh Dinas Provinsi Banten. Didalam Menu Data Kepegawaian ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:</p>
+
+<p><strong>List Pegawai</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-pegawai.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-pegawai.png" alt="dashboard-list-tabel-pegawai" /></a>
+<strong>Gambar 10. Data Jumlah Pegawai</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-pegawai-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-pegawai-admin.png" alt="form-tabel-tambah-pegawai-admin" /></a>
+<strong>Gambar 11. Form Tabel Tambah Jumlah Pegawai</strong></p>
+
+<p><strong>List Pegawai KPO</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis.png" alt="dashboard-list-tabel-pegawai-kenaikan-pangkat-otomatis" /></a>
+<strong>Gambar 12. List Data Pegawai KPO</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin.png" alt="form-tabel-tambah-pegawai-kenaikan-pangkat-otomatis-admin" /></a>
+<strong>Gambar 13. Form Tabel Tambah Pegawai KPO</strong></p>
+
+<p><strong>List Pegawai Esselon</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-jumlah-pegawai-esselon.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-jumlah-pegawai-esselon.png" alt="dashboard-list-tabel-jumlah-pegawai-esselon" /></a>
+<strong>Gambar 14. List Data Jumlah Pegawai Esselon</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-jumlah-pegawai-esselon-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-jumlah-pegawai-esselon-admin.png" alt="form-tabel-tambah-jumlah-pegawai-esselon-admin" /></a>
+<strong>Gambar 15. Form Tabel Tambah Jumlah Pegawai Esselon</strong></p>
+
+<p><strong>List Usia ASN</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-jumlah-usia-asn.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-jumlah-usia-asn.png" alt="dashboard-list-tabel-jumlah-usia-asn" /></a>
+<strong>Gambar 16. List Data Jumlah Usia ASN</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-Jumlah-usia-asn-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-Jumlah-usia-asn-admin.png" alt="form-tabel-tambah-Jumlah-usia-asn-admin" /></a>
+<strong>Gambar 17. Form Tabel Tambah Jumlah Usia ASN</strong></p>
+
+<p><strong>List Pegawai Yang Akan Pensiun</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-pegawai-yang-akan-pensiun.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/dashboard-list-tabel-pegawai-yang-akan-pensiun.png" alt="dashboard-list-tabel-pegawai-yang-akan-pensiun" /></a>
+<strong>Gambar 18. List Data Jumlah Pegawai Yang Akan Pensiun</strong></p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-tambah-pegawai-yang-akan-pensiun-admin.png" alt="form-tabel-tambah-pegawai-yang-akan-pensiun-admin" /></a>
+<strong>Gambar 19. Form Tabel Tambah Jumlah Pegawai Yang Akan Pensiun</strong></p>
+
+<h4 id="5-menu-users">5. Menu Users</h4>
+<p>Menu Users adalah tampilan aplikasi yang dipergunakan untuk Superadmin dan Admin, di mana bisa untuk Input, Hapus, Edit, Update, View data yang ada, dengan menekan atau klik tombol <strong>create</strong> akan tampil form tabel untuk penambahan data. Didalam menu users ada beberapa bagian menu, diantaranya adalah dengan tampilan gambar seperti dibawah ini:</p>
+
+<p><strong>Users List</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/users-list-tabel-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/users-list-tabel-admin.png" alt="users-list-tabel-admin" /></a>
+<strong>Gambar 20. List Tabel Admin</strong></p>
+
+<p>Klik tombol Create sistem aplikasi akan menampilakan gambar di bawah ini</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/add-user-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/add-user-admin.png" alt="add-user-admin" /></a>
+<strong>Gambar 21. Form Tabel Add New User</strong></p>
+
+<p><strong>Role User</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/role-users-list-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/role-users-list-admin.png" alt="role-users-list-admin" /></a>
+<strong>Gambar 22. List Lore User</strong></p>
+
+<p>Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-add-role-user-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-add-role-user-admin.png" alt="form-tabel-add-role-user-admin" /></a>
+<strong>Gambar 23. Form Tabel Add Role User</strong></p>
+
+<p><strong>Permissions</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/permissions-list-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/permissions-list-admin.png" alt="permissions-list-admin" /></a>
+<strong>Gambar 24. List Permissions</strong></p>
+
+<p>Klik tombol Create, sistem aplikasi akan menampilakan gambar di bawah ini.</p>
+
+<p><a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-add-permission-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/form-tabel-add-permission-admin.png" alt="form-tabel-add-permission-admin" /></a>
+<strong>Gambar 25. Form Tabel Add Permissions</strong></p>
+
+<p><strong>User Profile</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/user-profile-admin-edit.jpeg"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/user-profile-admin-edit.jpeg" alt="user-profile-admin-edit" /></a></p>
+
+<p><strong>Gambar 26. Profile User</strong></p>
+
+<p><strong>Add New User</strong>
+<a href="/document/aplikasi/dashboard-pimpinan/images/pengembangan/add-user-admin.png"><img src="/document/aplikasi/dashboard-pimpinan/images/pengembangan/add-user-admin.png" alt="add-user-admin" /></a>
+<strong>Gambar 27. Form Tabel Add New User</strong></p>
+
+        </main>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js" integrity="sha384-/vxW1AJwEERwlhBTV8gBqWHZ478ylzMX61rSs2tfC34GZvqd5dwQvxZEgE1iocoa" crossorigin="anonymous"></script>
+
+<script src="/assets/js/app.js"></script>
+
+
+
+  </body>
+</html>
