@@ -127,7 +127,9 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | distribution | Distribution | Site admin melakukan distribusi laporan ke OPD Terkait     |
 | disposition | Disposition | Pimpinan OPD memberikan distribusi kepada staff terkait    |
 | execution   | Execution   | Staf OPD Terkait mengambil langkah yang diperlukan sesuai  |
-| report      | Report      | site Admin memberikan informasi kepada pelapor             |
+| approved      | Approved      | Pimpinan OPD menyetujui laporan staff             |
+| need_review      | Need review      | Pimpinan OPD meminta review             |
+| internal_report      | Internal Report      | Staf OPD memberikan internal report             |
 | reject      | Reject      | site Admin memberikan status reject kepada laporan         |
 
 ##### 3.4.1.2 Workflow Transition
@@ -139,6 +141,7 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
 | verification-to-disposition | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
 | disposition-to-execution | Executed | Laporan sedang ditindak lanjuti |
+| execution-to- | Report | Staff OPD sudah melaporkan tindak lanjut |
 | execution-to-report | Report | Staff OPD sudah melaporkan tindak lanjut |
 | 1--------------1 | 2--------------2 | 3--------------3 |
 
