@@ -122,23 +122,24 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 
 | name        | label       | description                                                |
 |-------------|-------------|------------------------------------------------------------|
-| proposed    | Proposed    | Pelapor memberikan laporan                                 |
-| verified    | Verified    | Site Admin melakukan verifikasi terhadap laporan           |
-| distributed | Distributed | Site admin melakukan distribusi laporan ke OPD Terkait     |
+| propose    | Propose    | Pelapor memberikan laporan                                 |
+| verification    | Verification    | Site Admin melakukan verifikasi terhadap laporan           |
+| distribution | Distribution | Site admin melakukan distribusi laporan ke OPD Terkait     |
 | disposition | Disposition | Pimpinan OPD memberikan distribusi kepada staff terkait    |
 | execution   | Execution   | Staf OPD Terkait mengambil langkah yang diperlukan sesuai  |
 | report      | Report      | site Admin memberikan informasi kepada pelapor             |
+| reject      | Reject      | site Admin memberikan status reject kepada laporan         |
 
 ##### 3.4.1.2 Workflow Transition
 **Workfow transitoin yang direncakan adalah sebagai berikut**:
 | name           | label          | description    |
 |----------------|----------------|----------------|
-| -------------- | -------------- | -------------- |
-| -------------- | -------------- | -------------- |
-| -------------- | -------------- | -------------- |
-| -------------- | -------------- | -------------- |
-| -------------- | -------------- | -------------- |
-| -------------- | -------------- | -------------- |
+| propose-to-verification | Verified | Laporan sudah diverifikasi oleh admin |
+| propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
+| verification-to-disposition | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
+| disposition-to-execution | Executed | Laporan sedang ditindak lanjuti |
+| execution-to-report | Report | Staff OPD sudah melaporkan tindak lanjut |
+| 1-------------- | 2-------------- | 3-------------- |
 
 ### 3.5 Perancangan Database
 
