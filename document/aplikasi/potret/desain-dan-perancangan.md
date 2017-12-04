@@ -114,6 +114,37 @@ Dari hasil evaluasi produser yang berjalan masalah tidak terjadi pada saat pemro
 
 "Aplikasi dan perancangan sistem pengaduan masyarakat terhadap Pemprov Banten berbasis web dan android" adalah aplikasi pengaduan berbasis web yaang membantu pemerintah Provinsi Banten untuk mengelola setiap pengaduan masyarakat dan membantu mempermudah masyarakat untuk melakukan setiap pengaduan yang semula dilakukan dengan cara manual karena harus mengambil formulir pengaduan ke kantor pemerintah terlebih dahulu. Pengaduan itu sendiri berbentuk formulir yang harus diisi. Setelah masyarakat melakukan pengaduan, maka aplikasi akan menyimpan setiap pengaduan ke dalam database.
 
+#### 3.4.1 Workflow Management
+Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow management dengan state dan transition sebegai berikut:
+
+##### 3.4.1.1 Workflow State
+**Workfow state yang direncakan adalah sebagai berikut**:
+
+| name        | label       | description                                                |
+|-------------|-------------|------------------------------------------------------------|
+| propose    | Propose    | Pelapor memberikan laporan                                 |
+| verification    | Verification    | Site Admin melakukan verifikasi terhadap laporan           |
+| distribution | Distribution | Site admin melakukan distribusi laporan ke OPD Terkait     |
+| disposition | Disposition | Pimpinan OPD memberikan distribusi kepada staff terkait    |
+| execution   | Execution   | Staf OPD Terkait mengambil langkah yang diperlukan sesuai  |
+| approved      | Approved      | Pimpinan OPD menyetujui laporan staff             |
+| need_review      | Need review      | Pimpinan OPD meminta review             |
+| internal_report      | Internal Report      | Staf OPD memberikan internal report             |
+| reject      | Reject      | site Admin memberikan status reject kepada laporan         |
+
+##### 3.4.1.2 Workflow Transition
+**Workfow transitoin yang direncakan adalah sebagai berikut**:
+
+| name           | label          | description    |
+|-------------|-------------|------------------------------------------------------------|
+| propose-to-verification | Verified | Laporan sudah diverifikasi oleh admin |
+| propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
+| verification-to-disposition | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
+| disposition-to-execution | Executed | Laporan sedang ditindak lanjuti |
+| execution-to- | Report | Staff OPD sudah melaporkan tindak lanjut |
+| execution-to-report | Report | Staff OPD sudah melaporkan tindak lanjut |
+| 1--------------1 | 2--------------2 | 3--------------3 |
+
 ### 3.5 Perancangan Database
 
 pada database yang digunakan oleh single user atau hanya beberapa user saja, perancangan database tidak sulit. tetapi jika ukuran database yang sedang atau besar ( 25 - ratusan user yang berisikan jutaan bytes informasi dan melibatkan ratusan query dan program program aplikasi) perancangan database menjadi sangat komplek. Oleh karena itu para pemakai mengharapkan penggunaan database yang sedemikian rupa sehingga sistem harus dapat memenuhi kebutuhan-kebutuhan seluruh user tersebut.
