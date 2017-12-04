@@ -90,6 +90,9 @@ description: Index Dokumen Aplikasi.
   <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/banten-satu-data/implementasi/">
     Implementasi
   </a>
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/banten-satu-data/uat/">
+    User Acceptance Test
+  </a>
 </div>
 
 ## Portal
