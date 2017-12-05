@@ -19,6 +19,9 @@ description: Index Dokumen Aplikasi.
   <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/dashboard-pimpinan/implementasi/">
     Implementasi
   </a>
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/dashboard-pimpinan/uat/">
+    User Acceptance Test
+  </a>
 </div>
 
 ## Portal Pemerintah Provinsi Banten
@@ -86,6 +89,9 @@ description: Index Dokumen Aplikasi.
   </a>
   <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/banten-satu-data/implementasi/">
     Implementasi
+  </a>
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/banten-satu-data/uat/">
+    User Acceptance Test
   </a>
 </div>
 
@@ -213,6 +219,23 @@ description: Index Dokumen Aplikasi.
     Integrasi
   </a>
   <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/simbada/implementasi/">
+    Implementasi
+  </a>
+</div>
+
+## API
+
+<div class="list-group mb-3">
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/api/desain-dan-perancangan/">
+    Desain dan Perancangan
+  </a>
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/api/pengembangan/">
+    Pengembangan
+  </a>
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/api/integrasi/">
+    Integrasi
+  </a>
+  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/api/implementasi/">
     Implementasi
   </a>
 </div>
