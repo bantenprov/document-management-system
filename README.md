@@ -1,8 +1,8 @@
 # Document Management System
 
-Repositori untuk menyimpan dokumen online DMS Provinsi Banten.
+Repositori untuk menyimpan dokumen online Pemerintah Provinsi Banten.
 
-## Dokumentasi
+## Panduan
 
 Harap baca panduan singkat di bawah ini.
 
@@ -16,34 +16,31 @@ Harap baca panduan singkat di bawah ini.
 
 Untuk menambahkan dokumen baru, ada beberapa hal yang harus diperhatikan:
 
-Simpan dokumen di dalam direktori `document`. Simpan dokumen ke dalam direktori yang sudah disediakan (contoh: `aplikasi>portal`), dan simpan gambarnya ke dalam direktori `aplikasi>portal>images`. **sesuaikan**.
+Simpan dokumen di dalam direktori `document`, dan di dalamnya simpan dokumen ke dalam direktori yang sudah disediakan (contoh: `aplikasi>portal`), dan simpan gambarnya ke dalam direktori `aplikasi>portal>images`.
 
 #### Front Matter
 
-Berikut adalah blok YAML front matter yang digunakan:
+Di dalam berkas **Markdown** dokumen perlu ditambahkan blok YAML front matter. Berikut adalah blok YAML front matter yang digunakan:
 
 ```plaintext
 ---
 layout: document
-title: [Judul dokumen]
-description: [Deskripsi dokumen]
-group: [Grup dokumen]
-cat: [Kategori dokumen]
+title: [isi dengan judul dokumen]
+description: [isi dengan deskripsi dokumen]
+group: [aplikasi|konsep|sop]
+cat: [dashboard-pimpinan|banten-satu-data|portal|...] # sesuaikan
 toc: [true|false]
 ---
 ```
 
-- `layout` - isi dengan `document`.
-- `title` - isi dengan judul dokumen.
-- `description` - isi dengan deskripsi dokumen.
-- `group` - isi dengan `aplikasi`, `sop` atau `konsep`, **sesuaikan**.
-- `cat` - isi dengan nama direktori tempat Anda menyimpan berkas ini.
-- `toc` - isi dengan `true` atau `false`. Pilih `true` jika ingin membuat daftar isi secara otomatis.
+#### Contoh
 
-Di bawah ini adalah contoh ketika Anda ingin menambahkan dokumen aplikasi pada bagian ***layanan-kesehatan*** dan dokumennya tentang ***Desain dan Perancangan***:
+Di bawah ini adalah contoh ketika Anda ingin menambahkan dokumen **aplikasi** pada bagian ***layanan-kesehatan*** dan dokumennya tentang ***Desain dan Perancangan***:
 
 - Simpan dokumen di dalam direktori `document>aplikasi>layanan-kesehatan` dengan nama `desain-dan-perancangan.md`.
 - Simpan gambar dokumen di dalam direktori `document>aplikasi>layanan-kesehatan>images>desain-dan-perancangan`.
+
+Contoh penulisan dokumen (`desain-dan-perancangan.md`):
 
 ```plaintext
 ---
@@ -55,22 +52,24 @@ cat: layanan-kesehatan
 toc: true
 ---
 
+## Abstrak
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-## Daftar Isi
+## Daftar Isi Otomatis
 
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
 
-## Heading 1
+## Heading x
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### Heading 1.1
+### Heading x.1
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-#### Heading 1.1.1
+#### Heading x.1.1
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
