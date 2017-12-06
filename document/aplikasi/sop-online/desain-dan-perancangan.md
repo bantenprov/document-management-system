@@ -119,6 +119,12 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 ###### 3.5.1.2. Workflow Transition
 
+| name        | label       | description                                                |
+|-------------|-------------|------------------------------------------------------------|
+| propose-to-propose    | Proposed    | Usulan pembuatan aplikasi telah dibuat |
+| propose-to-internal-review    | Internal Reviewed    | Usulan pembuatan aplikasi akan dimintakan review |
+| internal-review-to-forward-1    | Forward    | Usulan pembuatan aplikasi selesai direview dan akan diteruskena ke Pimpinan OPD |
+
 
 ###### 3.5.1.3. Workflow Guard
 
