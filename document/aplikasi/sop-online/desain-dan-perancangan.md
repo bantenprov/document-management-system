@@ -101,9 +101,23 @@ proses perancangan database terdiri dari 6 tahap:
 
 Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Language*). Menurut Whitten dan Bentley , *Unified Modeling Language* adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang digunakan terdiri dari *Use Case Diagram*, *Activity Diagram*, *Sequence Diagram** dan *State Chart Diagram*.
 
-#### 3.5.1 Proses Pengajuan
+#### 3.5.2 Workflow
 
-##### 3.5.1.1. *Use Case Diagram*
+##### 3.5.2.1. Workflow State
+
+
+##### 3.5.2.2. Workflow Transition
+
+
+##### 3.5.2.3. Workflow Guard
+
+
+##### 3.5.2.4. Workflow Notification
+
+
+#### 3.5.2 Proses Pengajuan
+
+##### 3.5.2.1. *Use Case Diagram*
 
 *Use Case Diagram* Proses Pengajuan
 
@@ -129,19 +143,19 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 [![*Use Case Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
 
-##### 3.5.1.2 *Activity Diagram*
+##### 3.5.2.2 *Activity Diagram*
 
 *Activity Diagram* Proses Pengajuan
 
 [![*Activity Diagram* Proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)
 
-##### 3.5.1.3 *Sequence Diagram*
+##### 3.5.2.3 *Sequence Diagram*
 
 *Sequence Diagram* Proses Pengajuan
 
 [![*Sequence Diagram* Proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)
 
-##### 3.5.1.4 *State Chart Diagram*
+##### 3.5.2.4 *State Chart Diagram*
 
 *State Chart Diagram* Staff OPD
 
