@@ -101,18 +101,27 @@ proses perancangan database terdiri dari 6 tahap:
 
 Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Language*). Menurut Whitten dan Bentley , *Unified Modeling Language* adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang digunakan terdiri dari *Use Case Diagram*, *Activity Diagram*, *Sequence Diagram** dan *State Chart Diagram*.
 
-#### 3.5.2 Workflow
+#### 3.5.1. Workflow
 
-##### 3.5.2.1. Workflow State
+##### 3.5.1.1. Workflow State
+
+| name        | label       | description                                                |
+|-------------|-------------|------------------------------------------------------------|
+| propose    | Propose    | Usulan pembuatan aplikasi                                 |
+| internal_review    | Internal Review    | Menerima dan Mempelajari usulan pembuatan aplikasi           |
+| forward_1 | Forward | Meneruskan usulan pembuatan aplikasi ke Kepala Dinas Pemakai   |
+| forward_2 | Forward to DKISP | Meneruskan usulan pembuatan aplikasi ke Kepala Dinas KISP    |
+| review    | Review    | Menerima dan Mempelajari usulan pembuatan aplikasi           |
+| recommendation    | Recommendation    | Rekomendasi atas usulan pembuatan aplikasi           |
 
 
-##### 3.5.2.2. Workflow Transition
+##### 3.5.1.2. Workflow Transition
 
 
-##### 3.5.2.3. Workflow Guard
+##### 3.5.1.3. Workflow Guard
 
 
-##### 3.5.2.4. Workflow Notification
+##### 3.5.1.4. Workflow Notification
 
 
 #### 3.5.2 Proses Pengajuan
