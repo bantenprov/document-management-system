@@ -169,6 +169,12 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 ##### 3.4.1.4 Workflow Notification
 **Workfow notification yang direncanakan adalah sebagai berikut**:
 
+| name           | label          | to    | cc    | Description |
+|-------------|-------------|-------------|-------------|-------------|
+| propose-to-verification | Verification | ... | ... | Notifikasi yang dikirimkan untuk verifikasi |
+| propose-to-reject | Reject | ... | ... | Notifikasi yang dikirimkan ketika laporan di reject |
+
+
 ### 3.5 Perancangan Database
 
 pada database yang digunakan oleh single user atau hanya beberapa user saja, perancangan database tidak sulit. tetapi jika ukuran database yang sedang atau besar ( 25 - ratusan user yang berisikan jutaan bytes informasi dan melibatkan ratusan query dan program program aplikasi) perancangan database menjadi sangat komplek. Oleh karena itu para pemakai mengharapkan penggunaan database yang sedemikian rupa sehingga sistem harus dapat memenuhi kebutuhan-kebutuhan seluruh user tersebut.
