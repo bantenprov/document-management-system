@@ -131,6 +131,7 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | need_review      | Need review      | Pimpinan OPD meminta review             |
 | internal_report      | Internal Report      | Staf OPD memberikan internal report             |
 | reject      | Reject      | site Admin memberikan status reject kepada laporan         |
+| report      | Report      | Pimpinan OPD memberikan laporan hasil tindak lanjut          |
 
 ##### 3.4.1.2 Workflow Transition
 **Workfow transitoin yang direncakan adalah sebagai berikut**:
@@ -141,9 +142,12 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
 | verification-to-disposition | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
 | disposition-to-execution | Executed | Laporan sedang ditindak lanjuti |
-| execution-to- | Report | Staff OPD sudah melaporkan tindak lanjut |
-| execution-to-report | Report | Staff OPD sudah melaporkan tindak lanjut |
-| 1--------------1 | 2--------------2 | 3--------------3 |
+| execution-to-internal-report | Internal Report | Staff OPD sudah melaporkan tindak lanjut |
+| internal-report-to-need-review | Need Review | Pimpinan OPD meminta tinjauan ulang hasil tindak lanjut |
+| need-review-to-excecution | 2nd Execution | Staf OPD menindaklanjuti permintaan tinjauan ulang |
+| internal-report-to-report | Report | Pimpinan OPD sudah memberikan laporan hasil tindak lanjut |
+| report-to-closed | Closed | Proses pelaporan masyarakat selesai ditindaklanjuti |
+
 
 ### 3.5 Perancangan Database
 
