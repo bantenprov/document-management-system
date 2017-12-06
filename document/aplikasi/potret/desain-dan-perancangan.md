@@ -134,7 +134,7 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | report      | Report      | Pimpinan OPD memberikan laporan hasil tindak lanjut          |
 
 ##### 3.4.1.2 Workflow Transition
-**Workfow transitoin yang direncakan adalah sebagai berikut**:
+**Workfow transition yang direncakan adalah sebagai berikut**:
 
 | name           | label          | description    |
 |-------------|-------------|------------------------------------------------------------|
@@ -148,6 +148,12 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | internal-report-to-report | Report | Pimpinan OPD sudah memberikan laporan hasil tindak lanjut |
 | report-to-closed | Closed | Proses pelaporan masyarakat selesai ditindaklanjuti |
 
+##### 3.4.1.3 Workflow Guard
+**Workfow transition yang direncakan adalah sebagai berikut**:
+
+
+##### 3.4.1.4 Workflow Notification
+**Workfow notification yang direncakan adalah sebagai berikut**:
 
 ### 3.5 Perancangan Database
 
