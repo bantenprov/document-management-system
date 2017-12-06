@@ -8,7 +8,7 @@ untuk
 Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi
 Banten
 
-| [./images/desain-dan-perancangan/image1.wmf](./images/desain-dan-perancangan/image1.wmf) | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA**                                                                                                                             |                                    |           |
+|  | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA**                                                                                                                             |                                    |           |
 |------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------|
 |                                          | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI KEMENTERIAN SEKRETARIAT NEGARA** |                                    |           |
 | **Disiapkan Oleh:**                      |                                                                                                                                                                                                   | **Tanda Tangan :**                 |           |
@@ -20,7 +20,7 @@ Banten
 | **Disetujui Oleh :**                     |                                                                                                                                                                                                   | **Tanda Tangan :**                 |           |
 |                                          |                                                                                                                                                                                                   | **Nama : Lihat Lembar Pengesahan** |           |
 |                                          |                                                                                                                                                                                                   | **Posisi :**                       |           |
-| [./images/desain-dan-perancangan/image3.png](./images/desain-dan-perancangan/image3.png) | **Nomor Dokumen**                                                                                                                                                                                 | **Halaman**                        |           |
+|  | **Nomor Dokumen**                                                                                                                                                                                 | **Halaman**                        |           |
 |                                          | **MKI-SDB.PRJ.SDD.01.MKI.05.2017**                                                                                                                                                                | 1/45                               |           |
 |                                          | **Revisi**                                                                                                                                                                                        | *-*                                | **Tgl:**  |
 
@@ -187,7 +187,7 @@ Ringkasan Teknis
 >   yang sedang dikembangkan, diharapkan akan mempermudah pembaca dokumen ini
 >   dalam memahami dan menggunakan aplikasi *Banten Satu Data* nantinya.
 
-![](media/e5dcf320e791fff6a92e2b00f883e74f.png)
+![](images/desain-dan-perancangan/e5dcf320e791fff6a92e2b00f883e74f.png)
 
 Gambar 1. Gambaran Umum Aplikasi Banten Satu Data
 
@@ -252,7 +252,7 @@ diagram, activity diagam dan deployment diagram.
 >   Berikut ini adalah hirarki fungsi *frontend* sebagai gambaran fungsi atau
 >   fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
 
-![](media/ff1263be16abab73ef6e012433da753c.png)
+![](images/desain-dan-perancangan/ff1263be16abab73ef6e012433da753c.png)
 
 Gambar 2. Hirarki Fungsi Frontend
 
@@ -280,7 +280,7 @@ Gambar 2. Hirarki Fungsi Frontend
 >   *frontend.* Berikut ini adalah hirarki fungsi *backend* sebagai gambaran
 >   fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
 
-![](media/4ac273bf3e1ad382de950f42119f8a22.png)
+![](images/desain-dan-perancangan/4ac273bf3e1ad382de950f42119f8a22.png)
 
 Gambar 3. Hirarki Fungsi Backend
 
@@ -289,7 +289,7 @@ Gambar 3. Hirarki Fungsi Backend
 >   Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi
 >   *Banten Satu Data* yang digunakan untuk pengelolaan data dan informasi.
 
-![](media/94362318dfce389b3a0d463199abb048.png)
+![](images/desain-dan-perancangan/94362318dfce389b3a0d463199abb048.png)
 
 Gambar 4. Diagram Konteks, Aplikasi Banten Satu Data
 
@@ -298,7 +298,7 @@ Gambar 4. Diagram Konteks, Aplikasi Banten Satu Data
 >   Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1
 >   pada aplikasi *Banten Satu Data.*
 
-![](media/687ab912c262fe6acd87fe4a179b9aba.png)
+![](images/desain-dan-perancangan/687ab912c262fe6acd87fe4a179b9aba.png)
 
 Gambar 3. DFD Level 1 Banten Satu Data
 
@@ -335,7 +335,7 @@ Table 1. Tabel Spesifikasi Proses
     satu atau dua baris kata yang mendefinisikan bahwa aktor berasal dari sudut
     pandang sistem
 
-![](media/de4ce0a947b4a6fe1916eb978580d81e.png)
+![](images/desain-dan-perancangan/de4ce0a947b4a6fe1916eb978580d81e.png)
 
 Gambar 4. Identifikasi Aktors
 
@@ -351,7 +351,7 @@ Gambar 4. Identifikasi Aktors
 >   Berikut ini adalah *use case* utama atau bisa disebut juga *use case*
 >   keseluruhan pada pembangunan aplikasi *Bantes Satu Data.*
 
-![](media/a8ad05053bd62479c852d0977d23140a.png)
+![](images/desain-dan-perancangan/a8ad05053bd62479c852d0977d23140a.png)
 
 Gambar 5. Use Case Diagram Keseluruhan
 
@@ -747,23 +747,23 @@ Tabel 1. Spesifikasi Use Case Aplikasi Banten Satu Data
 >   dan lain-lain. Berikut ini adalah beberapa *class diagram* yang terdapat
 >   pada pengembangan aplikasi *DUMAS KPK*.
 
-![](media/acebf032f7fd666b0f11e8dd4ee13cd8.png)
+![](images/desain-dan-perancangan/acebf032f7fd666b0f11e8dd4ee13cd8.png)
 
 Gambar 3. Class Diagram, Permintaan Informasi
 
-![](media/42261e870a4f8bfe03337aef9039368e.png)
+![](images/desain-dan-perancangan/42261e870a4f8bfe03337aef9039368e.png)
 
 Gambar 4. Class Diagram, Informasi
 
-![](media/561a7026284678d60e4339e117a553e8.png)
+![](images/desain-dan-perancangan/561a7026284678d60e4339e117a553e8.png)
 
 Gambar 5. Class Diagram, Tempat Tinggal
 
-![](media/c0b41301a85a47e249ea5bcbcddc115b.png)
+![](images/desain-dan-perancangan/c0b41301a85a47e249ea5bcbcddc115b.png)
 
 Gambar 6. Class Diagram, Informan
 
-![](media/16f5be870ccde30664cea039fa72c504.png)
+![](images/desain-dan-perancangan/16f5be870ccde30664cea039fa72c504.png)
 
 Gambar 7. Class DIagram, Rekrut Informan
 
@@ -776,7 +776,7 @@ Package Diagram
 >   unik. Sebuah *package* adalah mekanisme tujuan umum untuk mengatur elemen
 >   dan diagram ke dalam kelompok-kelompok tertentu.
 
-![](media/c4c4a2968ba5c2013b0603e9efd47e54.png)
+![](images/desain-dan-perancangan/c4c4a2968ba5c2013b0603e9efd47e54.png)
 
 Gambar 8. Package Diagram
 
@@ -832,7 +832,7 @@ Table 3. Detail Modul Login
 
 1.  Klik tombol **Sign in**
 
-![](media/14f88b17a7d7d7f725294fd4db468a65.png)
+![](images/desain-dan-perancangan/14f88b17a7d7d7f725294fd4db468a65.png)
 
 Gambar 21. Login Backend, Banten Satu Data
 
@@ -853,7 +853,7 @@ Table 5. Detail Modul Dashboard
 
 2.  Klik sub menu **Dasboard**
 
-![](media/ec33a067d39214f093df6b7a8548b568.png)
+![](images/desain-dan-perancangan/ec33a067d39214f093df6b7a8548b568.png)
 
 Gambar 21. Dashboard, Banten Satu Data
 
@@ -892,11 +892,11 @@ Table 7. Detail Modul Dataset
 
 -   Notifikasi berupa popup untuk setiap aksi yang dipilih
 
-![](media/d99f3100f4b43dc35c2bb9081d441332.png)
+![](images/desain-dan-perancangan/d99f3100f4b43dc35c2bb9081d441332.png)
 
 Gambar 21. Dataset, Banten Satu Data
 
-![](media/d96119a211d0fa267dad3935bd7a2a63.png)
+![](images/desain-dan-perancangan/d96119a211d0fa267dad3935bd7a2a63.png)
 
 Gambar 22. Tambah Dataset, Banten Satu Data
 
@@ -941,15 +941,15 @@ Table 7. Detail Modul Organisasi
 
 -   Notifikasi berupa popup untuk setiap aksi yang dipilih
 
-![](media/bdf5b3636b2359da53a01c9dc9874d9b.png)
+![](images/desain-dan-perancangan/bdf5b3636b2359da53a01c9dc9874d9b.png)
 
 >   **Gambar 23. Organisasi, Banten Satu Data**
 
-![](media/b837298612c99fd6b34c60b847b9331d.png)
+![](images/desain-dan-perancangan/b837298612c99fd6b34c60b847b9331d.png)
 
 >   **Gambar 24. Tambah Organisasi, Banten Satu Data**
 
-![](media/fe406d940fe70769095d5efd09abe06f.png)
+![](images/desain-dan-perancangan/fe406d940fe70769095d5efd09abe06f.png)
 
 >   **Gambar 25. Tambah Child Organisasi, Banten Satu Data**
 
@@ -990,7 +990,7 @@ Table 7. Detail Modul Group
 
 -   Notifikasi berupa popup untuk setiap aksi yang dipilih
 
-![](media/0a4c3fc74e8652f02c5cb3ed901b05bb.png)
+![](images/desain-dan-perancangan/0a4c3fc74e8652f02c5cb3ed901b05bb.png)
 
 >   **Gambar 26. Group, Banten Satu Data**
 
@@ -1031,15 +1031,15 @@ Table 9. Detail Modul Aplikasi
 
 -   Notifikasi berupa popup untuk setiap aksi yang dipilih
 
-![](media/9db47ddacd16c964e5aac19a8d14afbb.png)
+![](images/desain-dan-perancangan/9db47ddacd16c964e5aac19a8d14afbb.png)
 
 >   **Gambar 27. Aplikasi, Banten Satu Data**
 
-![](media/859e35001b8e385dd261fe716ec25b88.png)
+![](images/desain-dan-perancangan/859e35001b8e385dd261fe716ec25b88.png)
 
 >   **Gambar 28. Detail Aplikasi, Banten Satu Data**
 
-![](media/27c148ee3208554ed4ed17ed59ec03e2.png)
+![](images/desain-dan-perancangan/27c148ee3208554ed4ed17ed59ec03e2.png)
 
 >   **Gambar 28. Ubah Aplikasi, Banten Satu Data**
 
@@ -1080,11 +1080,11 @@ Table 11. Detail Modul Akses
 
 -   Notifikasi berupa popup untuk setiap aksi yang dipilih
 
-![](media/4ec5b5f6381839e0967c4ae97d2d2d0e.png)
+![](images/desain-dan-perancangan/4ec5b5f6381839e0967c4ae97d2d2d0e.png)
 
 >   **Gambar 29. Akses, Banten Satu Data**
 
-![](media/5368e72895c7e174df8c851d20cbd3d2.png)
+![](images/desain-dan-perancangan/5368e72895c7e174df8c851d20cbd3d2.png)
 
 >   **Gambar 30. Tambah Akses, Banten Satu Data**
 
@@ -1125,19 +1125,19 @@ Table 13. Detail Modul Akses
 
 -   Notifikasi berupa popup untuk setiap aksi yang dipilih
 
-![](media/498a66deb2406845b4bf7d85b296b75b.png)
+![](images/desain-dan-perancangan/498a66deb2406845b4bf7d85b296b75b.png)
 
 >   **Gambar 31. Pengguna, Banten Satu Data**
 
-![](media/e673d364acfcad70db8f1cd9bd4e3bc5.png)
+![](images/desain-dan-perancangan/e673d364acfcad70db8f1cd9bd4e3bc5.png)
 
 >   **Gambar 32. Tambah Pengguna, Banten Satu Data**
 
-![](media/4c6385d0d88bb2e6153ebf6ef4fea824.png)
+![](images/desain-dan-perancangan/4c6385d0d88bb2e6153ebf6ef4fea824.png)
 
 >   **Gambar 33. Detail Pengguna, Banten Satu Data**
 
-![](media/27c148ee3208554ed4ed17ed59ec03e2.png)
+![](images/desain-dan-perancangan/27c148ee3208554ed4ed17ed59ec03e2.png)
 
 >   **Gambar 33. Ubah Pengguna, Banten Satu Data**
 
@@ -1337,7 +1337,7 @@ pendukung pembangunan aplikasi.
 >   berhubungan dengan *host sistem*, type dan banyaknya peralatan input dan
 >   output yang digunakan.
 
-![](media/3377468d454e14a1e8a33ab19b89d3a3.jpg)
+![](images/desain-dan-perancangan/3377468d454e14a1e8a33ab19b89d3a3.jpg)
 
 Gambar 10. Diagram Komunikasi Aplikasi Banten Satu Data
 

@@ -8,7 +8,7 @@ untuk
 Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi
 Banten
 
-| [./images/pengembangan/image1.wmf](./images/pengembangan/image1.wmf) | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA**                                                                                                                              |                                    |           |
+| ) | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA**                                                                                                                              |                                    |           |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------|
 |                                          | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI KEMENTERIAN SEKRETARIAT NEGARA**  |                                    |           |
 | **Disiapkan Oleh:**                      |                                                                                                                                                                                                    | **Tanda Tangan :**                 |           |
@@ -20,7 +20,7 @@ Banten
 | **Disetujui Oleh :**                     |                                                                                                                                                                                                    | **Tanda Tangan :**                 |           |
 |                                          |                                                                                                                                                                                                    | **Nama : Lihat Lembar Pengesahan** |           |
 |                                          |                                                                                                                                                                                                    | **Posisi :**                       |           |
-| [./images/pengembangan/image3.png](./images/pengembangan/image3.png) | **Nomor Dokumen**                                                                                                                                                                                  | **Halaman**                        |           |
+|  | **Nomor Dokumen**                                                                                                                                                                                  | **Halaman**                        |           |
 |                                          | **MKI-BSD.SKPL.01.MKI.05.2017**                                                                                                                                                                    | i/52                               |           |
 |                                          | **Revisi**                                                                                                                                                                                         | *-*                                | **Tgl:**  |
 
@@ -32,8 +32,7 @@ Banten
 
 [Gambar 3. Layer Aplikasi, Banten Satu Data 11](#_Toc500237576)
 
-[Gambar 4. Cara Kerja Web Server Melakukan compile terhadap Code PHP
-12](#_Toc500237577)
+[Gambar 4. Cara Kerja Web Server Melakukan compile terhadap Code PHP 12](#_Toc500237577)
 
 [Gambar 5. Arsitektur CKAN 13](#_Toc500237578)
 
@@ -115,8 +114,7 @@ Banten
 
 [5.2.2. Backup dan Restore 42](#backup-dan-restore)
 
-[5.2.3. Identifikasi, Authentifikasi Pengguna
-43](#identifikasi-authentifikasi-pengguna)
+[5.2.3. Identifikasi, Authentifikasi Pengguna 43](#identifikasi-authentifikasi-pengguna)
 
 [5.2.4. Validasi Data Input, Output 43](#validasi-data-input-output)
 
@@ -142,8 +140,7 @@ Banten
 
 [9.1. Matriks Resiko 49](#matriks-resiko)
 
-[9.2. Contoh Matriks Penilaian Tingkat Risiko
-51](#contoh-matriks-penilaian-tingkat-risiko)
+[9.2. Contoh Matriks Penilaian Tingkat Risiko 51](#contoh-matriks-penilaian-tingkat-risiko)
 
 DAFTAR REVISI
 
@@ -303,7 +300,7 @@ Deskripsi Umum Sistem
     Pada *use case* ini dapat digambarkan secara umum bagaimana pengguna
     aplikasi *Banten Satu Data* berinteraksi dengan sistem yang dibuat.
 
-    ![](media/d5e2622d9f3605ddd1fc33700cd10b56.png)
+    ![](images/desain-dan-perancangan/d5e2622d9f3605ddd1fc33700cd10b56.png)
 
 Gambar . Use Case Diagram, Banten Satu Data
 
@@ -328,7 +325,7 @@ Deskripsi Perangkat Lunak
 >   Adapun arsitektur sistem yang akan dibangun untuk membuat aplikasi *Banten
 >   Satu Data* adalah sebagai berikut :
 
-![](media/3377468d454e14a1e8a33ab19b89d3a3.jpg)
+![](images/desain-dan-perancangan/3377468d454e14a1e8a33ab19b89d3a3.jpg)
 
 Gambar . Arsitektur Sistem Informasi, Banten Satu Data
 
@@ -352,7 +349,7 @@ Gambar . Arsitektur Sistem Informasi, Banten Satu Data
 >   *client*, *application* dan *data* , skema dari model ini digambarkan pada
 >   gambar dibawah ini:
 
-![](media/0669997eff0e4dd63935b310fc8ba23c.png)
+![](images/desain-dan-perancangan/0669997eff0e4dd63935b310fc8ba23c.png)
 
 Gambar . Layer Aplikasi, Banten Satu Data
 
@@ -396,7 +393,7 @@ CKAN *Open Source data platform portal*
 -   Tidak perlu mengerti *object oriented programing* untuk menggunakan PHP
     dalam membuat aplikasi.
 
-![](media/6d1481b4d0aa3bdfcdc5f12736cef454.jpg)
+![](images/desain-dan-perancangan/6d1481b4d0aa3bdfcdc5f12736cef454.jpg)
 
 Gambar . Cara Kerja Web Server Melakukan compile terhadap Code PHP
 
@@ -418,7 +415,7 @@ Gambar . Cara Kerja Web Server Melakukan compile terhadap Code PHP
 
 ### Ckan
 
-![](media/47f72c2cf01a93be2857daf0657822bb.png)
+![](images/desain-dan-perancangan/47f72c2cf01a93be2857daf0657822bb.png)
 
 Gambar . Arsitektur CKAN
 
@@ -454,7 +451,7 @@ Gambar . Arsitektur CKAN
 >   otentikasi media sosial, pemulihan kata sandi, dan perlindungan captcha. Hal
 >   ini membuat
 
-![](media/af3aeb1ea82fda487e20c58476f16137.png)
+![](images/desain-dan-perancangan/af3aeb1ea82fda487e20c58476f16137.png)
 
 >   penggunaan penuh Controllers untuk rute, template untuk tampilan, dan
 >   memanfaatkan middleware untuk routing.Menggunakan pemodelan ORM laravel dan
