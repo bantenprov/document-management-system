@@ -118,7 +118,7 @@ Dari hasil evaluasi produser yang berjalan masalah tidak terjadi pada saat pemro
 Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow management dengan state dan transition sebegai berikut:
 
 ##### 3.4.1.1 Workflow State
-**Workfow state yang direncakan adalah sebagai berikut**:
+**Workfow state yang direncanakan adalah sebagai berikut**:
 
 | name        | label       | description                                                |
 |-------------|-------------|------------------------------------------------------------|
@@ -134,13 +134,14 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | report      | Report      | Pimpinan OPD memberikan laporan hasil tindak lanjut          |
 
 ##### 3.4.1.2 Workflow Transition
-**Workfow transition yang direncakan adalah sebagai berikut**:
+**Workfow transition yang direncanakan adalah sebagai berikut**:
 
 | name           | label          | description    |
 |-------------|-------------|------------------------------------------------------------|
 | propose-to-verification | Verified | Laporan sudah diverifikasi oleh admin |
 | propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
-| verification-to-disposition | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
+| verification-to-distribution | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
+| distribution-to-disposition | Dispositioned | Laporan sudah diteruskan oleh OPD terkait kepada pelaksana |
 | disposition-to-execution | Executed | Laporan sedang ditindak lanjuti |
 | execution-to-internal-report | Internal Report | Staff OPD sudah melaporkan tindak lanjut |
 | internal-report-to-need-review | Need Review | Pimpinan OPD meminta tinjauan ulang hasil tindak lanjut |
@@ -149,11 +150,24 @@ Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow 
 | report-to-closed | Closed | Proses pelaporan masyarakat selesai ditindaklanjuti |
 
 ##### 3.4.1.3 Workflow Guard
-**Workfow transition yang direncakan adalah sebagai berikut**:
+**Workfow guard yang direncanakan adalah sebagai berikut**:
+
+| name           | label          | description    |
+|-------------|-------------|------------------------------------------------------------|
+| access-propose-to-verification | Able to verification | User yang dapat melakukan verifikasi laporan |
+| access-propose-to-reject | Able to Reject | User yang dapat memberikan status reject |
+| access-verification-to-distribution | Able to distribute | User yang dapat melakukan distribusi laporan  |
+| access-distribution-to-disposition | Able disposition | User yang dapat melakukan disposisi laporan  |
+| access-disposition-to-execution | Able to executed | User yang dapat menindaklanjuti laporan |
+| access-execution-to-internal-report | Able to Reported internally | user yang dapat melaporkan tindak lanjut |
+| access-internal-report-to-need-review | Able to ask Need Review | User yang dapat meminta tinjauan ulang hasil tindak lanjut |
+| access-need-review-to-excecution | Reexecution | User yang dapat menindaklanjuti permintaan tinjauan ulang |
+| access-internal-report-to-report | Report | User yang dapat memberikan laporan hasil tindak lanjut |
+| access-report-to-closed | Closed | User yang dapat memberikan status pelaporan masyarakat selesai ditindaklanjuti |
 
 
 ##### 3.4.1.4 Workflow Notification
-**Workfow notification yang direncakan adalah sebagai berikut**:
+**Workfow notification yang direncanakan adalah sebagai berikut**:
 
 ### 3.5 Perancangan Database
 
