@@ -23,6 +23,8 @@ Apliaksi Laporan Bulanan ini menampilkan laporan bulanan dari OPD-OPD (Organisas
 [![Tampilan Login](/document/aplikasi/laporan-bulanan/images/halaman-login.png)](/document/aplikasi/laporan-bulanan/images/halaman-login.png)
 Pada halaman ini terdapat *form login* untuk semua *user* baik admin maupun OPD terkait. Di *form login* ini terdapat 2 *field* yaitu *field email* dan *field password*.
 
+> Misalnya gunakan user untuk admin dengan username **admin@mail.com** dan password **123456**.
+
 ## Tampilan Untuk Admin
 
 ### Tampilan Dashboard Admin
