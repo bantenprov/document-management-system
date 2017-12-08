@@ -1,5 +1,7 @@
 # Document Management System
 
+[![Join the chat at https://gitter.im/document-management-system/Lobby](https://badges.gitter.im/document-management-system/Lobby.svg)](https://gitter.im/document-management-system/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Repositori untuk menyimpan dokumen online Pemerintah Provinsi Banten.
 
 ## Panduan
