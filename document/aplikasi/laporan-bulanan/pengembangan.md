@@ -141,10 +141,11 @@ Halaman ini menampilkan *list* rincian tolok ukur kegiatan atau program dari OPD
 Pada halaman ini terdapat *form input* rincian tolok ukur yang berisikan beberapa *field* yang harus diisi oleh admin OPD untuk menambahkan master data rincian tolok ukur pada apliaksi.
 
 ### Tampilan Konten laporan Bulanan
-Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017.
 
 [![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-laporan-content.png)](/document/aplikasi/laporan-bulanan/images/adpem-laporan-content.png)
 
 ### Tampilan Lihat Hasil Laporan Bulanan
-[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
-Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya.
+Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya, atau [laporan Biro Adpem Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/4/2017/03).
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)
