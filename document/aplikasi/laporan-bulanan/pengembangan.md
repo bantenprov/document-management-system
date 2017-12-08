@@ -129,7 +129,6 @@ Pada halaman ini terdapat *form input* program yang berisikan beberapa *field* y
 Pada halaman ini terdapat *list* informasi tentang kegiatan dan program dari OPD terkait beserta lokasi, waktu dan tolok ukur dari kegiatan dan program tersebut.
 
 ### Tampilan Tambah Tolok Ukur
-[![tambah tolok ukur](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur.png)](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur.png)
 [![tambah tolok ukur2](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur2.png)](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur2.png)
 Pada halaman ini terdapat *form input* tolok ukur yang berisikan beberapa *field* yang harus diisi oleh admin OPD untuk menambahkan master data tolok ukur pada apliaksi.
 
@@ -142,9 +141,11 @@ Halaman ini menampilkan *list* rincian tolok ukur kegiatan atau program dari OPD
 Pada halaman ini terdapat *form input* rincian tolok ukur yang berisikan beberapa *field* yang harus diisi oleh admin OPD untuk menambahkan master data rincian tolok ukur pada apliaksi.
 
 ### Tampilan Konten laporan Bulanan
-[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)
-Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait.
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017.
+
+[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-laporan-content.png)](/document/aplikasi/laporan-bulanan/images/adpem-laporan-content.png)
 
 ### Tampilan Lihat Hasil Laporan Bulanan
-[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
-Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya.
+Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya, atau [laporan Biro Adpem Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/4/2017/03).
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)
