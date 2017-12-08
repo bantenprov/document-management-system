@@ -142,8 +142,9 @@ Halaman ini menampilkan *list* rincian tolok ukur kegiatan atau program dari OPD
 Pada halaman ini terdapat *form input* rincian tolok ukur yang berisikan beberapa *field* yang harus diisi oleh admin OPD untuk menambahkan master data rincian tolok ukur pada apliaksi.
 
 ### Tampilan Konten laporan Bulanan
-[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)
-Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait.
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017
+
+[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)](/document/aplikasi/laporan-bulanan/images/adpem-laporan-konten.png)
 
 ### Tampilan Lihat Hasil Laporan Bulanan
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
