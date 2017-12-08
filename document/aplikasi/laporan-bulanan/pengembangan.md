@@ -156,7 +156,7 @@ Pada halaman ini akan terlihat rincian laporan pada bulan maret.
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)
 
 ### Tampilan Konten laporan Bulanan
-Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017.
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Bapeda Bulan Januari 2017.
 
 [![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-laporan-content.png)](/document/aplikasi/laporan-bulanan/images/bapeda-laporan-content.png)
 
