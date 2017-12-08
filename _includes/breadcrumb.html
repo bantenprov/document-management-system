@@ -1,0 +1,97 @@
+<nav aria-label="breadcrumb" role="navigation">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item">
+      <a href="/document/">Document</a>
+    </li>
+
+    {% if page.group == 'aplikasi' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/">Aplikasi</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'dashboard-pimpinan' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/dashboard-pimpinan/">Dashboard Pimpinan</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'portal-pemerintah-provinsi-banten' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/portal-pemerintah-provinsi-banten/">Portal Pemerintah</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'layanan-kesehatan' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/layanan-kesehatan/">Layanan Kesehatan</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'sop-online' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/sop-online/">SOP Online</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'banten-satu-data' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/banten-satu-data/">Banten Satu Data</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'portal' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/portal/">Portal</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'potret' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/potret/">Potret</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'laporan-bulanan' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/laporan-bulanan/">Laporan Bulanan</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'sistem-informasi-barang-daerah' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/sistem-informasi-barang-daerah/">Sistem Informasi Barang Daerah</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'helpdesk' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/helpdesk/">Helpdesk</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'palapa' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/palapa/">Palapa</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'simbada' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/simbada/">Simbada</a>
+      </li>
+    {% endif %}
+
+    {% if page.cat == 'api' %}
+      <li class="breadcrumb-item">
+        <a href="/document/aplikasi/api/">API</a>
+      </li>
+    {% endif %}
+
+    {% if page.title %}
+      <li class="breadcrumb-item active">
+        {{ page.title }}
+      </li>
+    {% endif %}
+  </ol>
+</nav>

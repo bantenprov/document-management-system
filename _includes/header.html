@@ -1,0 +1,28 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+  {% if page.title %}
+    {{ page.title }} &middot; {{ site.title }}
+  {% else %}
+    {{ site.title }}
+  {% endif %}
+</title>
+
+{% include social.html %}
+
+<!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="{{ site.cdn.css }}" integrity="{{ site.cdn.css_hash }}" crossorigin="anonymouse">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="{{ site.cdn.fontAwesome }}" integrity="{{ site.cdn.fontAwesome_hash }}" crossorigin="anonymouse">
+
+<!-- Extras -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+{% if page.layout == 'home' %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home.css">
+{% endif %}
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico">
