@@ -144,7 +144,7 @@ Pada halaman ini terdapat *form input* rincian tolok ukur yang berisikan beberap
 ### Tampilan Konten laporan Bulanan
 Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017
 
-[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)](/document/aplikasi/laporan-bulanan/images/adpem-laporan-konten.png)
+[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)](/document/aplikasi/laporan-bulanan/images/adpem-laporan-contennt.png)
 
 ### Tampilan Lihat Hasil Laporan Bulanan
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
