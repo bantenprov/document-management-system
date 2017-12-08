@@ -165,8 +165,8 @@ Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah d
 
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
 
-### Tampilan Laporan Bulanan BAPEDA pada Bulan Maret
-Pada halaman ini akan terlihat rincian laporan pada bulan maret.
+### Tampilan Laporan Bulanan BAPEDA pada Bulan Januari
+Pada halaman ini akan terlihat rincian laporan pada bulan januari.
 
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-bapeda-januari-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-bapeda-januari-2017.png)
 
