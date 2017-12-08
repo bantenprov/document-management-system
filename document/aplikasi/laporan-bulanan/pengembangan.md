@@ -154,3 +154,19 @@ Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah d
 Pada halaman ini akan terlihat rincian laporan pada bulan maret.
 
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)
+
+### Tampilan Konten laporan Bulanan
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017.
+
+[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-laporan-content.png)](/document/aplikasi/laporan-bulanan/images/bapeda-laporan-content.png)
+
+### Tampilan Lihat Hasil Laporan Bulanan
+Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya, atau [laporan Biro Bapeda Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/5/2017/01).
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
+
+### Tampilan Laporan Bulanan BAPEDA pada Bulan Maret
+Pada halaman ini akan terlihat rincian laporan pada bulan maret.
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-bapeda-januari-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-bapeda-januari-2017.png)
+
