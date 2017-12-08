@@ -149,3 +149,8 @@ Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program
 Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya, atau [laporan Biro Adpem Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/4/2017/03).
 
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)
+
+### Tampilan Laporan Bulanan ADPEM pada Bulan Maret
+Pada halaman ini akan terlihat rincian laporan pada bulan maret, atau [laporan Biro Adpem Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/4/2017/03).
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)
