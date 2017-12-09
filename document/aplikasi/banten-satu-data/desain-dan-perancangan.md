@@ -151,7 +151,7 @@ pembangunan aplikasi *Banten Satu Data.*
 |             |           |                       |                   |
 |             |           |                       |                   |
 
-## SISTEM OVERVIEW
+## 1. SISTEM OVERVIEW
 
 Pada bagian ini akan dijelaskan mengenai overview dari sistem aplikasi yang akan dibuat yang terdiri dari ringkasan solusi teknis, karakteristik teknis, asumsi dan cara pencapaian kebutuhan sistem.
 
@@ -181,7 +181,7 @@ Pada bagian ini akan dijelaskan mengenai overview dari sistem aplikasi yang akan
 
 Gambar 1. Gambaran Umum Aplikasi Banten Satu Data
 
-### 1.1.1. Karakteristik Teknis
+#### 1.1.1. Karakteristik Teknis
 
 Berikut ini adalah beberapa karakteristik teknis dari keseluruhan sistem yang digunakan oleh aplikasi *Banten Satu Data*.
 
@@ -195,7 +195,7 @@ Berikut ini adalah beberapa karakteristik teknis dari keseluruhan sistem yang di
   - ORM : Laravel
   - Database : PostgreSQL, MySQL
 
-### 1.1.2. Asumsi Asumsi
+#### 1.1.2. Asumsi Asumsi
 
 Berikut ini adalah beberapa kebutuhan fungsional yang harus dapat tercapai dan dapat diakomodasi oleh aplikasi *Banten Satu Data* :
 
@@ -204,7 +204,7 @@ Berikut ini adalah beberapa kebutuhan fungsional yang harus dapat tercapai dan d
 - Aplikasi yang dibangun harus *user fiendly* dengan *interface* berbasis *Graphical User Interface (GUI)* disesuaikan.
 - *Availibility Server* 99 % (sesuai dengan jaminan koneksi internet ISP).
 
-### 1.1.3. Cara Pencapaian Kebutuhan Sistem
+#### 1.1.3. Cara Pencapaian Kebutuhan Sistem
 - Ketersediaan berkas pendukung yang sebelumnya terbiasa digunakan pada proses permintaan informasi sampai dengan proses pemenuhan informasi.
 - *User* atau pengguna telah mengetahui dan memahami prosedur menggunakan aplikasi *Banten Satu Data*.
 - Ketersediaan dukungan sarana dan prasarana pendukung aplikasi seperti koneksi *intenet*, *software* dan *hardware* yang memadai.
@@ -233,7 +233,7 @@ Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yan
 
 Gambar 3. Hirarki Fungsi Backend.
 
-### 2.1.1. Diagram Keseluruhan (Konteks)
+#### 2.1.1. Diagram Keseluruhan (Konteks)
 
 Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi *Banten Satu Data* yang digunakan untuk pengelolaan data dan informasi.
 
@@ -241,7 +241,7 @@ Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi *Bant
 
 Gambar 4. Diagram Konteks, Aplikasi Banten Satu Data
 
-### 2.1.2. DFD Level 1
+#### 2.1.2. DFD Level 1
 
 Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1 pada aplikasi *Banten Satu Data.*
 
@@ -264,3 +264,40 @@ Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada p
 |    | Akses       | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Akses.       |
 |    | Pengguna    | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Pengguna.   |
 |    | Tentang     | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Tentang.    |
+
+
+#### 2.1.3. Spesifikasi Proses
+
+#### 2.1.4. Identifikasi Actor
+
+### 2.2. Use Case
+
+#### 2.2.1 Skenario Use Case
+
+### 2.3 Class Diagram
+
+### 2.4 Package Diagram
+
+### 3. DESAIN PENGAMANAN SISTEM APLIKASI
+
+### 3.1 Metode Authentifikasi 24](#metode-authentifikasi)
+
+## 4. INTERFACE SISTEM
+
+### 4.1 Antarmuka Aplikasi
+
+## 5. DESAIN LOGIKA DATABASE
+
+### 5.1. Daftar Table
+
+#### 5.1.1. Master 37
+
+#### 5.1.2. Daftar View
+
+### 5.2. Uraian Logika Struktur Database
+
+## 6. GAMBARAN KOMUNIKASI
+
+### 6.1. Layout Network
+
+## 7. SOFTWARE SISTEM
