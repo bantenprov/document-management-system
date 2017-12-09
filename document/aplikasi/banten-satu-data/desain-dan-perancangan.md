@@ -1,10 +1,14 @@
 ---
-title: "SPESIFIKASI DESIGN DOCUMENT  \n(SDD)"
+layout: document
+title: Desain dan Perancangan
+description: Banten Satu Data merupakan suatu sistem berbasis komputer yang dapat membantu suatu pemerintahan untuk meningkatkan kinerja dalam penyimpanan dataset dlam jumlah besar dengan dimensi yang beragam.
+group: aplikasi
+cat: banten-satu-data
+toc: true
 ---
 
-Banten Satu Data  
+# Banten Satu Data  
 untuk
-
 Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi
 Banten
 
@@ -23,6 +27,27 @@ Banten
 | [./images/desain-dan-perancangan/image3.png](./images/desain-dan-perancangan/image3.png) | **Nomor Dokumen**                                                                                                                                                                                 | **Halaman**                        |           |
 |                                          | **XXX-XXX.XXX.XXX.ZZ.XXX.YY.2017**                                                                                                                                                                | 1/45                               |           |
 |                                          | **Revisi**                                                                                                                                                                                        | *-*                                | **Tgl:**  |
+
+
+| PARAF |                                                                                                                                                                                    KETERANGAN |
+|:-------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|    __   |                                                                                                                             DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA |
+|    __   | DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI KEMENTERIAN SEKRETARIAT NEGARA |
+
+
+
+| PROSES          | : | Tanda Tangan |   |                                                   |
+|-----------------|:-:|-------------:|---|---------------------------------------------------|
+| Disiapkan Oleh: | | | Nama | : |                                                   |
+|                 | | |       Posisi | : | _________________________________________________ |
+|                 |   |              |   |                                                   |
+| Diperiksa Oleh: | | | Nama | : |                                                   |
+|                 | | |       Posisi | : | _________________________________________________ |
+|                 |   |              |   |                                                   |
+| Disetujui Oleh: | | | Nama | : |                                                   |
+|                 | | |       Posisi | : | _________________________________________________ |
+|                 |   |              |   |                                                   |
+
 
 **D A F T A R I S I**
 
