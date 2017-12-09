@@ -203,3 +203,8 @@ Berikut ini adalah beberapa kebutuhan fungsional yang harus dapat tercapai dan d
 - *Web Services* untuk melayani komunikasi data antara aplikasi dengan database aplikasi lainnya dibangun menggunakan bahasa pemrograman PHP
 - Aplikasi yang dibangun harus *user fiendly* dengan *interface* berbasis *Graphical User Interface (GUI)* disesuaikan.
 - *Availibility Server* 99 % (sesuai dengan jaminan koneksi internet ISP).
+
+### 1.1.3. Cara Pencapaian Kebutuhan Sistem
+- Ketersediaan berkas pendukung yang sebelumnya terbiasa digunakan pada proses permintaan informasi sampai dengan proses pemenuhan informasi.
+- *User* atau pengguna telah mengetahui dan memahami prosedur menggunakan aplikasi *Banten Satu Data*.
+- Ketersediaan dukungan sarana dan prasarana pendukung aplikasi seperti koneksi *intenet*, *software* dan *hardware* yang memadai.
