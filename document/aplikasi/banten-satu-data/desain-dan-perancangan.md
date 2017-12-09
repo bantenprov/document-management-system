@@ -208,3 +208,7 @@ Berikut ini adalah beberapa kebutuhan fungsional yang harus dapat tercapai dan d
 - Ketersediaan berkas pendukung yang sebelumnya terbiasa digunakan pada proses permintaan informasi sampai dengan proses pemenuhan informasi.
 - *User* atau pengguna telah mengetahui dan memahami prosedur menggunakan aplikasi *Banten Satu Data*.
 - Ketersediaan dukungan sarana dan prasarana pendukung aplikasi seperti koneksi *intenet*, *software* dan *hardware* yang memadai.
+
+## 2. ALUR APLIKASI
+Pada bagian ini akan dijelaskan mengenai alur sistem aplikasi baru yang akan dibuat yang terdiri dari bagan hirarki fungsi, bagan alur kerja, spesifikasi proses, identifikasi actor, use case, class diagram, package diagram, sequence
+diagram, activity diagam dan deployment diagram.
