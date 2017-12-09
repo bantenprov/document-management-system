@@ -12,22 +12,6 @@ untuk
 Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi
 Banten
 
-| [./images/desain-dan-perancangan/image1.wmf](./images/desain-dan-perancangan/image1.wmf) | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA**                                                                                                                             |                                    |           |
-|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|-----------|
-|                                          | **DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI KEMENTERIAN SEKRETARIAT NEGARA** |                                    |           |
-| **Disiapkan Oleh:**                      |                                                                                                                                                                                                   | **Tanda Tangan :**                 |           |
-|                                          |                                                                                                                                                                                                   | **Nama : Lihat Lembar Pengesahan** |           |
-|                                          |                                                                                                                                                                                                   | **Posisi :**                       |           |
-| **Diperiksa Oleh :**                     |                                                                                                                                                                                                   | **Tanda Tangan :**                 |           |
-|                                          |                                                                                                                                                                                                   | **Nama : Lihat Lembar Pengesahan** |           |
-|                                          |                                                                                                                                                                                                   | **Posisi :**                       |           |
-| **Disetujui Oleh :**                     |                                                                                                                                                                                                   | **Tanda Tangan :**                 |           |
-|                                          |                                                                                                                                                                                                   | **Nama : Lihat Lembar Pengesahan** |           |
-|                                          |                                                                                                                                                                                                   | **Posisi :**                       |           |
-| [./images/desain-dan-perancangan/image3.png](./images/desain-dan-perancangan/image3.png) | **Nomor Dokumen**                                                                                                                                                                                 | **Halaman**                        |           |
-|                                          | **XXX-XXX.XXX.XXX.ZZ.XXX.YY.2017**                                                                                                                                                                | 1/45                               |           |
-|                                          | **Revisi**                                                                                                                                                                                        | *-*                                | **Tgl:**  |
-
 
 | PARAF |                                                                                                                                                                                    KETERANGAN |
 |:-------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
@@ -47,6 +31,10 @@ Banten
 |                 |      :     |       Posisi | : | _________________________________________________ |
 |                 |            |              |   |                                                   |
 
+| LOGO | : |   DOKUMEN | : | TANGGAL |
+|------|:-:|----------:|---|---------|
+|      |   | NOMOR     | : |         |
+|      |   | REVISI NO | : |         |
 
 **D A F T A R I S I**
 
