@@ -212,3 +212,22 @@ Berikut ini adalah beberapa kebutuhan fungsional yang harus dapat tercapai dan d
 ## 2. ALUR APLIKASI
 Pada bagian ini akan dijelaskan mengenai alur sistem aplikasi baru yang akan dibuat yang terdiri dari bagan hirarki fungsi, bagan alur kerja, spesifikasi proses, identifikasi actor, use case, class diagram, package diagram, sequence
 diagram, activity diagam dan deployment diagram.
+
+### 2.1 Bagan Hirarki Fungsi
+Berikut ini adalah hirarki fungsi *frontend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data*.
+
+![Bagan Hirarki Fungsi](media/ff1263be16abab73ef6e012433da753c.png)
+
+Gambar 2. Hirarki Fungsi Frontend
+
+- Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yang dapat diakses oleh pengguna aplikasi dalam melakukan berbagai kegiatan.
+^ **Beranda**, modul yang tersedia sebagai tampilan awal saat pertama kali diakses oleh viewer yang dijadikan pengenalan aplikasi **Banten Satu Data** terhadap user.
+- **Data**, modul yang berisi beberapa fitur pengelolaan data informan yang menjadi sumber informasi bagi para pengakses data.
+- **Organisasi,** modul ini berfungsi untuk menampilkan berbagai oraganisasi yang terhubung dengan Pemerintah Provinsi Banten seperti halnya BMKG, BPS, Badan Kepegawaian dsb.
+- **Group,** modul ini berfungsi untuk menampilkan berbagai macam data sesuai dengan kelompok data yang sudah ditentukan.
+- **Tentang,** modul ini menampilkan profil dataset yang dikelola oleh Pemerintah Provinsi Banten. Adapun aplikasi *backend* yang berfungsi untuk mendistribusikan halaman.
+- *frontend.* Berikut ini adalah hirarki fungsi *backend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
+
+![Hirarki Fungsi Backend](media/4ac273bf3e1ad382de950f42119f8a22.png)
+
+Gambar 3. Hirarki Fungsi Backend
