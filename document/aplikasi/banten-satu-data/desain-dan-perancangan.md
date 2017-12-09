@@ -155,3 +155,28 @@ pembangunan aplikasi *Banten Satu Data.*
 
 Pada bagian ini akan dijelaskan mengenai overview dari sistem aplikasi yang akan dibuat yang terdiri dari ringkasan solusi teknis, karakteristik teknis, asumsi dan cara pencapaian kebutuhan sistem.
 
+
+### 1.1. Ringkasan Teknis
+----------------
+
+>   Aplikasi **Banten Satu Data** dibangun oleh Pemerintah Provinsi Banten dalam rangka menyediakan data dan informasi yang lengkap, actual, valid dan akuntabel yang dikelola dalam satu system yang terintegrasi guna memenuhi kebutuhan pembangunan daerah Provinsi Banten. Adapun beberapa proses yang dapat ditangani oleh aplikasi **Banten Satu Data** antara lain :
+
+- Proses Distribusi Data, apalikasi akan dapat mendistribuskan data yang valid. Dimana data tersebut nantinya dapat di unduh dan dikelola sebagian orang untuk diolah dan ditransformasikan menjadi informasi yang lebih bermanfaat.
+
+- Informasi, apilkasi **Banten Satu Data** juga memberikan berbagai macam informasi seperti halnya informasi dalam dunia pendidikan, pangan, ekonomi, infrastruktur, kesehatan dsb.
+
+- Aplikasi **Banten Satu Data** juga dapat dijadikan sarana diskusi pada setiap berita yang disediakan dan nantinya dapat dijadikan masukan untuk Pemerintah provinsi Banten dalam melakukan pengambilan keputusan terkait isu yang dibahas.
+
+- Kemudahna Akses, aplikasi **Banten Satu Data** memberikan kemudahan dengan *user interface* yang ditampilkan sehingga akan mempermudah setiap pengguna dalam mengoprasikan aplikasi **Banten Satu Data.**
+
+- Sharing Berita, aplikasi **Banten Satu Data** memberikan kemudahan untuk menyebarluaskan berita melaluli platform media social yang sudah terintegrasi sehingga berita dapat diakses oleh semua orang.
+
+- Informasi yang terdapat pada aplikasi **Banten Satu Data** dapat dikelola seperti melakuka update, penambahan dan perubahan berita secara terstruktur.
+
+- Setiap *request* atau permintaan data dan informasi dapat disipan sebagai *history* sehingga nantinya dapat memepermudah pengguna dalam mencari informasi yang sama untuk setiap *resquest*/permintaan selanjutnya.
+
+> Berikut ini adalah gambaran umum dari sistem aplikasi *Banten Satu Data* yang sedang dikembangkan, diharapkan akan mempermudah pembaca dokumen ini dalam memahami dan menggunakan aplikasi *Banten Satu Data* nantinya.
+
+![](media/e5dcf320e791fff6a92e2b00f883e74f.png)
+
+Gambar 1. Gambaran Umum Aplikasi Banten Satu Data
