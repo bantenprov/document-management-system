@@ -35,16 +35,16 @@ Banten
 |    __   | DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI KEMENTERIAN SEKRETARIAT NEGARA |
 
 
-| PROSES          |      :     | Tanda Tangan |   |                                                   |
+| PROSES          |      :     | Tanda Tangan |   | Tanda Tangan                                      |
 |-----------------|:----------:|-------------:|---|---------------------------------------------------|
-| Disiapkan Oleh: |      |     |         Nama | : |                                                   |
-|                 |      |     |       Posisi | : | _________________________________________________ |
+| Disiapkan Oleh: |      :     |         Nama | : |                                                   |
+|                 |      :     |       Posisi | : | _________________________________________________ |
 |                 |            |              |   |                                                   |
-| Diperiksa Oleh: |      |     |         Nama | : |                                                   |
-|                 |      |     |       Posisi | : | _________________________________________________ |
+| Diperiksa Oleh: |      :     |         Nama | : |                                                   |
+|                 |      :     |       Posisi | : | _________________________________________________ |
 |                 |            |              |   |                                                   |
-| Disetujui Oleh: |      |     |         Nama | : |                                                   |
-|                 |      |     |       Posisi | : | _________________________________________________ |
+| Disetujui Oleh: |      :     |         Nama | : |                                                   |
+|                 |      :     |       Posisi | : | _________________________________________________ |
 |                 |            |              |   |                                                   |
 
 
