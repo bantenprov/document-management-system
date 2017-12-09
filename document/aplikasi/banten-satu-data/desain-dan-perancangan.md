@@ -177,6 +177,29 @@ Pada bagian ini akan dijelaskan mengenai overview dari sistem aplikasi yang akan
 
 > Berikut ini adalah gambaran umum dari sistem aplikasi *Banten Satu Data* yang sedang dikembangkan, diharapkan akan mempermudah pembaca dokumen ini dalam memahami dan menggunakan aplikasi *Banten Satu Data* nantinya.
 
-![](media/e5dcf320e791fff6a92e2b00f883e74f.png)
+![ringkasan-teknis](media/e5dcf320e791fff6a92e2b00f883e74f.png)
 
 Gambar 1. Gambaran Umum Aplikasi Banten Satu Data
+
+### 1.1.1. Karakteristik Teknis
+
+Berikut ini adalah beberapa karakteristik teknis dari keseluruhan sistem yang digunakan oleh aplikasi *Banten Satu Data*.
+
+- **DEVELOPMENT**
+
+  - Web browser* : IE/ Google Chrome/ Firefox/ Safari dll.
+  - User interface* : Bootstrap Template, Material CSS
+  - Backend : Material Admin
+  - Bahasa Pemrograman : PHP 7.x, Pyton
+  - Framework : Laravel
+  - ORM : Laravel
+  - Database : PostgreSQL, MySQL
+
+### 1.1.2. Asumsi Asumsi
+
+Berikut ini adalah beberapa kebutuhan fungsional yang harus dapat tercapai dan dapat diakomodasi oleh aplikasi *Banten Satu Data* :
+
+- Aplikasi yang akan dibangun adalah aplikasi yang bersifat *web based (berbasis web)* yang bisa diakses menggunakan *web browser*.
+- *Web Services* untuk melayani komunikasi data antara aplikasi dengan database aplikasi lainnya dibangun menggunakan bahasa pemrograman PHP
+- Aplikasi yang dibangun harus *user fiendly* dengan *interface* berbasis *Graphical User Interface (GUI)* disesuaikan.
+- *Availibility Server* 99 % (sesuai dengan jaminan koneksi internet ISP).
