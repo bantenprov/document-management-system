@@ -249,7 +249,7 @@ Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1 pada 
 
 Gambar 3. DFD Level 1 Banten Satu Data
 
-### 2.1.3 Spesifikasi Proses
+#### 2.1.3 Spesifikasi Proses
 Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada pada aplikasi Banten Satu Data sebelumnya telah disebutkan dalam Bagan Hirarki Fungsi.
 
 | No | Nama Proses | Dokumen/ Input(Lampirkan Daftar Dokumen) | Laporan(Lampirkan SandiLaporan) | Pengamanan                                                    |
@@ -266,8 +266,6 @@ Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada p
 |    | Tentang     | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Tentang.    |
 
 
-#### 2.1.3. Spesifikasi Proses
-
 #### 2.1.4. Identifikasi Actor
 
 ### 2.2. Use Case
@@ -278,7 +276,7 @@ Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada p
 
 ### 2.4 Package Diagram
 
-### 3. DESAIN PENGAMANAN SISTEM APLIKASI
+## 3. DESAIN PENGAMANAN SISTEM APLIKASI
 
 ### 3.1 Metode Authentifikasi 24](#metode-authentifikasi)
 
