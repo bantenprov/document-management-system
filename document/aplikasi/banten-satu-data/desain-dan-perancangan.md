@@ -241,10 +241,26 @@ Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi *Bant
 
 Gambar 4. Diagram Konteks, Aplikasi Banten Satu Data
 
-#### DPRD Level 1
+### 2.1.2. DFD Level 1
 
 Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1 pada aplikasi *Banten Satu Data.*
 
 ![](media/687ab912c262fe6acd87fe4a179b9aba.png)
 
 Gambar 3. DFD Level 1 Banten Satu Data
+
+### 2.1.3 Spesifikasi Proses
+Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada pada aplikasi Banten Satu Data sebelumnya telah disebutkan dalam Bagan Hirarki Fungsi.
+
+| No | Nama Proses | Dokumen/ Input(Lampirkan Daftar Dokumen) | Laporan(Lampirkan SandiLaporan) | Pengamanan                                                    |
+|----|-------------|------------------------------------------|---------------------------------|---------------------------------------------------------------|
+| 1  | Dashboard   | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Dashboard.   |
+| 2  | Dataset     | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Dataset.     |
+| 3  | Data Master | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Data Master. |
+|    | Organisasi  | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Organisasi.  |
+|    | Group       | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Group.       |
+| 4  | Pengaturan  | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Pengaturan.  |
+|    |             |                                          |                                 |                                                               |
+|    |             |                                          |                                 |                                                               |
+|    |             |                                          |                                 |                                                               |
+
