@@ -260,7 +260,7 @@ Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada p
 |    | Organisasi  | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Organisasi.  |
 |    | Group       | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Group.       |
 | 4  | Pengaturan  | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Pengaturan.  |
-|    |             |                                          |                                 |                                                               |
-|    |             |                                          |                                 |                                                               |
-|    |             |                                          |                                 |                                                               |
-
+|    | Aplikasi    | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Aplikasi.    |
+|    | Akses       | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Akses.       |
+|    | Pengguna    | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Pengguna.   |
+|    | Tentang     | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Tentang.    |
