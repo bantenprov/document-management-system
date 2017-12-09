@@ -220,14 +220,31 @@ Berikut ini adalah hirarki fungsi *frontend* sebagai gambaran fungsi atau fitur 
 
 Gambar 2. Hirarki Fungsi Frontend
 
-- Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yang dapat diakses oleh pengguna aplikasi dalam melakukan berbagai kegiatan.
-^ **Beranda**, modul yang tersedia sebagai tampilan awal saat pertama kali diakses oleh viewer yang dijadikan pengenalan aplikasi **Banten Satu Data** terhadap user.
+Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yang dapat diakses oleh pengguna aplikasi dalam melakukan berbagai kegiatan.
+
+- **Beranda**, modul yang tersedia sebagai tampilan awal saat pertama kali diakses oleh viewer yang dijadikan pengenalan aplikasi **Banten Satu Data** terhadap user.
 - **Data**, modul yang berisi beberapa fitur pengelolaan data informan yang menjadi sumber informasi bagi para pengakses data.
 - **Organisasi,** modul ini berfungsi untuk menampilkan berbagai oraganisasi yang terhubung dengan Pemerintah Provinsi Banten seperti halnya BMKG, BPS, Badan Kepegawaian dsb.
 - **Group,** modul ini berfungsi untuk menampilkan berbagai macam data sesuai dengan kelompok data yang sudah ditentukan.
 - **Tentang,** modul ini menampilkan profil dataset yang dikelola oleh Pemerintah Provinsi Banten. Adapun aplikasi *backend* yang berfungsi untuk mendistribusikan halaman.
-- *frontend.* Berikut ini adalah hirarki fungsi *backend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
+- **Frontend.** Berikut ini adalah hirarki fungsi *backend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
 
 ![Hirarki Fungsi Backend](media/4ac273bf3e1ad382de950f42119f8a22.png)
 
-Gambar 3. Hirarki Fungsi Backend
+Gambar 3. Hirarki Fungsi Backend.
+
+### 2.1.1. Diagram Keseluruhan (Konteks)
+
+Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi *Banten Satu Data* yang digunakan untuk pengelolaan data dan informasi.
+
+![Diagram Keseluruhan (Konteks)](media/94362318dfce389b3a0d463199abb048.png)
+
+Gambar 4. Diagram Konteks, Aplikasi Banten Satu Data
+
+#### DPRD Level 1
+
+Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1 pada aplikasi *Banten Satu Data.*
+
+![](media/687ab912c262fe6acd87fe4a179b9aba.png)
+
+Gambar 3. DFD Level 1 Banten Satu Data
