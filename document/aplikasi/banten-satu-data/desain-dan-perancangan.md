@@ -1349,24 +1349,10 @@ digunakan untuk membangun sistem aplikasi.
 
 >   Tabel 4. Reponses Compilation
 
-| **Nama**             | **Versi/ Release** | **Operating System**  | **Manajemen Data** | **Pengamanan Data**   | **Komunikasi Data** | **Alat Bantu Produktifitas**                                | **Utilities** | **Bahasa Pemrograman** | **Alat Bantu Dokumentasi** |
-| **Software**         |                    |                       |                    |                       |                     |                                                             |               |                        |                            |
-|----------------------|--------------------|-----------------------|--------------------|-----------------------|---------------------|-------------------------------------------------------------|---------------|------------------------|----------------------------|
-| Banten Satu Data     | 1.0                | Windows Server, Linux | MySQL,             | LDAP, SFTP, SSL, SSH, | Internet            | XAMPP Apache/2.2.21 mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 |               | PHP 7.x                | Microsoft Word 2016        |
-|                      |                    |                       | MariaDB            |                       |                     |                                                             |               |                        |                            |
-
--   Sublime Text 3
-
--   Notepad ++
-
--   Navicat Premium V.11+
-
--   PHP Framework Laravel
-
--   Microsoft Excel 2016
-
--   Microsoft Visio 2016
-
--   Star UML V.2
-
--   Edraw Pro 8.6
+| Nama Software    | Versi/ Release | Operating System      | Manajemen Data       | Pengamanan Data                                             | Komunikasi Data       | Alat Bantu Produktifitas | Utilities | Bahasa Pemrograman | Alat Bantu Dokumentasi |
+|------------------|----------------|-----------------------|----------------------|-------------------------------------------------------------|-----------------------|--------------------------|-----------|--------------------|------------------------|
+| Banten Satu Data | 1.0            | Windows Server, Linux | LDAP, SFTP, SSL, SSH | XAMPP Apache/2.2.21 mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8 | PHP 7.x               | Microsoft Word 2016      |           |                    |                        |
+|                  |                |                       |                      | Sublime Text 3                                              | PHP Framework Laravel | Microsoft Excel 2016     |           |                    |                        |
+|                  |                |                       |                      | Notepad ++                                                  |                       | Microsoft Visio 2016     |           |                    |                        |
+|                  |                |                       |                      | Navicat Premium V.11+                                       |                       | Star UML V.2             |           |                    |                        |
+|                  |                |                       |                      |                                                             |                       | Edraw Pro 8.6            |           |                    |                        |
