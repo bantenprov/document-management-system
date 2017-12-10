@@ -189,3 +189,9 @@ Table . Daftar Revisi
 Pada bagian ini akan dijelaskan mengenai tujuan penulisa dokumen, latar
 belakang, maksud dan tujuan, lingkup masalah definisi, istilah dan singkatan
 yang digunaan pada dokumen ini.
+
+### 1.1. Tujuan Penulisan Dokumen
+
+Dokumen ini adalah dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) atau *Software Requirement Specification (SRS)* untuk pembangunan Aplikasi **BANTEN SATU DATA**. Dokumen ini disusun berdasarkan diskusi bersama antara konsultan perencana dengan pengguna *(user)* yang terkait dengan aplikasi.
+
+Dokumen ini dimaksudkan untuk dijadikan acuan tentang spesifikasi fungsional dan kemampuan dari Aplikasi **BANTEN SATU DATA** yang akan dikembangkan dan dijadikan sebagai dasar untuk pengujian fungsionalitas perangkat lunak yang akan dikembangkan.
