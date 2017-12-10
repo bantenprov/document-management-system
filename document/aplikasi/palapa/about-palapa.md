@@ -81,6 +81,7 @@ Teknologi yang digunakan dalam aplikasi PALAPA:
     * Web-API buatan untuk akses ke GeoServer/pyCSW
 
 ## Desain Tampilan
+
 * **Simpul Jaringan Pemerintah Daerah**
 [![Simpul jaringan Pemerintah Daerah](/document/aplikasi/palapa/images/about-palapa/design-aplikasi-palapa.png)](/document/aplikasi/palapa/images/about-palapa/design-aplikasi-palapa.png)
 
