@@ -10,9 +10,9 @@ toc: true
 # PALAPA Aplikasi Geospasial Nasional
 
 Badan Informasi Geospasial (BIG)
-Jl. Raya Jakarta - Bogor KM. 46 Cibinong 16911, INDONESIA
-Telp. 021-8752062 / 8752063
-Fax. 021-8752064
+> Jl. Raya Jakarta - Bogor KM. 46 Cibinong 16911, INDONESIA
+> Telp. 021-8752062 / 8752063
+> Fax. 021-8752064
 
 
 Palapa adalah sebuah aplikasi simpul jaringan berbasis *Open Source* (kode sumber terbuka) yang mendukung penyelenggaraan IG (Informasi Geospasial) meliputi pengumpulan, penyimpanan, pengamanan dan penyebarluasan di unit produksi dan unit pengelolaan dan penyebarluasan IG seperti yang pembuatannya berdasarkan dari UU No. 4/2011 tentang informasi Geospasial.
