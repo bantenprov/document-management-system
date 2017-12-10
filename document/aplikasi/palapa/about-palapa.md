@@ -1,7 +1,7 @@
 ---
 layout: document
 title: About Palapa
-description: Deskripsi di sini.
+description: Palapa ini adalah wujud keseriusan BIG dalam membangun infrastruktur data geospasial untuk mewujudkan informasi geospasial yang akurat, dapat dipertanggungjawabkan dan mudah diakses.
 group: aplikasi
 cat: palapa
 toc: true
