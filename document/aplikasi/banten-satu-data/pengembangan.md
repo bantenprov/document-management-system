@@ -15,7 +15,7 @@ Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi Bante
 | PARAF |                                                                                                                                                                                    KETERANGAN |
 |:-------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |    __   |                                                                                                                             DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA |
-|    __   | DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI KEMENTERIAN SEKRETARIAT NEGARA |
+|    __   | DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI PEMERINTAH PROVINSI BANTEN|
 
 
 | PROSES          |      :     | Tanda Tangan |   | Tanda Tangan                                      |
@@ -329,3 +329,5 @@ Gambar . Use Case Diagram, Banten Satu Data
 ### 9.1. Matriks Resiko
 
 ### 9.2. Contoh Matriks Penilaian Tingkat Risiko
+
+
