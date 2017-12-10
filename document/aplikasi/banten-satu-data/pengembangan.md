@@ -7,6 +7,7 @@ cat: banten-satu-data
 toc: true
 ---
 
+
 # Pengembangan Aplikasi Banten Satu Data
 
 Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi Banten
@@ -329,5 +330,3 @@ Gambar . Use Case Diagram, Banten Satu Data
 ### 9.1. Matriks Resiko
 
 ### 9.2. Contoh Matriks Penilaian Tingkat Risiko
-
-
