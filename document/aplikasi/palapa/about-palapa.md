@@ -17,7 +17,8 @@ Badan Informasi Geospasial (BIG)
 
 Palapa adalah sebuah aplikasi simpul jaringan berbasis *Open Source* (kode sumber terbuka) yang mendukung penyelenggaraan IG (Informasi Geospasial) meliputi pengumpulan, penyimpanan, pengamanan dan penyebarluasan di unit produksi dan unit pengelolaan dan penyebarluasan IG seperti yang pembuatannya berdasarkan dari UU No. 4/2011 tentang informasi Geospasial.
 
-Dalam perkembangannya aplikasi PALAPA mengalami beberapa perubahan yaitu :
+## Sekilas pandan PALAPA
+### Dalam perkembangannya aplikasi PALAPA mengalami beberapa perubahan yaitu :
 * Palapa versi 1
  Dikembangkan dengan teknologi *OpenSource OpenGeo*, belum *web responsive* dan belum terintegrasi dengan portal nasional.
 * Palapa versi 2
@@ -25,12 +26,13 @@ Dalam perkembangannya aplikasi PALAPA mengalami beberapa perubahan yaitu :
 * Palapa versi 3
 Dikembangkan dengan teknologi *OpenSource* secara modular jadi lebih mudah ketika ada *updating* pada modul secara terpisah. Dibuatkan secara terpisah. Dibuatkan repository khusus, sehingga bisa melakukan *updating* secara *background* proses. Kemudian juga pada versi 3 mengakomodir konsep IG terpadu Katalog Unsur Geografi Indonesia (KUGI), manajemen katalog metadata yang tersinkronisasi ke portal nasional secara mudah dan sesuai standar ISO.
 
-Aplikasi PALAPA mempunyai beberapa manfaat yaitu ;
+### Aplikasi PALAPA mempunyai beberapa manfaat yaitu ;
 * Berfungsi sebagai geoportal yang menyediakan katalog dan metadata serta layanan *Geographic Information System* (GIS) berbasis web (*GIS Web Services*).
 * Bertujuan sebagai sarana berbagi data (*Sharing Data*), publikasi dan disseminasi (penyebaran inovasi yang direncanakan, diarahkan, dan dikelola) data.
 * Sebagai salah satu sistem simpul jaringan Informasi Geospasial Nasional (JIGN).
 * Penggunaan simpul jaringan yang sesuai standar (SNI dan ISO) dan peraturan yang berlaku (UU, Perpres dan Perka) yang mudah digunakan, mudah diaplikasikan, cepat dan informatif.
 
+### Peran Penyelenggaraan Informasi geospasial
 Penyelenggaraan Informasi geospasial (IG) dilakukan oleh setiap instansi / lembaga yang berperan sebagai produsen dan pengguna Data Geospasial (DG) dan Informasi Geospasial (IG). Dalam penyelenggaraan IG terdapat beberapa kegiatan yang meliputi :
 * Pengumpulan Data Geospasial (DG)
 * Pengolahan Data Geospasial (DG) dan Informasi Geospasial (IG)
@@ -38,6 +40,7 @@ Penyelenggaraan Informasi geospasial (IG) dilakukan oleh setiap instansi / lemba
 * Penyebarluasan Data Geospasial (DG) dan Informasi Geospasial (IG)
 * Penggunaan Informasi geospasial (IG)
 
+### Actor pengambangan PALAPA
 Dalam penggunaannya PALAPA mempunyai beberapa *actor* yang mempunyai kegiatan yang berbeda - beda yaitu :
 * Pengguna
  Pengguna dapat melakukan pencarian dan visualisasi data dan informasi geospasial yang tersedia pada simpul. Pengguna internal dapat mengunggah, mengelola dan membagi data informasi geospasial.
@@ -48,6 +51,7 @@ Dalam penggunaannya PALAPA mempunyai beberapa *actor* yang mempunyai kegiatan ya
 * Administrator
  Platform PALAPA dapat diandalkan dan dikembangkan untuk membangun aplikasi simpul jaringan sebagai bagian jaringan Informasi Geospasial nasional (JIGN). *Framework* yang digunakan mendukung standar *Open geospatial Consortium* (OGC) dan *International Organization for Standardization* (ISO). Disamping itu juga pengelolaan metadata yang terintegrasi dengan data dan informasi geospasial sehingga memudahkan bagi para administrator dalam menjalankan aplikasi PALAPA.
 
+### Fitur utama PALAPA
 Didalam Desain aplikasi PALAPA terdapat beberapa fitur utama aplikasi yaitu ;
 * Pencarian melalui katalog geospasial
 * Pengelolaan, publikasi dan penyimpanan metadata
@@ -55,6 +59,7 @@ Didalam Desain aplikasi PALAPA terdapat beberapa fitur utama aplikasi yaitu ;
 * Penyajian peta yang interaktif
 * mendukung standar dan terintegrasi dengan Pusat Sistem Jaringan (PSJ) Ina-geoportal
 
+### Teknologgi yang digunakan PALAPA
 Teknologi yang digunakan dalam aplikasi PALAPA:
 * WMS (*Web Map Service*)
 * WFS (*Web Feature Service*)
