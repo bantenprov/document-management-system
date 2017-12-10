@@ -244,3 +244,88 @@ Aplikasi *Banten Satu Data* adalah merupakan aplikasi yang dicanangkan oleh Peme
 Diharapkan kedepannya aplikasi *Banten Satu Data* ini dapat diintegrasikan dengan sistem lain yang mempunyai *platform teknologi* yang kompatibel.
 
 ### 2.2. USECASE DIAGRAM APLIKASI
+
+Pada *use case* ini dapat digambarkan secara umum bagaimana pengguna aplikasi *Banten Satu Data* berinteraksi dengan sistem yang dibuat.
+
+![Use Case Diagram- Banten Satu Data](media/use-case-diagram-banten-satu-data.png)
+
+Gambar . Use Case Diagram, Banten Satu Data
+
+**Keterangan :**
+
+- *viewer,* pengguna aplikasi tanpa akses yang dapat mengakses data yang ditampilkan pada halaman *Frontend* atau halaman publik.
+- *pegawai,* pengguna aplikasi dengan akses *Administrator* dapat berfungsi sekaligus sebagai *viewer* untuk modul-modul yang dapat diakses oleh publik. Namun untuk modul-modul tertentu yang membutuhkan akses *role* khusus, maka *sys_user* diharuskan untuk *Login* terlebih dahulu.
+- *administrator,* pengguna aplikasi ini merupakan *Super Administrator* yang dapat mengakses semua menu yang ada dalam aplikasi **Banten Satu Data,** dengan tambahan modul-modul tertentu yang tidak dapat diakses oleh *user* lain. Maka *sys_admin* diharuskan untuk melakukan *Login* terlebih dahulu.
+
+
+#### 2.2.1. Platform Teknologi
+
+#### 2.2.2. PHP MVC Framework
+
+#### 2.2.3. Ckan
+
+#### 2.2.4. CSS Framework Template
+
+## 3. DESKRIPSI UMUM KEBUTUHAN
+
+### 3.1. Kebutuhan Antarmuka Eksternal
+
+### 3.2. Kebutuhan Fungsional
+
+### 3.3. Kebutuhan Non Fungsional
+
+### 3.4. Kebutuhan Perangkat Keras Pendukung
+
+## 3.5. Fungsi-Fungsi yang Akan Dikomputerisasi
+
+#### 3.5.1. Input
+
+#### 3.5.2. Proses
+
+#### 3.5.3. Output
+
+### 3.6. Ringkasan Kebutuhan
+
+## 4. PERMINTAAN PERFORMANCE
+
+### 4.1. Respon Time
+
+### 4.2. Ketersediaan Sistem
+
+## 5. PENGENDALIAN DAN PENGAMANAN
+
+### 5.1. Pengendalian Kewenangan Kelompok User
+
+### 5.2. Pengendalian Pengamanan Aplikasi
+
+#### 5.2.1. Penerimaan Sistem Aplikasi
+
+#### 5.2.2. Backup dan Restore
+
+#### 5.2.3. Identifikasi, Authentifikasi Pengguna
+
+#### 5.2.4. Validasi Data Input, Output
+
+##  5.3. Audit Trail
+
+#### 5.3.1. Strategi Akuntabilitas Individu
+
+#### 5.3.2. Strategi Pendeteksian Serangan
+
+## 6. PEMULIHAN TEKNOLOGI INFORMASI
+
+### 6.1. Pemulihan
+
+## 7. KETERBATASAN
+
+### 7.1. Keterbatasan
+
+## 8. DAMPAK DARI PERMINTAAN
+
+### 8.1. Dampak
+
+## 9. MANAJEMEN RISIKO
+
+### 9.1. Matriks Resiko
+
+### 9.2. Contoh Matriks Penilaian Tingkat Risiko
