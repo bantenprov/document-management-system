@@ -212,3 +212,21 @@ Maksud dan tujuan dibangunnya Aplikasi Satu Data Propinsi Banten ini adalah seba
 4.  Peningkatan Layanan Publik
 5.  Inovasi dan Nilai Ekonomi
 6.  Efisiensi
+
+### 1.4. Definisi, Istilah dan Singkatan
+Dalam dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini akan digunakan beberapa akronim atau singkatan, dan istilah-istilah yang mempunyai definisi. Antara lain adalah sebagai berikut:
+
+#### 1.4.1. Definisi
+
+Daftar definisi yang digunakan dalam dokumen pengembangan perangkat lunak ini adalah sebagai berikut:
+
+- *Pengembang* : pihak yang melakukan pengembangan perangkat lunak
+- *Baseline* : sesuatu yang dijadikan sebagai acuan untuk suatu tahap pengembangan perangkat lunak.
+- *Coding* : tahap implementasi perangkat lunak melalui penulisan program komputer kedalam suatu bahasa pemrograman tertentu.
+- *Tim Pengembang* : personel yang melakukan pengembangan perangkat lunak berdasarkan spesifikasi dan peran yang diberikan.
+- *Testing* : tahap pengujian terhadap perangkat lunak yang dibuat.
+- *Use Case* : sebuah model diagram yang berfungsi untuk menerangkat interaksi antara pengguna dan sistem aplikasi.
+- *CKAN :* *Comprehensive Knowledge Archive Network*
+- *Open source* : aplikasi yang dapat dikembangkan secara bebas oleh *developer* atau pemilik aplikasi, tanpa harus membayar lisensi kepada pihak ketiga.
+- **SKPL :** dokumen yang menyajikan deskripsi dan spesifikasi kebutuhan perangkat lunak
+- **SDD :** dokumen yang menyajikan detail desain aplikasi mulai dari perancangan database, antarmuka plikasi dan *class* yang membangun sebuah *object*.
