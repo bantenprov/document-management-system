@@ -129,7 +129,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten tam
 
 ### Implementasi
 
-Untuk memulai akses terhadap aplikasi **SOP Online**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://sop-online-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
+Untuk memulai akses terhadap aplikasi **SOP Online**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://sop-online-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi aop online seperti gambar dibawah ini.
 
 #### Tampilan Login
 [![tampilan-login-admin](/document/aplikasi/sop-online/images/implementasi/sop-login.png)](http://sop-online-01.dev.bantenprov.go.id/login)
