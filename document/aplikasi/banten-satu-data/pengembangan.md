@@ -201,3 +201,14 @@ Dokumen ini dimaksudkan untuk dijadikan acuan tentang spesifikasi fungsional dan
 Kebijakan Pemerintahan baik di instnasi Kementerian/Lembaga/Propinsi/Kabupaten/Kota selama ini banyak sekali yang saling tumpang tindih, dimana aturan yang dibuat oleh instansi tertentu akan menjadi permasalahan atau halangan pada aturan di instansi lainnya. Hal tersebut terjadi dikarenan kurangnya koordinasi yang intensif antar instansi dan kurangnya dukungan data yang selama ini dimiliki oleh masing-masing instansi dan tidak saling melakukan pertukaran data.
 
 Berdasarkan kejadian tersebut Presiden pada awal tahun 2016 mencanangkan inisiatif Indonesia Satu Data dimana seluruh perangkat pemerintahan Kementerian/lembaga pusat, daerah provinsi, kabupaten/kota untuk mewajibkan membangun pusat data. Dari inisiatif tersebut tentu Pemerintah Propinsi Banten sebagai Pemerintah Daerah kepanjangan tangan dari Pemerintah pusat berkewajiban untuk mendukung inisiatif tersebut dengan membangun Aplikasi **Banten Satu Data**.
+
+### 1.3. Maksud dan Tujuan
+
+Maksud dan tujuan dibangunnya Aplikasi Satu Data Propinsi Banten ini adalah sebagai berikut:
+
+1.  Meningkatkan Kualitas Kebijakan Pemerintah
+2.  Memperbaiki Alur Koordinasi Data Pemerintah
+3.  Meningkatkan Akuntabilitas Badan Publik
+4.  Peningkatan Layanan Publik
+5.  Inovasi dan Nilai Ekonomi
+6.  Efisiensi
