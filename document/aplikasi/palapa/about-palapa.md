@@ -59,8 +59,8 @@ Didalam Desain aplikasi PALAPA terdapat beberapa fitur utama aplikasi yaitu ;
 * Penyajian peta yang interaktif
 * mendukung standar dan terintegrasi dengan Pusat Sistem Jaringan (PSJ) Ina-geoportal
 
-### Teknologgi yang digunakan PALAPA
-Teknologi yang digunakan dalam aplikasi PALAPA:
+### Teknologi yang digunakan PALAPA
+Beberapa teknologi yang digunakan dalam aplikasi PALAPA adalah:
 * WMS (*Web Map Service*)
 * WFS (*Web Feature Service*)
 * WCS (*Web Coverage Service*)
