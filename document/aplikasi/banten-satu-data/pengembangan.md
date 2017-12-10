@@ -230,3 +230,17 @@ Daftar definisi yang digunakan dalam dokumen pengembangan perangkat lunak ini ad
 - *Open source* : aplikasi yang dapat dikembangkan secara bebas oleh *developer* atau pemilik aplikasi, tanpa harus membayar lisensi kepada pihak ketiga.
 - **SKPL :** dokumen yang menyajikan deskripsi dan spesifikasi kebutuhan perangkat lunak
 - **SDD :** dokumen yang menyajikan detail desain aplikasi mulai dari perancangan database, antarmuka plikasi dan *class* yang membangun sebuah *object*.
+
+## 2. DESKRIPSI UMUM PERANGKAT LUNAK
+
+Pada bagian ini akan dijelaskan mengenai deskripsi umum sistem yang akan dibangun, deskripsi perangkat lunak, platform teknologi yang digunakan untuk membangun aplikasi.
+
+### 2.1. Deskripsi Umum Sistem
+
+Aplikasi *Banten Satu Data* adalah merupakan aplikasi yang dicanangkan oleh Pemerintah Provinsi Banten dalam rangka menyediakan data dan informasi yang lengkap, aktual, valid dan akuntabel yang dikelola dalam satu system yang terintegrasi guna memenuhi kebutuhan pembangunan daerah di Provinsi Banten. **Banten Satu Data** ini berfungsi sebagai *repository* data public yang dapat disimpan atau diteruskan sebagai output yang nantinya akan diproses sebagai file, semua data dan informasi pembangunan untuk kebutuhan analisis statistik, pusat informasi pembangunan serta bahan bagi Pemerintah Daerah dalam perencanaan, evaluasi, pelaporan serta pengambilan keputusan secara bijaksana dan professional.
+
+**Banten Satu Data** yang ini akan dibangun menggunakan Bahasa pemrograman PHP dengan *framework* Laravel yang bersifat *open source dan* CKAN sebagai platform portal data sehingga Pemerintah Provinsi Banten dapat mengembangkan aplikasi *Banten Satu Data* tanpa harus terbendung masalah lisensi. 
+
+Diharapkan kedepannya aplikasi *Banten Satu Data* ini dapat diintegrasikan dengan sistem lain yang mempunyai *platform teknologi* yang kompatibel.
+
+### 2.2. USECASE DIAGRAM APLIKASI
