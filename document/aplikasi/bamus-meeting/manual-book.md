@@ -19,10 +19,10 @@ Dokumen *User Manual* Aplikasi BAMUS ini dibuat untuk tujuan sebagai berikut:
 
 ### 1.2 Deskripsi Umum Sistem
 1. **Deskripsi Umum Aplikasi**
-BAMUS adalah aplikasi berbasis web yang memperlihatkan informasi tentang informsai tentang acara badan musyawarah.
+  BAMUS adalah aplikasi berbasis web yang memperlihatkan informasi tentang informsai tentang acara badan musyawarah.
 
 2. **Deskripsi Umum Kebutuhan Aplikasi yang Akan Diimplementasikan**
-Deskripsi Umum kebutuhan aplikasi yang akan diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan apliksi.
+  Deskripsi Umum kebutuhan aplikasi yang akan diimplementasikan meliputi semua informasi yang bersifat teknis dan menjadi acuan dalam pengembangan apliksi.
 
 ## 2. Menu dan Cara Penggunaan
 ### 2.1 Struktur Menu
@@ -271,7 +271,7 @@ DPRD Schedules dapat dilihat dengan mengklik "DPRD Schedules" pada list menu Bam
 
 Makan aplikasi akan menampilkan list jadwal rapat DPRD seperti gambar dibawah ini:
 
-[![bamus dprd schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-dpdrd-schedules.png)](http://bamus-01.dev.bantenprov.go.id/admin/dprd_schedules)
+[![bamus dprd schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-dprd-schedules.png)](http://bamus-01.dev.bantenprov.go.id/admin/dprd_schedules)
 Gambar 18. Bamus DPRD Schedules
 
 Pada halaman ini admin dapat melihat list Jadwal Rapat DPRD yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit, export filed dan menghapus data dari data jadwal DPRD di Bamus DPRD Schedules.
@@ -279,7 +279,7 @@ Pada halaman ini admin dapat melihat list Jadwal Rapat DPRD yang terdapat didala
 ###### 2.2.2.4.1 Menambahkan Data DPRD Schedules
 Admin dapat menambahkan data di DPRD Schedules dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
 
-[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)]http://bamus-01.dev.bantenprov.go.id/admin/dprd_schedules)
+[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/dprd_schedules)
 
 Maka akan muncul tampilan *form add DPRD Schedules* seperti gambar dibawah ini:
 
@@ -331,7 +331,7 @@ Admin dapat mencetak jadwal rapat DPRD yang terdapat di menu DPRD Schedules deng
 
 Maka aplikasi akan menampilkan tampilan daftar jadwal rapat seperti gambar dibawah ini:
 
-[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-dprd-schedules-export-hasil.png)]http://bamus-01.dev.bantenprov.go.id/admin/dprd_schedules/export-data?t=1512696015)
+[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-dprd-schedules-export-hasil.png)](http://bamus-01.dev.bantenprov.go.id/admin/dprd_schedules/export-data?t=1512696015)
 Gambar 22. Export DPRD Schedules
 
 ##### 2.2.2.5 AKD (Alat Kelengkapan Dewan)
@@ -349,7 +349,7 @@ Pada halaman ini admin dapat melihat list Alat Kelengkapan Dewan yang terdapat d
 ###### 2.2.2.5.1 Menambahkan Data AKD
 Admin dapat menambahkan data di AKD dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
 
-[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)]http://bamus-01.dev.bantenprov.go.id/admin/akds)
+[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/akds)
 
 Maka akan muncul tampilan *form add alat kelengkapan dewan* seperti gambar dibawah ini:
 
@@ -395,11 +395,11 @@ Jika terdapat data pada AKD yang ingin dihapus admin dapat mengklik *icon* "Tong
 ##### 2.2.2.6 
 Jadwal Rapat Alat kelengkapan Dewan dapat dilihat dengan mengklik "AKD Schedule" pada list menu Bamus seperti gambar dibawah ini:
 
-[![klik DPRD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-akd-schedule.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
+[![klik DPRD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-akd-schedules.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
 
 Makan aplikasi akan menampilkan list AKD Schedule seperti gambar dibawah ini:
 
-[![bamus AKD Schedule](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedule.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
+[![bamus AKD Schedule](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedules.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
 Gambar 27. Bamus AKD Schedule
 
 Pada halaman ini admin dapat melihat list jadwal rapat AKD yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit,mengexport dan menghapus data jadwal rapat AKD di Bamus AKD Schedule.
@@ -407,11 +407,11 @@ Pada halaman ini admin dapat melihat list jadwal rapat AKD yang terdapat didalam
 ###### 2.2.2.6.1 Menambahkan Data AKD Schedule
 Admin dapat menambahkan data di AKD Schedule dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
 
-[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)]http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
+[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
 
 Maka akan muncul tampilan *form add rapat alat kelengkapan dewan* seperti gambar dibawah ini:
 
-[![Add DPRD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedule-add.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Fakd_schedules&parent_id=&parent_field=)
+[![Add DPRD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedules-add.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Fakd_schedules&parent_id=&parent_field=)
 Gambar 28. Add AKD Schedule
 
 Pada halaman ini admin dapat melihat *form* untuk menginput data Rapat Alat Kelengkapan Dewan, setelah mengisi *form* admin dapat mengklik tombol "Save" untuk hanya menyimpan data, tombol "Save & Add More" untuk menyimpan dan menambahkan data lagi dan tombol "Back" untuk kembali ke halaman AKD Schedules tanpa menyimpan data.
@@ -430,7 +430,7 @@ Untuk melihat detail dari list data AKD Schedule admin dapat mengklik *icon* "ma
 
 maka aplikasi akan menampilkan detail laporan seperti gambar dibawah ini:
 
-[![AKD Schedules lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedule-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules/detail/191?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Fakd_schedules)
+[![AKD Schedules lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedules-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules/detail/191?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Fakd_schedules)
 Gambar 29. Detail AKD Schedule
 
 ###### 2.2.2.6.4 Edit AKD Schedule
@@ -440,7 +440,7 @@ Admin dapat mengedit data master AKD Schedule dengan cara mengklik *icon* "pensi
 
 Maka aplikasi akan menampilkan *form edit* AKD Schedule seperti gambar dibawah ini:
 
-[![Edit AKD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedule-edit.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules/edit/191?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Fakd_schedules&parent_id=&parent_field=)
+[![Edit AKD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-akd-schedules-edit.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules/edit/191?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Fakd_schedules&parent_id=&parent_field=)
 Gambar 30. Edit AKD Schedule
 
 Pada halaman ini admin dapat melihat *form* untuk mengedit data AKD Schedule, setelah mengedit isi *form* admin dapat mengklik tombol "Save" untuk menyimpan data atau tombol "Back" untuk kembali ke halaman AKD Schedule tanpa menyimpan data.
@@ -475,7 +475,7 @@ Pada halaman ini admin dapat melihat list kode pada jadwal AKD Schedule yang ter
 ###### 2.2.2.7.1 Menambahkan Data Legend
 Admin dapat menambahkan data di Legend dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
 
-[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)]http://bamus-01.dev.bantenprov.go.id/admin/legends)
+[![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/legends)
 
 Maka akan muncul tampilan *form add legend* seperti gambar dibawah ini:
 
