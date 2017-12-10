@@ -195,3 +195,9 @@ yang digunaan pada dokumen ini.
 Dokumen ini adalah dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) atau *Software Requirement Specification (SRS)* untuk pembangunan Aplikasi **BANTEN SATU DATA**. Dokumen ini disusun berdasarkan diskusi bersama antara konsultan perencana dengan pengguna *(user)* yang terkait dengan aplikasi.
 
 Dokumen ini dimaksudkan untuk dijadikan acuan tentang spesifikasi fungsional dan kemampuan dari Aplikasi **BANTEN SATU DATA** yang akan dikembangkan dan dijadikan sebagai dasar untuk pengujian fungsionalitas perangkat lunak yang akan dikembangkan.
+
+### 1.2. Latar Belakang
+
+Kebijakan Pemerintahan baik di instnasi Kementerian/Lembaga/Propinsi/Kabupaten/Kota selama ini banyak sekali yang saling tumpang tindih, dimana aturan yang dibuat oleh instansi tertentu akan menjadi permasalahan atau halangan pada aturan di instansi lainnya. Hal tersebut terjadi dikarenan kurangnya koordinasi yang intensif antar instansi dan kurangnya dukungan data yang selama ini dimiliki oleh masing-masing instansi dan tidak saling melakukan pertukaran data.
+
+Berdasarkan kejadian tersebut Presiden pada awal tahun 2016 mencanangkan inisiatif Indonesia Satu Data dimana seluruh perangkat pemerintahan Kementerian/lembaga pusat, daerah provinsi, kabupaten/kota untuk mewajibkan membangun pusat data. Dari inisiatif tersebut tentu Pemerintah Propinsi Banten sebagai Pemerintah Daerah kepanjangan tangan dari Pemerintah pusat berkewajiban untuk mendukung inisiatif tersebut dengan membangun Aplikasi **Banten Satu Data**.
