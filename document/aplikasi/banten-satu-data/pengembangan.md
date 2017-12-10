@@ -292,31 +292,31 @@ Gambar . Use Case Diagram, Banten Satu Data
 
 ### 4.2. Ketersediaan Sistem
 
-# 5. PENGENDALIAN DAN PENGAMANAN
+## 5. PENGENDALIAN DAN PENGAMANAN
 
-## 5.1. Pengendalian Kewenangan Kelompok User
+### 5.1. Pengendalian Kewenangan Kelompok User
 
-## 5.2. Pengendalian Pengamanan Aplikasi
+### 5.2. Pengendalian Pengamanan Aplikasi
 
-### 5.2.1. Penerimaan Sistem Aplikasi
+#### 5.2.1. Penerimaan Sistem Aplikasi
 
-### 5.2.2. Backup dan Restore
+#### 5.2.2. Backup dan Restore
 
-### 5.2.3. Identifikasi, Authentifikasi Pengguna
+#### 5.2.3. Identifikasi, Authentifikasi Pengguna
 
-### 5.2.4. Validasi Data Input, Output
+#### 5.2.4. Validasi Data Input, Output
 
 ##  5.3. Audit Trail
 
-### 5.3.1. Strategi Akuntabilitas Individu
+#### 5.3.1. Strategi Akuntabilitas Individu
 
-### 5.3.2. Strategi Pendeteksian Serangan
+#### 5.3.2. Strategi Pendeteksian Serangan
 
-# 6. PEMULIHAN TEKNOLOGI INFORMASI
+## 6. PEMULIHAN TEKNOLOGI INFORMASI
 
-## 6.1. Pemulihan
+### 6.1. Pemulihan
 
-# 7. KETERBATASAN
+## 7. KETERBATASAN
 
 ### 7.1. Keterbatasan
 
