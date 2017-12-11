@@ -1,7 +1,7 @@
 ---
 layout: document
-title: Desain dan Perancangan
-description: Sistem Dashboard merupakan suatu sistem berbasis komputer yang dapat membantu suatu pemerintahan untuk meningkatkan kinerja dalam pengambilan keputusan dan memecahkan masalah yang umumnya berada di dalam wilayah dengan dimensi yang beragam.
+title: Desain dan Perancangan Dashboard Pimpinan
+description: Desain dan perancangan untuk aplikasi dashboard pimpinan yang digunakan pada Provinsi Banten.
 group: aplikasi
 cat: dashboard-pimpinan
 toc: true
