@@ -13,7 +13,7 @@ toc: true
 ## 1. Implementasi Layanan Kesehatan
 Implementasi aplikasi Layanan Kesehatan merupakan hasil perancangan dan desain dari aplikasi Layanan Kesehatan yang telah dibuat. Didalam implementasi aplikasi ini nantinya akan dijelaskan langkah-langkah penggunaan dari tipa-tiap menu yang ada pada aplikasi Layanan Kesehatan yang sudah terintegrasi tersebut.
 
-Untuk memulai akses terhadap aplikasi **Layanan Kesehatan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard.bangunbanten.com/login kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi yankes seperti gambar dibawah ini.
+Untuk memulai akses terhadap aplikasi **Layanan Kesehatan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://yankes-01.dev.bantenprov.go.id/login kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi yankes seperti gambar dibawah ini.
 
 ## 2. Tampilan Super Admin
 
