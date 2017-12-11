@@ -26,10 +26,11 @@ Pada halaman ini kita dapat melihat list menu yang terdapat di "SOP Online" yait
 
 - *Permission*
 - *Role*
-- *Request*
+- *SOP*
 - *State List*
 - *Transition List*
-  Didalam list menu ini kita bisa melihat isi konten dan subkonten yang terdapat didalamnya
+
+Didalam list menu ini kita bisa melihat isi konten dan subkonten yang terdapat didalamnya
 
 ### Konten Permission
 Konten Permission ini menampilkan list-list apa saja permission yang dapat dilakukan admin didalam SOP Online ini, didalam konten ini kita bisa menambah, melihat detail, mengedit dan menghapus data permission seperti gambar dibawah ini.
@@ -71,22 +72,22 @@ Didalam subkonten ini terdapat *form edit role* untuk mengedit role yang ingin a
 
 [![Edit Role](/document/aplikasi/sop-online/images/pengembangan/sop-role-edit.png)](http://sop-online-01.dev.bantenprov.go.id/advancetrust/role/1/edit)
 
-### Konten Request
-Konten Request ini menampilkan list-list apa saja request yang terdapat d didalam SOP Online ini, didalam konten ini kita bisa menambah, melihat detail, mengedit dan menghapus data request seperti gambar dibawah ini.
+### Konten SOP
+Konten Request ini menampilkan list-list apa saja SOP yang terdapat d didalam SOP Online ini, didalam konten ini kita bisa menambah, melihat detail, mengedit dan menghapus data SOP seperti gambar dibawah ini.
 
-[![Konten request](/document/aplikasi/sop-online/images/pengembangan/sop-request.png)](http://sop-online-01.dev.bantenprov.go.id/request)
+[![SOP request](/document/aplikasi/sop-online/images/pengembangan/sop-request.png)](http://sop-online-01.dev.bantenprov.go.id/request)
 
-### Subkonten Tambah Request
+### Subkonten Tambah SOP
 Didalam subkonten ini terdapat *form input* request untuk menambahkan request yang terdapat pada aplikasi seperti gambar dibawah ini.
 
 [![Tambah Request](/document/aplikasi/sop-online/images/pengembangan/sop-request-nambah.png)](http://sop-online-01.dev.bantenprov.go.id/request/create)
 
-### Subkonten View Request
+### Subkonten View SOP
 Didalam subkonten ini admin dapat melihat detail dari request yang ingin dilihat seperti pada gambar dibawah ini.
 
 [![View Request](/document/aplikasi/sop-online/images/pengembangan/sop-request-view.png)](http://sop-online-01.dev.bantenprov.go.id/request/1)
 
-### Subkonten Edit Request
+### Subkonten Edit SOP
 Didalam subkonten ini terdapat *form edit request* untuk mengedit permintaan yang ingin admin rubah seperti gambar dibawah ini.
 
 [![Edit Role](/document/aplikasi/sop-online/images/pengembangan/sop-request-edit.png)](http://sop-online-01.dev.bantenprov.go.id/request/edit/1)
