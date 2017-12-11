@@ -22,7 +22,7 @@ Untuk menambahkan dokumen baru, ada beberapa hal yang harus diperhatikan:
 
 #### Front Matter
 
-Di dalam berkas **Markdown** dokumen perlu ditambahkan blok YAML front matter. Berikut adalah blok YAML front matter yang digunakan:
+> Di dalam berkas **Markdown** dokumen perlu ditambahkan blok YAML front matter. Berikut adalah blok YAML front matter yang digunakan:
 
 ```plaintext
 ---
