@@ -1,7 +1,7 @@
 ---
 layout: document
-title: Pengembangan
-description: Laporan Bulanan adalah suatu bentuk penyampaian informasi, data, atau berita baik secara lisan maupun tertulis dalam jangka satu bulan.
+title: Laporan Bulanan Biro ADPEM
+description: Sistem Informasi laporan bulanan Biro ADPEM adalah suatu bentuk penyampaian informasi, data, dalam jangka satu bulan secara online.
 group: aplikasi
 cat: laporan-bulanan
 toc: true
