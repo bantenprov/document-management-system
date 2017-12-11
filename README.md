@@ -18,7 +18,7 @@ Harap baca panduan singkat di bawah ini.
 
 Untuk menambahkan dokumen baru, ada beberapa hal yang harus diperhatikan:
 
-Simpan dokumen di dalam direktori `document`, dan di dalamnya simpan dokumen ke dalam direktori yang sudah disediakan (contoh: `aplikasi>portal`), dan simpan gambarnya ke dalam direktori `aplikasi>portal>images`.
+> Simpan dokumen di dalam direktori `document`, dan di dalamnya simpan dokumen ke dalam direktori yang sudah disediakan (contoh: `aplikasi>portal`), dan simpan gambarnya ke dalam direktori `aplikasi>portal>images`.
 
 #### Front Matter
 
