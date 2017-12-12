@@ -7,7 +7,6 @@ cat: banten-satu-data
 toc: true
 ---
 
-<<<<<<< HEAD
 
 # Pengembangan Aplikasi Banten Satu Data
 
@@ -64,7 +63,6 @@ Banten
 |                                          | **Revisi**                                                                                                                                                                                         | *-*                                | **Tgl:**  |
 
 **DAFTAR GAMBAR**
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 [Gambar 1. Use Case Diagram, Banten Satu Data 9](#_Toc500237574)
 
@@ -271,7 +269,6 @@ Diharapkan kedepannya aplikasi *Banten Satu Data* ini dapat diintegrasikan denga
 
 Pada *use case* ini dapat digambarkan secara umum bagaimana pengguna aplikasi *Banten Satu Data* berinteraksi dengan sistem yang dibuat.
 
-<<<<<<< HEAD
 ![Use Case Diagram- Banten Satu Data](media/use-case-diagram-banten-satu-data.png)
 =======
 -   **SKPL :** dokumen yang menyajikan deskripsi dan spesifikasi kebutuhan
@@ -315,13 +312,11 @@ Deskripsi Umum Sistem
     aplikasi *Banten Satu Data* berinteraksi dengan sistem yang dibuat.
 
     ![](images/desain-dan-perancangan/d5e2622d9f3605ddd1fc33700cd10b56.png)
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 Gambar . Use Case Diagram, Banten Satu Data
 
 **Keterangan :**
 
-<<<<<<< HEAD
 - *viewer,* pengguna aplikasi tanpa akses yang dapat mengakses data yang ditampilkan pada halaman *Frontend* atau halaman publik.
 - *pegawai,* pengguna aplikasi dengan akses *Administrator* dapat berfungsi sekaligus sebagai *viewer* untuk modul-modul yang dapat diakses oleh publik. Namun untuk modul-modul tertentu yang membutuhkan akses *role* khusus, maka *sys_user* diharuskan untuk *Login* terlebih dahulu.
 - *administrator,* pengguna aplikasi ini merupakan *Super Administrator* yang dapat mengakses semua menu yang ada dalam aplikasi **Banten Satu Data,** dengan tambahan modul-modul tertentu yang tidak dapat diakses oleh *user* lain. Maka *sys_admin* diharuskan untuk melakukan *Login* terlebih dahulu.
@@ -1784,7 +1779,6 @@ Table . Skema Rencana Pemulihan IT
 >   software dan data di-restore dari backup
 
 -   Warm System/ Warm Site
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 
 #### 2.2.1. Platform Teknologi
