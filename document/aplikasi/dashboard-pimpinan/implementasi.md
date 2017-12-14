@@ -14,7 +14,7 @@ toc: true
 ## Implementasi Dashboard Pimpinan
 Implementasi aplikasi Dashboard Pimpinan merupakan hasil perancangan dan desain dari apliksi Dashboard Pimpinan yang telah dibuat. Didalam implementasi aplikasi ini nantinya akan dijelaskan langkah-langkah penggunaan dari tipa-tiap menu yang ada pada aplikasi Dashboard Pimpinan yang sudah terintegrasi tersebut.
 
-Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard.bangunbanten.com kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
+Untuk memulai akses terhadap aplikasi **Dashboard Pimpinan**. Buka web browser (IE, Mozila Firefox atau yang lainnya) dengan menulis alamat url http://dashboard-01.dev.bantenprov.go.id kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser. Akan muncul tampilan halaman login aplikasi dashboard seperti gambar dibawah ini.
 
 ### 1. Tampilan Login
 [![tampilan-login-admin](/document/aplikasi/dashboard-pimpinan/images/implementasi/tampilan-login-admin.png)](/document/aplikasi/dashboard-pimpinan/images/implementasi/tampilan-login-admin.png)
