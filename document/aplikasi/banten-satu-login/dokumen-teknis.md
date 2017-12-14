@@ -62,16 +62,16 @@ toc: true
 #### Matrik
 ## User Interface
 ### Ikhtisar
-### Browser yang Bisa Digunakan
-### Internet Explorer
-### CSS & Javascript
-### Responsive Design
-### Javascript
-### Asynchronous Script Loading
-### Checking CAPSLOCK
-### Preserving Anchor Fragments
-### WebJARs for Javascript/CSS Libraries
-## Webflow Manajemen
+#### Browser yang Bisa Digunakan
+#### Internet Explorer
+#### CSS & Javascript
+#### Responsive Design
+#### Javascript
+#### Asynchronous Script Loading
+#### Checking CAPSLOCK
+#### Preserving Anchor Fragments
+#### WebJARs for Javascript/CSS Libraries
+### Webflow Manajemen
 ### Sesi Webflow
 #### Konfigurasi Otomatis Webflow
 #### Memperluas Webflow
@@ -106,4 +106,3 @@ toc: true
 #### Google Analytics
 ### Penyediaan SCIM
 #### Konfigurasi
- 
