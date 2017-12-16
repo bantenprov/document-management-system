@@ -5,7 +5,8 @@
 
     var pathname = window.location.pathname;
     $('.site-sidebar a[href="'+pathname+'"]').addClass('active');
-    $('.site-sidebar .nav a[href="'+pathname+'"]').parents('.collapse.js-sidenav').addClass('show');
+    $('.site-sidebar .nav a[href="'+pathname+'"]').parents('.collapse.js-site-sidebar-nav').addClass('show');
+    $('.collapse.js-site-sidebar-nav.show').prev().removeClass('collapsed');
 
     // Initialize Bootstrap tooltip with `data-toggle="tooltip"`.
     $('[data-toggle="tooltip"]').tooltip();
