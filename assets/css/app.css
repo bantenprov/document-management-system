@@ -1,7 +1,3 @@
-.site-content {
-  min-height: 1500px;
-}
-
 /* ==========================================================================
    Navbar
    ========================================================================== */
@@ -231,13 +227,7 @@
   font-size: 1rem;
   font-weight: bold;
   color: #777;
-  /*border: 1px solid #ddd;
-  border-width: 1px 0;*/
 }
-.site-sidebar-nav-wrap > .nav > .nav-item > .nav-link {
-  /*margin-bottom: -1px;*/
-}
-/*.site-sidebar-nav-wrap > .nav > .nav-item:nth-child(even) > .nav-link {}*/
 .site-sidebar .nav .nav-link:hover {
   color: #333;
   background-color: #eee;
