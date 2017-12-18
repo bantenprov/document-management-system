@@ -12,7 +12,6 @@
     "docs-compile": "bundle exec jekyll build",
     "docs-serve": "bundle exec jekyll serve",
     "docs-lint-htmllint": "htmllint --rc build/.htmllintrc \"_site/**/*.html\"",
-    "docs-lint-vnu-jar": "node build/vnu-jar.js",
     "test": "npm-run-all docs-compile docs-lint-*"
   },
   "repository": {
@@ -28,7 +27,6 @@
   },
   "devDependencies": {
     "htmllint-cli": "0.0.6",
-    "npm-run-all": "^4.1.2",
-    "vnu-jar": "^17.11.1"
+    "npm-run-all": "^4.1.2"
   }
 }

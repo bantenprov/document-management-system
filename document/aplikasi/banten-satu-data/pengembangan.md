@@ -1,5 +1,5 @@
 ---
-**layout**: document
+layout: document
 title: Pengembangan
 description: Pengembangan Aplikasi Banten Satu Data berdasarkan desain dan perancangan yang telah dibuat sebelumnya.
 group: aplikasi
@@ -173,12 +173,12 @@ Berdasarkan kejadian tersebut Presiden pada awal tahun 2016 mencanangkan inisiat
 
 Maksud dan tujuan dibangunnya Aplikasi Satu Data Propinsi Banten ini adalah sebagai berikut:
 
-1.  Meningkatkan Kualitas Kebijakan Pemerintah
-2.  Memperbaiki Alur Koordinasi Data Pemerintah
-3.  Meningkatkan Akuntabilitas Badan Publik
-4.  Peningkatan Layanan Publik
-5.  Inovasi dan Nilai Ekonomi
-6.  Efisiensi
+1. Meningkatkan Kualitas Kebijakan Pemerintah
+2. Memperbaiki Alur Koordinasi Data Pemerintah
+3. Meningkatkan Akuntabilitas Badan Publik
+4. Peningkatan Layanan Publik
+5. Inovasi dan Nilai Ekonomi
+6. Efisiensi
 
 ### 1.4. Definisi, Istilah dan Singkatan
 Dalam dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini akan digunakan beberapa akronim atau singkatan, dan istilah-istilah yang mempunyai definisi. Antara lain adalah sebagai berikut:
@@ -206,7 +206,7 @@ Pada bagian ini akan dijelaskan mengenai deskripsi umum sistem yang akan dibangu
 
 Aplikasi *Banten Satu Data* adalah merupakan aplikasi yang dicanangkan oleh Pemerintah Provinsi Banten dalam rangka menyediakan data dan informasi yang lengkap, aktual, valid dan akuntabel yang dikelola dalam satu system yang terintegrasi guna memenuhi kebutuhan pembangunan daerah di Provinsi Banten. **Banten Satu Data** ini berfungsi sebagai *repository* data public yang dapat disimpan atau diteruskan sebagai output yang nantinya akan diproses sebagai file, semua data dan informasi pembangunan untuk kebutuhan analisis statistik, pusat informasi pembangunan serta bahan bagi Pemerintah Daerah dalam perencanaan, evaluasi, pelaporan serta pengambilan keputusan secara bijaksana dan professional.
 
-**Banten Satu Data** yang ini akan dibangun menggunakan Bahasa pemrograman PHP dengan *framework* Laravel yang bersifat *open source dan* CKAN sebagai platform portal data sehingga Pemerintah Provinsi Banten dapat mengembangkan aplikasi *Banten Satu Data* tanpa harus terbendung masalah lisensi. 
+**Banten Satu Data** yang ini akan dibangun menggunakan Bahasa pemrograman PHP dengan *framework* Laravel yang bersifat *open source dan* CKAN sebagai platform portal data sehingga Pemerintah Provinsi Banten dapat mengembangkan aplikasi *Banten Satu Data* tanpa harus terbendung masalah lisensi.
 
 Diharapkan kedepannya aplikasi *Banten Satu Data* ini dapat diintegrasikan dengan sistem lain yang mempunyai *platform teknologi* yang kompatibel.
 
@@ -216,7 +216,7 @@ Pada *use case* ini dapat digambarkan secara umum bagaimana pengguna aplikasi *B
 
 ![Use Case Diagram- Banten Satu Data](images/pengembangan/usecase.png)
 
-​						**Gambar 1** Use Case Diagram, Banten Satu Data
+​**Gambar 1** Use Case Diagram, Banten Satu Data
 
 **Keterangan :**
 
@@ -233,10 +233,10 @@ Adapun arsitektur sistem yang akan dibangun untuk membuat aplikasi *Banten Satu 
 Gambar 2. Arsitektur Sistem Informasi, Banten Satu Data
 
 **Dengan Penjelasan Sebagai berikut :**
-1.  Platform dasar aplikasi yang akan dibangun berbasis *web (web based)* yang dapat dibuka menggunakan aplikasi *web browser.*
-2.  Sebagai tambahan *value* dari projek ini, untuk tampilan halaman depan yang diakses akan dibuatkan *auto responsive* menggunakan *library bootstrap*, untuk memberikan kenyamanan kepada *user* yang mengakses melalui *smartphone*.
-3.  Database aplikasi *Banten Satu Data* akan terintegrasi dengan database, Integrasi bisa dilakukan menggunakan metode *syncronize db* atau *web services*
-4.  Aplikasi menggunakan *three-tier technology* application model. Hal ini berarti ada 3 (tiga) *tier* model yang terkait dengan aplikasi yaitu *client*, *application* dan *data* , skema dari model ini digambarkan pada gambar dibawah ini:
+1. Platform dasar aplikasi yang akan dibangun berbasis *web (web based)* yang dapat dibuka menggunakan aplikasi *web browser.*
+2. Sebagai tambahan *value* dari projek ini, untuk tampilan halaman depan yang diakses akan dibuatkan *auto responsive* menggunakan *library bootstrap*, untuk memberikan kenyamanan kepada *user* yang mengakses melalui *smartphone*.
+3. Database aplikasi *Banten Satu Data* akan terintegrasi dengan database, Integrasi bisa dilakukan menggunakan metode *syncronize db* atau *web services*
+4. Aplikasi menggunakan *three-tier technology* application model. Hal ini berarti ada 3 (tiga) *tier* model yang terkait dengan aplikasi yaitu *client*, *application* dan *data* , skema dari model ini digambarkan pada gambar dibawah ini:
 
 ![Layer Aplikasi](images/pengembangan/layer-aplikasi.png)
 
@@ -246,33 +246,26 @@ Gambar 3. Layer Aplikasi, Banten Satu Data
 
 Teknologi yang diusulkan dalam *Banten Satu Data* adalah sebagai berikut :
 
-1.  **Client Tier**
+1. **Client Tier**
+   Web Browser : IE/Firefox/Google Chrome/Safari, dll.
+2. **Application Tier**
+   Bahasa Pemrograman : PHP 5.6
+   UI : Material Admin
+   Framework : Laravel
+   CKAN *Open Source data platform portal*
 
-    Web Browser : IE/Firefox/Google Chrome/Safari, dll.
+3. **Data Tier**
 
-2.  **Application Tier**
-
-    Bahasa Pemrograman : PHP 5.6
-
-    UI : Material Admin
-
-    Framework : Laravel
-
-    CKAN *Open Source data platform portal*
-
-3.  **Data Tier**
-
-    Database : MySQL 5.x / MariaDB
+   Database : MySQL 5.x / MariaDB
 
 #### 2.2.2. PHP MVC Framework
 
 PHP adalah *server side scripting* atau bahasa pemrograman yang di-*compile* mengggunakan *web server* seperti Apache, IIS dan lainnya. PHP merupakan bahasa pemrograman yang sederhana dan mudah dipelajari dengan dukungan dokumentasi yang sangat banyak di internet. Kelebihan dari bahasa pemrograman PHP sebagai berikut:
 
--   Mudah dipelajari
--   Bisa di embed dengan HTML Tag dan JavaScript
--   Dokumentasi yang sangat mudah ditemukan di internet
--   Tidak perlu mengerti *object oriented programing* untuk menggunakan PHP
-    dalam membuat aplikasi.
+- Mudah dipelajari
+- Bisa di embed dengan HTML Tag dan JavaScript
+- Dokumentasi yang sangat mudah ditemukan di internet
+- Tidak perlu mengerti *object oriented programing* untuk menggunakan PHP dalam membuat aplikasi.
 
 ![Cara Kerja Web Server](images/pengembangan/cara-kerja-webserver.jpg)
 
@@ -322,75 +315,75 @@ Adapun tambahan dari konsultan sebagai bagian dari apresiasi dan inovasi untuk p
 
 #### A  **Spesifikasi Functional**
 
-1.  Aplikasi yang dibangun dengan persyaratan fungsional :
-  -   Aplikasi yang akan dibangun adalah aplikasi berbasis *web (web based)*
-  -   Aplikasi yang dibangun harus *user fiendly* dengan *interface* berbasis *Graphical User Interface (GUI)* dengan *auto responsive design*.
-  -   Integrasi dengan database aplikasi **Banten Satu Data** menggunakan *syncronize db* atau *web service*.
+1. Aplikasi yang dibangun dengan persyaratan fungsional :
+   - Aplikasi yang akan dibangun adalah aplikasi berbasis *web (web based)*
+   - Aplikasi yang dibangun harus *user fiendly* dengan *interface* berbasis *Graphical User Interface (GUI)* dengan *auto responsive design*.
+   - Integrasi dengan database aplikasi **Banten Satu Data** menggunakan *syncronize db* atau *web service*.
 
-2.  Real-Time Data:
-  Setiap perubahan data atau transfer data dilakukan secara *real time* atau langsung.
+2. Real-Time Data:
+   Setiap perubahan data atau transfer data dilakukan secara *real time* atau langsung.
 
-3.  Standar Keamaman Internet untuk *web services*, tapi tidak terbatas pada
-    (jika dibutuhkan):
-    -   Secure Hypertext Transfer Protocol (HTTPS)
-    -   HTACCESS
+3. Standar Keamaman Internet untuk *web services*, tapi tidak terbatas pada
+   (jika dibutuhkan):
+   - Secure Hypertext Transfer Protocol (HTTPS)
+   - HTACCESS
 
-4.  Security, sistem aplikasi dapat menangani masalah security secara:
-  -   *Authentication (userid/ password, dynamic password)*
-  -   *Access Control* (manajemen bertingkat & hak akses)
-  -   *Confidentiality* (transfer data dilakukan dengan *encryption* atau *decryption*)
-  -   *Data Integrity*
+4. Security, sistem aplikasi dapat menangani masalah security secara:
+  - *Authentication (userid/ password, dynamic password)*
+  - *Access Control* (manajemen bertingkat & hak akses)
+  - *Confidentiality* (transfer data dilakukan dengan *encryption* atau *decryption*)
+  - *Data Integrity*
 
-5.  Availability data:
-  -   *Reliability*; *fail-safe* & *no duplicate*
-  -   *Availibility Server* 99% (sesuai dengan jaminan koneksi internet ISP).
+5. Availability data:
+   - *Reliability*; *fail-safe* & *no duplicate*
+   - *Availibility Server* 99% (sesuai dengan jaminan koneksi internet ISP).
 
-6.  User Profile
-  -   Jumlah user secara *software* tidak terbatas, hanya dibatasi secara rule.
-  -   Setiap user dapat memiliki *user id* dan *password* yang unik dengan otoritas yang berbeda-beda sesuai dengan tugas dan tanggung jawabnya.
+6. User Profile
+   - Jumlah user secara *software* tidak terbatas, hanya dibatasi secara rule.
+   - Setiap user dapat memiliki *user id* dan *password* yang unik dengan otoritas yang berbeda-beda sesuai dengan tugas dan tanggung jawabnya.
 
-7.  User Interface
-  User Interface sistem aplikasi ini, secara umum harus memenuhi persyaratan:
-  -   Mudah digunakan dan dapat meminimalkan *human error* dalam memasukan data.
-  -   Efektif dan efisien.
+7. User Interface
+   User Interface sistem aplikasi ini, secara umum harus memenuhi persyaratan:
+   - Mudah digunakan dan dapat meminimalkan *human error* dalam memasukan data.
+   - Efektif dan efisien.
 
-8.  User Management
-  Menyediakan pengelolaan *Centralized User Repository (LDAP Server)* yang menyediakan pengelolaan *user management* tersentral, dengan teknik sebagai berikut :
-  -   Adanya pembagian akses role (kewenangan user) terhadap akses modul aplikasi.
-  -   Menempatkan *session user* pada *Engine LDAP Server* sehingga setiap *authentification user* hanya sekali saja dengan *interfacing* disetiap aplikasi yang di *generate* .
+8. User Management
+   Menyediakan pengelolaan *Centralized User Repository (LDAP Server)* yang menyediakan pengelolaan *user management* tersentral, dengan teknik sebagai berikut :
+   - Adanya pembagian akses role (kewenangan user) terhadap akses modul aplikasi.
+   - Menempatkan *session user* pada *Engine LDAP Server* sehingga setiap *authentification user* hanya sekali saja dengan *interfacing* disetiap aplikasi yang di *generate* .
 
-9.  Mudah digunakan atau *user friendly*, yang mengandung pengertian aplikasi secara umum mudah dioperasikan, yang meliputi kemudahan saat melakukan proses *entry*, proses *controlling*, proses *tracking*, proses *colaboration*, proses *reporting* dan proses-proses lainnya yang ada di dalam sistem.
+9. Mudah digunakan atau *user friendly*, yang mengandung pengertian aplikasi secara umum mudah dioperasikan, yang meliputi kemudahan saat melakukan proses *entry*, proses *controlling*, proses *tracking*, proses *colaboration*, proses *reporting* dan proses-proses lainnya yang ada di dalam sistem.
 
 ### 3.3 Kebutuhan Non Fungsional
 
 Berikut ini Spesifikasi teknis *non-functional* yang harus ada pada sistem yang ditawarkan serta merupakan bagian dari proyek adalah :
 
-1.  Spesifikasi Software
-  Sesuai dengan aplikasi yang telah dikembangkan dimana *Server* harus dipisahkan antara *layer* aplikasi, *database* dan *services*. *Database Server* yang digunakan memadai untuk aplikasi sistem yang terinstalasi dalam lingkungan *operating system* windows, linux atau solaris.
+1. Spesifikasi Software
+   Sesuai dengan aplikasi yang telah dikembangkan dimana *Server* harus dipisahkan antara *layer* aplikasi, *database* dan *services*. *Database Server* yang digunakan memadai untuk aplikasi sistem yang terinstalasi dalam lingkungan *operating system* windows, linux atau solaris.
 
-2.  Performansi / Scalability
-  -   Perubahan *platform* atau penambahan perangkat tidak boleh berdampak pada sistem, sehingga tidak perlu dilakukan kompilasi ulang
-  -   *Upgrade* atau modifikasi sistem tidak boleh menyebabkan platform atau sistem harus diganti
+2. Performansi / Scalability
+   - Perubahan *platform* atau penambahan perangkat tidak boleh berdampak pada sistem, sehingga tidak perlu dilakukan kompilasi ulang
+   - *Upgrade* atau modifikasi sistem tidak boleh menyebabkan platform atau sistem harus diganti
 
-3.  Security Management
-  -   Sistem harus mampu mencatat kejadian-kejadian dari usaha otentifikasi atau kegagalan akses *(log management).*
-  -   Sistem harus mampu mengelola *access control*, *security monitoring*, dan *logging* and *auditing*.
+3. Security Management
+   - Sistem harus mampu mencatat kejadian-kejadian dari usaha otentifikasi atau kegagalan akses *(log management).*
+   - Sistem harus mampu mengelola *access control*, *security monitoring*, dan *logging* and *auditing*.
 
 ### 3.4 Kebutuhan Perangkat Keras Pendukung
 
--   *Server*, untuk menyimpan aplikasi yang akan di-*deploy* dengan spesifikasi minumum sebagai berikut :
-  -   *Processor* : 1x Quad Core Processor 64-bit, Intel Xeon X5492 3,4 GHz
-  -   *Memory* : 4 GB DDR3
-  -   *Harddisk* : 512 GB Disks RAID
-  -   *Web Server* : Apache/2.2.21 mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8/Nginx
-  -   OS : Linux / Window Server
--   *Database Server*, spesifikasi minimum untuk mengelola data aplikasi :
-  -   *Processor* : 1x Quad Core Processor 64-bit, Intel Xeon X5492 3,4 GHz
-  -   *Memory* : 8 GB
-  -   *Harddisk* : 512 GB Disks RAID
-  -   OS : Linux / Window Server
+- *Server*, untuk menyimpan aplikasi yang akan di-*deploy* dengan spesifikasi minumum sebagai berikut :
+- *Processor* : 1x Quad Core Processor 64-bit, Intel Xeon X5492 3,4 GHz
+- *Memory* : 4 GB DDR3
+- *Harddisk* : 512 GB Disks RAID
+- *Web Server* : Apache/2.2.21 mod_ssl/2.2.21 OpenSSL/1.0.0e PHP/5.3.8/Nginx
+- OS : Linux / Window Server
+- *Database Server*, spesifikasi minimum untuk mengelola data aplikasi :
+- *Processor* : 1x Quad Core Processor 64-bit, Intel Xeon X5492 3,4 GHz
+- *Memory* : 8 GB
+- *Harddisk* : 512 GB Disks RAID
+- OS : Linux / Window Server
 
-### 3.5 Fungsi-Fungsi yang Akan Dikomputerisasi 
+### 3.5 Fungsi-Fungsi yang Akan Dikomputerisasi
 
 Berikut ini akan dijelaskan mengenai beberapa fungsi yang terdapat pada proses sistem yang akan dikembangkan dan dikomputerisasi sehingga dapat mempermudah dan mengoptimalkan Pemerintah Provinsi Banten dalam mengelola dataset.
 
@@ -591,64 +584,64 @@ Sebagai pendukung Provinsi Banten dalam melakukan tugasnya, aplikasi *Banten Sat
 ### 5.2  Pengendalian Pengamanan Aplikasi
 
 Aplikasi *Banten Satu Data* juga memerlukan pengendalian pengamanan dari sisi sistem aplikasi, pengamanan aplikasi dapat diimplementasikan di beberapa aspek seperti database, validasi data   *input* dan *output*, pengamanan file dan aspek lainnya yang mungkin diperlukan.
- 	
+
 ### 5.2.1 Penerimaan Sistem Aplikasi
 
 Berikut ini adalah beberapa tahapan yang harus dijalani pada proses penerimaan sistem aplikasi *Banten Satu Data* dari *developer* ke pemilik aplikasi dalam hal ini adalah **Provinsi Banten**.
-1.  Pengujian aplikasi *Banten Satu Data*.
-2.  Tahap Implementasi Sistem
-  - Penyusunan SOP *(Standard Operating Procedure),* SMP *(Standard Maintenance Procedure) dan* SLA *(Service Level Aggreement).*
-  - Persiapan Unit Organisasi Pendukung Teknologi Informasi.
-  - Instalasi dan Konfigurasi aplikasi *Banten Satu Data.*
-3.  Pelatihan dan Pembekalan
-  a.  Ceramah Perkuliahan
-  Penyampaian dan penjelasan konsep Teknologi Informasi, Sistem Informasi Manajemen beserta *environment* nya.
-  b.  Diskusi dan Tanya Jawab
-  Pencarian solusi dari materi yang sedang dibahas, evaluasi kendala dan masukan bagi sistem informasi aplikasi yang sedang dikembangkan.
-  c.  Praktek *(Workshop)*
-  Melakukan praktek secara langsung mencoba modul-modul atau fitur aplikasi dan simulasi model terhadap data dan informasi yang telah disiapkan.
+1. Pengujian aplikasi *Banten Satu Data*.
+2. Tahap Implementasi Sistem
+   - Penyusunan SOP *(Standard Operating Procedure),* SMP *(Standard Maintenance Procedure) dan* SLA *(Service Level Aggreement).*
+   - Persiapan Unit Organisasi Pendukung Teknologi Informasi.
+   - Instalasi dan Konfigurasi aplikasi *Banten Satu Data.*
+3. Pelatihan dan Pembekalan
+   a. Ceramah Perkuliahan
+   Penyampaian dan penjelasan konsep Teknologi Informasi, Sistem Informasi Manajemen beserta *environment* nya.
+   b. Diskusi dan Tanya Jawab
+   Pencarian solusi dari materi yang sedang dibahas, evaluasi kendala dan masukan bagi sistem informasi aplikasi yang sedang dikembangkan.
+   c. Praktek *(Workshop)*
+   Melakukan praktek secara langsung mencoba modul-modul atau fitur aplikasi dan simulasi model terhadap data dan informasi yang telah disiapkan.
 
 
 #### 5.2.2. Backup dan Restore
 
 Backup database diperlukan ketika terjadi *failure* pada database atau sistem yang menyebabkan data rusak atau hilang. Dengan adanya *backup* **Banten Satu Data** yang ditunjuk sebagai *super* administrator dapat melakukan *restore* dengan segera untuk mengembalikan *database* seperti semula. Pada MySQL yang digunakan sebagai Sistem Manajemen Basis Data Relational (RDBMS) aplikasi *Banten Satu Data* terdapat berbagai tipe *bakckup* database. Berikut ini adalah jenis *backup* dan *restore* data yang dapat digunakan untuk database MySQL.
 
-1.  SQLDump
-2.  Hot Backup menggunakan MySQL Enterprise Backup
-3.  Copying Table Files  (\*.frm, \*.MYD, and \*.MYI files)
-4.  Recovering Corrupt Tables
-5.  dan lainnya.
+1. SQLDump
+2. Hot Backup menggunakan MySQL Enterprise Backup
+3. Copying Table Files  (\*.frm, \*.MYD, and \*.MYI files)
+4. Recovering Corrupt Tables
+5. dan lainnya.
 
 Untuk dokumentasi lebih jelasnya dapat dibaca pada link berikut ini [MySQL Documentation](https://dev.mysql.com/doc/refman/5.7/en/backup-and-recovery.html). Administrator *database* dapat melakukan kombinasi *backup* data dengan berbagai tipe backup data tersebut. Proses *backup* dan *restore* database dapat juga menggunakan beberapa cara dibawah ini antara lain :
--   *Command Line,* aplikasi berbasis *text-terminal* yang terdapat pada
-    berbagai komputer maupun server yang dapat digunakan dengan mengetikkan
-    perintah secara langsung pada antarmukanya.
+- *Command Line,* aplikasi berbasis *text-terminal* yang terdapat pada
+  berbagai komputer maupun server yang dapat digunakan dengan mengetikkan
+  perintah secara langsung pada antarmukanya.
 
--   Navicat, aplikasi manajemen database dan desain dengan antarmuka *user
-    friendly* yang memudahkan database administrator untuk melakukan *backup*
-    dan *restore* data dengan memanfaatkan fitur **Transfer Data** atau **Dump
-    SQL File.**
+- Navicat, aplikasi manajemen database dan desain dengan antarmuka *user
+  friendly* yang memudahkan database administrator untuk melakukan *backup*
+  dan *restore* data dengan memanfaatkan fitur **Transfer Data** atau **Dump
+  SQL File.**
 
 #### 5.2.3. Identifikasi, Authentifikasi Pengguna
 
 Otoritas atau kewenangan *user* sudah ditentukan diawal yaitu *viewer*, *administrator* dan super *administrator*, namun aplikasi *Banten Satu Data* mampu membuat group kewenangan *user* lain misalnya seperti pejabat yang bisa masuk kedalam aplikasi. Jika diperlukan, proses authentifikasi pada aplikasi menggunakan Validasi Server SSO yang menyediakan pengelolaan *user management* tersentral, dengan teknik sebagai berikut :
 
-1.  Adanya pembagian akses role (kewenangan user) terhadap akses modul aplikasi.
-2.  Menempatkan *Session User* pada *Web Services* sehingga setiap *authentefication user* hanya sekali saja dengan interfacing disetiap aplikasi yang di *generate*.
-3.  *Reset password* juga bisa dilakukan langsung oleh pengguna, dengan cara menjawab pertanyaan yang ditentukan pada saat melakukan pendaftaran *user*.
+1. Adanya pembagian akses role (kewenangan user) terhadap akses modul aplikasi.
+2. Menempatkan *Session User* pada *Web Services* sehingga setiap *authentefication user* hanya sekali saja dengan interfacing disetiap aplikasi yang di *generate*.
+3. *Reset password* juga bisa dilakukan langsung oleh pengguna, dengan cara menjawab pertanyaan yang ditentukan pada saat melakukan pendaftaran *user*.
 
 #### 5.2.4. Validasi Data Input, Output
 
 Aplikasi *Banten Satu Data* yang dikembangkan memiliki fungsi validasi data *input* maupun data *output*. Fungsi validasi ini berguna untuk membantu *user* dalam melakukan validasi terhadap data yang dimasukkan. Berikut ini contoh validasi yang diimplementasikan pada halaman aplikasi *Banten Satu  Data* :
 
--   Validasi Tipe Data
+- Validasi Tipe Data
   Contoh : integer, character, date dll
--   Validasi Nilai Data
+- Validasi Nilai Data
   Contoh : banyaknya karakter yang dimasukkan (range data)
--   Validasi Penulisan Data
+- Validasi Penulisan Data
   Contoh : tanggal, jam, nomor telepon, email, ataupun lainnya
 
-##  5.3. Audit Trail
+## 5.3. Audit Trail
 
 Audit trail merupakan salah satu fitur dalam suatu program yang mencatat semua kegiatan yang dilakukan tiap user dalam suatu *tabel log* secara rinci. Audit trail secara default akan mencatat waktu, user, data yang diakses dan berbagai jenis kegiatan menambah, mengubah dan menghapus data di sistem aplikasi.
 
@@ -656,17 +649,17 @@ Audit trail merupakan salah satu fitur dalam suatu program yang mencatat semua k
 
 Berikut ini adalah beberapa contoh strategi akuntabilitas individu yang dapat diterapkan pada proses audit trail aplikasi *Banten Satu Data.*
 
--   Pelacakan siapa saja yang sudah mengakses sistem dan melakukan perbaharuan
-    data disetiap modul aplikasi.
--   Melakukan pencatatan *Log User ID* yang melakukan proses *login.*
--   Melakukan pencatatan *Log Activity* terkait perubahan hak akses pengguna.
+- Pelacakan siapa saja yang sudah mengakses sistem dan melakukan perbaharuan
+  data disetiap modul aplikasi.
+- Melakukan pencatatan *Log User ID* yang melakukan proses *login.*
+- Melakukan pencatatan *Log Activity* terkait perubahan hak akses pengguna.
 
 #### 5.3.2. Strategi Pendeteksian Serangan
 
 Berikut ini adalah beberapa contoh strategi akuntabilitas individu yang dapat diterapkan pada proses audit trail aplikasi *Banten Satu Data.*
 
--   Penambahan fitur *captcha* untuk menghindari akses oleh robot (program/
-    metode berupa kode program yang dijalankan secara otomatis)
+- Penambahan fitur *captcha* untuk menghindari akses oleh robot (program/
+  metode berupa kode program yang dijalankan secara otomatis)
 
 ## 6. PEMULIHAN TEKNOLOGI INFORMASI
 
@@ -676,7 +669,7 @@ Pada bagian ini akan dijelaskan mengenai proses pemulihan infrastruktur teknolog
 
 Pengembangan aplikasi *Banten Satu Data* digunakan untuk mengelola data kedepannya proses permintaan dan distribusi informasi yang dibutuhkan unit kerja akan sangat bergantung pada sebuah sistem informasi yang ditopang oleh berbagai perangkat *hardware* dan *software*. Ada suatu waktu dimana sebuah sistem yang bergantung dengan teknologi informasi dapat berhenti bekerja  dikarenakan oleh bencana alam ataupun usaha sabotase oleh pihak yang tidak bertanggung jawab. Pemulihan harus dilakukan untuk memulihkan aset perusahaan dalam lingkup IT sehingga sumber daya teknologi informasi yang dibutuhkan dalam mendukung aplikasi *Banten Satu Data.*
 
-a.  Rencana pemulihan yang dapat diadopsi sebagai acuan kegiatan pemulihan.
+a. Rencana pemulihan yang dapat diadopsi sebagai acuan kegiatan pemulihan.
 
 Table 2. Skema Rencana Pemulihan IT
 | **RPO**     | **Teknologi Yang Dibutuhkan**            |
@@ -692,23 +685,23 @@ Table 2. Skema Rencana Pemulihan IT
 
 **Keterangan** :
 
--   RPO, Recovery Point Objectives (RPO)
-   Ambang batas berapa banyak data yang boleh hilang sejak terakhir backup dilakukan. Jika backup dilakukan sekali sehari pada malam hari, sementara kerusakan sistem/storage dapat terjadi beberapa menit sebelum proses backup dijalankan, maka nilai RPO adalah 24 jam. Dengan kata lain RPO merupakan pernyataan berapa lama suatu informasi atau data boleh hilang.
+- RPO, Recovery Point Objectives (RPO)
+  Ambang batas berapa banyak data yang boleh hilang sejak terakhir backup dilakukan. Jika backup dilakukan sekali sehari pada malam hari, sementara kerusakan sistem/storage dapat terjadi beberapa menit sebelum proses backup dijalankan, maka nilai RPO adalah 24 jam. Dengan kata lain RPO merupakan pernyataan berapa lama suatu informasi atau data boleh hilang.
 
--   Hot Systems/ Hot Site
-   Tempat yang disediakan oleh organisasi dengan fasilitas komputer lengkap yang difasilitasi oleh hardware dan software yang telah terinstal. Ketersediannya adalah 24 jam/7hari.
+- Hot Systems/ Hot Site
+  Tempat yang disediakan oleh organisasi dengan fasilitas komputer lengkap yang difasilitasi oleh hardware dan software yang telah terinstal. Ketersediannya adalah 24 jam/7hari.
 
--   Cold System/ Cold Site
-   Suatu ruang yang disediakan dengan daya listrik dan Central Heating Ventilation and Air-Conditioning (HVAC), perangkat komputer harus dibawa masuk ke ruangan, link komunikasi bisa ada atau tidak, perlu instalasi software dan data di-restore dari backup
+- Cold System/ Cold Site
+  Suatu ruang yang disediakan dengan daya listrik dan Central Heating Ventilation and Air-Conditioning (HVAC), perangkat komputer harus dibawa masuk ke ruangan, link komunikasi bisa ada atau tidak, perlu instalasi software dan data di-restore dari backup
 
--   Warm System/ Warm Site
-   Warm site merupakan kombinasi antara hot site dan cold site. Sumber daya yang digunakan lebih sedikit daripada sumber daya yang dibutuhkan hot site. Jika proses operasional transaksi tidak begitu penting dan kritis, warm site dapat menjadi pilihan yang tepat.
+- Warm System/ Warm Site
+  Warm site merupakan kombinasi antara hot site dan cold site. Sumber daya yang digunakan lebih sedikit daripada sumber daya yang dibutuhkan hot site. Jika proses operasional transaksi tidak begitu penting dan kritis, warm site dapat menjadi pilihan yang tepat.
 
--   Clustering
-   Proses mengelompokkan objek berdasarkan informasi yang diperoleh dari data yang menjelaskan hubungan antar objek dengan prinsip untuk memaksimalkan kesamaan antar anggota satu kelas dan meminimumkan kesamaan antar kelas atau cluster
+- Clustering
+  Proses mengelompokkan objek berdasarkan informasi yang diperoleh dari data yang menjelaskan hubungan antar objek dengan prinsip untuk memaksimalkan kesamaan antar anggota satu kelas dan meminimumkan kesamaan antar kelas atau cluster
 
--   Replikasi Data
-   Proses menyalin dan mendistribusikan data dari satu database ke database yang lain, selanjutnya dilakukan sinkronisasi antar database untuk menjaga konsistensi.
+- Replikasi Data
+  Proses menyalin dan mendistribusikan data dari satu database ke database yang lain, selanjutnya dilakukan sinkronisasi antar database untuk menjaga konsistensi.
 
 ## 7. KETERBATASAN
 
@@ -717,19 +710,19 @@ Pada bagian ini akan dijelaskan mengenai keterbatasan yang dimiliki sistem aplik
 ### 7.1  Keterbatasan
 Aplikasi *Banten Satu Data* dibuat untuk mempermudah Pemerintahan Provinsi Banten dalam mengelola data dan informasi pembangunan yang lengkap, aktual, valid dan akuntabel yang dikelola dalam satu system yang terintegrasi guna memenuhi kebutuhan pembangunan daerah di Provinsi Banten. Dalam pelaksanaannya ada beberapa hal yang mungkin menjadi keterbatasan yang dimiliki aplikasi *Banten Satu Data* antara lain :
 
--   Ketergantungan Terhadap Sistem Lain
-   Data pengguna yang dapat *login ke* aplikasi merupakan hasil dari integrasi database menggunakan metode *syncronize db* atau *web service*.
+- Ketergantungan Terhadap Sistem Lain
+  Data pengguna yang dapat *login ke* aplikasi merupakan hasil dari integrasi database menggunakan metode *syncronize db* atau *web service*.
 
--   Platform Aplikasi
-   Aplikasi *Banten Satu Data* merupakan aplikasi yang berbasis *web (webbased application)*, oleh karenanya aplikasi ini hanya dapat diakses menggunakan *web browser*.
+- Platform Aplikasi
+  Aplikasi *Banten Satu Data* merupakan aplikasi yang berbasis *web (webbased application)*, oleh karenanya aplikasi ini hanya dapat diakses menggunakan *web browser*.
 
--   Jaringan dan Komunikasi Data
-   Pegawai Pemerintah Provinsi Banten dan *user* aplikasi lainnya hanya dapat mengakses apliaksi *Banten Satu Data* selama perangkat yang digunakan untuk mengakses aplikasi terhubung dengan koneksi internet.
+- Jaringan dan Komunikasi Data
+  Pegawai Pemerintah Provinsi Banten dan *user* aplikasi lainnya hanya dapat mengakses apliaksi *Banten Satu Data* selama perangkat yang digunakan untuk mengakses aplikasi terhubung dengan koneksi internet.
 
--   Arah Teknologi
-   Penerapan aplikasi *Banten Satu Data* berbasis *web* merupakan penerapan teknologi terkini karena saat ini kemajuan dan perkembangan manusia dalam mengakses internet sudah sangat tinggi. Adapun poin-poin penting yang bisa dikembangkan antara lain sebagai berikut :
+- Arah Teknologi
+  Penerapan aplikasi *Banten Satu Data* berbasis *web* merupakan penerapan teknologi terkini karena saat ini kemajuan dan perkembangan manusia dalam mengakses internet sudah sangat tinggi. Adapun poin-poin penting yang bisa dikembangkan antara lain sebagai berikut :
 
-   a.  Aplikasi ***Banten Satu Data*** sudah menerapkan teknologi *web-based* dengan fitur *auto responsive design* yang akan menyesuaikan tampilan halaman ketika diakses menggunakan perangkat *smartphone*.
+a. Aplikasi ***Banten Satu Data*** sudah menerapkan teknologi *web-based* dengan fitur *auto responsive design* yang akan menyesuaikan tampilan halaman ketika diakses menggunakan perangkat *smartphone*.
 
 ## 8. DAMPAK DARI PERMINTAAN
 
@@ -739,21 +732,21 @@ Pada bagian ini akan dijelaskan mengenai akibat atau dampak yang mungkin ditimbu
 
 Penerapan teknologi informasi untuk menunjang kinerja Pemerintah Provinsi Banten mungkin akan berdampak pada beberapa aspek, hal tersebut tidak terlepas dari proses sistem baru. Beberapa dampak atau akibat dari pengembangan sistem baru adalah sebagai berikut :
 
-1.  Besarnya tenaga, waktu dan nilai investasi yang harus dikeluarkan untuk
-    membangun atuapun mengembangkan sistem baru.
+1. Besarnya tenaga, waktu dan nilai investasi yang harus dikeluarkan untuk
+   membangun atuapun mengembangkan sistem baru.
 
-2.  *User* atau pengguna sistem harus dapat beradaptasi dengan teknologi yang
-    digunakan oleh aplikasi *Banten Satu Data*.
+2. *User* atau pengguna sistem harus dapat beradaptasi dengan teknologi yang
+   digunakan oleh aplikasi *Banten Satu Data*.
 
-3.  Pegawai Pemerintah Provinsi Banten yang ditunjuk sebagai administrator dapat
-    melakukan pengelolaan data dan informasi secara *real time* atau langsung.
+3. Pegawai Pemerintah Provinsi Banten yang ditunjuk sebagai administrator dapat
+   melakukan pengelolaan data dan informasi secara *real time* atau langsung.
 
-4.  Stakeholder atau pejabat yang berkepentingan akan dimudahkan dalam
-    pengambilan kebijakan strategis dengan menggunakan data dan informasi yang
-    tersedia di sistem baru.
+4. Stakeholder atau pejabat yang berkepentingan akan dimudahkan dalam
+   pengambilan kebijakan strategis dengan menggunakan data dan informasi yang
+   tersedia di sistem baru.
 
-5.  Spesifikasi *hardware* atau perangkat keras yang digunakan harus dilakukan
-    *upgrade* untuk menyesuaikan dengan jumlah data yang dikelola oleh aplikasi.
+5. Spesifikasi *hardware* atau perangkat keras yang digunakan harus dilakukan
+   *upgrade* untuk menyesuaikan dengan jumlah data yang dikelola oleh aplikasi.
 
 
 ## 9. MANAJEMEN RISIKO

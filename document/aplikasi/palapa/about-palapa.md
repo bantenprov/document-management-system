@@ -20,15 +20,15 @@ Palapa adalah sebuah aplikasi simpul jaringan berbasis *Open Source* (kode sumbe
 ## Sekilas pandan PALAPA
 ### Dalam perkembangannya aplikasi PALAPA mengalami beberapa perubahan yaitu :
 * Palapa versi 1
- Dikembangkan dengan teknologi *OpenSource OpenGeo*, belum *web responsive* dan belum terintegrasi dengan portal nasional.
+  Dikembangkan dengan teknologi *OpenSource OpenGeo*, belum *web responsive* dan belum terintegrasi dengan portal nasional.
 * Palapa versi 2
- Dikembangkan dengan teknologi *OpenSource Opengeo* terbaru dan sudah *web responsive* namun belum memiliki manajemen metadata katalog.
+  Dikembangkan dengan teknologi *OpenSource Opengeo* terbaru dan sudah *web responsive* namun belum memiliki manajemen metadata katalog.
 * Palapa versi 3
-Dikembangkan dengan teknologi *OpenSource* secara modular jadi lebih mudah ketika ada *updating* pada modul secara terpisah. Dibuatkan secara terpisah. Dibuatkan repository khusus, sehingga bisa melakukan *updating* secara *background* proses. Kemudian juga pada versi 3 mengakomodir konsep IG terpadu Katalog Unsur Geografi Indonesia (KUGI), manajemen katalog metadata yang tersinkronisasi ke portal nasional secara mudah dan sesuai standar ISO.
+  Dikembangkan dengan teknologi *OpenSource* secara modular jadi lebih mudah ketika ada *updating* pada modul secara terpisah. Dibuatkan secara terpisah. Dibuatkan repository khusus, sehingga bisa melakukan *updating* secara *background* proses. Kemudian juga pada versi 3 mengakomodir konsep IG terpadu Katalog Unsur Geografi Indonesia (KUGI), manajemen katalog metadata yang tersinkronisasi ke portal nasional secara mudah dan sesuai standar ISO.
 
 ### Aplikasi PALAPA mempunyai beberapa manfaat yaitu ;
 * Berfungsi sebagai geoportal yang menyediakan katalog dan metadata serta layanan *Geographic Information System* (GIS) berbasis web (*GIS Web Services*).
-* Bertujuan sebagai sarana berbagi data (*Sharing Data*), publikasi dan disseminasi (penyebaran inovasi yang direncanakan, diarahkan, dan dikelola) data.
+* Bertujuan sebagai sarana berbagi data (*Sharing Data*), publikasi dan  disseminasi (penyebaran inovasi yang direncanakan, diarahkan, dan dikelola) data.
 * Sebagai salah satu sistem simpul jaringan Informasi Geospasial Nasional (JIGN).
 * Penggunaan simpul jaringan yang sesuai standar (SNI dan ISO) dan peraturan yang berlaku (UU, Perpres dan Perka) yang mudah digunakan, mudah diaplikasikan, cepat dan informatif.
 
@@ -43,13 +43,13 @@ Penyelenggaraan Informasi geospasial (IG) dilakukan oleh setiap instansi / lemba
 ### Actor pengambangan PALAPA
 Dalam penggunaannya PALAPA mempunyai beberapa *actor* yang mempunyai kegiatan yang berbeda - beda yaitu :
 * Pengguna
- Pengguna dapat melakukan pencarian dan visualisasi data dan informasi geospasial yang tersedia pada simpul. Pengguna internal dapat mengunggah, mengelola dan membagi data informasi geospasial.
+  Pengguna dapat melakukan pencarian dan visualisasi data dan informasi geospasial yang tersedia pada simpul. Pengguna internal dapat mengunggah, mengelola dan membagi data informasi geospasial.
 
 * Pengembang
- Pengembang mengembangkan aplikasi PALAPA menggunakan *project open source* yang terpercaya seperti *GeoServer, PostGIS, Open Layers dan pyCSW*. Para pengembang juga menyediakan API (*Application Progamming Interface*) yang dapat dikustomisasi dan diintegrasikan dengan aplikasi lainnya.
+  Pengembang mengembangkan aplikasi PALAPA menggunakan *project open source* yang terpercaya seperti *GeoServer, PostGIS, Open Layers dan pyCSW*. Para pengembang juga menyediakan API (*Application Progamming Interface*) yang dapat dikustomisasi dan diintegrasikan dengan aplikasi lainnya.
 
 * Administrator
- Platform PALAPA dapat diandalkan dan dikembangkan untuk membangun aplikasi simpul jaringan sebagai bagian jaringan Informasi Geospasial nasional (JIGN). *Framework* yang digunakan mendukung standar *Open geospatial Consortium* (OGC) dan *International Organization for Standardization* (ISO). Disamping itu juga pengelolaan metadata yang terintegrasi dengan data dan informasi geospasial sehingga memudahkan bagi para administrator dalam menjalankan aplikasi PALAPA.
+  Platform PALAPA dapat diandalkan dan dikembangkan untuk membangun aplikasi simpul jaringan sebagai bagian jaringan Informasi Geospasial nasional (JIGN). *Framework* yang digunakan mendukung standar *Open geospatial Consortium* (OGC) dan *International Organization for Standardization* (ISO). Disamping itu juga pengelolaan metadata yang terintegrasi dengan data dan informasi geospasial sehingga memudahkan bagi para administrator dalam menjalankan aplikasi PALAPA.
 
 ### Fitur utama PALAPA
 Didalam Desain aplikasi PALAPA terdapat beberapa fitur utama aplikasi yaitu ;
@@ -69,21 +69,21 @@ Beberapa teknologi yang digunakan dalam aplikasi PALAPA adalah:
 * RDBMS (*Relational Database Management System*)
 * API (Applicatiom Progamming Interface*)
 * OGC Service Provider
-    * GeoServer (*Web Map Service* (WMS), *Web Feature Service* (WFS), *Tile Map Service* (TMS))
-    * pyCSW(*Catalogue Service of Web* (CSW))
+  * GeoServer (*Web Map Service* (WMS), *Web Feature Service* (WFS), *Tile Map Service* (TMS))
+  * pyCSW(*Catalogue Service of Web* (CSW))
 * RDMB Provider
-    * *Postgresql 9.x (dengan ekstensi GIS)
+  * *Postgresql 9.x (dengan ekstensi GIS)
 * Web Server
-    * Tomcat (GeoServer)
-    * Nginx (Front-end / Web-API dan Proxy)
+  * Tomcat (GeoServer)
+  * Nginx (Front-end / Web-API dan Proxy)
 * PALAPA *Management Front-End*
-    * AngularJS Framework
-    * OpenLayers 3 MAP Toolkit
-    * Web-API buatan untuk akses ke GeoServer/pyCSW
+  * AngularJS Framework
+  * OpenLayers 3 MAP Toolkit
+  * Web-API buatan untuk akses ke GeoServer/pyCSW
 * PALAPA *Client Front-End*
-    * AngularJS Framework
-    * OpenLayers 3 MAP Toolkit
-    * Web-API buatan untuk akses ke GeoServer/pyCSW
+  * AngularJS Framework
+  * OpenLayers 3 MAP Toolkit
+  * Web-API buatan untuk akses ke GeoServer/pyCSW
 
 ## Desain Tampilan
 
