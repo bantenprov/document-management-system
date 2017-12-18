@@ -22,6 +22,8 @@ exclude:
   - node_modules/
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - package-lock.json
   - README.md
 
 plugins:
