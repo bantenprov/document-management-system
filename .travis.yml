@@ -13,12 +13,6 @@ install:
   - npm install
 stages:
   - test
-  - name: core
-    if: type = push
-jobs:
-  include:
-    - stage: core
-      node_js: 8
 script: if ! git log --format=%B --no-merges -n 1 | grep '\[skip validator\]'; then npm test; fi
 cache:
   directories:
