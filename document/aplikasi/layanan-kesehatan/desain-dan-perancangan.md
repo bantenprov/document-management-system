@@ -53,20 +53,20 @@ Setelah mengetahui masalah yang masyarakat hadapi pada saat melakukan pengaduan,
 
 Berikut adalah delapan aturan emas dalam perancangan user interface  dalam pembuatan aplikasi yang dikemukakan oleh Shneiderman dan Plaisant (2010: 74 ), yaitu:
 
-  1. Berusaha untuk konsisten 
+  1. Berusaha untuk konsisten
   Konsisten serangkaian action harus ada disituaasi yang sama, dalam perancangan User Interface, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
 
   2. Kegunaan yang universal
   Mengenali kebutuhan dari berbagai user akan desain untuk kemudahan pemakai seperti misalnya, penggunaan shortcut untuk meningkatkan kecepatan interaksi dengan aplikasi yang kita buat.
 
   3. Memberikan Feedback yang informatif
-  Untuk setiap tindakan pengguna, harus ada sistem feedback. Untuk setiap  tindakan yang sering dilakukan dan tidak terlalu penting, dapat diberikan Feedback yang sederhana. 
+  Untuk setiap tindakan pengguna, harus ada sistem feedback. Untuk setiap  tindakan yang sering dilakukan dan tidak terlalu penting, dapat diberikan Feedback yang sederhana.
 
   4. Merancang dialog untuk menghasilkan suatu penutupaan
   Urutan tindakan sebaiknya diorganisir dalam suatu kelompok dengan bagian awal, tengah, dan akhir.
 
-  5. Prevent Errors 
-  Sebiasa mungkin desain aplokasi kita agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalah tersebut. 
+  5. Prevent Errors
+  Sebiasa mungkin desain aplokasi kita agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalah tersebut.
 
   6. Memudahkan untuk kembali ke tindakan sebelumnya.
   Hal ini dapat mengurangi kekhawatiran pengguna untuk mengambil tindakan. Karena, apabila terdapat kesalahan pengguna akan mudah kembali ketindakan sebelumnya.
@@ -75,7 +75,7 @@ Berikut adalah delapan aturan emas dalam perancangan user interface  dalam pembu
   Memberikan pengguna kendali penuh terhadap aplikasi yang digunakan. Karena para pengguna lebih suka merasa bahwa mereka yang memegang kendali terhadap apikasi daripada mereka yang dikendali aplikasi.
 
   8. Mengurangi ingatan jangka pendek
-  Jangan membuat para pengguna  mengingat terlalu banyak akan tampilan halaman, kode, dan tombol-tombol. Sebaikya jadikan semua itu simple. 
+  Jangan membuat para pengguna  mengingat terlalu banyak akan tampilan halaman, kode, dan tombol-tombol. Sebaikya jadikan semua itu simple.
 
 ## 3. HASIL DAN PEMBAHASAN
 
@@ -143,11 +143,11 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 [![Use Case Diagram Admin](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/20171102_use-case-super-admin.png)](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/20171102_use-case-super-admin.png)
 
 ##### 3.6.1.2 Activity Diagram Super Admin
-###### 3.6.1.2.1 Super Admin Login   
+###### 3.6.1.2.1 Super Admin Login
 
 [![Admin Login](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/20171102_activity-diagram-login-super-admin.png)](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/20171102_activity-diagram-login-super-admin.png)
 
-###### 3.6.1.2.2 Super Admin Input Admin RS    
+###### 3.6.1.2.2 Super Admin Input Admin RS
 
 [![Admin Login](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/20171102_activity-diagram-super-admin-input-admin.png)](/document/aplikasi/layanan-kesehatan/images/desain-dan-perancangan/20171102_activity-diagram-super-admin-input-admin.png)
 
@@ -386,7 +386,7 @@ Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Informas
   Tim pengguna aplikasi akan melakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, fasilitas yang akan dibangun, data-data yang akan dibutuhkan, Dll.
 2. Analisis dan perancangan sistem
 3. Analisis dan perancangan sistem dilakukan setelah melakukan proses survey. Analisis dan perancangan sistem meliputi kegiatan : penetapan alur data/dokumen, penetapan produser, perancangan database, perancangan form dan perancangan *interface*/dialog layar.
-4. Pembangunan sistem 
+4. Pembangunan sistem
   Setelah melakukan survey dan perancangan sistem selesai dilakukan, tahapan selanjutnya adalah pembangunan sistem, yang meliputi : pembuatan struktur database, pembuatan kode program/coding, pembuatan laporan laporan.
 5. Testing Sistem
   Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode *prototyping* yaitu jika terjadi kesalahan/kekurangan baik proses ataupun output sistem, maka kesalahan tersebut akan diperbaiki/ditambahkan.

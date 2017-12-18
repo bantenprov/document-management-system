@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Implementasi Layanan Kesehatan
-description: YANKES adalah aplikasi berbasis web untuk mengetahui informasi mengenai layanan kesehatan yang terdapat di Provinsi Banten seperti data rumah sakit, obat, dokter dan sebagainya.
+description: Implementasi Aplikasi Informasi Pelayanan Kesehatan Pemerintah Provinsi Banten.
 cat: layanan-kesehatan
 toc: true
 ---
