@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Buku Petunjuk Penggunaan Bamus
-description: Bamus merupakan Badan Legislasi yang mengedepankan prinsip permusyawaratan dan permufakatan sebagai mitra  Pemerintah dalam menyelengarakan urusan pemerintahan. 
+description: Bamus merupakan Badan Legislasi yang mengedepankan prinsip permusyawaratan dan permufakatan sebagai mitra  Pemerintah dalam menyelengarakan urusan pemerintahan.
 group: aplikasi
 cat: bamus-meeting
 toc: true
@@ -29,8 +29,8 @@ Dokumen *User Manual* Aplikasi BAMUS ini dibuat untuk tujuan sebagai berikut:
 Adapun struktur menu pada aplikasi BAMUS adalah sebagai berikut:
 **Menu Dashboard**
 - Bamus Meeting
-- Invetation
-- Invetation List
+- Invitation
+- Invitation List
 - DPRD Schedules
 - AKD
 - AKD Schedules
@@ -126,143 +126,143 @@ Jika terdapat data pada Bamus Meeting yang ingin dihapus admin dapat menekan *ic
 
 [![tombol hapus data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-delete-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/bamus_meetings)
 
-##### 2.2.2.2 Invetation
-Invetation dapat dilihat dengan cara mengklik "Invetation" yang terdapat didalam list menu Bamus seperti gambar dibawah ini:
+##### 2.2.2.2 Invitation
+Invitation dapat dilihat dengan cara mengklik "Invitation" yang terdapat didalam list menu Bamus seperti gambar dibawah ini:
 
-[![klik invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-invetation.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
+[![klik invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-invitation.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
 Makan aplikasi akan menampilkan list data undangan seperti gambar dibawah ini:
 
-[![bamus invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
-Gambar 8. Bamus Invetation
+[![bamus invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
+Gambar 8. Bamus Invitation
 
-Pada halaman ini admin dapat melihat list undangan yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit, export filed dan menghapus data dari data undangan di Bamus Invetation.
+Pada halaman ini admin dapat melihat list undangan yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit, export filed dan menghapus data dari data undangan di Bamus Invitation.
 
-###### 2.2.2.2.1 Menambahkan Data Invetation
-Admin dapat menambahkan data di Invetation dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
+###### 2.2.2.2.1 Menambahkan Data Invitation
+Admin dapat menambahkan data di Invitation dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
 
 [![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
-Maka akan muncul tampilan *form add Invetation* seperti gambar dibawah ini:
+Maka akan muncul tampilan *form add Invitation* seperti gambar dibawah ini:
 
-[![Add Invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-add1.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
-[![Add Invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-add2.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
-Gambar 9. Add Invetation
+[![Add Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-add1.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
+[![Add Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-add2.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
+Gambar 9. Add Invitation
 
-Pada halaman ini admin dapat melihat *form* untuk menginput data Invetation, setelah mengisi *form* admin dapat mengklik tombol "Save" untuk hanya menyimpan data, tombol "Save & Add More" untuk menyimpan dan menambahkan data lagi dan tombol "Back" untuk kembali ke halaman Invetation tanpa menyimpan data.
+Pada halaman ini admin dapat melihat *form* untuk menginput data Invitation, setelah mengisi *form* admin dapat mengklik tombol "Save" untuk hanya menyimpan data, tombol "Save & Add More" untuk menyimpan dan menambahkan data lagi dan tombol "Back" untuk kembali ke halaman Invitation tanpa menyimpan data.
 
-###### 2.2.2.2.2 Melakukan Pencarian Pada Invetation
-Untuk melakukan pencarian data pada Invetation admin dapat mengetik data yang ingin dicari pada kolom pencarian seperti gambar dibawah ini:
+###### 2.2.2.2.2 Melakukan Pencarian Pada Invitation
+Untuk melakukan pencarian data pada Invitation admin dapat mengetik data yang ingin dicari pada kolom pencarian seperti gambar dibawah ini:
 [![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-pencarian.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
 ketika sudah diketik admin dapat mengklik *icon* "kaca pembesar" disamping kolom pencarian.
 
-###### 2.2.2.2.3 Lihat Detail Invetation
-Untuk melihat detail dari list data invetation admin dapat mengklik *icon* "mata" seperti gambar dibawah ini:
+###### 2.2.2.2.3 Lihat Detail Invitation
+Untuk melihat detail dari list data invitation admin dapat mengklik *icon* "mata" seperti gambar dibawah ini:
 
 [![tombol lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/tombol-lihat-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
-maka aplikasi akan meanmpilkan detail laporan seperti gambar dibawah ini:
+maka aplikasi akan menampilkan detail laporan seperti gambar dibawah ini:
 
-[![invetation lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/detail/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations)
-Gambar 10. Detail Invetation
+[![invitation lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/detail/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations)
+Gambar 10. Detail Invitation
 
-###### 2.2.2.2.4 Edit Invetation
-Admin dapat mengedit data dari data master Invetation dengan cara mengklik *icon* pensil yang terletak pada kolom *action* pada sebelah kiri data seperti gambar dibawah ini:
+###### 2.2.2.2.4 Edit Invitation
+Admin dapat mengedit data dari data master Invitation dengan cara mengklik *icon* pensil yang terletak pada kolom *action* pada sebelah kiri data seperti gambar dibawah ini:
 
 [![tombol edit data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-edit-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
-Maka aplikasi akan menampilkan *form edit* Invetation seperti gambar dibawah ini:
+Maka aplikasi akan menampilkan *form edit* Invitation seperti gambar dibawah ini:
 
-[![Edit Invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-edit1.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/edit/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
-[![Edit Invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-edit2.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/edit/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
-Gambar 11. Edit Invetation
+[![Edit Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-edit1.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/edit/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
+[![Edit Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-edit2.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/edit/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitations&parent_id=&parent_field=)
+Gambar 11. Edit Invitation
 
-Pada halaman ini admin dapat melihat *form* untuk mengedit data Invetation, setelah mengedit isi *form* admin dapat mengklik tombol "Save" untuk menyimpan data atau tombol "Back" untuk kembali ke halaman Invetation tanpa menyimpan data.
+Pada halaman ini admin dapat melihat *form* untuk mengedit data Invitation, setelah mengedit isi *form* admin dapat mengklik tombol "Save" untuk menyimpan data atau tombol "Back" untuk kembali ke halaman Invitation tanpa menyimpan data.
 
-###### 2.2.2.2.5 Delete Invetation
-Jika terdapat data pada Invetation yang ingin dihapus admin dapat mengklik *icon* "Tong Sampah" seperti gambar dibawah ini:
+###### 2.2.2.2.5 Delete Invitation
+Jika terdapat data pada Invitation yang ingin dihapus admin dapat mengklik *icon* "Tong Sampah" seperti gambar dibawah ini:
 
 [![tombol hapus data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-delete-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
-###### 2.2.2.2.6 Export Invetation
+###### 2.2.2.2.6 Export Invitation
 Admin dapat mencetak undangan yang etrdapat di menu Inveattion dengan cara mengklik *icon* "Printer" pada kolom *action* seperti pada gambar dibawah ini:
 
 [![tombol export data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-print-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations)
 
 Maka aplikasi akan menampilkan tampilan undangan seperti gambar dibawah ini:
 
-[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-export1.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/2/cetak)
-[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-export2.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/2/cetak)
-Gambar 12. Export Invetation
+[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-export1.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/2/cetak)
+[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-export2.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitations/2/cetak)
+Gambar 12. Export Invitation
 
-##### 2.2.2.3 Invetation List
-Invetation List dapat dilihat dengan mengklik "invetation List" pada list menu Bamus seperti gambar dibawah ini:
+##### 2.2.2.3 Invitation List
+Invitation List dapat dilihat dengan mengklik "invitation List" pada list menu Bamus seperti gambar dibawah ini:
 
-[![klik invetation list](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-invetation-list.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
+[![klik invitation list](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-invitation-list.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
 Makan aplikasi akan menampilkan list data tamu undangan seperti gambar dibawah ini:
 
-[![bamus invetation list](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-list.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
-Gambar 13. Bamus Invetation List
+[![bamus invitation list](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-list.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
+Gambar 13. Bamus Invitation List
 
-Pada halaman ini admin dapat melihat list Tamu undangan yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit, export filed dan menghapus data dari data tamu undangan di Bamus Invetation List.
+Pada halaman ini admin dapat melihat list Tamu undangan yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit, export filed dan menghapus data dari data tamu undangan di Bamus Invitation List.
 
-###### 2.2.2.3.1 Menambahkan Data Invetation List
-Admin dapat menambahkan data di Invetation List dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
+###### 2.2.2.3.1 Menambahkan Data Invitation List
+Admin dapat menambahkan data di Invitation List dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
 
 [![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
-Maka akan muncul tampilan *form add Invetation List* seperti gambar dibawah ini:
+Maka akan muncul tampilan *form add Invitation List* seperti gambar dibawah ini:
 
-[![Add Invetation List](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-list-add.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitation_lists&parent_id=&parent_field=)
-Gambar 14. Add Invetation
+[![Add Invitation List](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-list-add.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitation_lists&parent_id=&parent_field=)
+Gambar 14. Add Invitation
 
-Pada halaman ini admin dapat melihat *form* untuk menginput data Invetation List, setelah mengisi *form* admin dapat mengklik tombol "Save" untuk hanya menyimpan data, tombol "Save & Add More" untuk menyimpan dan menambahkan data lagi dan tombol "Back" untuk kembali ke halaman Invetation List tanpa menyimpan data.
+Pada halaman ini admin dapat melihat *form* untuk menginput data Invitation List, setelah mengisi *form* admin dapat mengklik tombol "Save" untuk hanya menyimpan data, tombol "Save & Add More" untuk menyimpan dan menambahkan data lagi dan tombol "Back" untuk kembali ke halaman Invitation List tanpa menyimpan data.
 
-###### 2.2.2.3.2 Melakukan Pencarian Pada Invetation List
-Untuk melakukan pencarian data pada Invetation List admin dapat mengetik data yang ingin dicari pada kolom pencarian seperti gambar dibawah ini:
+###### 2.2.2.3.2 Melakukan Pencarian Pada Invitation List
+Untuk melakukan pencarian data pada Invitation List admin dapat mengetik data yang ingin dicari pada kolom pencarian seperti gambar dibawah ini:
 
 [![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-pencarian.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
 ketika sudah diketik admin dapat mengklik *icon* "kaca pembesar" disamping kolom pencarian.
 
-###### 2.2.2.3.3 Lihat Detail Invetation List
-Untuk melihat detail dari list data invetation List admin dapat mengklik *icon* "mata" seperti gambar dibawah ini:
+###### 2.2.2.3.3 Lihat Detail Invitation List
+Untuk melihat detail dari list data invitation List admin dapat mengklik *icon* "mata" seperti gambar dibawah ini:
 
 [![tombol lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/tombol-lihat-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
 maka aplikasi akan meanmpilkan detail laporan seperti gambar dibawah ini:
 
-[![invetation List lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-list-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitation_lists&parent_id=&parent_field=)
-Gambar 15. Detail Invetation List
+[![invitation List lihat-detail](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-list-detail.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/add?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitation_lists&parent_id=&parent_field=)
+Gambar 15. Detail Invitation List
 
-###### 2.2.2.3.4 Edit Invetation List
-Admin dapat mengedit data dari data master Invetation List dengan cara mengklik *icon* "pensil" yang terletak pada kolom *action* pada sebelah kiri data seperti gambar dibawah ini:
+###### 2.2.2.3.4 Edit Invitation List
+Admin dapat mengedit data dari data master Invitation List dengan cara mengklik *icon* "pensil" yang terletak pada kolom *action* pada sebelah kiri data seperti gambar dibawah ini:
 
 [![tombol edit data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-edit-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
-Maka aplikasi akan menampilkan *form edit* Invetation List seperti gambar dibawah ini:
+Maka aplikasi akan menampilkan *form edit* Invitation List seperti gambar dibawah ini:
 
-[![Edit Invetation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-list-edit.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/edit/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitation_lists&parent_id=&parent_field=)
-Gambar 16. Edit Invetation List
+[![Edit Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-list-edit.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/edit/2?return_url=http%3A%2F%2Fbamus-01.dev.bantenprov.go.id%2Fadmin%2Finvitation_lists&parent_id=&parent_field=)
+Gambar 16. Edit Invitation List
 
-Pada halaman ini admin dapat melihat *form* untuk mengedit data Invetation List, setelah mengedit isi *form* admin dapat mengklik tombol "Save" untuk menyimpan data atau tombol "Back" untuk kembali ke halaman Invetation tanpa menyimpan data.
+Pada halaman ini admin dapat melihat *form* untuk mengedit data Invitation List, setelah mengedit isi *form* admin dapat mengklik tombol "Save" untuk menyimpan data atau tombol "Back" untuk kembali ke halaman Invitation tanpa menyimpan data.
 
-###### 2.2.2.3.5 Delete Invetation List
-Jika terdapat data pada Invetation List yang ingin dihapus admin dapat mengklik *icon* "Tong Sampah" seperti gambar dibawah ini:
+###### 2.2.2.3.5 Delete Invitation List
+Jika terdapat data pada Invitation List yang ingin dihapus admin dapat mengklik *icon* "Tong Sampah" seperti gambar dibawah ini:
 
 [![tombol hapus data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-delete-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
-###### 2.2.2.3.6 Export Invetation List
-Admin dapat mencetak daftar tamu undangan yang terdapat di menu Invetation list dengan cara mengklik *icon* "Printer" pada kolom *action* seperti pada gambar dibawah ini:
+###### 2.2.2.3.6 Export Invitation List
+Admin dapat mencetak daftar tamu undangan yang terdapat di menu Invitation list dengan cara mengklik *icon* "Printer" pada kolom *action* seperti pada gambar dibawah ini:
 
 [![tombol export data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-print-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists)
 
 Maka aplikasi akan menampilkan tampilan daftar tamu undangan seperti gambar dibawah ini:
 
-[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-list-cetak.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/cetak)
-Gambar 17. Export Invetation List
+[![export data](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invitation-list-cetak.png)](http://bamus-01.dev.bantenprov.go.id/admin/invitation_lists/cetak)
+Gambar 17. Export Invitation List
 
 ##### 2.2.2.4 DPRD Schedules
 DPRD Schedules dapat dilihat dengan mengklik "DPRD Schedules" pada list menu Bamus seperti gambar dibawah ini:
@@ -392,7 +392,7 @@ Jika terdapat data pada AKD yang ingin dihapus admin dapat mengklik *icon* "Tong
 
 [![tombol hapus data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-delete-data.png)](http://bamus-01.dev.bantenprov.go.id/admin/akds)
 
-##### 2.2.2.6 
+##### 2.2.2.6
 Jadwal Rapat Alat kelengkapan Dewan dapat dilihat dengan mengklik "AKD Schedule" pada list menu Bamus seperti gambar dibawah ini:
 
 [![klik DPRD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-akd-schedules.png)](http://bamus-01.dev.bantenprov.go.id/admin/akd_schedules)
