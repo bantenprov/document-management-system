@@ -212,5 +212,3 @@ Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 
 ## 4.PENUTUP
 Dengan adanya pembuatan dari sistem informasi dashboard ini dapat membantu dalam mencari informasi atau laporan yang terdapat di pemerintahan Banten, sehingga pimpinan tidak sulit jika ingin mencari informasi atau laporan yang ada dan dapat mempermudah pimpinan memonitoring kinerja para pegawai SKPD (Satuan Kerja Perangkat Daerah).
-=======
-[![cover-dashboard-pimpinan](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/cover-dashboard-pimpinan.jpeg)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/cover-dashboard-pimpinan.jpeg)
