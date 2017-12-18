@@ -55,28 +55,28 @@ Setelah mengetahui masalah yang masyarakat hadapi pada saat melakukan pengaduan,
 Berikut ini adalah delapan aturan emas dalam perancangan user interface dalam pembuatan aplikasi yang dikemukakan oleh Shneiderman dan Plaisant (2010: 74) yaitu:
 
 1. Berusaha untuk konsisten
-    Konsisten serangkaian *action* harus ada di situasi yang sama, dalam perancangan *User Interface*, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
+   Konsisten serangkaian *action* harus ada di situasi yang sama, dalam perancangan *User Interface*, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
 
 2. Kegunaan yang universal
-    Mengenali kebutuhan dari berbagai *user* akan desain untuk kemudahan pemakaian seperti misalnya, penggunaan, *shorcut* untuk meningkatkan kecepatan interaksi dengan aplikasi yang kita buat.
+   Mengenali kebutuhan dari berbagai *user* akan desain untuk kemudahan pemakaian seperti misalnya, penggunaan, *shorcut* untuk meningkatkan kecepatan interaksi dengan aplikasi yang kita buat.
 
 3. Memberikan *feedback* yang informatif
-    Untuk setiap tindakan pengguna, harus ada sistem *feedback*, untuk setiap tindakan yang sering dilakukan dan tidak terlalu penting dapat diberikan *feedback* yang sederhana.
+   Untuk setiap tindakan pengguna, harus ada sistem *feedback*, untuk setiap tindakan yang sering dilakukan dan tidak terlalu penting dapat diberikan *feedback* yang sederhana.
 
 4. Merancang dialog untuk menghasilkan suatu penutupan
-    Urutan tindakan sebaiknya diorganisir dalam suatu kelompok dengan bagian awal, tengah dan akhi.
+   Urutan tindakan sebaiknya diorganisir dalam suatu kelompok dengan bagian awal, tengah dan akhi.
 
 5. *Prevent error* (memberikan pesan kesalahan)
-    Sebisa mungkin desain aplikasi kita *simple* agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalahan tersebut.
+   Sebisa mungkin desain aplikasi kita *simple* agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalahan tersebut.
 
 6. Memudahkan untuk kembali ketindakan sebelumnya
-    Hal ini dapat mengurangi kekhawatiran pengguna untuk mengambil tindakan, karena apabila terdapat kesalahan pengguna akan mudah kembali ke tindakan sebelumnya.
+   Hal ini dapat mengurangi kekhawatiran pengguna untuk mengambil tindakan, karena apabila terdapat kesalahan pengguna akan mudah kembali ke tindakan sebelumnya.
 
 7. Mendukung kendali internal
-    Memberikan pengguna kendali penuh terhadap aplikasi yang digunakan. Karena para pengguna lebih suka merasa bahwa mereka yang memegang kendali terhadap aplikasi dari pada mereka yang dikendalikan aplikasi.
+   Memberikan pengguna kendali penuh terhadap aplikasi yang digunakan. Karena para pengguna lebih suka merasa bahwa mereka yang memegang kendali terhadap aplikasi dari pada mereka yang dikendalikan aplikasi.
 
 8. Mengurangi ingatan jangka pendek
-    Jangan membuat para pengguna mengingat terlalu banyak akan tampilan halaman, kode, dan tombol-tombol. Sebaiknya jadikan semua itu simple.
+   Jangan membuat para pengguna mengingat terlalu banyak akan tampilan halaman, kode, dan tombol-tombol. Sebaiknya jadikan semua itu simple.
 
 ## 3. HASIL DAN PEMBAHASAN
 
@@ -113,6 +113,67 @@ Dari hasil evaluasi produser yang berjalan masalah tidak terjadi pada saat pemro
 ### 3.4 Perancangan Aplikasi
 
 "Aplikasi dan perancangan sistem pengaduan masyarakat terhadap Pemprov Banten berbasis web dan android" adalah aplikasi pengaduan berbasis web yaang membantu pemerintah Provinsi Banten untuk mengelola setiap pengaduan masyarakat dan membantu mempermudah masyarakat untuk melakukan setiap pengaduan yang semula dilakukan dengan cara manual karena harus mengambil formulir pengaduan ke kantor pemerintah terlebih dahulu. Pengaduan itu sendiri berbentuk formulir yang harus diisi. Setelah masyarakat melakukan pengaduan, maka aplikasi akan menyimpan setiap pengaduan ke dalam database.
+
+#### 3.4.1 Workflow Management
+Untuk melakukan proses administrasi pengaduan masyarakat ini digunakan workflow management dengan state dan transition sebegai berikut:
+
+##### 3.4.1.1 Workflow State
+**Workfow state yang direncanakan adalah sebagai berikut**:
+
+| name        | label       | description                                                |
+|-------------|-------------|------------------------------------------------------------|
+| propose    | Propose    | Pelapor memberikan laporan                                 |
+| verification    | Verification    | Site Admin melakukan verifikasi terhadap laporan           |
+| distribution | Distribution | Site admin melakukan distribusi laporan ke OPD Terkait     |
+| disposition | Disposition | Pimpinan OPD memberikan distribusi kepada staff terkait    |
+| execution   | Execution   | Staf OPD Terkait mengambil langkah yang diperlukan sesuai  |
+| approved      | Approved      | Pimpinan OPD menyetujui laporan staff             |
+| need_review      | Need review      | Pimpinan OPD meminta review             |
+| internal_report      | Internal Report      | Staf OPD memberikan internal report             |
+| reject      | Reject      | site Admin memberikan status reject kepada laporan         |
+| report      | Report      | Pimpinan OPD memberikan laporan hasil tindak lanjut          |
+
+##### 3.4.1.2 Workflow Transition
+**Workfow transition yang direncanakan adalah sebagai berikut**:
+
+| name           | label          | description    |
+|-------------|-------------|------------------------------------------------------------|
+| propose-to-verification | Verified | Laporan sudah diverifikasi oleh admin |
+| propose-to-reject | Rejected | Laporan berikan status reject oleh site admin |
+| verification-to-distribution | Distributed | Laporan sudah didistribusikan kepada OPD terkait  |
+| distribution-to-disposition | Dispositioned | Laporan sudah diteruskan oleh OPD terkait kepada pelaksana |
+| disposition-to-execution | Executed | Laporan sedang ditindak lanjuti |
+| execution-to-internal-report | Internal Report | Staff OPD sudah melaporkan tindak lanjut |
+| internal-report-to-need-review | Need Review | Pimpinan OPD meminta tinjauan ulang hasil tindak lanjut |
+| need-review-to-excecution | 2nd Execution | Staf OPD menindaklanjuti permintaan tinjauan ulang |
+| internal-report-to-report | Report | Pimpinan OPD sudah memberikan laporan hasil tindak lanjut |
+| report-to-closed | Closed | Proses pelaporan masyarakat selesai ditindaklanjuti |
+
+##### 3.4.1.3 Workflow Guard
+**Workfow guard yang direncanakan adalah sebagai berikut**:
+
+| name           | label          | description    |
+|-------------|-------------|------------------------------------------------------------|
+| access-propose-to-verification | Able to verification | User yang dapat melakukan verifikasi laporan |
+| access-propose-to-reject | Able to Reject | User yang dapat memberikan status reject |
+| access-verification-to-distribution | Able to distribute | User yang dapat melakukan distribusi laporan  |
+| access-distribution-to-disposition | Able disposition | User yang dapat melakukan disposisi laporan  |
+| access-disposition-to-execution | Able to executed | User yang dapat menindaklanjuti laporan |
+| access-execution-to-internal-report | Able to Reported internally | user yang dapat melaporkan tindak lanjut |
+| access-internal-report-to-need-review | Able to ask Need Review | User yang dapat meminta tinjauan ulang hasil tindak lanjut |
+| access-need-review-to-excecution | Reexecution | User yang dapat menindaklanjuti permintaan tinjauan ulang |
+| access-internal-report-to-report | Report | User yang dapat memberikan laporan hasil tindak lanjut |
+| access-report-to-closed | Closed | User yang dapat memberikan status pelaporan masyarakat selesai ditindaklanjuti |
+
+
+##### 3.4.1.4 Workflow Notification
+**Workfow notification yang direncanakan adalah sebagai berikut**:
+
+| name           | label          | to    | cc    | Description |
+|-------------|-------------|-------------|-------------|-------------|
+| propose-to-verification | Verification | ... | ... | Notifikasi yang dikirimkan untuk verifikasi |
+| propose-to-reject | Reject | ... | ... | Notifikasi yang dikirimkan ketika laporan di reject |
+
 
 ### 3.5 Perancangan Database
 

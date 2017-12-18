@@ -1,0 +1,34 @@
+{
+  "name": "document-management-system",
+  "description": "DMS Pemerintah Provinsi Banten",
+  "version": "1.0.0",
+  "keywords": [
+    "bantenprov",
+    "document",
+    "document management system",
+    "dms"
+  ],
+  "homepage": "http://dms-01.dev.bantenprov.go.id",
+  "author": "bantenprov",
+  "scripts": {
+    "docs-compile": "bundle exec jekyll build",
+    "docs-serve": "bundle exec jekyll serve",
+    "docs-lint-htmllint": "htmllint --rc build/.htmllintrc \"_site/**/*.html\"",
+    "test": "npm-run-all docs-compile docs-lint-*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bantenprov/document-management-system.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bantenprov/document-management-system/issues"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6"
+  },
+  "devDependencies": {
+    "htmllint-cli": "0.0.6",
+    "npm-run-all": "^4.1.2"
+  }
+}

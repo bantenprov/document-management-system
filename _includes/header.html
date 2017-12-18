@@ -17,8 +17,11 @@
 <!-- Font Awesome -->
 <link rel="stylesheet" href="{{ site.cdn.fontAwesome }}" integrity="{{ site.cdn.fontAwesome_hash }}" crossorigin="anonymouse">
 
-<!-- Documentation extras -->
+<!-- Extras -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.css">
+{% if page.layout == 'home' %}
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/home.css">
+{% endif %}
 
 <!-- Favicons -->
 <link rel="apple-touch-icon" href="{{ site.baseurl }}/apple-touch-icon.png">

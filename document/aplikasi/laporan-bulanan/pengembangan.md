@@ -1,7 +1,7 @@
 ---
 layout: document
-title: Pengembangan
-description: Laporan Bulanan adalah suatu bentuk penyampaian informasi, data, atau berita baik secara lisan maupun tertulis dalam jangka satu bulan.
+title: Laporan Bulanan Biro ADPEM
+description: Sistem Informasi laporan bulanan Biro ADPEM adalah suatu bentuk penyampaian informasi, data, dalam jangka satu bulan secara online.
 group: aplikasi
 cat: laporan-bulanan
 toc: true
@@ -22,6 +22,8 @@ Apliaksi Laporan Bulanan ini menampilkan laporan bulanan dari OPD-OPD (Organisas
 ## Tampilan Login
 [![Tampilan Login](/document/aplikasi/laporan-bulanan/images/halaman-login.png)](/document/aplikasi/laporan-bulanan/images/halaman-login.png)
 Pada halaman ini terdapat *form login* untuk semua *user* baik admin maupun OPD terkait. Di *form login* ini terdapat 2 *field* yaitu *field email* dan *field password*.
+
+> Misalnya gunakan user untuk admin dengan username **admin@mail.com** dan password **123456**.
 
 ## Tampilan Untuk Admin
 
@@ -127,7 +129,6 @@ Pada halaman ini terdapat *form input* program yang berisikan beberapa *field* y
 Pada halaman ini terdapat *list* informasi tentang kegiatan dan program dari OPD terkait beserta lokasi, waktu dan tolok ukur dari kegiatan dan program tersebut.
 
 ### Tampilan Tambah Tolok Ukur
-[![tambah tolok ukur](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur.png)](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur.png)
 [![tambah tolok ukur2](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur2.png)](/document/aplikasi/laporan-bulanan/images/bapeda-tambah-tolak-ukur2.png)
 Pada halaman ini terdapat *form input* tolok ukur yang berisikan beberapa *field* yang harus diisi oleh admin OPD untuk menambahkan master data tolok ukur pada apliaksi.
 
@@ -140,9 +141,32 @@ Halaman ini menampilkan *list* rincian tolok ukur kegiatan atau program dari OPD
 Pada halaman ini terdapat *form input* rincian tolok ukur yang berisikan beberapa *field* yang harus diisi oleh admin OPD untuk menambahkan master data rincian tolok ukur pada apliaksi.
 
 ### Tampilan Konten laporan Bulanan
-[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-konten-laporan.png)
-Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait.
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Adpem Bulan Maret 2017.
+
+[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-laporan-content.png)](/document/aplikasi/laporan-bulanan/images/adpem-laporan-content.png)
 
 ### Tampilan Lihat Hasil Laporan Bulanan
+Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya, atau [laporan Biro Adpem Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/4/2017/03).
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/adpem-hasil-laporan-bulanan.png)
+
+### Tampilan Laporan Bulanan ADPEM pada Bulan Maret
+Pada halaman ini akan terlihat rincian laporan pada bulan maret.
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-adpem-maret-2017.png)
+
+### Tampilan Konten laporan Bulanan
+Dihalaman ini terdapat tombol pencarian untuk mencari bulan kegiatan dan program yang dilakukan oleh OPD terkait, misalnya akan ditampilkan laporan Biro Bapeda Bulan Januari 2017.
+
+[![konten laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-laporan-content.png)](/document/aplikasi/laporan-bulanan/images/bapeda-laporan-content.png)
+
+### Tampilan Lihat Hasil Laporan Bulanan
+Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya, atau [laporan Biro Bapeda Bulan Maret 2017](http://lapbul-01.dev.bantenprov.go.id/admin/laporanbulanan/5/2017/01).
+
 [![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)](/document/aplikasi/laporan-bulanan/images/bapeda-hasil-laporan-bulanan.png)
-Pada halaman ini akan terlihat laporan bulanan dari hasil pencarian yang sudah dilakukan sebelumnya.
+
+### Tampilan Laporan Bulanan BAPEDA pada Bulan Januari
+Pada halaman ini akan terlihat rincian laporan pada bulan januari.
+
+[![lihat hasil laporan bulanan](/document/aplikasi/laporan-bulanan/images/output-laporan-bapeda-januari-2017.png)](/document/aplikasi/laporan-bulanan/images/output-laporan-bapeda-januari-2017.png)
+

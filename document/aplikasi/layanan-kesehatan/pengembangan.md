@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Pengembangan
-description: YANKES adalah sebuah aplikasi yang akan dikeluarkan oleh pemerintah provinsi Banten untuk mendukung terlaksananya kesehatan masyarakat yang lebih baik.
+description: Pengembangan Aplikasi Informasi Pelayanan Kesehatan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: layanan-kesehatan
 toc: true

@@ -1,7 +1,7 @@
 ---
 layout: document
-title: Desain dan Perancangan
-description: Deskripsi di sini.
+title: Desain dan Perancangan SOP Online
+description: Desain dan Perancangan Aplikasi SOP Online yang digunakan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: sop-online
 toc: true
@@ -12,6 +12,8 @@ toc: true
 ## ABSTRAK
 
 Pengembangan aplikasi, atau bisa disebut sebagai pengembangan *software* atau desain *software*, kerap kali disalahartikan sebagai kegiatan dimana seorang *programmer* melakukan *coding*, tetapi sebenarnya yang dimaksud pengembangan aplikasi merupakan serangkaian proses yang dilakukan dari saat pembuatan kosep aplikasi hingga aplikasi tersebut selesai dan siap digunakan.
+
+SOP Online adalah prosedur yang dilakukan secara kronologis untuk menyelesaikan suatu pekerjaan yang bertujuan untuk memperoleh hasil kerja yang paling efektif dari para pekerja dengan biaya yang serendah-rendahnya.
 
 ## DAFTAR ISI
 
@@ -101,9 +103,40 @@ proses perancangan database terdiri dari 6 tahap:
 
 Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Language*). Menurut Whitten dan Bentley , *Unified Modeling Language* adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang digunakan terdiri dari *Use Case Diagram*, *Activity Diagram*, *Sequence Diagram** dan *State Chart Diagram*.
 
-#### 3.5.1 Proses Pengajuan
+#### 3.5.1. Workflow
 
-##### 3.5.1.1. *Use Case Diagram*
+##### 3.5.1. Workflow Pengajuan Aplikasi
+
+###### 3.5.1.1. Workflow State
+
+| name        | label       | description                                                |
+|-------------|-------------|------------------------------------------------------------|
+| propose    | Propose    | Usulan pembuatan aplikasi                                 |
+| internal_review    | Internal Review    | Menerima dan Mempelajari usulan pembuatan aplikasi           |
+| forward_1 | Forward | Meneruskan usulan pembuatan aplikasi ke Kepala Dinas Pemakai   |
+| forward_2 | Forward to DKISP | Meneruskan usulan pembuatan aplikasi ke Kepala Dinas KISP    |
+| review    | Review    | Menerima dan Mempelajari usulan pembuatan aplikasi           |
+| recommendation    | Recommendation    | Rekomendasi atas usulan pembuatan aplikasi           |
+
+
+###### 3.5.1.2. Workflow Transition
+
+| name        | label       | description                                                |
+|-------------|-------------|------------------------------------------------------------|
+| propose-to-propose    | Proposed    | Usulan pembuatan aplikasi telah dibuat |
+| propose-to-internal-review    | Internal Reviewed    | Usulan pembuatan aplikasi akan dimintakan review |
+| internal-review-to-forward-1    | Forward    | Usulan pembuatan aplikasi selesai direview dan akan diteruskena ke Pimpinan OPD |
+
+
+###### 3.5.1.3. Workflow Guard
+
+
+###### 3.5.1.4. Workflow Notification
+
+
+#### 3.5.2 Proses Pengajuan
+
+##### 3.5.2.1. *Use Case Diagram*
 
 *Use Case Diagram* Proses Pengajuan
 
@@ -129,19 +162,19 @@ Permodelan rancangan sistem yang digunakan adalah UML (*Unified Modeling Languag
 
 [![*Use Case Diagram* Kepala Seksi Pengembangan Aplikasi Dinas KISP](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-use-case-diagram-kepala-seksi-pengembangan-aplikasi-dinas-kisp.jpg)
 
-##### 3.5.1.2 *Activity Diagram*
+##### 3.5.2.2 *Activity Diagram*
 
 *Activity Diagram* Proses Pengajuan
 
 [![*Activity Diagram* Proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171010-activity-diagram-proses-pengajuan.jpg)
 
-##### 3.5.1.3 *Sequence Diagram*
+##### 3.5.2.3 *Sequence Diagram*
 
 *Sequence Diagram* Proses Pengajuan
 
 [![*Sequence Diagram* Proses Pengajuan](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)](/document/aplikasi/sop-online/images/desain-dan-perancangan/20171009-sequence-diagram-proses-pengajuan.jpg)
 
-##### 3.5.1.4 *State Chart Diagram*
+##### 3.5.2.4 *State Chart Diagram*
 
 *State Chart Diagram* Staff OPD
 
