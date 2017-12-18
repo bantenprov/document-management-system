@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Implementasi Dashboard Pimpinan
-description: Dashboard Pimpinan adalah aplikasi berbasis web untuk mengetahui atau memantau kegiatan dan informasi setipa OPD pada Pemerintahan Provinsi Banten
+description: Implmentasi aplikasi dashboard pimpinan yang digunakan pada Provinsi Banten.
 group: aplikasi
 cat: dashboard-pimpinan
 toc: true
