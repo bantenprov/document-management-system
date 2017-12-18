@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Pengembangan
-description: Simbada sebuah Aplikasi Sisten Informasi Manajemen Aset Barang Daerah
+description: Pengembangan Sistem Informasi Manajemen Barang Daerah provinsi Banten.
 group: aplikasi
 cat: simbada
 toc: true
