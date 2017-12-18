@@ -4,10 +4,12 @@
   "version": "1.0.0",
   "keywords": [
     "bantenprov",
-    "document"
+    "document",
+    "document management system",
+    "dms"
   ],
   "homepage": "http://dms-01.dev.bantenprov.go.id",
-  "author": "Bantenprov",
+  "author": "bantenprov",
   "scripts": {
     "docs-compile": "bundle exec jekyll build",
     "docs-serve": "bundle exec jekyll serve",
