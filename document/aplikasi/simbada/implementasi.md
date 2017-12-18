@@ -9,7 +9,7 @@ toc: true
 
 ##  Daftar isi
 
-* will be replaced with Toc, excluding the "contents" header 
+* will be replaced with Toc, excluding the "contents" header
 {:toc}
 
 ## 1Impelementasi Program Aplikasi
