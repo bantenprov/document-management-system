@@ -10,7 +10,7 @@ permalink:          pretty
 
 # Server
 source:             "."
-destination:        _site
+destination:        ./_site
 port:               9000
 baseurl:            ""
 url:                "http://dms-01.dev.bantenprov.go.id"
