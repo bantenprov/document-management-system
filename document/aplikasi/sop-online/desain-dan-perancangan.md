@@ -1,7 +1,7 @@
 ---
 layout: document
-title: Desain dan Perancangan
-description: Deskripsi di sini.
+title: Desain dan Perancangan SOP Online
+description: Desain dan Perancangan Aplikasi SOP Online yang digunakan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: sop-online
 toc: true
@@ -12,6 +12,8 @@ toc: true
 ## ABSTRAK
 
 Pengembangan aplikasi, atau bisa disebut sebagai pengembangan *software* atau desain *software*, kerap kali disalahartikan sebagai kegiatan dimana seorang *programmer* melakukan *coding*, tetapi sebenarnya yang dimaksud pengembangan aplikasi merupakan serangkaian proses yang dilakukan dari saat pembuatan kosep aplikasi hingga aplikasi tersebut selesai dan siap digunakan.
+
+SOP Online adalah prosedur yang dilakukan secara kronologis untuk menyelesaikan suatu pekerjaan yang bertujuan untuk memperoleh hasil kerja yang paling efektif dari para pekerja dengan biaya yang serendah-rendahnya.
 
 ## DAFTAR ISI
 

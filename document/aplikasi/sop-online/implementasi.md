@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Implementasi SOP Online
-description: sop online adalah prosedur yang dilakukan secara kronologis untuk menyelesaikan suatu pekerjaan yang bertujuan untuk memperoleh hasil kerja yang paling efektif dari para pekerja dengan biaya yang serendah-rendahnya..
+description: Implementasi aplikasi SOP Online yang digunakan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: sop-online
 toc: true
