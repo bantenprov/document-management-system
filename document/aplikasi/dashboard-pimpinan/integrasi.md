@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Integrasi dan Pengujian Dashboard Pimpinan
-description: Dashboard Pimpinan yang berbasis web base unuk mengetahui atau memonitor semua kegiatan OPD yang terdapat di Provinsi Banten. 
+description: Integrasi Dashboard Pimpinan berbasis web yang digunakan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: dashboard-pimpinan
 toc: true
@@ -105,7 +105,7 @@ Pada *page* ini terdapat *method* yang berupa tombol "PUT" dan link url untuk ko
 1. *Success Response* yang ditampilkan dalam "Success 200" dan hasilnya ditampilkan dalam bentuk Json.
 2. *Error Response* yang ditampilkan dalam "Error 4xx" dan hasilnya akan ditampilkan dalam bentuk Json.
 
-##### 1.1.6 Usia ASN 
+##### 1.1.6 Usia ASN
 ###### 1.1.6.1  Save New Jumlah Usia ASN
 [![jumlah usia ASN](/document/aplikasi/dashboard-pimpinan/images/integrasi/usia-asn-post1.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/usia-asn-post1.png)
 [![jumlah usia ASN](/document/aplikasi/dashboard-pimpinan/images/integrasi/usia-asn-post2.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/usia-asn-post2.png)
