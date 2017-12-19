@@ -1,5 +1,5 @@
 ---
-**layout**: document
+layout: document
 title: Integrasi dan Implementasi
 description: Pengembangan Aplikasi Banten Satu Data berdasarkan desain dan perancangan yang telah dibuat sebelumnya.
 group: aplikasi
