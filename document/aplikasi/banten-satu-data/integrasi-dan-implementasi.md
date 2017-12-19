@@ -1,5 +1,5 @@
 ---
-**layout**: document
+layout: document
 title: Integrasi dan Implementasi
 description: Pengembangan Aplikasi Banten Satu Data berdasarkan desain dan perancangan yang telah dibuat sebelumnya.
 group: aplikasi
@@ -621,7 +621,7 @@ Fasilatas tambah group ada pada sub menu group, pada halaman ini hanya user yang
 
 **Gambar 31.** Tambah Group
 
-4.5 Aplikasi 
+4.5 Aplikasi
 -------------
 
 Adanya fasilitas pencarian, paging halaman, tambah, edit, lihat data, nonaktifkan data, aktifkan dan sorting data berdasarkan judul kolom pada *datatable*.
