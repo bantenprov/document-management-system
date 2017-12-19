@@ -127,8 +127,10 @@
 }
 
 .site-content > table {
+  display: block;
   width: 100%;
   max-width: 100%;
+  overflow-x: auto;
   margin-bottom: 1rem;
 }
 @media (max-width: 991px) {
