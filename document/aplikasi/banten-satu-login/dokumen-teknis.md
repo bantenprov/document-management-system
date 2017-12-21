@@ -146,13 +146,19 @@ Sumber atribut JDBC dapat didefinisikan berdasarkan mekanika berikut:
 
 Dirancang untuk bekerja melawan meja dimana ada pemetaan satu baris ke satu pengguna. Contoh format tabel ini adalah:
 
-![gambar 1](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-1.png)
+| **uid** | **first_name** | **last_name** | **email**      | 
+| ----    |   --           | --------      | ----           | 
+| jsmith  | John           |  Smith    | jsmith@example.org |
 
 #### Multi Row
 
 Dirancang untuk bekerja melawan meja dimana ada pemetaan satu baris ke satu pengguna. Contoh format tabel ini adalah:
 
-![gambar 2](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-2.png)
+| **uid** | **attr_name** | **attr_value** | 
+| ----    |   --          | --------       | 
+| jsmith  | first_name    |  John          |
+| jsmith  | last_name     |  Smith         |
+| jsmith  | email         | jsmith@example.org |
 
 Anda perlu menentukan pemetaan kolom dalam konfigurasi Anda untuk memetakan kolom attr_name ke kolom attr_value
 
@@ -160,7 +166,10 @@ Contoh
 
 Misalkan CAS dikonfigurasi untuk mengotentikasi terhadap Active Directory. Akun yang rinciannya didefinisikan di bawah otentikasi melalui sAMAccountName.
 
-![gambar 3](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-3.png)
+| **Attribute** | **Value**     |  
+| ----          |   --          | 
+| sAMAccountName | johnsmith    |  
+| en            | John Smith    |  
 
 Contoh kasus #1
 
@@ -296,7 +305,19 @@ Log4j2.xml itu sendiri mengendalikan interval penyegaran dari konfigurasi loggin
 #### Pola Log
 Secara default kebanyakan appenders yang disediakan melalui file log4j2.xml menggunakan pola berbasis layout untuk memformat pesan log. Tata letak alternatif berikut juga dapat digunakan:
 
-![gambar 5](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-5.png)
+| **Layout** | **Description**     |  
+| ----          |   --          | 
+| CsvParameterLayout | Converts an event's parameters into a CSV record, ignoring the message    |  
+| GelfLayout            | Lays out events in the Graylog Extended Log Format (GELF).   |  
+| HTMLLayout | Generates an HTML page and adds each LogEvent to a row in a table |
+| JSONLayout | Creates log events in well-formated or fragmented JSON. |
+| PatternLayout | Formats the log even based on a conversion pattern. |
+| RFC5424Layout | Formats log events in accordance with RFC 5424, the enhanced Syslog specification. |
+| SerializedLayout | Log events are transformed into byte arrays useful in JMS or socket connections. |
+| SyslogLayout | Formats log events as BSD Syslog records. |
+| XMLLayout | Creates log events in well-formed or fragmented XML. |
+| YamlLayout | Creates log events in YAML. |
+
 
 #### Strategi Rollover
 
@@ -358,7 +379,28 @@ Anda juga dapat mengkonfigurasi keluaran tujuan jarak jauh melalui SSL dan menen
 
 Untuk mencatat setiap permintaan secara unik, CAS memasukkan informasi kontekstual ke dalam MDC, singkatan dari Konteks Diagnostik yang Dipetakan. Ini secara efektif menerjemahkan sejumlah variabel khusus yang tersedia ke konteks penebangan yang mungkin menyampaikan inf  ormasi tambahan tentang sifat permintaan atau peristiwa autentikasi.
 
-![gambar 15](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-15.png)
+| **Variable** | **Description**     |  
+| ----          |   --          | 
+| remoteAddress | Remote address of the HTTP request.   |  
+| remoteUser            | Remote user of the HTTP request.    |  
+| serverName | Server name of the HTTP request. |
+| serverPort | Server port of the HTTP request. |
+| locale | Locale of the HTTP request. |
+| contentType | Content type of the HTTP request. |
+| contextPath | Context path of the HTTP request. |
+| localAddress | Local address of the HTTP request. |
+| localPort | Local port of the HTTP request. |
+| remotePort | Remote port of the HTTP request. |
+| pathinfo | Path information of the HTTP request. |
+| protocol | Protocol of the HTTP request. |
+| authType | Authentication type of the HTTP request. |
+| method | Method of the HTTP request. |
+| queryString | Query string of the HTTP request. |
+| requestUri | Request URI of the HTTP request. |
+| scheme | Scheme of the HTTP request. |
+| timezone | Timezone of the HTTP request. |
+| principal | CAS authenticated principal id. |   
+
 
 Selain itu, semua atribut, header, dan parameter permintaan yang tersedia terpapar sebagai variabel
 
@@ -373,11 +415,38 @@ Variabel di atas dapat digunakan dalam pola pembalakan:
 
 Titik akhir berikut tersedia dan dijamin oleh CAS:
 
-![gambar 17](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-17.png)
+| **URL** | **Description**     |  
+| ----          |   --          | 
+| /status/dashboard | The control panel to CAS server functionallity and management.   |  
+| /status           | Monitor CAS status and other underlying components.    | 
+| /status/sso | Describes if there exists an active SSO session for this request tied to this browser session. |
+| /status/swf | Describes the current configured state of CAS webflow in JSON. |
+| /status/stats | Visual reprensentation of CAS statistics with graphs and charts, etc. |
+| status/logging | Monitor CAS logs in a streaming fashion and review the audit log. |
+| status/config | Visual representation of application properties and configuration. |
+| /status/ssosessions | Reports active SSO sessions. Examine attributes, services and log users out. |
+| /status/services | Reports the collection of applications registered with CAS. |
+| /status/trustedDevs | Reports on the registered trusted devices/browsers. |
+| /status/authnEvents | When enabled, reports on the events captured by CAS. |
+| status/attrresolution | Examine resolution of user attributes via CAS attribute resolution. |
+| /status/discovery | Advertises the CAS server's profile, features and capabilities for auto-configuration of client applications. |
+
 
 Titik akhir berikut dijamin dan tersedia oleh aktuator Spring Boot:
 
-![gambar 18](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-18.png)
+| **URL** | **Description**     |  
+| ----          |   --          | 
+| /status/autoconfig | Describes how the CAS application context is auto-configured.   |  
+| /status/beans           | Displays all CAS application context internal Spring beans.    | 
+| /status/configprops | List of Internal configuration properties. |
+| /status/dump | Produces a thread dump for the running CAS server. |
+| /status/health | Reports back general health status of the system, produces by various monitors. |
+| /status/info | CAS version information and other system traits. |
+| /status/metrics | Runtime metrics and stats. |
+| /status/mappings | Describes how requests are mapped and handled by CAS. |
+| /status/shutdown | Shut down the application via a POST . Disabled by default. |
+| /status/restart | Restart the application via a POST. Disabled by default. |
+| /status/refresh | Refresh the application configuration via a POST to let components reload and recognize new values. |
 
 Titik akhir aktuator yang disediakan oleh Spring Boot juga dapat dikelola dan dipantau secara visual melalui Spring Boot Administration Server.
 
