@@ -16,6 +16,7 @@ http://geoportal.bantenprov.go.id/gspalapa
 ### Langkah 1 :
 Pilih Menu Pengembangan(Dev)
 [![Akses halaman login](/document/aplikasi/palapa/images/petunjuk-pemakaian/pertunjuk-pemakaian-pilih-menu-pengembangan.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/pertunjuk-pemakaian-pilih-menu-pengembangan.png)
+
 ### Langkah 2 :
 Klik tombol Unggah Data
 
