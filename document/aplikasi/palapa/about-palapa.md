@@ -9,7 +9,7 @@ toc: true
 
 # PALAPA Aplikasi Geospasial Nasional
 
-<center>[![Bada informasi Geospasial](/document/aplikasi/palapa/images/about-palapa/palapa-big.png)](/document/aplikasi/palapa/images/about-palapa/palapa-big.png)</center>
+[![Badan informasi Geospasial](/document/aplikasi/palapa/images/about-palapa/palapa-big.png)](/document/aplikasi/palapa/images/about-palapa/palapa-big.png).
 
 Badan Informasi Geospasial ([BIG](http://big.go.id/).)
 > Jl. Raya Jakarta - Bogor KM. 46 Cibinong 16911, INDONESIA
