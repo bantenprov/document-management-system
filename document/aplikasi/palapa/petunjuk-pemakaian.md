@@ -49,3 +49,14 @@ Klik tombol Unggah Data
 ### Langkah 9:
 - Finalisasi ,melakukan publikasi data :
 > Data Spasial siap untuk dipublikasikan
+
+## PUBLIKASI DATA SPASIAL
+
+## Langkah 1:
+- Klik Tombol Publikasi,seperti petunjuk di bawah
+
+- Muncul Notifikasi, Jawab Proses!
+
+- Data Spasial/Layer Sukses Dipublikasi :
+
+- Tampil Dihalaman Jelajah:
