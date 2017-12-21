@@ -60,3 +60,4 @@ Klik tombol Unggah Data
 - Data Spasial/Layer Sukses Dipublikasi :
 
 - Tampil Dihalaman Jelajah:
+
