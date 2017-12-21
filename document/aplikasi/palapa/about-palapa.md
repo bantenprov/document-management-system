@@ -7,7 +7,7 @@ cat: palapa
 toc: true
 ---
 
-# PALAPA Aplikasi Geospasial Nasional
+## PALAPA Aplikasi Geospasial Nasional
 
 [![Badan informasi Geospasial](/document/aplikasi/palapa/images/about-palapa/palapa-big.png)](http://big.go.id/).  
 
