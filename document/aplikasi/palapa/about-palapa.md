@@ -17,7 +17,7 @@ Badan Informasi Geospasial (BIG)
 
 Palapa adalah sebuah aplikasi simpul jaringan berbasis *Open Source* (kode sumber terbuka) yang mendukung penyelenggaraan IG (Informasi Geospasial) meliputi pengumpulan, penyimpanan, pengamanan dan penyebarluasan di unit produksi dan unit pengelolaan dan penyebarluasan IG seperti yang pembuatannya berdasarkan dari UU No. 4/2011 tentang informasi Geospasial.
 
-## Sekilas pandan PALAPA
+## Sekilas pandang PALAPA
 ### Dalam perkembangannya aplikasi PALAPA mengalami beberapa perubahan yaitu :
 * Palapa versi 1
   Dikembangkan dengan teknologi *OpenSource OpenGeo*, belum *web responsive* dan belum terintegrasi dengan portal nasional.
