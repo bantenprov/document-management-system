@@ -9,7 +9,9 @@ toc: true
 
 # PALAPA Aplikasi Geospasial Nasional
 
-Badan Informasi Geospasial (BIG)
+[![Badan informasi Geospasial](/document/aplikasi/palapa/images/about-palapa/palapa-big.png)](/document/aplikasi/palapa/images/about-palapa/palapa-big.png).  
+
+Badan Informasi Geospasial ([BIG](http://big.go.id/).)
 > Jl. Raya Jakarta - Bogor KM. 46 Cibinong 16911, INDONESIA
 > Telp. 021-8752062 / 8752063
 > Fax. 021-8752064
