@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Dashboard Pimpinan
+title: Dashboard Pimpinan
 description: Index Dashboard Pimpinan.
 group: aplikasi
 ---

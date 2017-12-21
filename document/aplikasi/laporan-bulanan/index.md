@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Laporan Bulanan
+title: Laporan Bulanan
 description: Index Laporan Bulanan.
 group: aplikasi
 ---

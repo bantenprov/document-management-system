@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Portal
+title: Portal
 description: Index Portal.
 group: aplikasi
 ---

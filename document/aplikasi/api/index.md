@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - API
+title: API
 description: Index API.
 group: aplikasi
 ---

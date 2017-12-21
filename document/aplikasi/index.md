@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Aplikasi
+title: Aplikasi
 description: Index Dokumen Aplikasi.
 ---
 

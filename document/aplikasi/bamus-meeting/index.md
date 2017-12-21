@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Bamus
+title: Bamus
 description: Index Bamus.
 group: aplikasi
 ---

@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Banten Satu Data
+title: Banten Satu Data
 description: Index Banten Satu Data.
 group: aplikasi
 ---

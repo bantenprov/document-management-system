@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Helpdesk
+title: Helpdesk
 description: Index Helpdesk.
 group: aplikasi
 ---

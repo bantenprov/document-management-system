@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Simbada
+title: Simbada
 description: Index Simbada.
 group: aplikasi
 ---

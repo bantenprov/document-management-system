@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Sistem Informasi Barang Daerah
+title: Sistem Informasi Barang Daerah
 description: Index Sistem Informasi Barang Daerah.
 group: aplikasi
 ---

@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Layanan Kesehatan
+title: Layanan Kesehatan
 description: Index Layanan Kesehatan.
 group: aplikasi
 ---

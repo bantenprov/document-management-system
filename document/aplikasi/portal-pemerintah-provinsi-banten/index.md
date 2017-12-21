@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Portal Pemerintah Provinsi Banten
+title: Portal Pemerintah Provinsi Banten
 description: Index Portal Pemerintah Provinsi Banten.
 group: aplikasi
 ---

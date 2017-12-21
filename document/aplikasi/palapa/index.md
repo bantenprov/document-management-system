@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Palapa
+title: Palapa
 description: Index Palapa.
 group: aplikasi
 ---

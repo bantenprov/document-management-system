@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - Potret
+title: Potret
 description: Index Potret.
 group: aplikasi
 ---

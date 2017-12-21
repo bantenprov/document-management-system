@@ -1,6 +1,6 @@
 ---
 layout: document
-title: Index - SOP Online
+title: SOP Online
 description: Index SOP Online.
 group: aplikasi
 ---
