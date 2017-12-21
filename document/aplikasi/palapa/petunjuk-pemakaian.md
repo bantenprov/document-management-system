@@ -52,7 +52,7 @@ Pilih Menu Pengembangan(Dev)
 
 ### Langkah 8:
 - Klik Simpan Metadata
-  [![simpan meta data](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-simpan-metadata.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-simpan-metadata.png
+  [![simpan meta data](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-simpan-metadata.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-simpan-metadata.png)
 - Notifikasi Berhasil :
   [![notifikasi berhasil](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-notifikasi-berhasil.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-notifikasi-berhasil.png)
 
