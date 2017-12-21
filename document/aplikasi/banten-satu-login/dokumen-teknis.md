@@ -146,13 +146,13 @@ Sumber atribut JDBC dapat didefinisikan berdasarkan mekanika berikut:
 
 Dirancang untuk bekerja melawan meja dimana ada pemetaan satu baris ke satu pengguna. Contoh format tabel ini adalah:
 
-![gambar 1](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-1.png)
+![gambar 1](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-1.png)
 
 #### Multi Row
 
 Dirancang untuk bekerja melawan meja dimana ada pemetaan satu baris ke satu pengguna. Contoh format tabel ini adalah:
 
-![gambar 2](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-2.png)
+![gambar 2](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-2.png)
 
 Anda perlu menentukan pemetaan kolom dalam konfigurasi Anda untuk memetakan kolom attr_name ke kolom attr_value
 
@@ -160,7 +160,7 @@ Contoh
 
 Misalkan CAS dikonfigurasi untuk mengotentikasi terhadap Active Directory. Akun yang rinciannya didefinisikan di bawah otentikasi melalui sAMAccountName.
 
-![gambar 3](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-3.png)
+![gambar 3](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-3.png)
 
 Contoh kasus #1
 
@@ -291,24 +291,24 @@ Sementara tingkat log dapat dilihat secara langsung melalui sintaks log4j2.xml a
 
 Log4j2.xml itu sendiri mengendalikan interval penyegaran dari konfigurasi logging. Log4j memiliki kemampuan untuk secara otomatis mendeteksi perubahan pada file konfigurasi dan mengkonfigurasi ulang dirinya sendiri. Jika atribut monitorInterval ditentukan pada elemen konfigurasi dan diset ke nilai non-nol maka file akan diperiksa saat kejadian log berikutnya dievaluasi dan / atau dicatat dan monitorInterval telah berlalu sejak cek terakhir. Ini akan memungkinkan Anda menyesuaikan tingkat log dan konfigurasi tanpa memulai ulang lingkungan server.
 
-![gambar 4](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-4.png)
+![gambar 4](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-4.png)
 
 #### Pola Log
 Secara default kebanyakan appenders yang disediakan melalui file log4j2.xml menggunakan pola berbasis layout untuk memformat pesan log. Tata letak alternatif berikut juga dapat digunakan:
 
-![gambar 5](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-5.png)
+![gambar 5](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-5.png)
 
 #### Strategi Rollover
 
 Strategi rollover tersesuaikan memberikan tindakan hapus yang memberi pengguna kontrol lebih besar atas file apa yang dihapus pada waktu rollover daripada yang dimungkinkan dengan atribut maks DefaultRolloverStrategy. Tindakan hapus memungkinkan pengguna mengkonfigurasi satu atau lebih kondisi yang memilih file yang akan dihapus relatif terhadap basis direktori.
 
-![gambar 6](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-6.png)
+![gambar 6](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-6.png)
 
 #### Log Sanitasi Data
 
 Untuk tujuan keamanan, CAS secara default akan mencoba untuk menghapus ID TGT dan PGT dari semua data log. Tentu ini tentu saja mencakup pesan yang diarahkan ke tujuan log oleh kerangka kerja penebangan serta semua pesan audit. Contoh berikut ini:
 
-![gambar 7](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-7.png)
+![gambar 7](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-7.png)
 
 #### Log Rute ke Sentry
 
@@ -318,23 +318,23 @@ Data log dapat diarahkan secara otomatis ke dan diintegrasikan dengan Sentry unt
 
 Papertrail adalah layanan pengelolaan log berbasis cloud yang menyediakan alat logging gabungan, kelompok sistem fleksibel, akses tim, arsip jangka panjang, grafik dan ekspor analisis, pemantauan situs web dan banyak lagi.
 
-![gambar 8](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-8.png)
+![gambar 8](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-8.png)
 
 #### Log Routing ke Loggly
 
 Loggly adalah layanan pengelolaan log berbasis cloud yang mempermudah akses dan analisis informasi penting di dalam log Anda. Log data bisa secara otomatis dialihkan ke Loggly via Rsyslog. Keuntungan menggunakan Rsyslog adalah dapat mengirimkan kejadian TCP tanpa menghalangi aplikasi Anda, secara opsional dapat mengenkripsi data, dan bahkan data antrian untuk menambah ketahanan terhadap kegagalan jaringan.
 
-![gambar 9](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-9.png)
+![gambar 9](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-9.png)
 
 #### Log Rute ke CloudWatch
 
 Log data dapat secara otomatis diarahkan ke AWS CloudWatch. Dukungan diaktifkan dengan menyertakan modul berikut di overlay:
 
-![gambar 10](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-10.png)
+![gambar 10](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-10.png)
 
 Dengan modul di atas, Anda kemudian dapat mendeklarasikan appender tertentu untuk berkomunikasi dengan AWS CloudWatch:
 
-![gambar 11](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-11.png)
+![gambar 11](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-11.png)
 
 Kredensial AWS untuk kunci akses, kunci rahasia dan wilayah, jika tidak terdefinisi, mungkin juga diambil dari properti sistem melalui AWS_ACCESS_KEY, AWS_SECRET_KEY dan AWS_REGION_NAME. Nama grup dan nama aliran secara otomatis dibuat oleh CAS, jika belum ditemukan.
 
@@ -342,23 +342,23 @@ Kredensial AWS untuk kunci akses, kunci rahasia dan wilayah, jika tidak terdefin
 
 Kerangka logging CAS memiliki kemampuan pesan log rute ke titik akhir TCP / UDP. Konfigurasi ini mengasumsikan bahwa server Logstash telah mengaktifkan input TCP-nya pada port 9500:
 
-![gambar 12](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-12.png)
+![gambar 12](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-12.png)
 
 #### Log Routing ke SysLog
 
 Kerangka logging CAS memang memiliki kemampuan untuk merutekan pesan ke instance syslog eksternal. Untuk mengkonfigurasi ini, Anda terlebih dahulu mengkonfigurasi SysLogAppender dan kemudian menentukan pesan mana yang harus diarahkan ke contoh ini:
 
-![gambar 13](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-13.png)
+![gambar 13](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-13.png)
 
 Anda juga dapat mengkonfigurasi keluaran tujuan jarak jauh melalui SSL dan menentukan konfigurasi keystore yang terkait:
 
-![gambar 14](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-14.png)
+![gambar 14](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-14.png)
 
 #### Konteks Diagnostik yang Dipetakan
 
 Untuk mencatat setiap permintaan secara unik, CAS memasukkan informasi kontekstual ke dalam MDC, singkatan dari Konteks Diagnostik yang Dipetakan. Ini secara efektif menerjemahkan sejumlah variabel khusus yang tersedia ke konteks penebangan yang mungkin menyampaikan inf  ormasi tambahan tentang sifat permintaan atau peristiwa autentikasi.
 
-![gambar 15](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-15.png)
+![gambar 15](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-15.png)
 
 Selain itu, semua atribut, header, dan parameter permintaan yang tersedia terpapar sebagai variabel
 
@@ -367,17 +367,17 @@ Variabel di atas dapat digunakan dalam pola pembalakan:
 - Gunakan% X dengan sendirinya untuk memasukkan semua variabel.
 - Gunakan% X {key} untuk memasukkan variabel yang ditentukan.
 
-![gambar 16](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-16.png)
+![gambar 16](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-16.png)
 
 #### Pemantauan / Statistik
 
 Titik akhir berikut tersedia dan dijamin oleh CAS:
 
-![gambar 17](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-17.png)
+![gambar 17](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-17.png)
 
 Titik akhir berikut dijamin dan tersedia oleh aktuator Spring Boot:
 
-![gambar 18](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-18.png)
+![gambar 18](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-18.png)
 
 Titik akhir aktuator yang disediakan oleh Spring Boot juga dapat dikelola dan dipantau secara visual melalui Spring Boot Administration Server.
 
@@ -399,7 +399,7 @@ Sebagai alternatif, Anda dapat merancang keamanan endpoint CAS / status untuk me
 
 Dukungan diaktifkan dengan menyertakan modul berikut pada overlay WAR:
 
-![gambar 19](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-19.png)
+![gambar 19](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-19.png)
 
 #### Monitor
 
@@ -409,13 +409,13 @@ Monitor memungkinkan Anda untuk melihat keadaan internal komponen CAS yang diber
 
 Dukungan untuk pelacakan permintaan yang didistribusikan dimungkinkan dengan memasukkan ketergantungan berikut pada overlay WAR:
 
-![gambar 20](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-20.png)
+![gambar 20](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-20.png)
 
 #### Penyelesaian masalah
 
 Untuk mengaktifkan logging tambahan, modifikasi file konfigurasi logging untuk menambahkan sebagai berikut ini:
 
-![gambar 21](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-21.png)
+![gambar 21](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-21.png)
 
 #### Matrik
 
@@ -440,13 +440,13 @@ Beberapa penyedia browser yang bisa digunakan dengan nyaman untuk Antarmuka Peng
 
 Untuk bisa membuat Antarmuka Pengguna CAS kompatibal dengan internet explorer, harus ditambahkan kode html:
 
-![gambar 22](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-22.png)
+![gambar 22](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-22.png)
 
 #### CSS & Javascript
 
 Default style css terdiri dari dua file tunggal, yang terletak di src/main/resources/static/css/cas.css dan src/main/resources/css/admin.css. Jika anda ingin membuat sendiri css/custome.css, anda harus mengubah kunci standard.custom.css.file di file tersebut.
 
-![gambar 23](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-23.png)
+![gambar 23](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-23.png)
 
 #### Responsive Design
 
@@ -456,7 +456,7 @@ Kueri media CSS menghadirkan fitur desain responsif ke CAS yang memungkinkan ada
 
 Jika Anda perlu menambahkan beberapa script JavaScript, anda bisa menambahkan di src/main/resources/static/js/cas.js. Anda juga dapat membuat file custom.js Anda sendiri, misalnya, dan memanggilnya di dalam file bottom.html seperti:
 
-![gambar 24](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-24.png)
+![gambar 24](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-24.png)
 
 Jika Anda mengembangkan tema per layanan, setiap tema juga memiliki kemampuan untuk menentukan file cas.js khusus di bawah pengaturan cas.javascript.file.
 
@@ -475,7 +475,7 @@ Script yang dimuat secara synchronous hanya library head.js.
 
 Karena skrip, dan khusus JQuery dimuat secara asinkron, Javascript kustom mana pun yang ditempatkan di dalam halaman yang bergantung pada pustaka ini mungkin tidak langsung berfungsi pada pemuatan halaman. CAS menyediakan fungsi callback yang memungkinkan pengadopsi diberi tahu saat pemuatan naskah selesai dan ini akan menjadi waktu yang aman untuk menjalankan / memuat fungsi terkait Javascript lainnya yang bergantung pada JQuery di dalam laman sebenarnya.
 
-![gambar 25](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-25.png)
+![gambar 25](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-25.png)
 
 #### Checking CAPSLOCK
 
@@ -552,7 +552,7 @@ Mengoperasikan satu server secara tradisional akan menunda restart seperti itu s
 
 Diagram berikut menampilkan aspek penting dari penyebaran CAS yang sangat tersedia.
 
-![gambar 26](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-26.png)
+![gambar 26](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-26.png)
 
 Dibawah ini adalah beberapa karakteristik penting dari arsitektur ini:
 
@@ -658,7 +658,7 @@ Pilihan teknologi penyimpanan tertentu harus didorong oleh infrastruktur dan kea
 
 Pertimbangan teknologinya terhadap berbagai komponen penyimpanan patut mendapat beberapa diskusi karena ada beberapa perbedaan penting yang mempengaruhi ketersediaan dan karakteristik kinerja. Sistem cache seperti Ehcache dan Hazelcast menawarkan cache terdistribusi yang menyajikan satu tampilan masukan konsisten terlepas dari nodus yang dihubungi. Cache terdistribusi mengandalkan replikasi untuk memberikan konsistensi. Sistem cache seperti memcached menyimpan tiket tepat pada 1 node dan menggunakan algoritma deterministik untuk menemukan node yang berisi tiket:
 
-![gambar 27](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-27.png)
+![gambar 27](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-27.png)
 
 dimana h (T) adalah hash dari ID tiket, N1 ... Nm adalah himpunan simpul cache, dan N 'adalah anggota N ... Nm.
 
@@ -709,7 +709,7 @@ CAS menyediakan dukungan integrasi terintegrasi untuk sejumlah penyedia layanan 
 
 Dukungan diaktifkan dengan menyertakan modul berikut di Overlay:
 
-![gambar 28](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-28.png)
+![gambar 28](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-28.png)
 
 #### Google reCAPTCHA
 
@@ -717,7 +717,7 @@ reCAPTCHA adalah layanan Google yang melindungi penyebaran CAS Anda dari spam da
 
 Dukungan diaktifkan dengan menyertakan modul berikut di Overlay:
 
-![gambar 29](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-29.png)
+![gambar 29](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-29.png)
 
 #### Google Analytics
 
@@ -735,4 +735,4 @@ Kasus penggunaan yang khas untuk memungkinkan SCIM adalah menyinkronkan dan meny
 
 Dukungan diaktifkan dengan menyertakan ketergantungan berikut pada hamparan WAR:
 
-![gambar 30](/document/aplikasi/banten-satu-data/images/dokumen-teknis/gambar-30.png)
+![gambar 30](/document/aplikasi/banten-satu-login/images/dokumen-teknis/gambar-30.png)
