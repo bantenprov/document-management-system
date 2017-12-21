@@ -20,9 +20,13 @@ Pilih Menu Pengembangan(Dev)
 ### Langkah 2 :
 Klik tombol Unggah Data
 
+Pilih Menu Pengembangan(Dev)
+[![Menu kemudian](/document/aplikasi/palapa/images/petunjuk-pemakaian/pertunjuk-pemakaian-pilih-menu-pengembangan.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/pertunjuk-pemakaian-pilih-menu-pengembangan.png)
+
 ### Langkah 3 :
 - Scroll Ke bawah
 - Klik tombol Unggah Usulan KUGI
+[![usulan unggah kugi](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-klik-tombol-unggah-usulan-kugi.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-klik-tombol-unggah-usulan-kugi.png)
 
 ### Langkah 4 :
 - Pilih zip file yang berisikan File SHP ,SHX,DBF,PRJ dll...yang sudah dizip tanpa folder
