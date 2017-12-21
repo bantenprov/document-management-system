@@ -11,6 +11,7 @@ toc: true
 ### Akses halaman login
 http://geoportal.bantenprov.go.id/gspalapa
 > Login dengan menggunakan username dan password yang diberikan admin*
+[![Akses halaman login](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-halaman-login.png)](/document/aplikasi/palapa/images/petunjuk-pemakaian/petunjuk-pemakaian-halaman-login.png)
 
 ### Langkah 1 :
 Pilih Menu Pengembangan(Dev)
