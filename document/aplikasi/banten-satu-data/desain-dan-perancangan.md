@@ -274,13 +274,13 @@ Setelah mendefinisikan *use case* maka perlu adanya informasi tambahan secara sp
 
 **Tabel 2** Use Case Login Pegawai
 
-| Use Case : **Login Pegawai**             |
-| ---------------------------------------- |
-| **Actors :**  Pegawai                    |
-| **Stakeholeders :** -                    |
-| **Preconditions :** *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
-| **Flow of Events :**                     |
-| **Postconditions :**                     |
+| Use Case          | :    |**Login Pegawai**                          |
+| ----------        |------|------------------------------------------ |
+| **Actors**        | :    |Pegawai                                    |
+| **Stakeholeders** | :    |                                           |
+| **Preconditions** | :    | *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
+| **Flow of Events**| :    |                                           |
+| **Postconditions**| :    |                                           |
 | *User* atau pengguna aplikasi dapat mengakses menu atau modul **Dasboard** dan **Dataset** yang dikembangkan |
 | 1. Pengguna membuka aplikasi Banten Satu Data |
 | 2. Sistem menampilkan halaman login      |
@@ -294,13 +294,13 @@ Setelah mendefinisikan *use case* maka perlu adanya informasi tambahan secara sp
 
 **Tabel 3** Use Case Login Administrator
 
-| Use Case : **Login Administrator**       |
-| ---------------------------------------- |
-| **Actors :**  Administrator              |
-| **Stakeholeders :** -                    |
-| **Preconditions :** *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
-| **Flow of Events :**                     |
-| **Postconditions :**                     |
+| Use Case           |:      |**Login Administrator**       |
+| -------------------|-------|               -------------- |
+| **Actors**         | :     | Administrator                |
+| **Stakeholeders**  | :     |                              |
+| **Preconditions**  | :     | *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
+| **Flow of Events** | :     |                              |
+| **Postconditions** | :     |                              |
 | *User* atau pengguna aplikasi dapat mengakses semua menu yang ada pada bagian frontend aplikasi Banten Satu Data |
 | 1.  Pengguna membuka aplikasi Banten Satu Data |
 | 2.  Sistem menampilkan halaman login     |
@@ -317,13 +317,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 4** Dashboard
 
-| Use Case **: Dashboard**                 |
-| ---------------------------------------- |
-| **Parent Use Case :** -                  |
-| **Actors :** Pegawai, Administrator      |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melihat informasi data yang diakses melalui halaman **Dashboard**. |
+| Use Case              |  :   |    **Dashboard**                 |
+| ----------------------|------|                     ------------ |
+| **Parent Use Case**   |  :   |                                  |
+| **Actors**            |  :   |  Pegawai, Administrator          |
+| **Preconditions**     |  :   |  Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**    |  :   |                                  |
+| **Postconditions**    |  :   | Pengguna aplikasi dapat melihat informasi data yang diakses melalui halaman **Dashboard**. |
 | 1.  Klik menu **Beranda**                |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Dashboard**          |
@@ -334,13 +334,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 5** Dataset
 
-| Use Case **: Dataset**                   |
-| ---------------------------------------- |
-| **Parent Use Case :** -                  |
-| **Actors :** Pegawai, Administrator      |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case              | :      | **Dataset**                   |
+| ----------------------|--------|                    ---------- |
+| **Parent Use Case**   | :      |                               |
+| **Actors**            | :      | Pegawai, Administrator        |
+| **Preconditions**     | :      | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**    | :      |                               |
+| **Postconditions**    | :      | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Beranda**                |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Dataset**            |
@@ -360,13 +360,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 6** Data Organisasi
 
-| Use Case **: Data Organisasi**           |
-| ---------------------------------------- |
-| **Parent Use Case :** Data Master        |
-| **Actors :** Admnistrator                |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case            | :      |     **Data Organisasi**           |
+| --------------------| -------|                     ------------- |
+| **Parent Use Case** | :      |     Data Master                   |
+| **Actors**          | :      |       Admnistrator                |
+| **Preconditions**   | :      |  Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**  | :      |                                   |
+| **Postconditions**  | :      | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Data Master**            |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Organisasi**         |
@@ -388,13 +388,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 7** Data Group
 
-| Use Case **: Data Group**                |
-| ---------------------------------------- |
-| **Parent Use Case :** Data Master        |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case           | :    |  **Data Group**                |
+| -------------------|------|                --------------- |
+| **Parent Use Case**| :    | Data Master                    |
+| **Actors**         | :    | Administrator                  |
+| **Preconditions**  | :    | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events** | :    |                                |
+| **Postconditions** | :    | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1. Klik menu **Data Master**             |
 | 2. Sistem menampilkan daftar sub menu    |
 | 3. Klik sub menu **Group**               |
@@ -417,13 +417,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 8** Data Akses
 
-| Use Case **: Akses**                     |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case            |  :     |     **Akses**              |
+| --------------------|--------|               ------------ |
+| **Parent Use Case** |  :     |  Pengaturan                |
+| **Actors**          |  :     | Administrator              |
+| **Preconditions**   |  :     | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**  |  :     |                            |
+| **Postconditions**  |  :     | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Pengaturan**             |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Akses**              |
@@ -444,13 +444,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 9** Data Pengguna
 
-| Use Case **: Pengguna**                  |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*.. |
+| Use Case           | :     | **Pengguna**                  |
+| -------------------|-------|                -------------- |
+| **Parent Use Case**| :     | Pengaturan                    |
+| **Actors**         | :     | Administrator                 |
+| **Preconditions**  | :     | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events** | :     |                               |
+| **Postconditions** | :     | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*.. |
 | 1. Klik menu **Pengaturan**              |
 | 2. Sistem menampilkan daftar sub menu    |
 | 3. Klik sub menu **Pengguna**            |
@@ -471,13 +471,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 10** Data Aplikasi
 
-| Use Case **: Aplikasi**                  |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*.. |
+| Use Case           | :    |    **Aplikasi**                  |
+| -------------------|  --  |            --------------------- |
+| **Parent Use Case**| :    | Pengaturan                       |
+| **Actors**         | :    | Administrator                    |
+| **Preconditions**  | :    | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events** | :    |                                  |
+| **Postconditions** | :    | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Pengaturan**             |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Aplikasi**           |
@@ -498,13 +498,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 11** Tentang
 
-| Use Case **: Tentang**                   |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case              |  :    |  **Tentang**                   |
+| ----------------------|-------|                    ----------- |
+| **Parent Use Case**   |  :    | Pengaturan                     |
+| **Actors**            |  :    |    Administrator               |
+| **Preconditions**     |  :    | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**    |  :    |                                |
+| **Postconditions**    |  :    | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Pengaturan**             |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Tentang**            |
