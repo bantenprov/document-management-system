@@ -1,46 +1,58 @@
 <nav aria-label="breadcrumb" role="navigation">
   <ol class="breadcrumb">
-    {% assign page_slug = page.url | split: '/' | last %}
+    {%- assign page_slug = page.url | split: '/' | last -%}
 
-    <li class="breadcrumb-item {% if page_slug == 'document' %}active{% endif %}">
-      {% if page_slug == 'document' %}
+    {%- assign active = nil -%}
+    {%- if page_slug == 'document' -%}
+      {%- assign active = 'active' -%}
+    {%- endif -%}
+    <li class="breadcrumb-item{% unless active == nil %} {{ active }}{% endunless %}">
+      {%- if page_slug == 'document' -%}
         Document
-      {% else %}
+      {%- else -%}
         <a href="/document/">Document</a>
-      {% endif %}
+      {%- endif -%}
     </li>
 
-    {% for group in site.data.nav %}
-      {% assign group_slug = group.title | slugify %}
+    {%- for group in site.data.nav -%}
+      {%- assign group_slug = group.title | slugify -%}
 
-      {% if group_slug == page.group %}
-        <li class="breadcrumb-item {% if page_slug == group_slug %}active{% endif %}">
-          {% if page_slug == group_slug %}
+      {%- if group_slug == page.group -%}
+        {%- assign active = nil -%}
+        {%- if page_slug == group_slug -%}
+          {%- assign active = 'active' -%}
+        {%- endif -%}
+        <li class="breadcrumb-item{% unless active == nil %} {{ active }}{% endunless %}">
+          {%- if page_slug == group_slug -%}
             {{ group.title }}
-          {% else %}
+          {%- else -%}
             <a href="{{ site.baseurl }}/document/{{ group_slug }}/">{{ group.title }}</a>
-          {% endif %}
+          {%- endif -%}
         </li>
-      {% endif %}
+      {%- endif -%}
 
-      {% for docs in group.pages %}
-        {% assign docs_slug = docs.title | slugify %}
+      {%- for docs in group.pages -%}
+        {%- assign docs_slug = docs.title | slugify -%}
 
-        {% if docs_slug == page.cat %}
-          <li class="breadcrumb-item {% if page_slug == docs_slug %}active{% endif %}">
-            {% if page_slug == docs_slug %}
+        {%- if docs_slug == page.cat -%}
+          {%- assign active = nil -%}
+          {%- if page_slug == docs_slug -%}
+            {%- assign active = 'active' -%}
+          {%- endif -%}
+          <li class="breadcrumb-item{% unless active == nil %} {{ active }}{% endunless %}">
+            {%- if page_slug == docs_slug -%}
               {{ docs.title }}
-            {% else %}
+            {%- else -%}
               <a href="{{ site.baseurl }}/document/{{ group_slug }}/{{ docs_slug }}/">{{ docs.title }}</a>
-            {% endif %}
+            {%- endif -%}
           </li>
-        {% endif %}
+        {%- endif -%}
 
-      {% endfor %}
-    {% endfor %}
+      {%- endfor -%}
+    {%- endfor -%}
 
-    {% if page.layout != 'index' %}
+    {%- if page.layout != 'index' -%}
       <li class="breadcrumb-item active">{{ page.title }}</li>
-    {% endif %}
+    {%- endif -%}
   </ol>
 </nav>
