@@ -1,8 +1,8 @@
 <div class="collapse d-md-block" id="side-nav">
   <div class="site-sidebar-nav-wrap">
     <ul class="nav flex-column mb-0">
-      {% for group in site.data.nav %}
-        {% assign group_slug = group.title | slugify %}
+      {%- for group in site.data.nav -%}
+        {%- assign group_slug = group.title | slugify -%}
 
         <li class="nav-item">
           <a class="nav-link dropdown-toggle collapsed d-flex flex-row flex-nowrap justify-content-between align-items-center" data-toggle="collapse" data-target="#{{ group_slug }}" href="{{ site.baseurl }}/document/{{ group_slug }}/" aria-expanded="false" aria-controls="{{ group_slug }}">
@@ -11,8 +11,8 @@
 
           <div class="collapse js-site-sidebar-nav" id="{{ group_slug }}">
             <ul class="nav flex-column mb-0">
-              {% for docs in group.pages %}
-              {% assign docs_slug = docs.title | slugify %}
+              {%- for docs in group.pages -%}
+              {%- assign docs_slug = docs.title | slugify -%}
               <li class="nav-item">
                 <a class="nav-link dropdown-toggle collapsed d-flex flex-row flex-nowrap justify-content-start align-items-center" href="{{ site.baseurl }}/document/{{ group_slug }}/{{ docs_slug }}/" data-toggle="collapse" data-target="#{{ group_slug }}_{{ docs_slug }}" aria-expanded="false" aria-controls="{{ group_slug }}_{{ docs_slug }}">
                   {{ docs.title }}
@@ -20,22 +20,22 @@
 
                 <div class="collapse js-site-sidebar-nav" id="{{ group_slug }}_{{ docs_slug }}">
                   <ul class="nav flex-column mb-0">
-                    {% for doc in docs.pages %}
-                    {% assign doc_slug = doc.title | slugify %}
+                    {%- for doc in docs.pages -%}
+                    {%- assign doc_slug = doc.title | slugify -%}
                     <li class="nav-item">
                       <a class="nav-link" href="{{ site.baseurl }}/document/{{ group_slug }}/{{ docs_slug }}/{{ doc_slug }}/">
                         {{ doc.title }}
                       </a>
                     </li><!-- /.nav-item doc -->
-                    {% endfor %}
+                    {%- endfor -%}
                   </ul><!-- /.nav doc -->
                 </div><!-- /.collapse doc -->
               </li><!-- /.nav-item docs -->
-              {% endfor %}
+              {%- endfor -%}
             </ul><!-- /.nav docs -->
           </div><!-- /.collapse docs -->
         </li><!-- /.nav-item group -->
-      {% endfor %}
+      {%- endfor -%}
     </ul><!-- /.nav group -->
   </div>
 </div>
