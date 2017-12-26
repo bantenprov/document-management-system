@@ -248,6 +248,7 @@ Dalam tabel ini user dapat melakukan test add new opd apakah sudah dapat di akse
 
 ### Menu dan Cara Penggunaan Website Portal Banten
 #### tampilan Awal Utama Portal Banten
+
 | Tampilan                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Awal Utama Portal Banten | [![Tampilan utama portal](/document/aplikasi/portal/images/integrasi/00-tampilan-awal.png)](/document/aplikasi/portal/images/integrasi/00-tampilan-awal.png) |      |       |
@@ -255,6 +256,7 @@ Dalam tabel ini user dapat melakukan test add new opd apakah sudah dapat di akse
 tampilan ini menampilkan konten home, layanan, produk hukum, perijinan, contact us
 
 #### Tampilan 4 Jalur dan Anggaran Penyerapan
+
 | Tampilan                        | URL/ Image                               | Ada  | Tidak |
 | ------------------------------- | ---------------------------------------- | ---- | ----- |
 | 4 Jalur dan Anggaran Penyerapan | [![Tampilan 4 jalur dan anggran penyerapan](/document/aplikasi/portal/images/integrasi/tampilan-4-jalur.png)](/document/aplikasi/portal/images/integrasi/tampilan-4-jalur.png) |      |       |
@@ -262,6 +264,7 @@ tampilan ini menampilkan konten home, layanan, produk hukum, perijinan, contact 
 Dalam tabel ini user dapat melakukan test tampilan 4 jalur anggaran dan penyerapan apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan 10 Sektor Portal Banten
+
 | Tampilan                | URL/ Image                               | Ada  | Tidak |
 | ----------------------- | ---------------------------------------- | ---- | ----- |
 | 10 Sektor Portal Banten | [![Tampilan 10 sektor portal](/document/aplikasi/portal/images/integrasi/tampilan-10-sektor.png)](/document/aplikasi/portal/images/integrasi/tampilan-10-sektor.png) |      |       |
@@ -269,6 +272,7 @@ Dalam tabel ini user dapat melakukan test tampilan 4 jalur anggaran dan penyerap
 Dalam tabel ini user dapat melakukan test tampilan 10 sektor apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Awal Pelayanan
+
 | Tampilan       | URL/ Image                               | Ada  | Tidak |
 | -------------- | ---------------------------------------- | ---- | ----- |
 | Awal Pelayanan | [![Awal Pelayanan](/document/aplikasi/portal/images/integrasi/tampilan-layanan.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan.png) |      |       |
@@ -284,6 +288,7 @@ Dalam tabel ini user dapat melakukan test tampilan pelayanan apakah sudah dapat 
 Dalam tabel ini user dapat melakukan test create tampilan layanan portal banten apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada. jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Layanan Dashboard
+
 | Tampilan          | URL/ Image                               | Ada  | Tidak |
 | ----------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Dashboard | [![Tampilan layanan Dashboard](/document/aplikasi/portal/images/integrasi/tampilan-layanan-dashboard.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-dashboard.png) |      |       |
@@ -291,6 +296,7 @@ Dalam tabel ini user dapat melakukan test create tampilan layanan portal banten 
 Dalam tabel ini user dapat melakukan test tampilan layanan dashboard apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Layanan Epormas
+
 | Tampilan        | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Epormas | [![Tampilan layanan Epormas](/document/aplikasi/portal/images/integrasi/tampilan-layanan-epormas.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-epormas.png) |      |       |
@@ -298,6 +304,7 @@ Dalam tabel ini user dapat melakukan test tampilan layanan dashboard apakah suda
 Dalam tabel ini user dapat melakukan test layanan epormas apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Layanan Kesehatan
+
 | Tampilan          | URL/ Image                               | Ada  | Tidak |
 | ----------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Kesehatan | [![Tampilan layanan kesehatan](/document/aplikasi/portal/images/integrasi/tampilan-layana-yankes.png)](/document/aplikasi/portal/images/integrasi/tampilan-layana-yankes.png) |      |       |
@@ -305,6 +312,7 @@ Dalam tabel ini user dapat melakukan test layanan epormas apakah sudah dapat di 
 Dalam tabel ini user dapat melakukan test  layan kesehatan apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 ### Tampilan Pelayan Terpadu Satu Pintu
+
 | Tampilan                   | URL/ Image                               | Ada  | Tidak |
 | -------------------------- | ---------------------------------------- | ---- | ----- |
 | Pelayan Terpadu Satu Pintu | [![Tampilan pelayanan terpadu satu pintu](/document/aplikasi/portal/images/integrasi/tampilan-layanan-terpadu.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-terpadu.png) |      |       |
@@ -312,6 +320,7 @@ Dalam tabel ini user dapat melakukan test  layan kesehatan apakah sudah dapat di
 Dalam tabel ini user dapat melakukan test pelayan terpadu satu pintu apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Layanan Pusat Pelayanan Usaha Terpadu
+
 | Tampilan                              | URL/ Image                               | Ada  | Tidak |
 | ------------------------------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Pusat Pelayanan Usaha Terpadu | [![Tampilan layananan pusat pelayanan usaha terpadu](/document/aplikasi/portal/images/integrasi/tampilan-layanan-plut.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-plut.png) |      |       |
@@ -319,6 +328,7 @@ Dalam tabel ini user dapat melakukan test pelayan terpadu satu pintu apakah suda
 Dalam tabel ini user dapat melakukan test layanan pusat usaha terdpadu apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Layanan Simbada
+
 | Tampilan        | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
 | Layanan Simbada | [![Tampilan layanan simbada](/document/aplikasi/portal/images/integrasi/tampilan-layanan-simbada.png)](/document/aplikasi/portal/images/integrasi/tampialn-layanan-simbada.png) |      |       |
@@ -326,6 +336,7 @@ Dalam tabel ini user dapat melakukan test layanan pusat usaha terdpadu apakah su
 Dalam tabel ini user dapat melakukan test layanan simbada apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Simpeg ( Sistem Informasi Manajemen Pegawai )
+
 | Tampilan                                 | URL/ Image                               | Ada  | Tidak |
 | ---------------------------------------- | ---------------------------------------- | ---- | ----- |
 | Simpeg ( Sistem Informasi Manajemen Pegawai ) | [![Tampilan layanan Simpeg](/document/aplikasi/portal/images/integrasi/tampilan-layanan-simpeg.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-simpeg.png) |      |       |
@@ -333,12 +344,14 @@ Dalam tabel ini user dapat melakukan test layanan simbada apakah sudah dapat di 
 Dalam tabel ini user dapat melakukan test tampilan sistem informasi manajemen pegawai apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 ### Tampilan Produk Hukum
+
 | Tampilan     | URL/ Image                               | Ada  | Tidak |
 | ------------ | ---------------------------------------- | ---- | ----- |
 | Produk Hukum | [![Tampilan Produk Hukum](/document/aplikasi/portal/images/integrasi/produk-hukum.png)](/document/aplikasi/portal/images/integrasi/produk-hukum.png) |      |       |
 Dalam tabel ini user dapat melakukan test produk hukum apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 ### Tampilan Perijinan
+
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Perijinan | [![Tampilan perijinan](/document/aplikasi/portal/images/integrasi/tampilan-perijinan.png)](/document/aplikasi/portal/images/integrasi/tampilan-perijinan.png) |      |       |
