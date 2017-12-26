@@ -659,7 +659,7 @@ Adanya fasilitas pencarian, paging halaman, tambah, edit, lihat data, nonaktifka
 
 Halaman list akses berfungsi untuk menampilkan data akses yang ada dalam aplikasi Banten Satu Data. Tidak semua user dapat mengakses halaman akses.
 
-![List Akses](/document/aplikasi/banten-satu-data/images/integrasi/list-akses.png)
+![List Akses](/document/aplikasi/banten-satu-data/images/integrasi/list-akses.PNG)
 
 **Gambar 35.** List Akses
 
