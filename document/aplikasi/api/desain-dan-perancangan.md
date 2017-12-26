@@ -13,20 +13,9 @@ toc: true
 # ABSTRAK
 Sesuai dengan perkembangan zaman, teknologi dan komunikasi semakin berkembang, salah satunya perkembangan API *(Application Programming Interface)*. Kebanyakan programmer membuat aplikasi dengan menggunakan Application Programming Interface (API). Dalam API itu terdapat fungsifungsi/perintah-perintah untuk menggantikan bahasa yang digunakan dalam system calls dengan bahasa yang lebih terstruktur dan mudah dimengerti oleh programmer. Fungsi yang dibuat dengan menggunakan API tersebut kemudian akan memanggil system calls sesuai dengan sistem operasinya. API *(Application Programming Interface)* adalah sekumpulan perintah, fungsi, komponen, dan protokol yang disediakan oleh sistem operasi ataupun bahasa pemrograman tertentu yang dapat digunakan oleh programmer saat membangun perangkat lunak.
 
-# DAFTAR ISI
-**Halaman Judul**
-**Abstak**
-**Daftar Isi**
-**1. PENDAHULUAN**
-1.1 Latar Belakang
-**2. TINJAUAN PUSTAKA**
-2.1 Application Programming Interface
-2.2 REST *(Representational State Transfer)*
-2.3 Metode Analisis
-**3. PEMBAHASAN**
-3.1 Kategori API *(Application Programming Interface)*
-3.2 Cara Menggunakan API *(Application Programming Interface)*
-**4. PENUTUP**
+## DAFTAR ISI
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## 1. PENDAHULUAN
 ### 1.1 Latar Belakang
