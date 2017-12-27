@@ -7,130 +7,6 @@ cat: banten-satu-data
 toc: true
 ---
 
-<<<<<<< HEAD
-
-# Banten Satu Data  
-untuk
-Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi
-Banten
-
-
-| PARAF |                                                                                                                                                                                    KETERANGAN |
-|:-------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|    __   |                                                                                                                             DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA TIDAK BERSIFAT RAHASIA |
-|    __   | DOKUMEN INI DAN INFORMASI YANG DIMILIKINYA BERSIFAT RAHASIA. DILARANG MEREPRODUKSI ATAU MENYEBARKAN SEBAGIAN ATAU SELURUH DOKUMEN INI TANPA IJIN TERTULIS DARI PEMERINTAH PROVINSI BANTEN |
-
-
-| PROSES          |      :     | Tanda Tangan |   | Tanda Tangan                                      |
-|-----------------|:----------:|-------------:|---|---------------------------------------------------|
-| Disiapkan Oleh: |      :     |         Nama | : |                                                   |
-|                 |      :     |       Posisi | : | _________________________________________________ |
-|                 |            |              |   |                                                   |
-| Diperiksa Oleh: |      :     |         Nama | : |                                                   |
-|                 |      :     |       Posisi | : | _________________________________________________ |
-|                 |            |              |   |                                                   |
-| Disetujui Oleh: |      :     |         Nama | : |                                                   |
-|                 |      :     |       Posisi | : | _________________________________________________ |
-|                 |            |              |   |                                                   |
-
-| LOGO | : |   DOKUMEN | : | TANGGAL |
-|------|:-:|----------:|---|---------|
-|      |   | NOMOR     | : |         |
-|      |   | REVISI NO | : |         |
-
-## D A F T A R I S I
-
-[SISTEM OVERVIEW 4](#sistem-overview)
-
-[1.1. Ringkasan Teknis 4](#ringkasan-teknis)
-
-[1.1.1 Karakteristik Teknis 5](#karakteristik-teknis)
-
-[1.1.2 Asumsi Asumsi 5](#asumsi-asumsi)
-
-[1.1.3 Cara Pencapaian Kebutuhan Sistem 6](#cara-pencapaian-kebutuhan-sistem)
-
-[ALUR APLIKASI 7](#alur-aplikasi)
-
-[2.1 Bagan Hirarki Fungsi 7](#bagan-hirarki-fungsi)
-
-[2.1.1. Diagram Keseluruhan (Konteks) 8](#diagram-keseluruhan-konteks)
-
-[2.1.2. DFD Level 1 9](#dfd-level-1)
-
-[2.1.3 Spesifikasi Proses 10](#spesifikasi-proses)
-
-[2.1.4 Identifikasi Actor 11](#identifikasi-actor)
-
-[2.2 Use Case 12](#use-case)
-
-[Skenario Use Case 12](#skenario-use-case)
-
-[2.3 Class Diagram 18](#class-diagram)
-
-[2.4 Package Diagram 23](#package-diagram)
-
-[DESAIN PENGAMANAN SISTEM APLIKASI 24](#desain-pengamanan-sistem-aplikasi)
-
-[3.1 Metode Authentifikasi 24](#metode-authentifikasi)
-
-[INTERFACE SISTEM 25](#interface-sistem)
-
-[4.1 Antarmuka Aplikasi 25](#antarmuka-aplikasi)
-
-[DESAIN LOGIKA DATABASE 37](#desain-logika-database)
-
-[5.1 Daftar Table 37](#daftar-table)
-
-[5.1.1 Master 37](#master)
-
-[5.1.2 Daftar View 40](#daftar-view)
-
-[5.2. Uraian Logika Struktur Database 41](#uraian-logika-struktur-database)
-
-[GAMBARAN KOMUNIKASI 42](#gambaran-komunikasi)
-
-[6.1. Layout Network 42](#layout-network)
-
-[SOFTWARE SISTEM 43](#software-sistem)
-
-## DAFTAR TABEL
-
-[Tabel 1. Spesifikasi Use Case Aplikasi Banten Satu Data 12](#_Toc500238298)
-
-[Tabel 3. Daftar Tabel Database 37](#_Toc500238299)
-
-[Tabel 4. Daftar Views Database 40](#_Toc500238300)
-
-[Tabel 4. Reponses Compilation 43](#_Toc500238301)
-
-## DAFTAR GAMBAR
-
-[Gambar 1. Gambaran Umum Aplikasi Banten Satu Data 5](#_Toc500238302)
-
-[Gambar 2. Hirarki Fungsi Frontend 7](#_Toc500238303)
-
-[Gambar 11. Class Diagram, Permintaan Informasi 18](#_Toc500238304)
-
-[Gambar 12. Class Diagram, Informasi 19](#_Toc500238305)
-
-[Gambar 13. Class Diagram, Tempat Tinggal 20](#_Toc500238306)
-
-[Gambar 14. Class Diagram, Informan 21](#_Toc500238307)
-
-[Gambar 15. Class DIagram, Rekrut Informan 22](#_Toc500238308)
-
-[Gambar 16. Package Diagram 23](#_Toc500238309)
-
-[Gambar 27. Entity Relationship Diagram (ERD) 41](#_Toc500238310)
-
-[Gambar 28. Diagram Komunikasi Aplikasi Banten Satu Data 42](#_Toc500238311)
-
-## DAFTAR REVISI
-
-Daftar Revisi ini mencatat semua revisi yang pernah dilakukan pada dokumentasi
-pembangunan aplikasi *Banten Satu Data.*
-=======
 # Banten Satu Data  
 Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi Banten
 
@@ -218,7 +94,6 @@ Dinas Komunikasi Informatika Statistik dan Persandiaan Pemerintah Provinsi Bante
 ## DAFTAR REVISI
 
 Daftar Revisi ini mencatat semua revisi yang pernah dilakukan pada dokumentasi pembangunan aplikasi *Banten Satu Data.*
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 | **Tanggal** | **Versi** | **Keterangan Revisi** | **Alasan Revisi** |
 | ----------- | --------- | --------------------- | ----------------- |
@@ -242,11 +117,7 @@ Daftar Revisi ini mencatat semua revisi yang pernah dilakukan pada dokumentasi p
 |             |           |                       |                   |
 |             |           |                       |                   |
 
-<<<<<<< HEAD
 ## 1. SISTEM OVERVIEW
-=======
-## 1. SISTEM OVERVIEW 
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 Pada bagian ini akan dijelaskan mengenai overview dari sistem aplikasi yang akan dibuat yang terdiri dari ringkasan solusi teknis, karakteristik teknis, asumsi dan cara pencapaian kebutuhan sistem.
 
@@ -254,11 +125,7 @@ Pada bagian ini akan dijelaskan mengenai overview dari sistem aplikasi yang akan
 ### 1.1. Ringkasan Teknis
 ----------------
 
-<<<<<<< HEAD
->   Aplikasi **Banten Satu Data** dibangun oleh Pemerintah Provinsi Banten dalam rangka menyediakan data dan informasi yang lengkap, actual, valid dan akuntabel yang dikelola dalam satu system yang terintegrasi guna memenuhi kebutuhan pembangunan daerah Provinsi Banten. Adapun beberapa proses yang dapat ditangani oleh aplikasi **Banten Satu Data** antara lain :
-=======
 Aplikasi **Banten Satu Data** dibangun oleh Pemerintah Provinsi Banten dalam rangka menyediakan data dan informasi yang lengkap, actual, valid dan akuntabel yang dikelola dalam satu system yang terintegrasi guna memenuhi kebutuhan pembangunan daerah Provinsi Banten. Adapun beberapa proses yang dapat ditangani oleh aplikasi **Banten Satu Data** antara lain :
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 - Proses Distribusi Data, apalikasi akan dapat mendistribuskan data yang valid. Dimana data tersebut nantinya dapat di unduh dan dikelola sebagian orang untuk diolah dan ditransformasikan menjadi informasi yang lebih bermanfaat.
 
@@ -274,19 +141,11 @@ Aplikasi **Banten Satu Data** dibangun oleh Pemerintah Provinsi Banten dalam ran
 
 - Setiap *request* atau permintaan data dan informasi dapat disipan sebagai *history* sehingga nantinya dapat memepermudah pengguna dalam mencari informasi yang sama untuk setiap *resquest*/permintaan selanjutnya.
 
-<<<<<<< HEAD
-> Berikut ini adalah gambaran umum dari sistem aplikasi *Banten Satu Data* yang sedang dikembangkan, diharapkan akan mempermudah pembaca dokumen ini dalam memahami dan menggunakan aplikasi *Banten Satu Data* nantinya.
-
-![ringkasan-teknis](media/e5dcf320e791fff6a92e2b00f883e74f.png)
-
-Gambar 1. Gambaran Umum Aplikasi Banten Satu Data
-=======
 Berikut ini adalah gambaran umum dari sistem aplikasi *Banten Satu Data* yang sedang dikembangkan, diharapkan akan mempermudah pembaca dokumen ini dalam memahami dan menggunakan aplikasi *Banten Satu Data* nantinya.
 
-![Gambaran Umum Aplikasi](images/desain-dan-perancangan/gambaran-umum-aplikasi.png)
+![Gambaran Umum Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/gambaran-umum-aplikasi.png)
 
 ​						**Gambar 1** Gambaran Umum Aplikasi Banten Satu Data
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
 #### 1.1.1. Karakteristik Teknis
 
@@ -323,17 +182,10 @@ diagram, activity diagam dan deployment diagram.
 ### 2.1 Bagan Hirarki Fungsi
 Berikut ini adalah hirarki fungsi *frontend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data*.
 
-<<<<<<< HEAD
-![Bagan Hirarki Fungsi](media/ff1263be16abab73ef6e012433da753c.png)
-=======
-![Hirarki Fungsi Frontend](images/desain-dan-perancangan/hirarki-fungsi-frontend.png)
+![Hirarki Fungsi Frontend](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/hirarki-fungsi-frontend.png)
 
 ​								**Gambar 2** Hirarki Fungsi Frontend
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
-Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yang dapat diakses oleh pengguna aplikasi dalam melakukan berbagai kegiatan.
-
-<<<<<<< HEAD
 Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yang dapat diakses oleh pengguna aplikasi dalam melakukan berbagai kegiatan.
 
 - **Beranda**, modul yang tersedia sebagai tampilan awal saat pertama kali diakses oleh viewer yang dijadikan pengenalan aplikasi **Banten Satu Data** terhadap user.
@@ -343,52 +195,7 @@ Berikut ini adalah modul dan fitur yang ada pada aplikasi *Banten Satu Data* yan
 - **Tentang,** modul ini menampilkan profil dataset yang dikelola oleh Pemerintah Provinsi Banten. Adapun aplikasi *backend* yang berfungsi untuk mendistribusikan halaman.
 - **Frontend.** Berikut ini adalah hirarki fungsi *backend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
 
-![Hirarki Fungsi Backend](media/4ac273bf3e1ad382de950f42119f8a22.png)
-
-Gambar 3. Hirarki Fungsi Backend.
-
-#### 2.1.1. Diagram Keseluruhan (Konteks)
-
-Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi *Banten Satu Data* yang digunakan untuk pengelolaan data dan informasi.
-
-![Diagram Keseluruhan (Konteks)](media/94362318dfce389b3a0d463199abb048.png)
-
-Gambar 4. Diagram Konteks, Aplikasi Banten Satu Data
-
-#### 2.1.2. DFD Level 1
-Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1 pada aplikasi *Banten Satu Data.*
-
-![](media/687ab912c262fe6acd87fe4a179b9aba.png)
-
-Gambar 3. DFD Level 1 Banten Satu Data
-
-#### 2.1.3. Spesifikasi Proses
-Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada pada aplikasi Banten Satu Data sebelumnya telah disebutkan dalam Bagan Hirarki Fungsi.
-
-| No | Nama Proses | Dokumen/ Input(Lampirkan Daftar Dokumen) | Laporan(Lampirkan SandiLaporan) | Pengamanan                                                    |
-|----|-------------|------------------------------------------|---------------------------------|---------------------------------------------------------------|
-| 1  | Dashboard   | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Dashboard.   |
-| 2  | Dataset     | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Dataset.     |
-| 3  | Data Master | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Data Master. |
-|    | Organisasi  | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Organisasi.  |
-|    | Group       | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Group.       |
-| 4  | Pengaturan  | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Pengaturan.  |
-|    | Aplikasi    | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Aplikasi.    |
-|    | Akses       | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihatpada bagian Akses.       |
-|    | Pengguna    | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Pengguna.   |
-|    | Tentang     | Online                                   |                                 | Penjelasan lebih lanjut dapat dilihat pada bagian Tentang.    |
-
-
-#### 2.1.4. Identifikasi Actor
-=======
-- **Beranda**, modul yang tersedia sebagai tampilan awal saat pertama kali diakses oleh viewer yang dijadikan pengenalan aplikasi **Banten Satu Data** terhadap user.
-- **Data**, modul yang berisi beberapa fitur pengelolaan data informan yang menjadi sumber informasi bagi para pengakses data.
-- **Organisasi,** modul ini berfungsi untuk menampilkan berbagai oraganisasi yang terhubung dengan Pemerintah Provinsi Banten seperti halnya BMKG, BPS, Badan Kepegawaian dsb.
-- **Group,** modul ini berfungsi untuk menampilkan berbagai macam data sesuai dengan kelompok data yang sudah ditentukan.
-- **Tentang,** modul ini menampilkan profil dataset yang dikelola oleh Pemerintah Provinsi Banten. Adapun aplikasi *backend* yang berfungsi untuk mendistribusikan halaman.
-- **Frontend.** Berikut ini adalah hirarki fungsi *backend* sebagai gambaran fungsi atau fitur yang ditawarkan oleh aplikasi *Banten Satu Data.*
-
-![Hirarki Fungsi Backend](images/desain-dan-perancangan/hirarki-fungsi-backend.png)
+![Hirarki Fungsi Backend](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/hirarki-fungsi-backend.png)
 
 ​								**Gambar 3** Hirarki Fungsi Backend.
 
@@ -396,14 +203,14 @@ Berikut ini adalah dokumentasi spesifikasi proses untuk setiap fungsi yang ada p
 
 Berikut ini adalah bagan alur kerja atau diagram keseluruhan pada aplikasi *Banten Satu Data* yang digunakan untuk pengelolaan data dan informasi.
 
-![Diagram Keseluruhan (Konteks)](images/desain-dan-perancangan/diagram-konteks-keseluruhan.png)
+![Diagram Keseluruhan (Konteks)](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/diagram-konteks-keseluruhan.png)
 
 ​					**Gambar 4** Diagram Konteks, Aplikasi Banten Satu Data
 
 #### 2.1.2. DFD Level 1
 Berikut ini adalah bagan alur kerja atau *DFD (Data Flow Diagram)* Level 1 pada aplikasi *Banten Satu Data.*
 
-![Data Flow iagram](images/desain-dan-perancangan/DFD-level-1.png)
+![Data Flow iagram](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/DFD-level-1.png)
 
 ​						**Gambar 5** DFD Level 1 Banten Satu Data
 
@@ -437,7 +244,7 @@ Untuk memulai melakukan identifikasi aktor, kita perlu menentukan siapa atau apa
     satu atau dua baris kata yang mendefinisikan bahwa aktor berasal dari sudut
     pandang sistem
 
-![Identifikasi Aktor](images/desain-dan-perancangan/identifikasi-aktor.png)
+![Identifikasi Aktor](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/identifikasi-aktor.png)
 
 ​									**Gambar 6** Identifikasi Aktors
 
@@ -448,7 +255,7 @@ Use case diagram menggambarkan fungsionalitas yang diharapkan dari sebuah sistem
 
 Berikut ini adalah *use case* utama atau bisa disebut juga *use case* keseluruhan pada pembangunan aplikasi *Bantes Satu Data.*
 
-![Use Case](images/desain-dan-perancangan/usecase.png)
+![Use Case](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/usecase.png)
 ​									**Gambar 7** Use Case Diagram Keseluruhan
 
 #### 2.1.1 Skenario Use Case
@@ -467,13 +274,13 @@ Setelah mendefinisikan *use case* maka perlu adanya informasi tambahan secara sp
 
 **Tabel 2** Use Case Login Pegawai
 
-| Use Case : **Login Pegawai**             |
-| ---------------------------------------- |
-| **Actors :**  Pegawai                    |
-| **Stakeholeders :** -                    |
-| **Preconditions :** *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
-| **Flow of Events :**                     |
-| **Postconditions :**                     |
+| Use Case          | :    |**Login Pegawai**                          |
+| ----------        |------|------------------------------------------ |
+| **Actors**        | :    |Pegawai                                    |
+| **Stakeholeders** | :    |                                           |
+| **Preconditions** | :    | *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
+| **Flow of Events**| :    |                                           |
+| **Postconditions**| :    |                                           |
 | *User* atau pengguna aplikasi dapat mengakses menu atau modul **Dasboard** dan **Dataset** yang dikembangkan |
 | 1. Pengguna membuka aplikasi Banten Satu Data |
 | 2. Sistem menampilkan halaman login      |
@@ -487,13 +294,13 @@ Setelah mendefinisikan *use case* maka perlu adanya informasi tambahan secara sp
 
 **Tabel 3** Use Case Login Administrator
 
-| Use Case : **Login Administrator**       |
-| ---------------------------------------- |
-| **Actors :**  Administrator              |
-| **Stakeholeders :** -                    |
-| **Preconditions :** *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
-| **Flow of Events :**                     |
-| **Postconditions :**                     |
+| Use Case           |:      |**Login Administrator**       |
+| -------------------|-------|               -------------- |
+| **Actors**         | :     | Administrator                |
+| **Stakeholeders**  | :     |                              |
+| **Preconditions**  | :     | *User* atau pengguna aplikasi sudah memiliki *username* dan *password* yang akan digunakan untuk *Login* ke aplikasi. |
+| **Flow of Events** | :     |                              |
+| **Postconditions** | :     |                              |
 | *User* atau pengguna aplikasi dapat mengakses semua menu yang ada pada bagian frontend aplikasi Banten Satu Data |
 | 1.  Pengguna membuka aplikasi Banten Satu Data |
 | 2.  Sistem menampilkan halaman login     |
@@ -510,13 +317,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 4** Dashboard
 
-| Use Case **: Dashboard**                 |
-| ---------------------------------------- |
-| **Parent Use Case :** -                  |
-| **Actors :** Pegawai, Administrator      |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melihat informasi data yang diakses melalui halaman **Dashboard**. |
+| Use Case              |  :   |    **Dashboard**                 |
+| ----------------------|------|                     ------------ |
+| **Parent Use Case**   |  :   |                                  |
+| **Actors**            |  :   |  Pegawai, Administrator          |
+| **Preconditions**     |  :   |  Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**    |  :   |                                  |
+| **Postconditions**    |  :   | Pengguna aplikasi dapat melihat informasi data yang diakses melalui halaman **Dashboard**. |
 | 1.  Klik menu **Beranda**                |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Dashboard**          |
@@ -527,13 +334,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 5** Dataset
 
-| Use Case **: Dataset**                   |
-| ---------------------------------------- |
-| **Parent Use Case :** -                  |
-| **Actors :** Pegawai, Administrator      |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case              | :      | **Dataset**                   |
+| ----------------------|--------|                    ---------- |
+| **Parent Use Case**   | :      |                               |
+| **Actors**            | :      | Pegawai, Administrator        |
+| **Preconditions**     | :      | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**    | :      |                               |
+| **Postconditions**    | :      | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Beranda**                |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Dataset**            |
@@ -553,13 +360,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 6** Data Organisasi
 
-| Use Case **: Data Organisasi**           |
-| ---------------------------------------- |
-| **Parent Use Case :** Data Master        |
-| **Actors :** Admnistrator                |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case            | :      |     **Data Organisasi**           |
+| --------------------| -------|                     ------------- |
+| **Parent Use Case** | :      |     Data Master                   |
+| **Actors**          | :      |       Admnistrator                |
+| **Preconditions**   | :      |  Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**  | :      |                                   |
+| **Postconditions**  | :      | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Data Master**            |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Organisasi**         |
@@ -581,13 +388,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 7** Data Group
 
-| Use Case **: Data Group**                |
-| ---------------------------------------- |
-| **Parent Use Case :** Data Master        |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case           | :    |  **Data Group**                |
+| -------------------|------|                --------------- |
+| **Parent Use Case**| :    | Data Master                    |
+| **Actors**         | :    | Administrator                  |
+| **Preconditions**  | :    | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events** | :    |                                |
+| **Postconditions** | :    | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1. Klik menu **Data Master**             |
 | 2. Sistem menampilkan daftar sub menu    |
 | 3. Klik sub menu **Group**               |
@@ -610,13 +417,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 8** Data Akses
 
-| Use Case **: Akses**                     |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case            |  :     |     **Akses**              |
+| --------------------|--------|               ------------ |
+| **Parent Use Case** |  :     |  Pengaturan                |
+| **Actors**          |  :     | Administrator              |
+| **Preconditions**   |  :     | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**  |  :     |                            |
+| **Postconditions**  |  :     | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Pengaturan**             |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Akses**              |
@@ -637,13 +444,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 9** Data Pengguna
 
-| Use Case **: Pengguna**                  |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*.. |
+| Use Case           | :     | **Pengguna**                  |
+| -------------------|-------|                -------------- |
+| **Parent Use Case**| :     | Pengaturan                    |
+| **Actors**         | :     | Administrator                 |
+| **Preconditions**  | :     | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events** | :     |                               |
+| **Postconditions** | :     | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*.. |
 | 1. Klik menu **Pengaturan**              |
 | 2. Sistem menampilkan daftar sub menu    |
 | 3. Klik sub menu **Pengguna**            |
@@ -664,13 +471,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 10** Data Aplikasi
 
-| Use Case **: Aplikasi**                  |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*.. |
+| Use Case           | :    |    **Aplikasi**                  |
+| -------------------|  --  |            --------------------- |
+| **Parent Use Case**| :    | Pengaturan                       |
+| **Actors**         | :    | Administrator                    |
+| **Preconditions**  | :    | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events** | :    |                                  |
+| **Postconditions** | :    | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Pengaturan**             |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Aplikasi**           |
@@ -691,13 +498,13 @@ Dibawah ini akan dijelaskan mengenai beberapa spesifikasi use case yang terdapat
 
 **Tabel 11** Tentang
 
-| Use Case **: Tentang**                   |
-| ---------------------------------------- |
-| **Parent Use Case :** Pengaturan         |
-| **Actors :** Administrator               |
-| **Preconditions :** Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
-| **Flow of Events :**                     |
-| **Postconditions :** Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
+| Use Case              |  :    |  **Tentang**                   |
+| ----------------------|-------|                    ----------- |
+| **Parent Use Case**   |  :    | Pengaturan                     |
+| **Actors**            |  :    |    Administrator               |
+| **Preconditions**     |  :    | Pengguna berhasil *Login* ke aplikasi *Banten Satu Data* |
+| **Flow of Events**    |  :    |                                |
+| **Postconditions**    |  :    | Pengguna aplikasi dapat melakukan proses tambah, ubah, hapus data untuk memenuhi informasi pada halaman *frontend*. |
 | 1.  Klik menu **Pengaturan**             |
 | 2.  Sistem menampilkan daftar sub menu   |
 | 3.  Klik sub menu **Tentang**            |
@@ -724,7 +531,7 @@ beserta hubungan satu sama lain seperti containment, pewarisan, asosiasi,
 dan lain-lain. Berikut ini adalah beberapa *class diagram* yang terdapat
 pada pengembangan aplikasi *Banten Satu Data.*
 
-![Class Diagram](images/desain-dan-perancangan/class-diagram.png)
+![Class Diagram](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/class-diagram.png)
 
 ​								**Gambar 8** Class Diagram, User
 
@@ -737,7 +544,7 @@ Masing-masing paket memiliki *namespace* sendiri di mana semua nama harus
 unik. Sebuah *package* adalah mekanisme tujuan umum untuk mengatur elemen
 dan diagram ke dalam kelompok-kelompok tertentu.
 
-![Package Diagram](images/desain-dan-perancangan/package-diagram.png)						
+![Package Diagram](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/package-diagram.png)						
 
 ​							**Gambar 9** Package Diagram
 
@@ -749,31 +556,31 @@ sistem (termasuk pengguna, display, dan sebagainya) berupa *message* yang
 digambarkan terhadap waktu. Sequence diagram terdiri atas dimensi vertikal
 (waktu) dan dimensi horizontal (objek-objek yang terkait).
 
-![images/desain-dan-perancangan/](images/desain-dan-perancangan/sequence-tambah-organisasi.png)
+![/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/sequence-tambah-organisasi.png)
 
 ​								**Gambar 10** Sequence Tambah Organisasi
 
-![Sequence Add Child Organisasi](images/desain-dan-perancangan/add-child-organisasi.png)
+![Sequence Add Child Organisasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/add-child-organisasi.png)
 
 ​								**Gambar 11** Sequence Add Child Organisasi
 
-![Sequence Tambah Group](images/desain-dan-perancangan/sequence-tambah-group.png)
+![Sequence Tambah Group](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/sequence-tambah-group.png)
 
 ​								**Gambar 12** Sequence Tambah Group
 
-![Sequence Aplikasi](images/desain-dan-perancangan/sequence-aplikasi.png)
+![Sequence Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/sequence-aplikasi.png)
 
 ​								**Gambar 13** Sequence Aplikasi
 
-![Sequence Akses](images/desain-dan-perancangan/sequence-akses.png)
+![Sequence Akses](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/sequence-akses.png)
 
 ​									**Gambar 14** Sequence Akses
 
-![Sequence Pengguna](images/desain-dan-perancangan/sequence-pengguna.png)
+![Sequence Pengguna](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/sequence-pengguna.png)
 
 ​									**Gambar 15** Sequence Pengguna
 
-![Sequence Dataset](images/desain-dan-perancangan/sequence-dataset.png)
+![Sequence Dataset](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/sequence-dataset.png)
 
 ​									**Gambar 16** Sequence Dataset
 
@@ -782,36 +589,36 @@ digambarkan terhadap waktu. Sequence diagram terdiri atas dimensi vertikal
 
 *Activity diagram* menggambarkan berbagai alir aktivitas dalam sistem aplikasi yang sedang dirancang, bagaimana masing-masing alir berawal, decision yang mungkin terjadi, dan bagaimana mereka berakhir. *Activity diagram* juga dapat menggambarkan proses paralel yang mungkin terjadi pada beberapa eksekusi.
 
-![Activity Dataset](images/desain-dan-perancangan/activity-dataset.png)
+![Activity Dataset](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/activity-dataset.png)
 ​								**Gambar 17** Activity Dataset
 
-![Activity Organisasi](images/desain-dan-perancangan/activity-organisasi.png)
+![Activity Organisasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/activity-organisasi.png)
 ​								**Gambar 18** Activity Organisasi
 
-![Activity Group](images/desain-dan-perancangan/activity-group.png)
+![Activity Group](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/activity-group.png)
 ​								**Gambar 19** Activity Group
 
-![Activity Aplikasi](images/desain-dan-perancangan/activity-aplikasi.png)
+![Activity Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/activity-aplikasi.png)
 
 ​								**Gambar 20** Activity Aplikasi
 
-![Activity Akses](images/desain-dan-perancangan/activity-akses.png)
+![Activity Akses](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/activity-akses.png)
 ​									**Gambar 21** Activity Akses
 
-![](images/desain-dan-perancangan/activity-pengguna.png)
+![](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/activity-pengguna.png)
 ​									**Gambar 22** Activity Pengguna
 
 ### 2.7 Component Diagram
 ---------------------
 
-![](images/desain-dan-perancangan/component-diagram.png)
+![](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/component-diagram.png)
 
 ​								**Gambar 23** Component Diagram, Banten Satu Data
 
 ### 2.8 Deployment Diagram
 ----------------------
 
-![Deployment Diagram](images/desain-dan-perancangan/deployment-diagram.png)
+![Deployment Diagram](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/deployment-diagram.png)
 
 ​							**Gambar 24** Deployment Diagram, Banten Satu Data
 
@@ -862,7 +669,7 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 
 
 
-![Login](images/desain-dan-perancangan/login.png)
+![Login](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/login.png)
 
 ​						**Gambar 25** Login Backend, Banten Satu Data
 
@@ -881,7 +688,7 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 
 
 
-![Dashboard](images/desain-dan-perancangan/dashboard.png)
+![Dashboard](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/dashboard.png)
 
 ​								**Gambar 26** Dashboard, Banten Satu Data
 
@@ -900,11 +707,11 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 
 ​								
 
-![Dataset](images/desain-dan-perancangan/dataset.png)
+![Dataset](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/dataset.png)
 
 ​								**Gambar 27 Dataset**, Banten Satu Data
 
-![Tambah Dataset](images/desain-dan-perancangan/tambah-dataset.png)
+![Tambah Dataset](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/tambah-dataset.png)
 
 ​								**Gambar 28** Tambah Dataset, Banten Satu Data
 
@@ -921,15 +728,15 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 | ------ | -------------- | ---------------------------------------- | ---------------------------------------- | -------------- |
 | 1      | **Organisasi** | Akan terbuka secara otomatis ketika pengguna telah melakukan **Login** aplikasi **Banten Satu Data.** 1.  Klik menu **Data Master** 2.  Klik sub menu **Organisasi** 3.  Klik tombol aksi **Tambah Organisasi** 4.  Klik tombol aksi **Add Child Organisasi** 5.  Klik tombol aksi **Detail Organisasi** 6.  Klik tombol aksi **Ubah Organisasi** 7.  Klik tombol aksi **Non Aktif Organisasi** -   Menampilkan form tambah organisasi -   Menampilkan form tambah child pada organisasi -   Menampilkan form pencarian organisasi -   Menampilkan form edit organisasi -   Menampilkan form non aktif organsasi -   Menampilkan detail organisasi -   Notifikasi berupa popup untuk setiap aksi yang dipilih | Menampilkan daftar organisasi yang dikelola |                |
 
-![Oraganisasi](images/desain-dan-perancangan/organisasi.png)
+![Oraganisasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/organisasi.png)
 
 ​								**Gambar 29** Organisasi, Banten Satu Data
 
-![Tambah Organisasi](images/desain-dan-perancangan/tambah-organisasi.png)
+![Tambah Organisasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/tambah-organisasi.png)
 
 ​								**Gambar 30** Tambah Organisasi, Banten Satu Data
 
-![Tambah Child Organisasi](images/desain-dan-perancangan/tambah-child-organisasi.png)
+![Tambah Child Organisasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/tambah-child-organisasi.png)
 
 ​					**Gambar 31** Tambah Child Organisasi, Banten Satu Data
 
@@ -947,11 +754,11 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 | 1      | **Group** | Akan terbuka secara otomatis ketika pengguna telah melakukan **Login** aplikasi **Banten Satu Data.** 1.  Klik menu **Data Master** 2.  Klik sub menu **Group** 3.  Klik tombol aksi **Tambah Group** 4.  Klik tombol aksi **Detail Group** 5.  Klik tombol aksi **Ubah Group** 6.  Klik tombol aksi **Non Aktif Group** -   Menampilkan form tambah group -   Menampilkan form pencarian group -   Menampilkan form edit group -   Menampilkan form non aktif group -   Menampilkan detail group -   Notifikasi berupa popup untuk setiap aksi yang dipilih | Menampilkan daftar group yang dikelola |                |
 
 
-![Group](images/desain-dan-perancangan/group.png)
+![Group](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/group.png)
 
 ​								**Gambar 32** Group, Banten Satu Data
 
-![Tambah Group](images/desain-dan-perancangan/tambah-group.png)
+![Tambah Group](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/tambah-group.png)
 
 ​								**Gambar 33** Tambah Group, Banten Satu Data
 
@@ -969,15 +776,15 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 | 1      | **Group** | Akan terbuka secara otomatis ketika pengguna telah melakukan **Login** aplikasi **Banten Satu Data.** 1.  Klik menu **Pengaturan** 2.  Klik sub menu **Aplikasi** 3.  Klik tombol aksi **Tambah Aplikasi** 4.  Klik tombol aksi **Detail Aplikasi** 5.  Klik tombol aksi **Ubah Aplikasi** 6.  Klik tombol aksi **Non Aktif Aplikasi** -   Menampilkan form tambah aplikasi -   Menampilkan form pencarian aplikasi -   Menampilkan form edit aplikasi -   Menampilkan form non aktif aplikasi -   Menampilkan detail aplikasi -   Notifikasi berupa popup untuk setiap aksi yang dipilih | Menampilkan daftar group yang dikelola |                |
 
 
-![Aplikasi](images/desain-dan-perancangan/aplikasi.png)
+![Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/aplikasi.png)
 
 ​								**Gambar 34** Aplikasi, Banten Satu Data
 
-![Detail Aplikasi](images/desain-dan-perancangan/detail-aplikasi.png)
+![Detail Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/detail-aplikasi.png)
 
 ​								**Gambar 35** Detail Aplikasi, Banten Satu Data
 
-![Ubah Aplikasi](images/desain-dan-perancangan/ubah-aplikasi.png)
+![Ubah Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/ubah-aplikasi.png)
 
 ​								**Gambar 36** Ubah Aplikasi, Banten Satu Data
 
@@ -995,15 +802,15 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 | 1      | **Akses** | Akan terbuka secara otomatis ketika pengguna telah melakukan **Login** aplikasi **Banten Satu Data.** 1.  Klik menu **Pengaturan** 2.  Klik sub menu **Akses** 3.  Klik tombol aksi **Tambah Akses** 4.  Klik tombol aksi **Detail Akses** 5.  Klik tombol aksi **Ubah Akses** 6.  Klik tombol aksi **Non Aktif Akses** -   Menampilkan form tambah akses -   Menampilkan form pencarian akses -   Menampilkan form edit akses -   Menampilkan form non aktif akses -   Menampilkan detail akses -   Notifikasi berupa popup untuk setiap aksi yang dipilih | Menampilkan daftar akses yang dikelola |                |
 
 
-![Akses](images/desain-dan-perancangan/akses.png)
+![Akses](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/akses.png)
 
 ​							**Gambar 37** Akses, Banten Satu Data
 
-![Tambah Akses](images/desain-dan-perancangan/tambah-akses.png)
+![Tambah Akses](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/tambah-akses.png)
 
 ​						**Gambar 38** Tambah Akses, Banten Satu Data
 
-![Detail Akses](images/desain-dan-perancangan/detail-akses.png)
+![Detail Akses](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/detail-akses.png)
 
 ​						**Gambar 39** Detail Akses, Banten Satu Data
 
@@ -1021,20 +828,20 @@ Berikut ini adalah daftar *UI (User Interface)* aplikasi *Banten Satu Data* yang
 | 1      | **Pengguna** | Akan terbuka secara otomatis ketika pengguna telah melakukan **Login** aplikasi **Banten Satu Data.** 1.  Klik menu **Pengaturan** 2.  Klik sub menu **Pengguna** 3.  Klik tombol aksi **Tambah Pengguna** 4.  Klik tombol aksi **Detail Pengguna** 5.  Klik tombol aksi **Ubah Pengguna** 6.  Klik tombol aksi **Non Aktif Pengguna** -   Menampilkan form tambah pengguna -   Menampilkan form pencarian pengguna -   Menampilkan form edit pengguna -   Menampilkan form non aktif pengguna -   Menampilkan detail pengguna -   Notifikasi berupa popup untuk setiap aksi yang dipilih | Menampilkan daftar pengguna yang dikelola |                |
 
 
-![Pengguna](images/desain-dan-perancangan/pengguna.png)
+![Pengguna](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/pengguna.png)
 
 ​							**Gambar 40** Pengguna, Banten Satu Data
 
-![Tambah Pengguna](images/desain-dan-perancangan/tambah-pengguna.png)
+![Tambah Pengguna](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/tambah-pengguna.png)
 
 ​							**Gambar 41** Tambah Pengguna, Banten Satu Data
 
-![Detail Pengguna](images/desain-dan-perancangan/detail-pengguna.png)
+![Detail Pengguna](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/detail-pengguna.png)
 
 
 ​							**Gambar 42** Detail Pengguna, Banten Satu Data
 
-![Ubah Pengguna](images/desain-dan-perancangan/ubah-pengguna.png)
+![Ubah Pengguna](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/ubah-pengguna.png)
 
 ​							**Gambar 43** Ubah Pengguna, Banten Satu Data
 
@@ -1047,7 +854,7 @@ Pada bagian ini akan dijelaskan mengenai desain logika database yang mencakup we
 
 Berikut ini adalah struktur database **Banten Satu Data** yang digunakan dalam pengelolaan dan manipulasi data aplikasi. Pada bagian ini akan dijelaskan mengenai desain skema logika dan/atau fisik, pendefinisian *primary key, secondary key*.
 
-#### 5.1.1 Master 
+#### 5.1.1 Master
 
 Daftar *tabels master database* yang ada pada database **Banten Satu Data** yang digunakan oleh aplikasi **Pemerintah Provinsi Banten.**
 
@@ -1200,12 +1007,12 @@ Daftar *views database* yang ada pada database **Satu Data Banten** yang digunak
 | 2      | view_setting          | View untuk menampilkan data pengaturan aplikasi |
 | 3      | view_user             | View untuk menampilkan data pengguna aplikasi |
 
-### 5.2 Uraian Logika Struktur Database 
+### 5.2 Uraian Logika Struktur Database
 
 
 Berikut ini adalah uraian logika struktur database yang digunakan oleh Aplikasi *Mobile* Sistem Pelayanan dan Perlindungan WNI*.* Logika struktur database ini akan disajikan kedalam bentuk ERD *(Entity Relationship Diagram).*
 
-![Entity Relationship Database](images/desain-dan-perancangan/Entity-Relationship-Database.png)
+![Entity Relationship Database](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/Entity-Relationship-Database.png)
 
 ​							**Gambar 44** Entity Relationship Database
 
@@ -1214,55 +1021,23 @@ Berikut ini adalah uraian logika struktur database yang digunakan oleh Aplikasi 
 
 
 Pada bagian ini akan dijelaskan mengenai gambaran komunikasi antar sistem aplikasi dengan infrastruktur teknologi informasi yang digunakan sebagai sarana pendukung pembangunan aplikasi.
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
-### 2.2. Use Case
+1.  Layout Network
 
-<<<<<<< HEAD
-#### 2.2.1. Skenario Use Case
-
-### 2.3. Class Diagram
-
-### 2.4. Package Diagram
-
-## 3. DESAIN PENGAMANAN SISTEM APLIKASI
-=======
 Berikut ini adalah metode komunikasi digunakan untuk mendukung sistem aplikasi *Banten Satu Data* yang terdiri dari *layout network* atau topologi jaringan. Untuk memudahkan pemahaman maka gambaran komunikasi disajikan dalam bentuk *network diagram*. Diagram ini menerangkan lokasi user yang berhubungan dengan *host sistem*, type dan banyaknya peralatan input dan output yang digunakan.
 
-![Diagram Komunikasi Aplikasi](images/desain-dan-perancangan/Diagram-Komunikasi-Aplikasi.png)
+![Diagram Komunikasi Aplikasi](/document/aplikasi/banten-satu-data/images/desain-dan-perancangan/Diagram-Komunikasi-Aplikasi.png)
 ​					**Gambar 45** Diagram Komunikasi Aplikasi Banten Satu Data
 
 ----------
 ## SOFTWARE SISTEM
 
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b
 
-### 3.1. Metode Authentifikasi 24](#metode-authentifikasi)
+Pada bagian ini akan dijelaskan beberapa software atau perangkat lunak yang
+digunakan untuk membangun sistem aplikasi.
 
-<<<<<<< HEAD
-## 4. INTERFACE SISTEM
-
-### 4.1. Antarmuka Aplikasi
-
-## 5. DESAIN LOGIKA DATABASE
-
-### 5.1. Daftar Table
-
-#### 5.1.1. Master 37
-
-#### 5.1.2. Daftar View
-
-### 5.2. Uraian Logika Struktur Database
-
-## 6. GAMBARAN KOMUNIKASI
-
-### 6.1. Layout Network
-
-## 7. SOFTWARE SISTEM
-=======
 ​								**Tabel 40** Reponses Compilation
 
 | **Nama Softwar** | **Versi/ Release** | **Operating System**  | **Manajemen Data** | **Pengamanan Data**   | **Komunikasi Data** | **Utilities**                            |
 | ---------------- | ------------------ | --------------------- | ------------------ | --------------------- | ------------------- | ---------------------------------------- |
 | Banten Satu Data | 1.0                | Windows Server, Linux | Maria DB           | LDAP, SFTP, SSL, SSH, | Internet            | PHP 7.x,Sublime Text 3,Notepad ++,Navicat Premium V.11+,PHP Framework Laravel,Microsoft Excel 2016,Microsoft Visio 2016,Star UML V.2,Edraw Pro 8.6 |
->>>>>>> e979587783d0e1fdd859688d684fa8203d83e38b

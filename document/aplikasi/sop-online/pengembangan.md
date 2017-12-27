@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Pengembangan
-description: SOP Online adalah aplikasi berbasis web untuk suatu set instruksi (perintah kerja) terperinci dan tertulis yang harus diikuti untuk mencapai keseragaman dalam menjalankan suatu pekerjaan tertentu dengan berpedoman pada tujuan yang harus dicapai.
+description: Integrasi Aplikasi SOP Online yang digunakan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: sop-online
 toc: true

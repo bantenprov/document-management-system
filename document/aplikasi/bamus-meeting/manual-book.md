@@ -29,8 +29,8 @@ Dokumen *User Manual* Aplikasi BAMUS ini dibuat untuk tujuan sebagai berikut:
 Adapun struktur menu pada aplikasi BAMUS adalah sebagai berikut:
 **Menu Dashboard**
 - Bamus Meeting
-- Invetation
-- Invetation List
+- Invitation
+- Invitation List
 - DPRD Schedules
 - AKD
 - AKD Schedules
@@ -134,16 +134,19 @@ Invetation dapat dilihat dengan cara mengklik "Invitation" yang terdapat didalam
 Makan aplikasi akan menampilkan list data undangan seperti gambar dibawah ini:
 
 [![bamus invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation.png)](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation.png)
+
 Gambar 8. Bamus Invitation
 
 Pada halaman ini admin dapat melihat list undangan yang terdapat didalam Badan Musyawarah. DIhalaman ini admin dapat menambahkan, melihat detail, mengedit, export filed dan menghapus data dari data undangan di Bamus Invitation.
 
 ###### 2.2.2.2.1 Menambahkan Data Invitation
-Admin dapat menambahkan data di Invetation dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
+
+Admin dapat menambahkan data di Invitation dengan cara mengklik tombol **Add Data** Seperti gambar dibawah ini:
+
 
 [![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)](/document/aplikasi/bamus-meeting/images/manual-book/tombol-add-data.png)
 
-Maka akan muncul tampilan *form add Invitation* seperti gambar dibawah ini:
+Maka akan muncul tampilan *form add Invitation* seperti gambar dibawah ini
 
 [![Add Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-add1.png)](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-add1.png)
 [![Add Invitation](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-add2.png)](/document/aplikasi/bamus-meeting/images/manual-book/bamus-invetation-add2.png)
@@ -154,6 +157,7 @@ Pada halaman ini admin dapat melihat *form* untuk menginput data Invitation, set
 ###### 2.2.2.2.2 Melakukan Pencarian Pada Invitation
 Untuk melakukan pencarian data pada Invitation admin dapat mengetik data yang ingin dicari pada kolom pencarian seperti gambar dibawah ini:
 [![tombol add data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-pencarian.png)](/document/aplikasi/bamus-meeting/images/manual-book/tombol-pencarian.png)
+
 
 ketika sudah diketik admin dapat mengklik *icon* "kaca pembesar" disamping kolom pencarian.
 
@@ -391,7 +395,7 @@ Jika terdapat data pada AKD yang ingin dihapus admin dapat mengklik *icon* "Tong
 
 [![tombol hapus data](/document/aplikasi/bamus-meeting/images/manual-book/tombol-delete-data.png)](/document/aplikasi/bamus-meeting/images/manual-book/tombol-delete-data.png)
 
-##### 2.2.2.6 
+##### 2.2.2.6
 Jadwal Rapat Alat kelengkapan Dewan dapat dilihat dengan mengklik "AKD Schedule" pada list menu Bamus seperti gambar dibawah ini:
 
 [![klik DPRD Schedules](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-akd-schedules.png)](/document/aplikasi/bamus-meeting/images/manual-book/bamus-klik-akd-schedules.png)

@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Integrasi dan Pengujian Simbada
-description: Simbada adalah sebuah aplikasi Sistem Informasi Manajemen Aset Barang daerah yang berbasis website. 
+description: Integrasi Sistem Informasi Manajemen Barang Daerah provinsi Banten.
 group: aplikasi
 cat: Simbada
 toc: true

@@ -17,6 +17,7 @@ Laporan ini akan membahas tentang pengujian dan implementasi aplikasi API, untuk
 #### User Acceptance Test
 
 ##### Tampilan Home
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Home     | [![Tampilan Home](/document/aplikasi/api/images/implementasi/api-home.png)](/document/aplikasi/api/images/implementasi/api-home.png) |      |       |
@@ -24,6 +25,7 @@ Laporan ini akan membahas tentang pengujian dan implementasi aplikasi API, untuk
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan home sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya tampilan ini *user* dapat membuka link url http://api-01.dev.bantenprov.go.id/ , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### Tampilan Features
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Features | [![Tampilan Features](/document/aplikasi/api/images/implementasi/api-features.png)](/document/aplikasi/api/images/implementasi/api-features.png) |      |       |
@@ -31,6 +33,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan home
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan features sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya tampilan ini *user* dapat membuka link url http://api-01.dev.bantenprov.go.id/ , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### Tampilan Brief
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Brief    | [![Tampilan brief](/document/aplikasi/api/images/implementasi/api-brief.png)](/document/aplikasi/api/images/implementasi/api-brief.png) |      |       |
@@ -38,6 +41,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan feat
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan brief sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya tampilan ini *user* dapat membuka link url http://api-01.dev.bantenprov.go.id/ , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### Tampilan Docs
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Docs     | [![Tampilan Docs](/document/aplikasi/api/images/implementasi/api-docs1.png)](/document/aplikasi/api/images/implementasi/api-docs1.png) |      |       |
@@ -45,6 +49,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan brie
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan docs sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya tampilan ini *user* dapat membuka link url http://api-01.dev.bantenprov.go.id/ , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### Tampilan API
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | API      | [![Tampilan API](/document/aplikasi/api/images/implementasi/api-api.png)](/document/aplikasi/api/images/implementasi/api-api.png) |      |       |
@@ -52,12 +57,15 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan docs
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan api sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya tampilan ini *user* dapat membuka link url http://api-01.dev.bantenprov.go.id/ , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### Tampilan Numbers
+
 | tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Numbers  | [![Tampilan Numbers](/document/aplikasi/api/images/implementasi/api-numbers.png)](/document/aplikasi/api/images/implementasi/api-numbers.png) |      |       |
+
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah tampilan numbers sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya tampilan ini *user* dapat membuka link url http://api-01.dev.bantenprov.go.id/ , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ###### Tampilan Try
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Try      | [![Tampilan try](/document/aplikasi/api/images/implementasi/api-try.png)](/document/aplikasi/api/images/implementasi/api-try.png) |      |       |

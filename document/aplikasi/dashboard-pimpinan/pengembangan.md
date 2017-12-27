@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Pengembangan
-description: Dashboar Pimpinan adalah aplikasi antar muka untuk monitoring dan mempermudah Pimpinan untuk melihat dan menilai kinerja SKPD (Satuan Kerja Perangkat Daerah).
+description: Integrasi Dashboard Pimpinan berbasis web yang digunakan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: dashboard-pimpinan
 toc: true

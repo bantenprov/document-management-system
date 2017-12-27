@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Desain dan Perancangan
-description: Sistem Informasi Manajemen Aset adalah sistem informasi berbasis intranet yang tujuannya menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada. 
+description: Desain dan Perancangan Sistem Informasi Manajemen Barang Daerah provinsi Banten.
 group: aplikasi
 cat: simbada
 toc: true
@@ -10,7 +10,7 @@ toc: true
 [![cover](/document/aplikasi/simbada/images/desain-dan-perancangan/20171110_cover-simbada.jpeg)](/document/aplikasi/simbada/images/desain-dan-perancangan/20171110_cover-simbada.jpeg)
 
 ## ABSTRAK
-Sistem Informasi Manajemen Aset adalah sistem informasi berbasis intranet yang tujuannya menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada. 
+Sistem Informasi Manajemen Aset adalah sistem informasi berbasis intranet yang tujuannya menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada.
 
 Untuk mengatasi masalah tersebut penulis mengantisipasi dengan menggunakan beberapa metode diantaranya, metode pengumpulan data seperti wawancara, dan studi pustaka, dan metode analisis. Sistem Informasi yang di gunakan dengan bahasa pemrograman *Ubuntu 17.04* serta menggunakan *Libre Office Writter 5* dengan komputer server berbasis LINUX.
 
@@ -24,7 +24,7 @@ Untuk mengatasi masalah tersebut penulis mengantisipasi dengan menggunakan beber
 Sejak dilaksanakanya otonomi daerah pada tahun 1999, tuntutan good governance bagi
 Pemerintah Daerah sangat tinggi. Otonomi daerah juga harus disadari sebagai suatu transformasi paradigma dalam penyelenggaraan pembangunan dan pemerintahan daerah, dimana pemerintah daerah memiliki otonomi yang lebih luas untuk mengelola sumber-sumber ekonomis daerah secara mandiri dan bertanggung jawab, yang hasilnya akan diorientasikan untuk meningkatkan kesejahteraan rakyat daerah tesebut.
 
-Pemanfaatan teknologi informasi mencakup 2(dua) aktivitas yaitu, 1) pengolahan data, pengolahan informasi, sistem manajemen dan proses kerja secara elektronik. 2) pemanfaatan teknologi informasi agar pelayanan publik dapat diakses secara mudah oleh masyarakat.  
+Pemanfaatan teknologi informasi mencakup 2(dua) aktivitas yaitu, 1) pengolahan data, pengolahan informasi, sistem manajemen dan proses kerja secara elektronik. 2) pemanfaatan teknologi informasi agar pelayanan publik dapat diakses secara mudah oleh masyarakat.
 
 Melihat semakin majunya perkembangan teknologi sekarang ini, dibutuhkan suatu sistem informasi yang bisa memudahkan serta meningkatkan efisiensi kinerja dalam berbagai hal. Hasil dari sistem informasi yang baik adalah sistem informasi yang memudahkan dan berguna bagi instansi yang menggunakan. Seiring dengan berkembangnya teknologi informasi dengan pesat dan banyaknya kebutuhan dalam teknologi informasi, dimana banyak instansi yang ingin menggunakan teknologi yang ada secara optimal sesuai kebutuhan demi mencapai hasil kerja yang baik bagi instansi tersebut.
 

@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Integrasi
-description: yankes
+description: Integrasi Aplikasi Informasi Pelayanan Kesehatan Pemerintah Provinsi Banten.
 group: aplikasi
 cat: layanan-kesehatan
 toc: true

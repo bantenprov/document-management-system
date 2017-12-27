@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Implementasi
-description: Deskripsi di sini.
+description: Implementasi Sistem Informasi Manajemen Barang Daerah provinsi Banten.
 group: aplikasi
 cat: simbada
 toc: true
@@ -9,7 +9,7 @@ toc: true
 
 ##  Daftar isi
 
-* will be replaced with Toc, excluding the "contents" header 
+* will be replaced with Toc, excluding the "contents" header
 {:toc}
 
 ## 1Impelementasi Program Aplikasi

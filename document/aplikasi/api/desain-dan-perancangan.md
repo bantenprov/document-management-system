@@ -5,7 +5,7 @@ description: Application Programming Interface adalah sebuah tekhnologi untuk me
 group: aplikasi
 cat: api
 toc: true
---- 
+---
 
 [![cover API](/document/aplikasi/api/images/desain-dan-perancangan/analisaperancangan-api.png)](/document/aplikasi/api/images/desain-dan-perancangan/analisaperancangan-api.png)
 # Perancangan dan Impementasi Application Programming Interface
@@ -13,24 +13,13 @@ toc: true
 # ABSTRAK
 Sesuai dengan perkembangan zaman, teknologi dan komunikasi semakin berkembang, salah satunya perkembangan API *(Application Programming Interface)*. Kebanyakan programmer membuat aplikasi dengan menggunakan Application Programming Interface (API). Dalam API itu terdapat fungsifungsi/perintah-perintah untuk menggantikan bahasa yang digunakan dalam system calls dengan bahasa yang lebih terstruktur dan mudah dimengerti oleh programmer. Fungsi yang dibuat dengan menggunakan API tersebut kemudian akan memanggil system calls sesuai dengan sistem operasinya. API *(Application Programming Interface)* adalah sekumpulan perintah, fungsi, komponen, dan protokol yang disediakan oleh sistem operasi ataupun bahasa pemrograman tertentu yang dapat digunakan oleh programmer saat membangun perangkat lunak.
 
-# DAFTAR ISI
-**Halaman Judul**
-**Abstak**
-**Daftar Isi**
-**1. PENDAHULUAN**
-1.1 Latar Belakang
-**2. TINJAUAN PUSTAKA**
-2.1 Application Programming Interface
-2.2 REST *(Representational State Transfer)*
-2.3 Metode Analisis
-**3. PEMBAHASAN**
-3.1 Kategori API *(Application Programming Interface)*
-3.2 Cara Menggunakan API *(Application Programming Interface)*
-**4. PENUTUP**
+## DAFTAR ISI
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## 1. PENDAHULUAN
 ### 1.1 Latar Belakang
-Perkembangan teknologi saat ini sudah berkembang pesat, kita sebagai makhluk sosial sering berinteraksi dengan manusia lainnya menggunakan teknologi yang ada saat ini. Dengan adanya teknologi saat ini membuat manusia lebih mudah dalam melakukan pekerjaan setiap hari nya, contohnya dengan membuat suatu program. Dalam membuat sebuah program kita harus membuat suatu perencanaan terlebih dahulu untuk apa program itu dibuat, fungsi dan apa saja yang dibutuhkan dalam membuat program tersebut, salah satu nya dengan menggunakan API atau *Apliccation Programming Interface*. 
+Perkembangan teknologi saat ini sudah berkembang pesat, kita sebagai makhluk sosial sering berinteraksi dengan manusia lainnya menggunakan teknologi yang ada saat ini. Dengan adanya teknologi saat ini membuat manusia lebih mudah dalam melakukan pekerjaan setiap hari nya, contohnya dengan membuat suatu program. Dalam membuat sebuah program kita harus membuat suatu perencanaan terlebih dahulu untuk apa program itu dibuat, fungsi dan apa saja yang dibutuhkan dalam membuat program tersebut, salah satu nya dengan menggunakan API atau *Apliccation Programming Interface*.
 
 Dengan menggunakan API atau  *Apliccation Programming Interface* ini kita dapat lebih mengetahui seperti apa program yang akan kita buat. Semakin berkembangnya teknologi, aplikasi yang dapat dibuat tidak hanya aplikasi *desktop* saja tetapi aplikasi berbasis *web* maupun aplikasi *mobile*. Sehingga diperlukan *interface server* yang dapat menjembatani aplikasi.
 
@@ -72,7 +61,7 @@ API bersifat fleksibel dan fungsional -- Anda dapat menggunakannya untuk membang
 Dan Anda bahkan dapat mengembangkannya dalam bahasa yang dipilih. Antarmuka SOAP AdWords API didukung oleh semua bahasa pemrograman populer, termasuk Java, PHP, Python, .NET, Perl, dan Ruby.
 
 ## 4. PENUTUP
-Dengan adanya perencanaan *Application Programming Interface* ini membuat setiap programmer akan lebih mudah dalam membuat sistem aplikasi, dan dengan adanya API, memudahkan programmer untuk mengembangkan suatu system. 
+Dengan adanya perencanaan *Application Programming Interface* ini membuat setiap programmer akan lebih mudah dalam membuat sistem aplikasi, dan dengan adanya API, memudahkan programmer untuk mengembangkan suatu system.
 Keuntungan memprogram dengan menggunakan API adalah:
 * Portabilitas. Programmer yang menggunakan API dapat menjalankan programnya dalam sistem operasi mana saja asalkan sudah ter- install API tersebut.
 * Lebih Mudah Dimengerti. API menggunakan bahasa yang lebih terstruktur dan mudah dimengerti daripada bahasa system call. Hal ini sangat penting dalam hal editing dan pengembangan.

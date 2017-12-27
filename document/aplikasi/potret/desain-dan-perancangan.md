@@ -55,28 +55,28 @@ Setelah mengetahui masalah yang masyarakat hadapi pada saat melakukan pengaduan,
 Berikut ini adalah delapan aturan emas dalam perancangan user interface dalam pembuatan aplikasi yang dikemukakan oleh Shneiderman dan Plaisant (2010: 74) yaitu:
 
 1. Berusaha untuk konsisten
-    Konsisten serangkaian *action* harus ada di situasi yang sama, dalam perancangan *User Interface*, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
+   Konsisten serangkaian *action* harus ada di situasi yang sama, dalam perancangan *User Interface*, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
 
 2. Kegunaan yang universal
-    Mengenali kebutuhan dari berbagai *user* akan desain untuk kemudahan pemakaian seperti misalnya, penggunaan, *shorcut* untuk meningkatkan kecepatan interaksi dengan aplikasi yang kita buat.
+   Mengenali kebutuhan dari berbagai *user* akan desain untuk kemudahan pemakaian seperti misalnya, penggunaan, *shorcut* untuk meningkatkan kecepatan interaksi dengan aplikasi yang kita buat.
 
 3. Memberikan *feedback* yang informatif
-    Untuk setiap tindakan pengguna, harus ada sistem *feedback*, untuk setiap tindakan yang sering dilakukan dan tidak terlalu penting dapat diberikan *feedback* yang sederhana.
+   Untuk setiap tindakan pengguna, harus ada sistem *feedback*, untuk setiap tindakan yang sering dilakukan dan tidak terlalu penting dapat diberikan *feedback* yang sederhana.
 
 4. Merancang dialog untuk menghasilkan suatu penutupan
-    Urutan tindakan sebaiknya diorganisir dalam suatu kelompok dengan bagian awal, tengah dan akhi.
+   Urutan tindakan sebaiknya diorganisir dalam suatu kelompok dengan bagian awal, tengah dan akhi.
 
 5. *Prevent error* (memberikan pesan kesalahan)
-    Sebisa mungkin desain aplikasi kita *simple* agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalahan tersebut.
+   Sebisa mungkin desain aplikasi kita *simple* agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalahan tersebut.
 
 6. Memudahkan untuk kembali ketindakan sebelumnya
-    Hal ini dapat mengurangi kekhawatiran pengguna untuk mengambil tindakan, karena apabila terdapat kesalahan pengguna akan mudah kembali ke tindakan sebelumnya.
+   Hal ini dapat mengurangi kekhawatiran pengguna untuk mengambil tindakan, karena apabila terdapat kesalahan pengguna akan mudah kembali ke tindakan sebelumnya.
 
 7. Mendukung kendali internal
-    Memberikan pengguna kendali penuh terhadap aplikasi yang digunakan. Karena para pengguna lebih suka merasa bahwa mereka yang memegang kendali terhadap aplikasi dari pada mereka yang dikendalikan aplikasi.
+   Memberikan pengguna kendali penuh terhadap aplikasi yang digunakan. Karena para pengguna lebih suka merasa bahwa mereka yang memegang kendali terhadap aplikasi dari pada mereka yang dikendalikan aplikasi.
 
 8. Mengurangi ingatan jangka pendek
-    Jangan membuat para pengguna mengingat terlalu banyak akan tampilan halaman, kode, dan tombol-tombol. Sebaiknya jadikan semua itu simple.
+   Jangan membuat para pengguna mengingat terlalu banyak akan tampilan halaman, kode, dan tombol-tombol. Sebaiknya jadikan semua itu simple.
 
 ## 3. HASIL DAN PEMBAHASAN
 
