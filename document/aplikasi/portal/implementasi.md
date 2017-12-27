@@ -22,13 +22,14 @@ Implementasi aplikasi Portal merupakan hasil perancangan dan desain dari aplikas
 
 Untuk memulai akses terhadap website Portal Banten, buka web browser seperti IE, Mozila FireFox atau lainny dengan alamat url sebagai berikut: portal-01.dev.bantenprov.go.id Kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser, akan menampilkan seperti gambar dibawah ini
 
-[![Tampilan utama portal](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)](/document/aplikasi/portal/images/integrasi/00-tampilan-utama.png)
+[![Tampilan utama portal](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)
+
 
 Tampilan awal ketika user atau pengguna menggunakan aplikasi portal, dimana ada tampilan Dashboard *4 Jalur, Anggaran Penyerapan, 10 Sektor, dan dashboar macam-macam pelayanan*. Didalam tampilan awal ada konten menu **home, layanan, produk hukum, perijinan, contact us**.
 
 #### 2.1.1 Tampilan 4 jalur dan anggaran penyerapa
 
-[![Tampilan 4 jalur dan anggran penyerapan](/document/aplikasi/portal/images/implementasi/02-anggran-penyerapan.png)](/document/aplikasi/portal/images/integrasi/02-anggran-penyerapan.png)
+[![Tampilan 4 jalur dan anggran penyerapan](/document/aplikasi/portal/images/implementasi/02-anggran-penyerapan.png)](/document/aplikasi/portal/images/implementasi/02-anggran-penyerapan.png)
 
 Tampilan ini menampilkan konten 4 jalur yang terdiri dari :
 1.G2E goverment to enironent
@@ -39,7 +40,7 @@ dan anggaran penyerapan.
 
 #### 2.1.2 Tampilan 10 sektor portal banten
 
-[![Tampilan 10 sektor portal](/document/aplikasi/portal/images/implementasi/tampilan-10-sektor.png)](/document/aplikasi/portal/images/integrasi/tampilan-10-sektor.png)
+[![Tampilan 10 sektor portal](/document/aplikasi/portal/images/implementasi/tampilan-10-sektor.png)](/document/aplikasi/portal/images/implementasi/tampilan-10-sektor.png)
 
 Tampialn ini menampilkan konten 10 yang terdiri dari :
 1. Sektor sarana dan perasaan
@@ -55,7 +56,7 @@ Tampialn ini menampilkan konten 10 yang terdiri dari :
 
 #### 2.1.3 Konten menu Pelayanan
 
-[![Tampilan 9 layanan portal](/document/aplikasi/portal/images/implementasi/tampilan-10-layanan.png)](/document/aplikasi/portal/images/integrasi/tampilan-10-layanan.png)
+[![Tampilan 9 layanan portal](/document/aplikasi/portal/images/implementasi/tampilan-10-layanan.png)](/document/aplikasi/portal/images/implementasi/tampilan-10-layanan.png)
 
 Tampilan ini menampilkan konten pelayan yang terdiri dari :
 - Pelayanan terpadu satu pintu
@@ -69,7 +70,7 @@ Tampilan ini menampilkan konten pelayan yang terdiri dari :
 
 #### 2.1.4 Tampilan layanan portal banten
 
-[![Tampilan layanan](/document/aplikasi/portal/images/implementasi/tampilan-layanan.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan.png)
+[![Tampilan layanan](/document/aplikasi/portal/images/implementasi/tampilan-layanan.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan.png)
 
 Tampilan ini menampilkan konten layanan yang terdiri dari :
 - Dashboard pimpinan
@@ -82,49 +83,49 @@ Tampilan ini menampilkan konten layanan yang terdiri dari :
 
 #### 2.1.5 Tampilan layanan Dashboard
 
-[![Tampilan layanan Dashboard](/document/aplikasi/portal/images/implementasi/tampilan-layanan-dashboard.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-dashboard.png)
+[![Tampilan layanan Dashboard](/document/aplikasi/portal/images/implementasi/tampilan-layanan-dashboard.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-dashboard.png)
 
 Tampilan layanan ini menampilan konten tampilan layanan dashboard pimpinan, fungsi dari dashboard pimpinan yaitu aplikasi berbasis web untuk gubernur agar dapat memantau setiap OPD yang terdapat di Provinsi Banten.
 
 #### 2.1.6 Tampilan layanan epormas
 
-[![Tampilan layanan Epormas](/document/aplikasi/portal/images/implementasi/tampilan-layanan-epormas.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-epormas.png)
+[![Tampilan layanan Epormas](/document/aplikasi/portal/images/implementasi/tampilan-layanan-epormas.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-epormas.png)
 
 Tampilan ini menampilan konten tampilan Epormas, fungsi dari layanan Epormas yaitu layanan pengaduan masyarakat mengenai permasalahan yang terdapat di Provinsi Banten.
 
 #### 2.1.7 Tampilan layanan kesehatan
 
-[![Tampilan layanan kesehatan](/document/aplikasi/portal/images/implementasi/tampilan-layanan-kesehatan.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-kesehatan.png)
+[![Tampilan layanan kesehatan](/document/aplikasi/portal/images/implementasi/tampilan-layanan-kesehatan.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-kesehatan.png)
 
 Tampilan ini menampilkan konten tampilan Yankes, fungsi dari Yankes ( layanan kesehatan ) yaitu layanan informasi-informasi mengenai rumah sakit yang berada di Provinsi banten.
 
 #### 2.1.8 Tampilan pelayan terpadu satu pintu
 
-[![Tampilan pelayanan terpadu satu pintu](/document/aplikasi/portal/images/implementasi/tampilan-pelayanan-terpadu.png)](/document/aplikasi/portal/images/integrasi/tampilan-pelayana-terpadu.png)
+[![Tampilan pelayanan terpadu satu pintu](/document/aplikasi/portal/images/implementasi/tampilan-pelayanan-terpadu.png)](/document/aplikasi/portal/images/implementasi/tampilan-pelayana-terpadu.png)
 
 Tampilan ini menampilkan konten pelayanan terpadu satu pintu, fungsi dari pelayan terpadu satu pintu yaitu melayani beberapa perijinan di Provinsi Banten
 
 #### 2.1.9 Tampilan layanan Pusat pelayanan usaha terpadu
 
-[![Tampilan layananan pusat pelayanan usaha terpadu](/document/aplikasi/portal/images/implementasi/tampilan-pusat-pelayan.png)](/document/aplikasi/portal/images/integrasi/tampilan-pusat-pelayan.png)
+[![Tampilan layananan pusat pelayanan usaha terpadu](/document/aplikasi/portal/images/implementasi/tampilan-pusat-pelayan.png)](/document/aplikasi/portal/images/implementasi/tampilan-pusat-pelayan.png)
 
 Tampilan ini menampilkan konten pusat pelayanan usaha terpadu, fungsi dari pusat pelayanan usaha terpadu yaitu memampukan koperasi dan UMKM dalam mengembangankan pontesi unggulan daerah.
 
 #### 2.1.10 Tampilan layanan Simbada
 
-[![Tampilan layanan simbada](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simbada.png)](/document/aplikasi/portal/images/integrasi/tampialn-layanan-simbada.png)
+[![Tampilan layanan simbada](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simbada.png)](/document/aplikasi/portal/images/implementasi/tampialn-layanan-simbada.png)
 
 Tampilan ini menampilkan konten simbada, fungsi dari simbada yaitu mengetahui informasi manajemen barang dan aset daerah Provinsi Banten.
 
 #### 2.1.11 Tampilan Simpeg (Sistem Informasi Manajemen Pegawai)
 
-[![Tampilan layanan Simpeg](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simpeg.png)](/document/aplikasi/portal/images/integrasi/tampilan-layanan-simpeg.png)
+[![Tampilan layanan Simpeg](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simpeg.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simpeg.png)
 
 Tampilan ini menampilkan konten simpeg,fungsi dari simpeg yaitu informasi tentang pegawai di Provinsi Banten.
 
 #### 2.1.12 Tampilan Produk Hukum
 
-[![Tampilan Produk Hukum](/document/aplikasi/portal/images/implementasi/produk-hukum.png)](/document/aplikasi/portal/images/integrasi/produk-hukum.png)
+[![Tampilan Produk Hukum](/document/aplikasi/portal/images/implementasi/produk-hukum.png)](/document/aplikasi/portal/images/implementasi/produk-hukum.png)
 
 Tampilan ini menampilan konten produk hukum atau peraturan daerah Provinsi Banten seperti
 - Perda No 1 2008
@@ -133,7 +134,7 @@ Tampilan ini menampilan konten produk hukum atau peraturan daerah Provinsi Bante
 
 #### 2.1.13 Tampilan perijinan
 
-[![Tampilan perijinan](/document/aplikasi/portal/images/implementasi/tampilan-perijinan.png)](/document/aplikasi/portal/images/integrasi/tampilan-perijinan.png)
+[![Tampilan perijinan](/document/aplikasi/portal/images/implementasi/tampilan-perijinan.png)](/document/aplikasi/portal/images/implementasi/tampilan-perijinan.png)
 
 Tampilan ini menampilkan konten perijinan seperti surat ijin pengeboran.
 
