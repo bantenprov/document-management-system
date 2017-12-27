@@ -22,7 +22,7 @@ Implementasi aplikasi Portal merupakan hasil perancangan dan desain dari aplikas
 
 Untuk memulai akses terhadap website Portal Banten, buka web browser seperti IE, Mozila FireFox atau lainny dengan alamat url sebagai berikut: portal-01.dev.bantenprov.go.id Kemudian tekan **Enter** pada tombol keyboard atau klik tombol **Go** pada browser, akan menampilkan seperti gambar dibawah ini
 
-[![Tampilan utama portal](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)
+[![Tampilan utama portal](/document/aplikasi/portal/images/implementasi/00-tampilan-awal.png)](/document/aplikasi/portal/images/implementasi/00-tampilan-awal.png)
 
 Tampilan awal ketika user atau pengguna menggunakan aplikasi portal, dimana ada tampilan Dashboard *4 Jalur, Anggaran Penyerapan, 10 Sektor, dan dashboar macam-macam pelayanan*. Didalam tampilan awal ada konten menu **home, layanan, produk hukum, perijinan, contact us**.
 
