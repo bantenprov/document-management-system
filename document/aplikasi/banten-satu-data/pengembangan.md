@@ -389,12 +389,13 @@ Berikut ini akan dijelaskan mengenai beberapa fungsi yang terdapat pada proses s
 
 #### 3.5.1. Input
 Berikut ini adalah beberapa informasi mengenai proses input dari fungsi-fungsi pengukuran kinerja organisasi yang akan dikomputerisasi dan diimplementasikan pada aplikasi *Banten Satu Data.*
+
 | **No**                               | **Fungsi** | **Kegunaan**                             | **I N P U T**                          |          |            |               |                                          |
 | ------------------------------------ | ---------- | ---------------------------------------- | -------------------------------------- | -------- | ---------- | ------------- | ---------------------------------------- |
 |                                      |            |                                          | **Sumber**                             | **Tipe** | **Volume** | **Frekuensi** | **Item Data**                            |
 | **FRONT-END \| SKPL-01-01.00.00.00** |            |                                          |                                        |          |            |               |                                          |
 | **Menu Bar\|SKPL-01-01.01.00.00**    |            |                                          |                                        |          |            |               |                                          |
-| SKPL-01-01.01.01.00                  | Beranda    | Mengelola tampilan antarmuka yang pertama kali diakses oleh *viewer* | Web Services CKAN                      | Query    |            | High          | Menu Bar, Menu Data (Pendidikan, Pangan Energi  ect.), Statistik Data |
+| SKPL-01-01.01.01.00                  | Beranda    | Mengelola tampilan antarmuka yang pertama kali diakses oleh *viewer* | Web Services CKAN                      | Query    |            | High          | Menu Bar, Menu Data (Pendidikan, Pangan Energi  ect.), Statistik Data | 
 | SKPL-01-01.01.02.00                  | Data       | Mengelola dataset yang telah dikelola oleh Pemerintah Provinsi Banten | Web Services CKAN                      | Query    |            | High          | Data Organisasi,Tag Data, Groups Data, Format Dokumen, Form Search, Dropdown Sort Data, Dataset Found |
 | SKPL-01-01.01.03.00                  | Organisasi | Mengelola daftar organisasi yang terdaftar pada aplikasi Pemerintah Provinsi Banten | Web Services CKAN                      | Query    |            | High          | Nama Organisasi, Deskripsi Organisasi, Jumlah Data, Form Search Organisasi, Dropdown Sort Organisasi |
 | SKPL-01-01.01.04.00                  | Group      | Mengelola data yang diunggah oleh Pemerintah Provinsi Banten berdasarkan group yang sudah ditentukan | Web Services CKAN                      | Query    |            | High          | Nama Group, Deskripsi Group, Jumlah Data, Form Search Group, Dropdown Sort Group |
@@ -672,6 +673,7 @@ Pengembangan aplikasi *Banten Satu Data* digunakan untuk mengelola data kedepann
 a. Rencana pemulihan yang dapat diadopsi sebagai acuan kegiatan pemulihan.
 
 Table 2. Skema Rencana Pemulihan IT
+
 | **RPO**     | **Teknologi Yang Dibutuhkan**            |
 | ----------- | ---------------------------------------- |
 | 8-14 days   | Peralatan Baru, data recovery from backup |

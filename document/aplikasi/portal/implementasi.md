@@ -24,8 +24,6 @@ Untuk memulai akses terhadap website Portal Banten, buka web browser seperti IE,
 
 [![Tampilan utama portal](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)
 
-Tampilan awal ketika user atau pengguna menggunakan aplikasi portal, dimana ada tampilan Dashboard *4 Jalur, Anggaran Penyerapan, 10 Sektor, dan dashboar macam-macam pelayanan*. Didalam tampilan awal ada konten menu **home, layanan, produk hukum, perijinan, contact us**.
-
 #### 2.1.1 Tampilan 4 jalur dan anggaran penyerapa
 
 [![Tampilan 4 jalur dan anggran penyerapan](/document/aplikasi/portal/images/implementasi/tampilan-4-jalur.png)](/document/aplikasi/portal/images/implementasi/tampilan-4-jalur.png)

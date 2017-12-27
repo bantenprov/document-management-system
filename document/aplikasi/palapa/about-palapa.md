@@ -107,7 +107,7 @@ Beberapa teknologi yang digunakan dalam aplikasi PALAPA adalah:
 [![Arsitektur PALAPA3](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa3.png)](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa3.png)
 
 ### Use Case Diagram - Browse / Explore
-[![Use Case Diagram - Browse / Explore](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)
+[![Use Case Diagram - Browse / Explore](/document/aplikasi/palapa/images/about-palapa/explore.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)
 
 ### Use Case Diagram PALAPA
 [![Use Case Diagram PALAPA](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-palapa.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-palapa.png)

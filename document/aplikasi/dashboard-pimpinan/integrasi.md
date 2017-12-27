@@ -173,6 +173,7 @@ Pada *page* ini terdapat *method* yang berupa tombol "PUT" dan link url untuk ko
 #### 2.1Dashboard Kepegawaian
 
 ##### 2.1.1 Subkonten Jumlah Pegawai
+
 | Dashboard | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Pegawai   | [![Jumlah pegawai](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pegawai.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pegawai.png) |      |       |
@@ -180,6 +181,7 @@ Pada *page* ini terdapat *method* yang berupa tombol "PUT" dan link url untuk ko
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jumlah pegawai sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.1.2 Subkonten Jumlah Kenaikan Pangkat Pegawai Otomatis
+
 | Dashboard                | URL/ Image                               | Ada  | Tidak |
 | ------------------------ | ---------------------------------------- | ---- | ----- |
 | Kenaikan Pangkat Pegawai | [![jumlah kenaikan pangkat pegawai](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pangkat-pegawai.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pangkat-pegawai.png) |      |       |
@@ -187,6 +189,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jumlah kenaikan pangkat pegawai otomatis sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.1.3 Subkonten Jumlah Pegawai yang Akan pensiun
+
 | Dashboard                 | URL/ Image                               | Ada  | Tidak |
 | ------------------------- | ---------------------------------------- | ---- | ----- |
 | Pegawai yang Akan pensiun | [![jumlah kenaikan pangkat pegawai](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pegawai-akan-pensiun.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pegawai-akan-pensiun.png) |      |       |
@@ -194,6 +197,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jumlah pegawai yang akan pensiun sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.1.4 Subkonten Jumlah Pegawai Esselon
+
 | Dashboard       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
 | Pegawai Esselon | [![jumlah pegawai esselon](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pegawai-esselon.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pegawai-esselon.png) |      |       |
@@ -201,6 +205,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jumlah pegawai esselon sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.1.5 Subkonten Pangkat Pegawai
+
 | Dashboard       | URL/ Image                               | Ada  | Tidak |
 | --------------- | ---------------------------------------- | ---- | ----- |
 | Pangkat pegawai | [![jumlah pangkat pegawai](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pangkat-pegawai.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-pangkat-pegawai.png) |      |       |
@@ -208,14 +213,17 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten pangkat pegawai sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 ##### 2.1.6 Subkontem Usia Aparatur Sipil Negara (ASN)
+
 | Dashboard                  | URL/ Image                               | Ada  | Tidak |
 | -------------------------- | ---------------------------------------- | ---- | ----- |
 | Usia Aparatur Sipil Negara | [![Usia aparatur sipil negara](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-usia-asn.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kepegawaian-usia-asn.png) |      |       |
+
 Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten usia aparatur sipi negara (ASN) sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/kepegawaian , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
 
 #### 2.2 Dashboard Kependudukan
 
 ##### 2.2.1 Subkonten Jumlah Penduduk
+
 | Dashboard | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Penduduk  | [![Jumlah penduduk](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kependudukan-penduduk.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kependudukan-penduduk.png) |      |       |
@@ -225,6 +233,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 #### 2.3 Dashboard Kesehatan
 
 ##### 2.3.1 Subkonten Jumlah Tim Medis
+
 | Dashboard | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Tim Medis | [![Jumlah tim medis](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kesehatan-tim-medis.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kesehatan-tim-medis.png) |      |       |
@@ -234,6 +243,7 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 #### 2.4 Dashboard kependidikan
 
 ##### 2.4.1 Subkonten Jumlah Tenaga Pendidik
+
 | Dashboard | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Pendidik  | [![Jumlah pendidik](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kependidikan-pendidik.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-kependidikan-pendidik.png) |      |       |
@@ -248,4 +258,4 @@ Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jum
 | --------- | ---------------------------------------- | ---- | ----- |
 | Laporan   | [![Jumlah laporan](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-epormas-jumlah-laporan.png)](/document/aplikasi/dashboard-pimpinan/images/integrasi/uat-epormas-jumlah-laporan.png) |      |       |
 
-alam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jumlah tenaga pendidik sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/epormas , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
+Dalam tabel ini *user* dapat melakukan test kepada aplikasi apakah subkonten jumlah tenaga pendidik sudah dapat diakses oleh *user* atau tidak. Untuk mengecek dapat diakses tidaknya subkonten ini *user* dapat membuka link url http://dashboard-01.dev.bantenprov.go.id/#/dashboard/epormas , jika sudah dapat diakses *user* dapat meceklis pada kolom "Ada" sedangkan jika belum dapat diakses maka *user* dapat menceklis pada kolom "tidak".
