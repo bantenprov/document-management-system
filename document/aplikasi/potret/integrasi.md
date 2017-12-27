@@ -7,9 +7,9 @@ cat: potret
 toc: true
 ---
 
-## Integrasi dan Pengujian Dashboard Pimpinan
+## Integrasi dan Pengujian Epormas
 
-Pada laporan ini akan membahas tentang Pengujian dan Integrasi Dashboard Pimpinan, untuk pengujiannya menggunakan User Acceptance Test.
+Pada laporan ini akan membahas tentang Pengujian dan Integrasi Epormas, untuk pengujiannya menggunakan User Acceptance Test.
 
 ## Daftar Isi
 * Will be replaced with the ToC, excluding the "Contents" header
