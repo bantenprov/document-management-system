@@ -214,7 +214,7 @@ USECASE DIAGRAM APLIKASI
 
 Pada *use case* ini dapat digambarkan secara umum bagaimana pengguna aplikasi *Banten Satu Data* berinteraksi dengan sistem yang dibuat.
 
-![Use Case Diagram- Banten Satu Data](images/pengembangan/usecase.png)
+![Use Case Diagram- Banten Satu Data](/document/aplikasi/banten-satu-data/images/pengembangan/usecase.png)
 
 ​**Gambar 1** Use Case Diagram, Banten Satu Data
 
@@ -228,7 +228,7 @@ Pada *use case* ini dapat digambarkan secara umum bagaimana pengguna aplikasi *B
 
 Adapun arsitektur sistem yang akan dibangun untuk membuat aplikasi *Banten Satu Data* adalah sebagai berikut :
 
-![Arsitektur Sistem Informasi](images/pengembangan/arsitektur-sistem-informasi.jpg)
+![Arsitektur Sistem Informasi](/document/aplikasi/banten-satu-data/images/pengembangan/arsitektur-sistem-informasi.jpg)
 
 Gambar 2. Arsitektur Sistem Informasi, Banten Satu Data
 
@@ -238,7 +238,7 @@ Gambar 2. Arsitektur Sistem Informasi, Banten Satu Data
 3. Database aplikasi *Banten Satu Data* akan terintegrasi dengan database, Integrasi bisa dilakukan menggunakan metode *syncronize db* atau *web services*
 4. Aplikasi menggunakan *three-tier technology* application model. Hal ini berarti ada 3 (tiga) *tier* model yang terkait dengan aplikasi yaitu *client*, *application* dan *data* , skema dari model ini digambarkan pada gambar dibawah ini:
 
-![Layer Aplikasi](images/pengembangan/layer-aplikasi.png)
+![Layer Aplikasi](/document/aplikasi/banten-satu-data/images/pengembangan/layer-aplikasi.png)
 
 Gambar 3. Layer Aplikasi, Banten Satu Data
 
@@ -267,7 +267,7 @@ PHP adalah *server side scripting* atau bahasa pemrograman yang di-*compile* men
 - Dokumentasi yang sangat mudah ditemukan di internet
 - Tidak perlu mengerti *object oriented programing* untuk menggunakan PHP dalam membuat aplikasi.
 
-![Cara Kerja Web Server](images/pengembangan/cara-kerja-webserver.jpg)
+![Cara Kerja Web Server](/document/aplikasi/banten-satu-data/images/pengembangan/cara-kerja-webserver.jpg)
 
 Gambar 4. Cara Kerja Web Server Melakukan compile terhadap Code PHP
 
@@ -279,7 +279,7 @@ Perkembangan bahasa pemrograman PHP sangat baik, banyak website atau aplikasi di
 
 #### 2.2.3. Ckan
 
-![Arsitektur CKAN](images/pengembangan/arsitektur-ckan.png)
+![Arsitektur CKAN](/document/aplikasi/banten-satu-data/images/pengembangan/arsitektur-ckan.png)
 
 Gambar 5. Arsitektur CKAN
 
@@ -295,7 +295,7 @@ Gambar 5. Arsitektur CKAN
 
 Perkembangan HTML, CSS dan juga media yang digunakan untuk browsing (*mobile devices*) belakangan ini semakin memudahkan para developer untuk membuat sebuah aplikasi, utamanya terkait dengan masalah tampilan baik dari sisi estetika ataupun dari sisi responsive terhadap resolusi layar. CSS Framework template membantu developer dalam membangun frame keseluruhan dari *user interface* sebuah aplikasi, mulai dari template, tabel, form dan lainnya. Banyak sekali CSS Framework template yang ada sekarang namun ketenaran dan ketangguhan Bootstrap sudah teruji untuk masalah security, auto responsive dan clean HTML nya. **Laravel,** dengan otentikasi pengguna, registrasi dengan konfirmasi email, otentikasi media sosial, pemulihan kata sandi, dan perlindungan captcha. Hal ini membuat penggunaan penuh Controllers untuk rute, template untuk tampilan, dan memanfaatkan middleware untuk routing.Menggunakan pemodelan ORM laravel dan memiliki fungsi CRUD (Create Read Update Delete) untuk semua tugas. Penyiapan cepat, bisa dilakukan dalam 5 menit.
 
-![Popularitas CSS Framework](images/pengembangan/popularitas-cms-framework.png)
+![Popularitas CSS Framework](/document/aplikasi/banten-satu-data/images/pengembangan/popularitas-cms-framework.png)
 Gambar 6. Popularitas CSS Framework
 
 ## 3. DESKRIPSI UMUM KEBUTUHAN
@@ -389,12 +389,13 @@ Berikut ini akan dijelaskan mengenai beberapa fungsi yang terdapat pada proses s
 
 #### 3.5.1. Input
 Berikut ini adalah beberapa informasi mengenai proses input dari fungsi-fungsi pengukuran kinerja organisasi yang akan dikomputerisasi dan diimplementasikan pada aplikasi *Banten Satu Data.*
+
 | **No**                               | **Fungsi** | **Kegunaan**                             | **I N P U T**                          |          |            |               |                                          |
 | ------------------------------------ | ---------- | ---------------------------------------- | -------------------------------------- | -------- | ---------- | ------------- | ---------------------------------------- |
 |                                      |            |                                          | **Sumber**                             | **Tipe** | **Volume** | **Frekuensi** | **Item Data**                            |
 | **FRONT-END \| SKPL-01-01.00.00.00** |            |                                          |                                        |          |            |               |                                          |
 | **Menu Bar\|SKPL-01-01.01.00.00**    |            |                                          |                                        |          |            |               |                                          |
-| SKPL-01-01.01.01.00                  | Beranda    | Mengelola tampilan antarmuka yang pertama kali diakses oleh *viewer* | Web Services CKAN                      | Query    |            | High          | Menu Bar, Menu Data (Pendidikan, Pangan Energi  ect.), Statistik Data |
+| SKPL-01-01.01.01.00                  | Beranda    | Mengelola tampilan antarmuka yang pertama kali diakses oleh *viewer* | Web Services CKAN                      | Query    |            | High          | Menu Bar, Menu Data (Pendidikan, Pangan Energi  ect.), Statistik Data | 
 | SKPL-01-01.01.02.00                  | Data       | Mengelola dataset yang telah dikelola oleh Pemerintah Provinsi Banten | Web Services CKAN                      | Query    |            | High          | Data Organisasi,Tag Data, Groups Data, Format Dokumen, Form Search, Dropdown Sort Data, Dataset Found |
 | SKPL-01-01.01.03.00                  | Organisasi | Mengelola daftar organisasi yang terdaftar pada aplikasi Pemerintah Provinsi Banten | Web Services CKAN                      | Query    |            | High          | Nama Organisasi, Deskripsi Organisasi, Jumlah Data, Form Search Organisasi, Dropdown Sort Organisasi |
 | SKPL-01-01.01.04.00                  | Group      | Mengelola data yang diunggah oleh Pemerintah Provinsi Banten berdasarkan group yang sudah ditentukan | Web Services CKAN                      | Query    |            | High          | Nama Group, Deskripsi Group, Jumlah Data, Form Search Group, Dropdown Sort Group |
@@ -672,6 +673,7 @@ Pengembangan aplikasi *Banten Satu Data* digunakan untuk mengelola data kedepann
 a. Rencana pemulihan yang dapat diadopsi sebagai acuan kegiatan pemulihan.
 
 Table 2. Skema Rencana Pemulihan IT
+
 | **RPO**     | **Teknologi Yang Dibutuhkan**            |
 | ----------- | ---------------------------------------- |
 | 8-14 days   | Peralatan Baru, data recovery from backup |

@@ -7,9 +7,11 @@ cat: palapa
 toc: true
 ---
 
-# PALAPA Aplikasi Geospasial Nasional
+## PALAPA Aplikasi Geospasial Nasional
 
-Badan Informasi Geospasial (BIG)
+[![Badan informasi Geospasial](/document/aplikasi/palapa/images/about-palapa/palapa-big.png)](http://big.go.id/).  
+
+Badan Informasi Geospasial ([BIG](https://github.com/BIG-Indonesia/palapa).)
 > Jl. Raya Jakarta - Bogor KM. 46 Cibinong 16911, INDONESIA
 > Telp. 021-8752062 / 8752063
 > Fax. 021-8752064
@@ -17,7 +19,7 @@ Badan Informasi Geospasial (BIG)
 
 Palapa adalah sebuah aplikasi simpul jaringan berbasis *Open Source* (kode sumber terbuka) yang mendukung penyelenggaraan IG (Informasi Geospasial) meliputi pengumpulan, penyimpanan, pengamanan dan penyebarluasan di unit produksi dan unit pengelolaan dan penyebarluasan IG seperti yang pembuatannya berdasarkan dari UU No. 4/2011 tentang informasi Geospasial.
 
-## Sekilas pandan PALAPA
+## Sekilas pandang PALAPA
 ### Dalam perkembangannya aplikasi PALAPA mengalami beberapa perubahan yaitu :
 * Palapa versi 1
   Dikembangkan dengan teknologi *OpenSource OpenGeo*, belum *web responsive* dan belum terintegrasi dengan portal nasional.
@@ -105,7 +107,7 @@ Beberapa teknologi yang digunakan dalam aplikasi PALAPA adalah:
 [![Arsitektur PALAPA3](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa3.png)](/document/aplikasi/palapa/images/about-palapa/arsitektur-aplikasi-palapa3.png)
 
 ### Use Case Diagram - Browse / Explore
-[![Use Case Diagram - Browse / Explore](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)
+[![Use Case Diagram - Browse / Explore](/document/aplikasi/palapa/images/about-palapa/explore.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-browse/explore.png)
 
 ### Use Case Diagram PALAPA
 [![Use Case Diagram PALAPA](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-palapa.png)](/document/aplikasi/palapa/images/about-palapa/use-case-diagram-palapa.png)

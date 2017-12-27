@@ -1,24 +1,36 @@
 ---
-layout: document
-title: Index - Helpdesk
-description: Index Helpdesk.
+layout: index
+title: Helpdesk
+description: Index dokumen aplikasi Helpdesk.
 group: aplikasi
+cat: helpdesk
 ---
 
-<div class="list-group">
-  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/helpdesk/about-helpdesk/">
-    About Helpdesk
-  </a>
-  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/helpdesk/desain-dan-perancangan/">
-    Desain dan Perancangan
-  </a>
-  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/helpdesk/pengembangan/">
-    Pengembangan
-  </a>
-  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/helpdesk/integrasi/">
-    Integrasi
-  </a>
-  <a class="list-group-item list-group-item-action" href="{{ site.baseurl }}/document/aplikasi/helpdesk/implementasi/">
-    Implementasi
-  </a>
-</div>
+{%- for group in site.data.nav -%}
+  {%- assign group_slug = group.title | slugify -%}
+
+  {%- if group_slug == page.group -%}
+    {%- for docs in group.pages -%}
+      {%- assign docs_slug = docs.title | slugify -%}
+
+      {%- if docs_slug == page.cat -%}
+        <div class="card mb-3">
+          <h4 class="card-header">
+            {{ group.title }} <i class="fa fa-angle-double-right" aria-hidden="true"></i> {{ docs.title }}
+          </h4>
+
+          <div class="list-group list-group-flush">
+            {%- for doc in docs.pages -%}
+              {%- assign doc_slug = doc.title | slugify -%}
+
+              <a href="{{ site.baseurl }}/document/{{ group_slug }}/{{ docs_slug }}/{{ doc_slug }}/" class="list-group-item list-group-item-action">
+                {{ doc.title }}
+              </a>
+            {%- endfor -%}
+          </div><!-- /.list-group -->
+        </div><!-- /.card -->
+      {%- endif -%}
+
+    {%- endfor -%}
+  {%- endif -%}
+{%- endfor -%}

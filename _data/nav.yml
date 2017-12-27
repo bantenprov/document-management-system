@@ -1,0 +1,120 @@
+- title: Aplikasi
+  pages:
+    - title: API
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+    - title: Bamus Meeting
+      pages:
+        - title: Manual Book
+
+    - title: Banten Satu Data
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi dan Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+        - title: UAT
+
+    - title: Banten Satu Login
+      pages:
+        - title: Dokumen Teknis
+
+    - title: Dashboard Pimpinan
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+    - title: Helpdesk
+      pages:
+        - About Helpdesk
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+    - title: Laporan Bulanan
+      pages:
+        - title: Pengembangan
+
+    - title: Layanan Kesehatan
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+    - title: Palapa
+      pages:
+        - title: About Palapa
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+        - title: Petunjuk Pemakaian
+
+    - title: Portal
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+        - title: UAT
+
+    - title: Portal Pemerintah Provinsi Banten
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+        - title: UAT
+
+    - title: Potret
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+    - title: Simbada
+      pages:
+        - title: About Simbada
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+        - title: UAT
+
+    - title: Sistem Informasi Barang Daerah
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+    - title: SOP Online
+      pages:
+        - title: Desain dan Perancangan
+        - title: Implementasi
+        - title: Integrasi
+        - title: Pengembangan
+
+- title: Konsep
+  pages:
+    - title: Konsep A
+      pages:
+        - title: Konsep A 1
+        - title: Konsep A 2
+
+- title: SOP
+  pages:
+    - title: SOP A
+      pages:
+        - title: SOP A 1
+        - title: SOP A 2

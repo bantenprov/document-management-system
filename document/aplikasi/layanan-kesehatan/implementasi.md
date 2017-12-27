@@ -10,8 +10,9 @@ toc: true
 ## Daftar Isi
 * Will be replaced with the ToC, excluding the "Contents" header
 {:toc}
-=======
+
 ## 1. Implementasi 
+
 Layanan kesehatan (Yankes) adalah suatu aplikasi yang akan dikeluarkan oleh pemerintah provinsi Banten untuk mendukung terlaksananya kesehatan masyarakat yang lebih baik. Didalam aplikasi ini masyarakat dapat mengakses informasi kesehatan yang terdapat di Banten, seperti melihat dokter, ruang rawat inap, info rumah sakit, jadwal dokter jaga dan informasi - informasi terkait kesehatan yang terdapat di Banten.
 
 Implementasi aplikasi Layanan Kesehatan merupakan hasil perancangan dan desain dari aplikasi Layanan Kesehatan yang telah dibuat. Didalam implementasi aplikasi ini nantinya akan dijelaskan langkah-langkah penggunaan dari tipa-tiap menu yang ada pada aplikasi Layanan Kesehatan yang sudah terintegrasi tersebut.

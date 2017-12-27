@@ -10,28 +10,12 @@ toc: true
 [![cover-dashboard-pimpinan](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/cover-dashboard-pimpinan.jpeg)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/cover-dashboard-pimpinan.jpeg)
 
 ## ABSTRAK
-[document](https://github.com/bantenprov/document-management-system/tree/master/document)Sistem Dashboard merupakan suatu sistem berbasis komputer yang dapat membantu suatu pemerintahan untuk meningkatkan kinerja dalam pengambilan keputusan dan memecahkan masalah yang umumnya berada di dalam wilayah dengan dimensi yang beragam. Sistem informasi sekarang sudah banyak tersedia di berbagai pemerintahan bertujuan untuk mewujudkan visi dan misi pemerintahan. Dewasa ini perkembangan teknologi komputer sangatlah pesat. Dengan menggunakan aplikasi komputer akan didapat informasi mengenai suatu tampilan objek yang ditampilkan lebih hidup dan menarik. Adanya kemajuan teknologi ini memungkinkan Sistem aplikasi Dashboard dapat memberikan jalan yang terbaik dan lebih menarik untuk masyarakat. dengan adanya Sistem aplikasi Dashboard Pemerintahan Provinsi Banten Berbasis Web mampu memberikan keputusan terbaik dalam melakukan pemantauan dalam laporan.
+
+Sistem Dashboard merupakan suatu sistem berbasis komputer yang dapat membantu suatu pemerintahan untuk meningkatkan kinerja dalam pengambilan keputusan dan memecahkan masalah yang umumnya berada di dalam wilayah dengan dimensi yang beragam. Sistem informasi sekarang sudah banyak tersedia di berbagai pemerintahan bertujuan untuk mewujudkan visi dan misi pemerintahan. Dewasa ini perkembangan teknologi komputer sangatlah pesat. Dengan menggunakan aplikasi komputer akan didapat informasi mengenai suatu tampilan objek yang ditampilkan lebih hidup dan menarik. Adanya kemajuan teknologi ini memungkinkan Sistem aplikasi Dashboard dapat memberikan jalan yang terbaik dan lebih menarik untuk masyarakat. dengan adanya Sistem aplikasi Dashboard Pemerintahan Provinsi Banten Berbasis Web mampu memberikan keputusan terbaik dalam melakukan pemantauan dalam laporan.
 
 ## DAFTAR ISI
-**Halaman Judul**
-**Abstrak**
-**Daftar Isi**
-**1. PENDAHULUAN**
-1.1 Latar Belakang
-1.2 Maksud dan Tujuan
-1.3 Ruang Lingkup Pekerjaan
-1.4 Ruang Lingkup Sistem Informasi / Aplikasi
-1.5 Keluaran yang diinginkan
-1.6 Waktu dan Jadwal Pelaksanaan dan Lokasi Kegiatan
-**2. METODE PENELITIAN**
-2.1 Metode Yang digunakan
-2.2 Metode Pengumpulan Data
-**3. HASIL PEMBAHASAN**
-3.1 Perencanaan Aplikasi
-3.2 Perancangan Sistem
-3.3 Tahapan Pekerjaan
-3.4 Hasil
-**4. PENUTUP**
+* Will be replaced with the ToC, excluding the "Contents" header
+{:toc}
 
 ## 1. PENDAHULUAN
 
@@ -212,5 +196,3 @@ Berikut ini adalah hasil eksekusi sistem informasi Dashboard
 
 ## 4.PENUTUP
 Dengan adanya pembuatan dari sistem informasi dashboard ini dapat membantu dalam mencari informasi atau laporan yang terdapat di pemerintahan Banten, sehingga pimpinan tidak sulit jika ingin mencari informasi atau laporan yang ada dan dapat mempermudah pimpinan memonitoring kinerja para pegawai SKPD (Satuan Kerja Perangkat Daerah).
-=======
-[![cover-dashboard-pimpinan](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/cover-dashboard-pimpinan.jpeg)](/document/aplikasi/dashboard-pimpinan/images/desain-dan-perancangan/cover-dashboard-pimpinan.jpeg)
