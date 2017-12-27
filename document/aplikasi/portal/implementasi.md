@@ -24,12 +24,9 @@ Untuk memulai akses terhadap website Portal Banten, buka web browser seperti IE,
 
 [![Tampilan utama portal](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)](/document/aplikasi/portal/images/implementasi/00-tampilan-utama.png)
 
-
-Tampilan awal ketika user atau pengguna menggunakan aplikasi portal, dimana ada tampilan Dashboard *4 Jalur, Anggaran Penyerapan, 10 Sektor, dan dashboar macam-macam pelayanan*. Didalam tampilan awal ada konten menu **home, layanan, produk hukum, perijinan, contact us**.
-
 #### 2.1.1 Tampilan 4 jalur dan anggaran penyerapa
 
-[![Tampilan 4 jalur dan anggran penyerapan](/document/aplikasi/portal/images/implementasi/02-anggran-penyerapan.png)](/document/aplikasi/portal/images/implementasi/02-anggran-penyerapan.png)
+[![Tampilan 4 jalur dan anggran penyerapan](/document/aplikasi/portal/images/implementasi/tampilan-4-jalur.png)](/document/aplikasi/portal/images/implementasi/tampilan-4-jalur.png)
 
 Tampilan ini menampilkan konten 4 jalur yang terdiri dari :
 1.G2E goverment to enironent
@@ -56,7 +53,7 @@ Tampialn ini menampilkan konten 10 yang terdiri dari :
 
 #### 2.1.3 Konten menu Pelayanan
 
-[![Tampilan 9 layanan portal](/document/aplikasi/portal/images/implementasi/tampilan-10-layanan.png)](/document/aplikasi/portal/images/implementasi/tampilan-10-layanan.png)
+[![Tampilan 9 layanan portal](/document/aplikasi/portal/images/implementasi/tampilan-awal-pelayan.png)](/document/aplikasi/portal/images/implementasi/tampilan-awal-pelayan.png)
 
 Tampilan ini menampilkan konten pelayan yang terdiri dari :
 - Pelayanan terpadu satu pintu
@@ -95,25 +92,25 @@ Tampilan ini menampilan konten tampilan Epormas, fungsi dari layanan Epormas yai
 
 #### 2.1.7 Tampilan layanan kesehatan
 
-[![Tampilan layanan kesehatan](/document/aplikasi/portal/images/implementasi/tampilan-layanan-kesehatan.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-kesehatan.png)
+[![Tampilan layanan kesehatan](/document/aplikasi/portal/images/implementasi/tampilan-layana-yankes.png)](/document/aplikasi/portal/images/implementasi/tampilan-layana-yankes.png)
 
 Tampilan ini menampilkan konten tampilan Yankes, fungsi dari Yankes ( layanan kesehatan ) yaitu layanan informasi-informasi mengenai rumah sakit yang berada di Provinsi banten.
 
 #### 2.1.8 Tampilan pelayan terpadu satu pintu
 
-[![Tampilan pelayanan terpadu satu pintu](/document/aplikasi/portal/images/implementasi/tampilan-pelayanan-terpadu.png)](/document/aplikasi/portal/images/implementasi/tampilan-pelayana-terpadu.png)
+[![Tampilan pelayanan terpadu satu pintu](/document/aplikasi/portal/images/implementasi/tampilan-layanan-terpadu.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-terpadu.png)
 
 Tampilan ini menampilkan konten pelayanan terpadu satu pintu, fungsi dari pelayan terpadu satu pintu yaitu melayani beberapa perijinan di Provinsi Banten
 
 #### 2.1.9 Tampilan layanan Pusat pelayanan usaha terpadu
 
-[![Tampilan layananan pusat pelayanan usaha terpadu](/document/aplikasi/portal/images/implementasi/tampilan-pusat-pelayan.png)](/document/aplikasi/portal/images/implementasi/tampilan-pusat-pelayan.png)
+[![Tampilan layananan pusat pelayanan usaha terpadu](/document/aplikasi/portal/images/implementasi/tampilan-layanan-plut.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-plut.png)
 
 Tampilan ini menampilkan konten pusat pelayanan usaha terpadu, fungsi dari pusat pelayanan usaha terpadu yaitu memampukan koperasi dan UMKM dalam mengembangankan pontesi unggulan daerah.
 
 #### 2.1.10 Tampilan layanan Simbada
 
-[![Tampilan layanan simbada](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simbada.png)](/document/aplikasi/portal/images/implementasi/tampialn-layanan-simbada.png)
+[![Tampilan layanan simbada](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simbada.png)](/document/aplikasi/portal/images/implementasi/tampilan-layanan-simbada.png)
 
 Tampilan ini menampilkan konten simbada, fungsi dari simbada yaitu mengetahui informasi manajemen barang dan aset daerah Provinsi Banten.
 
