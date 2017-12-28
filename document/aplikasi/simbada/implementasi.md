@@ -12,7 +12,7 @@ toc: true
 *will be replaced with the ToC,exclunding the "Contents" header
 {:toc}
 
-### Manual-Book Aplikasi Simbada
+### Implementasi Aplikasi Simbada
 
 SIMBADA adalah sebuah aplikasi Sistem Informasi Manajemen Aset Barang Daerah yang berbasis webite yang dikeluarkan oleh Pemerintah Provinsi Banten untuk mendukung menatausahakan barang inventaris milik negara di lingkungan pemerintahan (Kabupaten/Kota/Provinsi). Dengan adanya sistem informasi manajemen ini mempunyai kelebihan dalam membantu user untuk memperoleh data lebih cepat, tepat dan akurat mengenai data aset tetap, penyusutan data mutasi, dan data ruang, dan persediaan barang yang ada.
 
