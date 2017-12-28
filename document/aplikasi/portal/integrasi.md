@@ -348,6 +348,7 @@ Dalam tabel ini user dapat melakukan test tampilan sistem informasi manajemen pe
 | Tampilan     | URL/ Image                               | Ada  | Tidak |
 | ------------ | ---------------------------------------- | ---- | ----- |
 | Produk Hukum | [![Tampilan Produk Hukum](/document/aplikasi/portal/images/integrasi/produk-hukum.png)](/document/aplikasi/portal/images/integrasi/produk-hukum.png) |      |       |
+
 Dalam tabel ini user dapat melakukan test produk hukum apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 ### Tampilan Perijinan
