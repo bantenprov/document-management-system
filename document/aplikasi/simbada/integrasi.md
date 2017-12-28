@@ -668,6 +668,7 @@ Dalam tabel ini user dapat melakukan test monumen apakah sudah dapat di akses ol
 Dalam tabel ini user dapat melakukan test form tambah monumen apakah sudah dapat di akses oleh user atau tidak, jika sudah dapat di akses maka user dapat ceklis pada kolom ada, jika belum dapat di akses maka user dapat ceklis pada kolom tidak
 
 #### Tampilan Konten Menu Kendaraan RTBU/RTPBU
+
 | Tampilan                         | URL/ Image                               | Ada  | Tidak |
 | -------------------------------- | ---------------------------------------- | ---- | ----- |
 | Konten Menu Kendaraan RTBU/RTPBU | [![Tampilan Konten Menu Kendaran](/document/aplikasi/simbada/images/integrasi/76-tampilan-konten-menu-kendaraan-rtbu.png)](/document/aplikasi/simbada/images/integrasi/76-tampilan-konten-menu-kendaraan-rtbu.png) |      |       |
