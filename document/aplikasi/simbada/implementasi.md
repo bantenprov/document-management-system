@@ -9,7 +9,7 @@ toc: true
 
 ##  Daftar isi
 
-*will be replaced with the ToC,exclunding the "Contents" header
+*will be replaced with the ToC, exclunding the "Contents" header
 {:toc}
 
 ### Implementasi Aplikasi Simbada
@@ -182,7 +182,7 @@ Dalam *page* ini terdapat menambahkan atau *form input* perencanaan tambah insta
 Dalam *page* ini menampilkan *list*  rancangan RKBU/RKPBU konten jaringan.
 
 ###### Tampilan Konten Form Tambah Jaringan
-[![Tampilan Konten Form Tambah Jaringan](/document/aplikasi/simbada/images/integrasi/32-tampilan-tambah-jaringan.png)]/document/aplikasi/simbada/images/integrasi/32-tampilan-tambah-jaringan.png)
+[![Tampilan Konten Form Tambah Jaringan](/document/aplikasi/simbada/images/integrasi/32-tampilan-tambah-jaringan.png)](/document/aplikasi/simbada/images/integrasi/32-tampilan-tambah-jaringan.png)
 
 Dalam *page* ini terdapat menambahkan atau *form input* perencanaan tambah jaringan yang harus diisi oleh super admin atau pengguna yang diberi hak akses oleh super admin untuk bisa menambahkan perencanaan tambah jaringan. Jika data sudah ada atau kurang lengkap maka pengguna dapat menekan tombol " *Edit* " akan kembali kedalam *page edit* data dan jika tidak ada masalah maka akan dialihkan ke *page* perencanaan tambah jaringan.
 
@@ -337,7 +337,7 @@ Dalam *page* ini menampilkan *list*  rancangan RKBU/RKPBU konten alat keamanan.
 Dalam *page* ini terdapat menambahkan atau *form input* perencanaan tambah alat keamanan yang harus diisi oleh super admin atau pengguna yang diberi hak akses oleh super admin untuk bisa menambahkan perencanaan tambah alat keamanan. Jika data sudah ada atau kurang lengkap maka pengguna dapat menekan tombol " *Edit* " akan kembali kedalam *page edit* data dan jika tidak ada masalah maka akan dialihkan ke *page* perencanaan tambah alat keamanan.
 
 ##### Tampilan Konten Tanah RTBU/RTPBU
-[![Tampilan Konten Tanah RTBU RTPBU](/document/aplikasi/simbada/images/integrasi/62-tampilan rtbu-tanah.png)](/document/aplikasi/simbada/images/integrasi/62-tampilan rtbu-tanah.png)
+[![Tampilan Konten Tanah RTBU RTPBU](/document/aplikasi/simbada/images/integrasi/62-tampilan-rtbu-tanah.png)](/document/aplikasi/simbada/images/integrasi/62-tampilan-rtbu-tanah.png)
 
 Dalam *page* ini menampilkan *list*  rancangan RTBU/RTPBU konten tanah.
 
