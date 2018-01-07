@@ -253,8 +253,9 @@ Pergub 35 tahun 2008 Gambar 5 . Pola Distrubusi Sistem Informasi melalui Portal 
 
 Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government Provinsi Banten
 
+3. Diagram Pola Distribusi Informasi Berdasarkan Kebutuhannya
 
-
+[![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/distribusi/Informasi-berdasarkan-kebutuhannya.png)](/document/konsep/integrasi-aplikasi/images/distribusi Informasi-berdasarkan-kebutuhannya.png).
 
 
 
