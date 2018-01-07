@@ -310,6 +310,17 @@ Dengan ada nya aplikasi Dashboard Pimpinan ini, maka setiap pimpinan dalam struk
 Hak akses pada dashboard pimpinan ini dibuat bertingkat sesuai dengan jabatan dan wewenang yang dimiliki pada pengguna yang menggunakan aplikasi ini. 
 
 #### Portal Pemerintah Provinsi Banten
+Merupakan gerbang depan yang disediakan oleh Pemerintah Provinsi Banten dari layanan dan informasi yang dapat diakses oleh masyarakat.
+
+Dalam Portal Provinsi Banten tersedia informasi awal Produk hukum, layanan perijinan, Informasi publik yang dikemas dengan apik dan dikelompokkan berdasarkan pilar E-Goverment.
+
+- 10 Sektor E-Goverment  
+
+- 4 Pilar
+  - G2G = Goverment to Goverment
+  - G2E = Goverment to Employee
+  - G2C = Goverment to Citizen
+  - G2B = Goverment to Business
 
 #### Banten Satu Data
 
