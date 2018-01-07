@@ -297,13 +297,17 @@ Sebagai informasi yang bisa dipertanggung jawabkan kebenarannya, maka artikel in
 Adalah sebuah mekanisme akses terhadap sistem yang dilakukan oleh seorang user yang memungkinkan dengan hanya sekali login maka user tersebut bisa mengakses banyak sistem tanpa harus login lagi pada masing-masing sistem tersebut.
 
 ##### Latar Belakang Implementasi SSO:
-Pemerintah Provinsi Banten memiliki banyak sekali sistem yang digunakan untuk melakukan tugas sehari-hari dalam rangka pelayanan terhadap pengguna jasa oleh para pegawai dan masyarakat, untuk melakukan pengawasan dan untuk melakukan administrasi serta untuk melakukan pengolahan data guna pengambilan kebijakan yang sesuai dengan perkembangan pembangunan di wilayah banten.
+Pemerintah Provinsi Banten memiliki banyak sekali sistem informasi / aplikasi yang digunakan untuk melakukan tugas sehari-hari dalam rangka pelayanan terhadap pengguna jasa oleh para pegawai dan masyarakat, untuk melakukan pengawasan dan untuk melakukan administrasi serta untuk melakukan pengolahan data guna pengambilan kebijakan yang sesuai dengan perkembangan pembangunan di wilayah banten.
 
-Sistem SSO bukan pertama kali digunakan, tetapi SSO sudah ada sejak lama dipakai oleh sistem lain di luar Pemerintah Provinsi Banten dengan implementasi sesuai dengan kebutuhan di sana.
-
+Sistem SSO bukan pertama kali digunakan, tetapi SSO sudah ada sejak lama dipakai oleh sistem lain di luar Pemerintah Provinsi Banten dengan implementasi sesuai dengan kebutuhan masing - masing.
 
 
 #### Dashboard Pimpinan
+Merupakan dashboard dari setiap aplikasi yang dibuat dan kunpulkan dalam satu alaamat sehingga nampak sebagai satu aplikasi tersendiri.
+
+Dengan ada nya aplikasi Dashboard Pimpinan ini, maka setiap pimpinan dalam struktur oranisasi dapat dengan mudah memantau aktifitas aplikasi yang dalam kewenangannya.
+
+Hak akses pada dashboard pimpinan ini dibuat bertingkat sesuai dengan jabatan dan wewenang yang dimiliki pada pengguna yang menggunakan aplikasi ini. 
 
 #### Portal Pemerintah Provinsi Banten
 
