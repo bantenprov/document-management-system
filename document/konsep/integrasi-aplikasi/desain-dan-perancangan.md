@@ -211,6 +211,23 @@ atau sebanyak 121 secara keseluhuhannya.
 | 80 | Sekretariat DPRD                                                                     | setdprd.bantenprov.go.id                        |                | website Sekretariat DPRD Provinsi Banten                                                               | Aktif       | 
 
 
+### Tabel 3 : Daftar Aplikasi 2017
+
+| No | OPD / Lembaga                                           | URL                                  | Posisi Server  | Keterangan                                                          | Status      | 
+|----|---------------------------------------------------------|--------------------------------------|----------------|---------------------------------------------------------------------|-------------| 
+| 1  | Badan Kepegawaian Daerah                                | skp.bantenprov.go.id                 | Diluar Kominfo | Aplikasi sistem kinerja pegawai Pemerintah Provinsi Banten          | Tidak Aktif | 
+| 2  | Badan Kepegawaian Daerah                                | sipo.bantenprov.go.id                | Diluar Kominfo | Sistem informasi presisi online                                     | Aktif       | 
+| 3  | Badan Kesatuan Bangsa dan Politik                       | Simunras.kesbangpol.bantenprov.go.id | Kominfo        |                                                                     | Aktif       | 
+| 4  | Badan Penanggulangan Bencana Daerah                     | Peta.bpbd.bantenprov.go.id           | Kominfo        |                                                                     | Aktif       | 
+| 5  | Badan Pengembangan Sumber Daya Manusia Daerah           | dms.bandiklat.bantenprov.go.id       | Kominfo        | Aplikasi dokumen manajemen sistem badan diklat Provinsi Banten      | Aktif       | 
+| 6  | Biro Administrasi Pembangunan Daerah                    | tatasurat.biroadpem.bantenprov.go.id | Kominfo        | Aplikasi tata surat biro ekonomi dan pembangunan Provinsi Banten    | Aktif       | 
+| 7  | Dinas Komunikasi, Informatika, Statistik dan Persandian | helpdesk.bantenprov.go.id            | Kominfo        | Pengaduan dan Pelayanan OPD ke Dinas KOMINFO                        | Aktif       | 
+| 8  | Dinas Komunikasi, Informatika, Statistik dan Persandian | simlip.bantenprov.go.id              | Kominfo        | Sistim Informasi Manajemen Layanan Informasi Publik Provinsi Banten | Aktif       | 
+| 9  | Dinas Komunikasi, Informatika, Statistik dan Persandian | simpotda.bantenprov.go.id            | Kominfo        | Sistim informasi manajemen potensi daerah Provinsi Banten           | Aktif       | 
+| 10 | Dinas Pekerjaan Umum dan Penataan Ruang                 | lapbul.dbmtr.bantenprov.go.id        | Kominfo        | aplikasi laporan bulanan Dinas Bina Marga dan Tata Ruang            | Aktif       | 
+| 11 | Dinas Perhubungan                                       | datin.dishub.bantenprov.go.id        | Kominfo        | Aplikasi database Dishub                                            | Aktif       | 
+| 12 | Dinas Perhubungan                                       | dms.dishubkominfo.bantenprov.go.id   | Kominfo        | Aplikasi dokumen manajemen sistem DISHUBKOMINFO Provinsi Banten     | Aktif       | 
+| 13 | Dinas Perindustrian dan Perdagangan                     | sigap.bantenprov.go.id               | Kominfo        | Sistim Informasi harga pangan                                       | Aktif       | 
 
 
 ## Integrasi dan Interoperabilitas
