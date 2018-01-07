@@ -9,7 +9,18 @@ toc: true
 
 ## Pendahuluan
 
-## Integrasi
+Dengan semakin berkembangnya sistem informasi dan aplikasi yang digunakan oleh Pemerintah Provinsi Banten semakin banyak pula permasalahan yang muncul yang harus mendapat perhatian dan penyelesaian secara konprehensif.
+
+
+Pada tahun anggaran 2017 saja sudat tercatat sebanyak :
+- 81 Website
+- 38 Sistem informasi dan aplikasi
+atau sebanyak 121 secara keseluhuhannya.
+
+[![jumlah website dan aplikasi](/document/konsep/integrasi/images/jumlah-website-dan-aplikasi-20180107-0804.png)](/document/konsep/integrasi/images/jumlah-website-dan-aplikasi-20180107-0804.png).
+
+
+## Integrasi dan Interoperabilitas
 
 ## Desain dan Perancangan
 
@@ -39,5 +50,6 @@ toc: true
 
 #### Dapodik
 
+### Target Pencapaian
 
-
+#### Simral
