@@ -8,6 +8,9 @@ toc: true
 ---
 
 ## Pendahuluan
+=========
+Tulisan ini adalah rintisan konsep pengembangan aplikasi pada tahun anggaran 2017 
+=========
 
 Dengan semakin berkembangnya sistem informasi dan aplikasi yang digunakan oleh Pemerintah Provinsi Banten semakin banyak pula permasalahan yang muncul yang harus mendapat perhatian dan penyelesaian secara konprehensif.
 
@@ -314,7 +317,7 @@ Merupakan gerbang depan yang disediakan oleh Pemerintah Provinsi Banten dari lay
 
 Dalam Portal Provinsi Banten tersedia informasi awal Produk hukum, layanan perijinan, Informasi publik yang dikemas dengan apik dan dikelompokkan berdasarkan pilar E-Goverment.
 
-- 10 Sektor E-Goverment  
+- 10 Sektor E-Goverment
 
 - 4 Pilar
   - G2G = Goverment to Goverment
