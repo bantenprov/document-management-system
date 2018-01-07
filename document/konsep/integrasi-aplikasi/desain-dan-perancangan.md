@@ -257,6 +257,10 @@ Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government P
 
 [![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png)](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png).
 
+4. Application Programming Interface (API)
+
+[![application programming interface](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png)](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png).
+
 
 ## Desain dan Perancangan
 
