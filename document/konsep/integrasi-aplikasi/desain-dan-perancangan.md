@@ -258,13 +258,45 @@ Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government P
 [![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png)](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png).
 
 
-
-
 ## Desain dan Perancangan
+
+Pada Pergub 35 tahun 2008 juga disebutkan pada halaman 19 bahwa Pengembangan aplikasi diharuskan :
+- Keseragaman dan Standarisasi
+- Terpadu dan Menyeluruh
+- Luwes dan Bersinergi
+- Aman dan Handal
+- Efektif dan Efisien
+- Proporsional dan Mudah Digunakan
+- Berorientasi pada Peningkatan Sumber Daya Manusia
+- Terintegrasi dengan portal online.bantenprov.go.id untuk aplikasi yang
+bersifat transaksi elektronik layanan publik (Aplikasi Online).
+- Dapat menghasilkan informasi yang bersifat fungsional, informasi untuk
+eksekutif dan informasi publik.
 
 ### Aplikasi Dasar
 
+Untuk mampu mambangun sistem informasi / aplikasi yang terintegrasi berdasarkan RPJMD 2017 - 2022, maka Dinas Komunikasi Informatika Persandian dan Statistika, merencanakan beberapa aplikasi dasar sebagai batas 
+
 #### Banten Satu Login (SSO)
+
+Sejauh ini penggunaan sistem aplikasi memiliki permasalahan tersendiri ketika diimplementasikan. Dari mulai masalah biaya pengadaan yang kadang mahal, masalah pemeliharaan, masalah kemananan sampai masalah ketika digunakan. Dan artikel ini akan sedikit membahas mengenai sebagian masalah ketika sebuah sistem digunakan yaitu pada persoalan manajemen akses user terhadap applikasi. Untuk masalah yang lain tidak akan dibahas di sini.
+
+Salah satu permasalahan yang bisa timbul ketika sistem digunakan adalah pada manajemen akses oleh para user yang jika tidak diatur dengan baik, akan menimbulkan masalah besar. Masalah-masalah yang bisa terjadi pada manajemen akses user misalnya kesemrawutan pemegang wewenang akses aplikasi, user terlalu banyak harus menghafal username dan password untuk setiap aplikasi, kebocoran informasi user kepada pihak yang tidak bertanggung jawab, kehilangan akses aplikasi dan lainnya.
+
+Masing-masing permasalahan pada manajemen akses bisa menimbulkan masalah yang lebih luas yang bisa mengganggu jalannya proses bisnis perusahaan atau instansi. Sehingga diperlukan sebuah solusi yang tepat untuk mencegah permasalahan terjadi. Dan konsep ini akan memaparkan tentang mekanisme akses sistem menggunakan model Single Sign On atau yang kita kenal dengan istilah SSO. Dimana nantinya dengan implmentasi SSO pada manajemen akses akan dapat memberikan manfaat yang sangat besar baik bagi user, bagi admin dan bagi jalannya proses bisnis.
+
+Sebagai informasi yang bisa dipertanggung jawabkan kebenarannya, maka artikel ini akan membahas tentang Desain dan Perancangan SSO di Pemerintah Provinsi Banten sistem SSO tersebut sebagai  contoh kasus dari isi artikel ini. Dimana saat ini Pemerintah Provinsi Banten telah menggunakan model Single Sign On dalam manajemen akses sistem aplikasi oleh para user. Baik user Pegawai maupun user Pengguna layanan lainnya.
+
+
+##### Apakah itu Single Sign On (SSO) ?
+Adalah sebuah mekanisme akses terhadap sistem yang dilakukan oleh seorang user yang memungkinkan dengan hanya sekali login maka user tersebut bisa mengakses banyak sistem tanpa harus login lagi pada masing-masing sistem tersebut.
+
+##### Latar Belakang Implementasi SSO:
+Pemerintah Provinsi Banten memiliki banyak sekali sistem yang digunakan untuk melakukan tugas sehari-hari dalam rangka pelayanan terhadap pengguna jasa oleh para pegawai dan masyarakat, untuk melakukan pengawasan dan untuk melakukan administrasi serta untuk melakukan pengolahan data guna pengambilan kebijakan yang sesuai dengan perkembangan pembangunan di wilayah banten.
+
+Sistem SSO bukan pertama kali digunakan, tetapi SSO sudah ada sejak lama dipakai oleh sistem lain di luar Pemerintah Provinsi Banten dengan implementasi sesuai dengan kebutuhan di sana.
+
+
 
 #### Dashboard Pimpinan
 
