@@ -247,7 +247,15 @@ Integrasi aplikasi telah diamanatkan dalam Pegub No. 35 Tahun 2008, diantaranya 
 
 Pergub 35 tahun 2008 Gambar 5 . Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
 
-2. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+2. Pola Integrasi Kesisteman E-Government Provinsi Banten
+
+[![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png)](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png).
+
+Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government Provinsi Banten
+
+
+
+
 
 
 
