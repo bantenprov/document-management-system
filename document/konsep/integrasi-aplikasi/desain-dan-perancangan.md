@@ -15,6 +15,7 @@ Dengan semakin berkembangnya sistem informasi dan aplikasi yang digunakan oleh P
 Pada tahun anggaran 2017 saja sudat tercatat sebanyak :
 - 81 Website
 - 38 Sistem informasi dan aplikasi
+
 atau sebanyak 121 secara keseluhuhannya.
 
 [![jumlah website dan aplikasi](/document/konsep/integrasi-aplikasi/images/jumlah-website-dan-aplikasi-20180107-0804.png)](/document/konsep/integrasi-aplikasi/images/jumlah-website-dan-aplikasi-20180107-0804.png).
