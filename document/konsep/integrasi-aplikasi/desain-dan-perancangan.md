@@ -229,6 +229,8 @@ atau sebanyak 121 secara keseluhuhannya.
 | 12 | Dinas Perhubungan                                       | dms.dishubkominfo.bantenprov.go.id   | Kominfo        | Aplikasi dokumen manajemen sistem DISHUBKOMINFO Provinsi Banten     | Aktif       | 
 | 13 | Dinas Perindustrian dan Perdagangan                     | sigap.bantenprov.go.id               | Kominfo        | Sistim Informasi harga pangan                                       | Aktif       | 
 
+**Keterangan***
+Tabel direkam dari situs [Monitoring website dan aplikasi Provinsi Banten](http://monitor.bantenprov.go.id/) Tanggal 07-jan-2018 : 0942.
 
 ## Integrasi dan Interoperabilitas
 
