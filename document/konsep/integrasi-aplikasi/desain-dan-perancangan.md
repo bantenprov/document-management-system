@@ -239,6 +239,18 @@ Upaya untuk membuat integasi aplikasi baru diwujudkan secara nyata pada tahun an
 
 ## Integrasi dan Interoperabilitas
 
+Integrasi aplikasi telah diamanatkan dalam Pegub No. 35 Tahun 2008, diantaranya :
+
+1. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+
+[![portal internet intranet](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png)](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png).
+
+Pergub 35 tahun 2008 Gambar 5 . Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+
+2. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+
+
+
 ## Desain dan Perancangan
 
 ### Aplikasi Dasar
