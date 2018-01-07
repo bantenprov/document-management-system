@@ -10,9 +10,7 @@ toc: true
 ## Pendahuluan
 
 
-==========
-Tulisan ini adalah rintisan konsep pengembangan aplikasi pada tahun anggaran 2017 
-==========
+> Tulisan ini adalah rintisan konsep pengembangan aplikasi pada tahun anggaran 2017 
 
 Dengan semakin berkembangnya sistem informasi dan aplikasi yang digunakan oleh Pemerintah Provinsi Banten semakin banyak pula permasalahan yang muncul yang harus mendapat perhatian dan penyelesaian secara konprehensif.
 
