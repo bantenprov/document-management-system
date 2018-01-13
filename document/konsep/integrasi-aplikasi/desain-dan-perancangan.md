@@ -7,6 +7,8 @@ cat: integrasi-aplikasi
 toc: true
 ---
 
+> Ini adalah tulisan rintinsan tentang konseop integrasi aplikasi pada Pemerintah Provinsi Banten
+
 ## Pendahuluan
 
 Dengan semakin berkembangnya sistem informasi dan aplikasi yang digunakan oleh Pemerintah Provinsi Banten semakin banyak pula permasalahan yang muncul yang harus mendapat perhatian dan penyelesaian secara konprehensif.
