@@ -318,7 +318,10 @@ Merupakan gerbang depan yang disediakan oleh Pemerintah Provinsi Banten dari lay
 Dalam Portal Provinsi Banten tersedia informasi awal Produk hukum, layanan perijinan, Informasi publik yang dikemas dengan apik dan dikelompokkan berdasarkan pilar E-Goverment.
 
 - 10 Sektor E-Goverment
+  -
+  -
 
+  
 - 4 Pilar
   - G2G = Goverment to Goverment
   - G2E = Goverment to Employee
