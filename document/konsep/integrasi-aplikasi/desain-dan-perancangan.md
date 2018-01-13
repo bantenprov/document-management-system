@@ -9,6 +9,9 @@ toc: true
 
 ## Pendahuluan
 
+
+> Tulisan ini adalah rintisan konsep pengembangan aplikasi pada tahun anggaran 2017 
+
 Dengan semakin berkembangnya sistem informasi dan aplikasi yang digunakan oleh Pemerintah Provinsi Banten semakin banyak pula permasalahan yang muncul yang harus mendapat perhatian dan penyelesaian secara konprehensif.
 
 
@@ -239,17 +242,120 @@ Upaya untuk membuat integasi aplikasi baru diwujudkan secara nyata pada tahun an
 
 ## Integrasi dan Interoperabilitas
 
+Integrasi aplikasi telah diamanatkan dalam Pegub No. 35 Tahun 2008, diantaranya :
+
+1. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+
+[![portal internet intranet](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png)](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png).
+
+Pergub 35 tahun 2008 Gambar 5 . Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+
+2. Pola Integrasi Kesisteman E-Government Provinsi Banten
+
+[![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png)](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png).
+
+Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government Provinsi Banten
+
+3. Diagram Pola Distribusi Informasi Berdasarkan Kebutuhannya
+
+[![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png)](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png).
+
+4. Application Programming Interface (API)
+
+[![application programming interface](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png)](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png).
+
+Pergub 35 tahun 2008 Gambar 7 . Application Programming Interface (API)
+
 ## Desain dan Perancangan
+
+Pada Pergub 35 tahun 2008 juga disebutkan pada halaman 19 bahwa Pengembangan aplikasi diharuskan :
+- Keseragaman dan Standarisasi
+- Terpadu dan Menyeluruh
+- Luwes dan Bersinergi
+- Aman dan Handal
+- Efektif dan Efisien
+- Proporsional dan Mudah Digunakan
+- Berorientasi pada Peningkatan Sumber Daya Manusia
+- Terintegrasi dengan portal online.bantenprov.go.id untuk aplikasi yang
+bersifat transaksi elektronik layanan publik (Aplikasi Online).
+- Dapat menghasilkan informasi yang bersifat fungsional, informasi untuk
+eksekutif dan informasi publik.
 
 ### Aplikasi Dasar
 
+Untuk mampu mambangun sistem informasi / aplikasi yang terintegrasi berdasarkan RPJMD 2017 - 2022, maka Dinas Komunikasi Informatika Persandian dan Statistika, merencanakan beberapa aplikasi dasar sebagai batas 
+
 #### Banten Satu Login (SSO)
 
+Sejauh ini penggunaan sistem aplikasi memiliki permasalahan tersendiri ketika diimplementasikan. Dari mulai masalah biaya pengadaan yang kadang mahal, masalah pemeliharaan, masalah kemananan sampai masalah ketika digunakan. Dan artikel ini akan sedikit membahas mengenai sebagian masalah ketika sebuah sistem digunakan yaitu pada persoalan manajemen akses user terhadap applikasi. Untuk masalah yang lain tidak akan dibahas di sini.
+
+Salah satu permasalahan yang bisa timbul ketika sistem digunakan adalah pada manajemen akses oleh para user yang jika tidak diatur dengan baik, akan menimbulkan masalah besar. Masalah-masalah yang bisa terjadi pada manajemen akses user misalnya kesemrawutan pemegang wewenang akses aplikasi, user terlalu banyak harus menghafal username dan password untuk setiap aplikasi, kebocoran informasi user kepada pihak yang tidak bertanggung jawab, kehilangan akses aplikasi dan lainnya.
+
+Masing-masing permasalahan pada manajemen akses bisa menimbulkan masalah yang lebih luas yang bisa mengganggu jalannya proses bisnis perusahaan atau instansi. Sehingga diperlukan sebuah solusi yang tepat untuk mencegah permasalahan terjadi. Dan konsep ini akan memaparkan tentang mekanisme akses sistem menggunakan model Single Sign On atau yang kita kenal dengan istilah SSO. Dimana nantinya dengan implmentasi SSO pada manajemen akses akan dapat memberikan manfaat yang sangat besar baik bagi user, bagi admin dan bagi jalannya proses bisnis.
+
+Sebagai informasi yang bisa dipertanggung jawabkan kebenarannya, maka artikel ini akan membahas tentang Desain dan Perancangan SSO di Pemerintah Provinsi Banten sistem SSO tersebut sebagai  contoh kasus dari isi artikel ini. Dimana saat ini Pemerintah Provinsi Banten telah menggunakan model Single Sign On dalam manajemen akses sistem aplikasi oleh para user. Baik user Pegawai maupun user Pengguna layanan lainnya.
+
+
+##### Apakah itu Single Sign On (SSO) ?
+Adalah sebuah mekanisme akses terhadap sistem yang dilakukan oleh seorang user yang memungkinkan dengan hanya sekali login maka user tersebut bisa mengakses banyak sistem tanpa harus login lagi pada masing-masing sistem tersebut.
+
+##### Latar Belakang Implementasi SSO:
+Pemerintah Provinsi Banten memiliki banyak sekali sistem informasi / aplikasi yang digunakan untuk melakukan tugas sehari-hari dalam rangka pelayanan terhadap pengguna jasa oleh para pegawai dan masyarakat, untuk melakukan pengawasan dan untuk melakukan administrasi serta untuk melakukan pengolahan data guna pengambilan kebijakan yang sesuai dengan perkembangan pembangunan di wilayah banten.
+
+Sistem SSO bukan pertama kali digunakan, tetapi SSO sudah ada sejak lama dipakai oleh sistem lain di luar Pemerintah Provinsi Banten dengan implementasi sesuai dengan kebutuhan masing - masing.
+
+
 #### Dashboard Pimpinan
+Merupakan dashboard dari setiap aplikasi yang dibuat dan kunpulkan dalam satu alaamat sehingga nampak sebagai satu aplikasi tersendiri.
+
+Dengan ada nya aplikasi Dashboard Pimpinan ini, maka setiap pimpinan dalam struktur oranisasi dapat dengan mudah memantau aktifitas aplikasi yang dalam kewenangannya.
+
+Hak akses pada dashboard pimpinan ini dibuat bertingkat sesuai dengan jabatan dan wewenang yang dimiliki pada pengguna yang menggunakan aplikasi ini. 
 
 #### Portal Pemerintah Provinsi Banten
+Merupakan gerbang depan yang disediakan oleh Pemerintah Provinsi Banten dari layanan dan informasi yang dapat diakses oleh masyarakat.
+
+Dalam Portal Provinsi Banten tersedia informasi awal Produk hukum, layanan perijinan, Informasi publik yang dikemas dengan apik dan dikelompokkan berdasarkan pilar E-Goverment.
+
+- 10 Sektor E-Goverment
+  - Sektor Sarana dan Prasarana
+  - Sektor Pemerintahan
+  - Sektor Pembangunan
+  - Sektor Pelayanan
+  - Sektor Legislatif
+  - Sektor Kewilayahan
+  - Sektor Keuangan
+  - Sektor Kepegawaian
+  - Sektor Kemasyarakatan
+  - Sektor Administrasi dan Manajemen
+
+- 4 Pilar
+  - G2G = Goverment to Goverment
+  - G2E = Goverment to Employee
+  - G2C = Goverment to Citizen
+  - G2B = Goverment to Business
 
 #### Banten Satu Data
+Banten satu data merupakan apliaksi yang dipersiapkan untuk sebagai *data repository* yang menyimpan data - data Pemerintah Provinsi Banten yang dapat diakses oleh masyarakat umum.
+
+##### Format File
+Repository ini dapat meyimpan berbeagai format file yang diperlukan seperti 
+- **ODF / DOCX** = File Dokumen
+- **ODS / XLSX** = File Spreadsheet
+- **ODP / PPTX** = File Presentasi
+- **CSV** = File CSV
+- **JSON** = File json
+- **CSV** = File xml
+- **PDF** = File pdf
+- **TXT** = File txt
+
+##### Konten
+Banten satu data akan berisi konten - konten seperti:
+- Master Table 
+  - Master table OPD, yang berisin kode dan nama OPD;
+  - Master table Role, yang berisi kode nama nama group hak akses katau role
+- Data statistik
+- File produk hukum
 
 #### Api Pemerintah Provinsi Banten
 
