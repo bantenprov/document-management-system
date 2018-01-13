@@ -7,7 +7,7 @@ cat: integrasi-aplikasi
 toc: true
 ---
 
-> Ini adalah tulisan rintinsan tentang konseop integrasi aplikasi pada Pemerintah Provinsi Banten
+> Ini adalah tulisan rintisan tentang konseop integrasi aplikasi pada Pemerintah Provinsi Banten
 
 ## Pendahuluan
 
