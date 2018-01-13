@@ -336,6 +336,18 @@ Dalam Portal Provinsi Banten tersedia informasi awal Produk hukum, layanan perij
   - G2B = Goverment to Business
 
 #### Banten Satu Data
+Banten satu data merupakan apliaksi yang dipersiapkan untuk sebagai *data repository* yang menyimpan data - data Pemerintah Provinsi Banten yang dapat diakses oleh masyarakat umum.
+
+##### Format File
+Repository ini dapat meyimpan berbeagai format file yang diperlukan seperti 
+- **ODF / DOCX** = File Dokumen
+- **ODS / XLSX** = File Spreadsheet
+- **ODP / PPTX** = File Presentasi
+- **CSV** = File CSV
+- **JSON** = File json
+- **CSV** = File xml
+- **PDF** = File pdf
+- **TXT** = File txt
 
 #### Api Pemerintah Provinsi Banten
 
