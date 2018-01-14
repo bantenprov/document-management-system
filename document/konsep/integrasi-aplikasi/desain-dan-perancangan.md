@@ -392,6 +392,12 @@ Setiap aplikasi yang dibangun di Tahun Anggaran Perubahan 2017 ini harus membuat
 #### API Key
 API Key atau sering juga disebut dengan API Token adalah serangkaian karakter atau test yang dipergunakan sebagai pengenal bahwa aplikasi yang melakukan permintaan data melalui API adalah aplikasi yang sah dan sudah terdaftar.
 
+API key ini dapat diumpamakan sebagai password atau sandi ketika pengguna akan melakukan ***login*** pada suatu aplikasi.
+
+#### Dokumentasi API
+Dokumentasi API juga disediakan agar administrator atau programmer pada suatu aplikasi dapat mengetahui bagaimana cara mengakses API yang disediakan oleh Pemerintah Provinsi Banten.
+
+Dokumentasi API ini ditempatkan pada suatu alamat dalam hal ini subdomain dibawah domain milik Pemerintah Provinsi Banten yang dapat diakses oleh Umum. 
 
 ### Aplikasi Pendukung
 
