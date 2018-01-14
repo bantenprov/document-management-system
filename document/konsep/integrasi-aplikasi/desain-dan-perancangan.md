@@ -407,16 +407,21 @@ Ada beberapa aplikasi pendukung integrasi dan interoperabilitas pada seluruh apl
 #### Sistem Informasi Jabatan
 Sistem informasi Jabatan mempunyai peranan penting dalam proses integrasi, karena pada sistem inilah kode dan nama Organisasi Perangkat Daerah dibuat dan ditetapkan, kemudian dipublikasikan pada Banten Satu Data,
 
-Adapun aplikasi - aplikasi lain tidak mempunyai wewenang untuk menambah atau mengubah kode dan nama Organisasi Perangkat Daerah.
+Selain itu, kode dan nama jabatan struktural maupun fungsional juga akan dipergunakan sebagai kelompok pengguna (***role***)
 
+Adapun aplikasi - aplikasi lain tidak mempunyai wewenang untuk menambah atau mengubah kode dan nama Organisasi Perangkat Daerah serta Role.
 
 #### Sistem Informasi Kepegawaian
+Sistem Informasi Kepegawaian memiliki peranan penting juga dalam proses integrasi sebagai penyedia utama data dan informasi kepegawaian.
 
-
+Selain informasi kepegawaian juga informasi mengenai pejabat di lingkungan Pemerintah Provinsi Banten yang akan bermanfaat dalam hal pemberian hak akses kepada pengguna aplikasi dari ASN untuk tiap ***role*** yang sudah disiapkan oleh Sistem Informasi Jabatan pada setiap aplikasi.
 
 ### Aplikasi Eksternal
+Selain aplikasi pendukung yang dibuat sendiri oleh Pemerintah Provinsi Banten melalui Organisasi terkait, ada juga aplikasi yang tidak dibangun namun mempunyai peranan yang sanyat penting yakni Sistem Informasi Administrasi Kependudukan.
 
 #### Sistem Informasi Administrasi Kependudukan (SIAK)
+
+
 
 #### Sirup
 
