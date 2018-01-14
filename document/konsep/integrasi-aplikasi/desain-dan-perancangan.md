@@ -372,6 +372,18 @@ Banten satu data akan berisi konten - konten seperti:
   - Pergub No. 35 Tahun 2008 tentang Rencana Induk Dan Standarisasi Penyelenggaraan Digital Government Service (DGS) Pemerintah Provinsi Banten
   - dan lain lain
 
+Jenis jenis konten tersebut dapat bertambah sesuai kebutuhan.
+
+
+##### Pengelompokan
+Pengelompokan konten dibagi menjadi dua kelompok besar, yakni
+- Organisasi
+Pengelompokan berdasarkan Organisasi menggunakan struktur organisasi yang ada di Pemerintah Provinsi Banten 
+- Group
+Pengelompokan berdasarkan group menggunakan 10 sektor E-Goverment dan dapat ditambah sesuai kebutuhan
+
+Disamping pengelompokan dataset juga masih dapat diberikan Tag sesuai kategori spesifik yang dapat berbeda pada setiap dataset.
+
 #### Api Pemerintah Provinsi Banten
 
 ### Aplikasi Pendukung
