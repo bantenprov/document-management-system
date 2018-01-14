@@ -364,6 +364,13 @@ Banten satu data akan berisi konten - konten seperti:
   - Panjang Jalan Provinsi Dalam Kondisi Baik Menurut Kabupaten/Kota Se-Provinsi Banten
   - dan lain lain
 - File produk hukum
+  - Pergub No. 47 Tahun 2016 tentang Rencana Kerja Pemerintah Daerah Provinsi Banten Tahun 2017
+  - Pergub No. 80 Tahun 2016 tentang Rencana Kerja Pemerintah Daerah Provinsi Banten Tahun 2017
+  - Pergub No. 72 Tahun 2016 tentang Penjabaran Pertanggungjawaban Pelaksanaan Anggaran Pendapatan Dan Belajnja Daerah Tahun Anggaran 2015
+  - Pergub No. 77 Tahun 2016 tenteng Penjabaran Perubahan Anggaran Pendapatan Dan Belanja Daerah Provinsi Banten Tahun Anggaran 2016
+  - Pergub No. 51 Tahun 2016 tentang Standar Operasional Prosedur Penyelenggaraan Pelayanan Terpadu Satu Pintu Di Bidang Penanaman Modal
+  - Pergub No. 35 Tahun 2008 tentang Rencana Induk Dan Standarisasi Penyelenggaraan Digital Government Service (DGS) Pemerintah Provinsi Banten
+  - dan lain lain
 
 #### Api Pemerintah Provinsi Banten
 
