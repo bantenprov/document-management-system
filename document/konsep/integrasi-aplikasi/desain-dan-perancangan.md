@@ -405,8 +405,14 @@ Ada beberapa aplikasi pendukung integrasi dan interoperabilitas pada seluruh apl
 - Sistem informasi Kepegawaian
 
 #### Sistem Informasi Jabatan
+Sistem informasi Jabatan mempunyai peranan penting dalam proses integrasi, karena pada sistem inilah kode dan nama Organisasi Perangkat Daerah dibuat dan ditetapkan, kemudian dipublikasikan pada Banten Satu Data,
+
+Adapun aplikasi - aplikasi lain tidak mempunyai wewenang untuk menambah atau mengubah kode dan nama Organisasi Perangkat Daerah.
+
 
 #### Sistem Informasi Kepegawaian
+
+
 
 ### Aplikasi Eksternal
 
