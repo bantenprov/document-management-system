@@ -351,10 +351,18 @@ Repository ini dapat meyimpan berbeagai format file yang diperlukan seperti
 
 ##### Konten
 Banten satu data akan berisi konten - konten seperti:
-- Master Table 
+- Master Table; 
   - Master table OPD, yang berisin kode dan nama OPD;
-  - Master table Role, yang berisi kode nama nama group hak akses katau role
-- Data statistik
+  - Master table Role, yang berisi kode nama nama group hak akses atau role;
+  - dan lain lain.
+- Data statistik;
+  - Produk Domestik Bruto
+  - Produk Domestik Bruto 
+  - Pertumbuhan Ekonomi (LPE);Provinsi Banten dan Indonesia
+  - Indikator Kemiskinan Menurut Kabupaten/Kota Se-Provinsi Banten
+  - Harapan Lama Sekolah (RLS);Menurut Kabupaten/Kota Se-Provinsi Banten
+  - Panjang Jalan Provinsi Dalam Kondisi Baik Menurut Kabupaten/Kota Se-Provinsi Banten
+  - dan lain lain
 - File produk hukum
 
 #### Api Pemerintah Provinsi Banten
