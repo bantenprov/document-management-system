@@ -385,6 +385,10 @@ Disamping pengelompokan dataset juga masih dapat diberikan Tag sesuai kategori s
 
 #### Api Pemerintah Provinsi Banten
 
+Seperti disebutkan diatas bahwa [Application Programming Interface](https://github.com/bantenprov/document-management-system/blob/master/document/konsep/integrasi-aplikasi/desain-dan-perancangan.md#4-application-programming-interface-api) telah mendapat perhatian khusus oleh Pemerintah Provinsi Banten sampai hal ini dicantumkan Dalam Pergub 25 Tahun 2008, maka pada Tahun Anggaran Perubahan 2017 ini dimulailah proses integrasi dan interoperabilitas aplikasi yang sudah bertahun - tahun hal ini belum dapat dilaksanakan. 
+
+Setiap aplikasi yang dibangun di Tahun Anggaran Perubahan 2017 ini harus membuat API untuk memberikan akses bagi aplikasi lain agar dapat mengakses data yang tersedia.
+
 ### Aplikasi Pendukung
 
 #### Sistem Informasi Jabatan
