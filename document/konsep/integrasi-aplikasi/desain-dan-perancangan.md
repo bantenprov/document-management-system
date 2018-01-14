@@ -244,23 +244,23 @@ Upaya untuk membuat integasi aplikasi baru diwujudkan secara nyata pada tahun an
 
 Integrasi aplikasi telah diamanatkan dalam Pegub No. 35 Tahun 2008, diantaranya :
 
-1. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+###### 1. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
 
 [![portal internet intranet](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png)](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png).
 
 Pergub 35 tahun 2008 Gambar 5 . Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
 
-2. Pola Integrasi Kesisteman E-Government Provinsi Banten
+###### 2. Pola Integrasi Kesisteman E-Government Provinsi Banten
 
 [![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png)](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png).
 
 Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government Provinsi Banten
 
-3. Diagram Pola Distribusi Informasi Berdasarkan Kebutuhannya
+###### 3. Diagram Pola Distribusi Informasi Berdasarkan Kebutuhannya
 
 [![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png)](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png).
 
-4. Application Programming Interface (API)
+###### 4. Application Programming Interface (API)
 
 [![application programming interface](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png)](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png).
 
@@ -351,13 +351,53 @@ Repository ini dapat meyimpan berbeagai format file yang diperlukan seperti
 
 ##### Konten
 Banten satu data akan berisi konten - konten seperti:
-- Master Table 
+- Master Table; 
   - Master table OPD, yang berisin kode dan nama OPD;
-  - Master table Role, yang berisi kode nama nama group hak akses katau role
-- Data statistik
+  - Master table Role, yang berisi kode nama nama group hak akses atau role;
+  - dan lain lain.
+- Data statistik;
+  - Produk Domestik Bruto
+  - Produk Domestik Bruto 
+  - Pertumbuhan Ekonomi (LPE);Provinsi Banten dan Indonesia
+  - Indikator Kemiskinan Menurut Kabupaten/Kota Se-Provinsi Banten
+  - Harapan Lama Sekolah (RLS);Menurut Kabupaten/Kota Se-Provinsi Banten
+  - Panjang Jalan Provinsi Dalam Kondisi Baik Menurut Kabupaten/Kota Se-Provinsi Banten
+  - dan lain lain
 - File produk hukum
+  - Pergub No. 47 Tahun 2016 tentang Rencana Kerja Pemerintah Daerah Provinsi Banten Tahun 2017
+  - Pergub No. 80 Tahun 2016 tentang Rencana Kerja Pemerintah Daerah Provinsi Banten Tahun 2017
+  - Pergub No. 72 Tahun 2016 tentang Penjabaran Pertanggungjawaban Pelaksanaan Anggaran Pendapatan Dan Belajnja Daerah Tahun Anggaran 2015
+  - Pergub No. 77 Tahun 2016 tenteng Penjabaran Perubahan Anggaran Pendapatan Dan Belanja Daerah Provinsi Banten Tahun Anggaran 2016
+  - Pergub No. 51 Tahun 2016 tentang Standar Operasional Prosedur Penyelenggaraan Pelayanan Terpadu Satu Pintu Di Bidang Penanaman Modal
+  - Pergub No. 35 Tahun 2008 tentang Rencana Induk Dan Standarisasi Penyelenggaraan Digital Government Service (DGS) Pemerintah Provinsi Banten
+  - dan lain lain
+
+Jenis jenis konten tersebut dapat bertambah sesuai kebutuhan.
+
+##### Pengelompokan
+Pengelompokan konten dibagi menjadi dua kelompok besar, yakni
+- Organisasi
+Pengelompokan berdasarkan Organisasi menggunakan struktur organisasi yang ada di Pemerintah Provinsi Banten 
+- Group
+Pengelompokan berdasarkan group menggunakan 10 sektor E-Goverment dan dapat ditambah sesuai kebutuhan
+
+Disamping pengelompokan dataset juga masih dapat diberikan Tag sesuai kategori spesifik yang dapat berbeda pada setiap dataset.
 
 #### Api Pemerintah Provinsi Banten
+
+Seperti disebutkan diatas bahwa [Application Programming Interface](/document/konsep/integrasi-aplikasi/desain-dan-perancangan.md#4-application-programming-interface-api) telah mendapat perhatian khusus oleh Pemerintah Provinsi Banten sampai hal ini dicantumkan Dalam Pergub 25 Tahun 2008, maka pada Tahun Anggaran Perubahan 2017 ini dimulailah proses integrasi dan interoperabilitas aplikasi yang sudah bertahun - tahun hal ini belum dapat dilaksanakan. 
+
+Setiap aplikasi yang dibangun di Tahun Anggaran Perubahan 2017 ini harus membuat API untuk memberikan akses bagi aplikasi lain agar dapat mengakses data yang tersedia.
+
+#### API Key
+API Key atau sering juga disebut dengan API Token adalah serangkaian karakter atau test yang dipergunakan sebagai pengenal bahwa aplikasi yang melakukan permintaan data melalui API adalah aplikasi yang sah dan sudah terdaftar.
+
+API key ini dapat diumpamakan sebagai password atau sandi ketika pengguna akan melakukan ***login*** pada suatu aplikasi.
+
+#### Dokumentasi API
+Dokumentasi API juga disediakan agar administrator atau programmer pada suatu aplikasi dapat mengetahui bagaimana cara mengakses API yang disediakan oleh Pemerintah Provinsi Banten.
+
+Dokumentasi API ini ditempatkan pada suatu alamat dalam hal ini subdomain dibawah domain milik Pemerintah Provinsi Banten yang dapat diakses oleh Umum. 
 
 ### Aplikasi Pendukung
 
