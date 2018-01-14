@@ -389,6 +389,10 @@ Seperti disebutkan diatas bahwa [Application Programming Interface](https://gith
 
 Setiap aplikasi yang dibangun di Tahun Anggaran Perubahan 2017 ini harus membuat API untuk memberikan akses bagi aplikasi lain agar dapat mengakses data yang tersedia.
 
+#### API Key
+API Key atau sering juga disebut dengan API Token adalah serangkaian karakter atau test yang dipergunakan sebagai pengenal bahwa aplikasi yang melakukan permintaan data melalui API adalah aplikasi yang sah dan sudah terdaftar.
+
+
 ### Aplikasi Pendukung
 
 #### Sistem Informasi Jabatan
