@@ -244,23 +244,23 @@ Upaya untuk membuat integasi aplikasi baru diwujudkan secara nyata pada tahun an
 
 Integrasi aplikasi telah diamanatkan dalam Pegub No. 35 Tahun 2008, diantaranya :
 
-1. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
+###### 1. Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
 
 [![portal internet intranet](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png)](/document/konsep/integrasi-aplikasi/images/pola-distrubusi-sistem-informasi-melalui-portal-internet-dan-intranet-pergub-banten-35-2008.png).
 
 Pergub 35 tahun 2008 Gambar 5 . Pola Distrubusi Sistem Informasi melalui Portal Internet dan Intranet
 
-2. Pola Integrasi Kesisteman E-Government Provinsi Banten
+###### 2. Pola Integrasi Kesisteman E-Government Provinsi Banten
 
 [![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png)](/document/konsep/integrasi-aplikasi/images/sistem-penunjang-keputusan.png).
 
 Pergub 35 tahun 2008 Gambar 6 . Diagram Pola Integrasi Kesisteman E-Government Provinsi Banten
 
-3. Diagram Pola Distribusi Informasi Berdasarkan Kebutuhannya
+###### 3. Diagram Pola Distribusi Informasi Berdasarkan Kebutuhannya
 
 [![sistem penunjang keputusan](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png)](/document/konsep/integrasi-aplikasi/images/distribusi-informasi-berdasarkan-kebutuhannya.png).
 
-4. Application Programming Interface (API)
+###### 4. Application Programming Interface (API)
 
 [![application programming interface](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png)](/document/konsep/integrasi-aplikasi/images/application-programming-interface-pergub-35-2008.png).
 
@@ -373,7 +373,6 @@ Banten satu data akan berisi konten - konten seperti:
   - dan lain lain
 
 Jenis jenis konten tersebut dapat bertambah sesuai kebutuhan.
-
 
 ##### Pengelompokan
 Pengelompokan konten dibagi menjadi dua kelompok besar, yakni
