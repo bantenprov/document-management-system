@@ -420,7 +420,7 @@ Selain informasi kepegawaian juga informasi mengenai pejabat di lingkungan Pemer
 Selain aplikasi pendukung yang dibuat sendiri oleh Pemerintah Provinsi Banten melalui Organisasi terkait, ada juga aplikasi yang tidak dibangun namun mempunyai peranan yang sanyat penting yakni Sistem Informasi Administrasi Kependudukan.
 
 #### Sistem Informasi Administrasi Kependudukan (SIAK)
-
+Adalah sistem yang digunakan untuk perekaman data penduduk dengan menggunakan Nomor Induk Kependudukan sebagai ***primary index***.
 
 
 #### Sirup
