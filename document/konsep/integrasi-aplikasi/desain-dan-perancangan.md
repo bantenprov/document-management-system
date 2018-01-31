@@ -422,6 +422,7 @@ Selain aplikasi pendukung yang dibuat sendiri oleh Pemerintah Provinsi Banten me
 #### Sistem Informasi Administrasi Kependudukan (SIAK)
 Adalah sistem yang digunakan untuk perekaman data penduduk dengan menggunakan Nomor Induk Kependudukan sebagai ***primary index***.
 
+Sistem Informasi Administrasi Kependudukan (SIAK) adalah suatu sistem informasi yang disusun berdasarkan prosedur-prosedur dan berbasis teknologi informasi dan komunikasi yang bertujuan untuk menata sistem administrasi kependudukan di Indonesia, sistem ini meliputi pendataan penduduk dan pencacatan sipil. Data kependudukan antara lain : Nomor Induk Kependudukan (NIK), Kartu Keluarga (KK), Kartu Tanda Penduduk (KTP), Akta Kelahiran, Akta Kematian, Akta Nikah, dan sebagainya [https://id.wikipedia.org/wiki/Sistem_informasi_administrasi_kependudukan](https://id.wikipedia.org/wiki/Sistem_informasi_administrasi_kependudukan).
 
 #### Sirup
 
