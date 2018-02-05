@@ -503,6 +503,9 @@ Berikut data yang diambil dari situs dapodik tanggal 5 Pebruari 2018
 
 #### Simral
 
+Pemerintah Provinsi Banten telah mengambil keputusan untuk menggunakan (Sistem Informasi Perencanaan, Penganggaran, dan Pengelolaan Keuangan Daerah Terpadu (SIMRAL) agar tiap perencanaan pembangunan terintegrasi dengan penganggaran dan pengelolaan keuangan.
+
+[![Simral BPPT](/document/konsep/integrasi-aplikasi/images/mode-simral-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/mode-simral-2018-02-05.png).
 
 ### Progess pengerjaan aplikasi
 
