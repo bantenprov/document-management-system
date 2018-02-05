@@ -435,6 +435,25 @@ Proses integrasi yang diharapkan dapat dilakukan adalah :
 
 
 #### Dapodik
+Data Pokok Pendidikan atau Dapodik adalah sistem pendataan skala nasional yang terpadu, dan merupakan sumber data utama pendidikan nasional, yang merupakan bagian dari Program perancanaan pendidikan nasional dalam mewujudkan insan Indonesia yang Cerdas dan Kompetitif. ([Wikipedia](https://id.wikipedia.org/wiki/Data_pokok_pendidikan))
+
+Berikut data yang diambil dari situs dapodik tanggal 5 Pebruari 2018
+
+##### [Dapodik Data Sekolah](http://dapo.dikdasmen.kemdikbud.go.id/sp/1/280000)
+
+
+| No    | Wilayah                | Jml   | N     | S     | Jml   | N     | S   | Jml   | N   | S   | Jml | N   | S   | Jml | N  | S   | Jml | N | S  | 
+|-------|------------------------|-------|-------|-------|-------|-------|-----|-------|-----|-----|-----|-----|-----|-----|----|-----|-----|---|----| 
+| 1     | Kab. Tangerang         | 1.725 | 877   | 848   | 985   | 758   | 227 | 387   | 77  | 310 | 153 | 29  | 124 | 184 | 12 | 172 | 16  | 1 | 15 | 
+| 2     | Kab. Pandeglang        | 1.151 | 995   | 156   | 860   | 850   | 10  | 149   | 114 | 35  | 37  | 18  | 19  | 87  | 12 | 75  | 18  | 1 | 17 | 
+| 3     | Kab. Lebak             | 1.108 | 997   | 111   | 789   | 775   | 14  | 202   | 170 | 32  | 53  | 35  | 18  | 51  | 14 | 37  | 13  | 3 | 10 | 
+| 4     | Kab. Serang            | 1.096 | 832   | 264   | 730   | 705   | 25  | 196   | 92  | 104 | 79  | 26  | 53  | 87  | 9  | 78  | 4   | 0 | 4  | 
+| 5     | Kota Tangerang         | 905   | 394   | 511   | 476   | 338   | 138 | 199   | 32  | 167 | 84  | 15  | 69  | 131 | 9  | 122 | 15  | 0 | 15 | 
+| 6     | Kota tangerang Selatan | 689   | 198   | 491   | 317   | 157   | 160 | 190   | 22  | 168 | 85  | 12  | 73  | 81  | 7  | 74  | 16  | 0 | 16 | 
+| 7     | Kota Serang            | 414   | 271   | 143   | 252   | 224   | 28  | 78    | 29  | 49  | 31  | 8   | 23  | 46  | 8  | 38  | 7   | 2 | 5  | 
+| 8     | Kota Cilegon           | 274   | 171   | 103   | 180   | 150   | 30  | 42    | 12  | 30  | 23  | 5   | 18  | 25  | 4  | 21  | 4   | 0 | 4  | 
+| Total | Total                  | 7.362 | 4.735 | 2.627 | 4.589 | 3.957 | 632 | 1.443 | 548 | 895 | 545 | 148 | 397 | 692 | 75 | 617 | 93  | 7 | 86 | 
+
 
 
 #### Simral
