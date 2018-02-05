@@ -562,4 +562,4 @@ Grafik yang menampilkan jumlah sekolah per wilayah kabupaten dan kota.
 
 Grafik yang menampilkan jumlah sekolah tiap - tiap wilayah kabupaten dan kota.
 
-[![Dasboard Dapodik Data Sekolah 3](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-03-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-03-05.png).
+[![Dasboard Dapodik Data Sekolah 3](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-02-05.png).
