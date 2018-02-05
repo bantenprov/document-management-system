@@ -553,13 +553,13 @@ adapun hasilnya dapat dilihat sebagai berikut:
 
 Grafik yang menampilkan jumlah sekolah per jenisnya apakah negeri atau swasta.
 
-[![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png).
+[![Dasboard Dapodik Data Sekolah 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png).
 
 Grafik yang menampilkan jumlah sekolah per wilayah kabupaten dan kota.
 
-[![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png).
+[![Dasboard Dapodik Data Sekolah 2](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png).
 
 
 Grafik yang menampilkan jumlah sekolah tiap - tiap wilayah kabupaten dan kota.
 
-[![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-03-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-03-05.png).
+[![Dasboard Dapodik Data Sekolah 3](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-03-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-03-05.png).
