@@ -425,9 +425,36 @@ Adalah sistem yang digunakan untuk perekaman data penduduk dengan menggunakan No
 Sistem Informasi Administrasi Kependudukan (SIAK) adalah suatu sistem informasi yang disusun berdasarkan prosedur-prosedur dan berbasis teknologi informasi dan komunikasi yang bertujuan untuk menata sistem administrasi kependudukan di Indonesia, sistem ini meliputi pendataan penduduk dan pencacatan sipil. Data kependudukan antara lain : Nomor Induk Kependudukan (NIK), Kartu Keluarga (KK), Kartu Tanda Penduduk (KTP), Akta Kelahiran, Akta Kematian, Akta Nikah, dan sebagainya [https://id.wikipedia.org/wiki/Sistem_informasi_administrasi_kependudukan](https://id.wikipedia.org/wiki/Sistem_informasi_administrasi_kependudukan).
 
 #### Sirup
+**Sirup** merupakan aplikasi yang dibuat olehpemerintah pusat dikelola oleh Lembaga Kebijakan Pengadaan Barang/Jasa Pemerintah, Direktorat Perencanaan, Monitoring dan Evaluasi Pengadaan yang beralamat di Gedung LKPP Lantai 6
+Komplek Rasuna Epicentrum Jl. Epicentrum Tengah Lot 11B	Jakarta Selatan nomor telpon : (021) 299 12 450, Fax: (021) 299 12 451 dan Email: helpdesk-pmep@lkpp.go.id.
+
+Proses integrasi yang diharapkan dapat dilakukan adalah :
+1. Bagaimana data yang diinput kedalam **SIMRAL** dapat langsung digunakan oleh sirup tanpa melakukan input ulang.
+2. Bagaimana agar penganggaran yang ada di sirup yang telah direalisasi dapat diakses oleh SIMRAL dan aplikasi lain yang digunakan oleh Pemerintah Provinsi Banten
+3. Bagaimana kode pengenal OPD yang digunakan oleh sistem informasi yang berbeda beda ini dapat diterjemahkan dan dikenal oleh aplikasi lainnya yang dipergunakan di lingkungan Pemerintah Provinsi Banten
+
 
 #### Dapodik
 
-### Target Pencapaian
 
 #### Simral
+
+
+### Progess pengerjaan aplikasi
+
+Pada umumnya pekerjaan yang dilaksanakan pada Tahun Anggaran Perubahan 2017 kode kode utama sudah masuk ke server pengembangan aplikasi dan sudah aplikasi bisa dijalankan.
+
+Yang sudah masuk ke server pengembangan aplikasi dan sedang dalam proses pengujian adalah kode - kode yang terkait dengan integrasi aplikasi.
+
+Laporan masing - masing kegiatan disajikan terpisah, disini diuraikan kendala yang dihadapi dalam menyelesaikan pekerjaan tersebut:
+
+#### Dashboard Pimpinan
+##### Dasboard Kepegawaian
+- Kendala yang dihadapi dalam menyelesaikan dashboard kepegawaian ini adalah :
+  - Masih menggunakan koneksi internat untuk melakukan transmisi data dari database server kepegawaian.
+  - Aplikasi simpeg yang mengelola data kepegawaian masih menggunakan framework Code igniter versi 2.x, sedangkan untuk dapat mempergunakan API diperlukan versi 3.x
+- Solusi yang diambil
+  - BKD telah memberikan akses terhadap database kepegawaian, dan untuk mempermudah pengambilan data dari server BKD maka kami membuat server development juga pada server BKD untuk menjalankan aplikasi bantu yang mambaca database yang sama namun hanya mempunyai akses baca saja.
+  - 
+
+##### Dasboard Kependudukan
