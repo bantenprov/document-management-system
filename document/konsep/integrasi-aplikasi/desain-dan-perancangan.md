@@ -517,11 +517,40 @@ Laporan masing - masing kegiatan disajikan terpisah, disini diuraikan kendala ya
 
 #### Dashboard Pimpinan
 ##### Dasboard Kepegawaian
+
+Dinas Kominfotiksan telah lama berkoordinasi dengan  
+
 - Kendala yang dihadapi dalam menyelesaikan dashboard kepegawaian ini adalah :
   - Masih menggunakan koneksi internat untuk melakukan transmisi data dari database server kepegawaian.
   - Aplikasi simpeg yang mengelola data kepegawaian masih menggunakan framework Code igniter versi 2.x, sedangkan untuk dapat mempergunakan API diperlukan versi 3.x
+  - Koneksi data antara server pengembangan yang ada di Dinas Komunikasi Informatika Statistik dan Persandian dan server Simpeg Di BKD belum stabil, seringkali server BKD tidak dapat diakses oleh server yang ada do kominfo.   
 - Solusi yang diambil
   - BKD telah memberikan akses terhadap database kepegawaian, dan untuk mempermudah pengambilan data dari server BKD maka kami membuat server development juga pada server BKD untuk menjalankan aplikasi bantu yang mambaca database yang sama namun hanya mempunyai akses baca saja.
-  - 
+  - Mengusulkan penggunaan IP local secara penuh kepada Pengelola Jaringan di Kominfo, apalagi dengan terlah tersedianya FO di lingkungan KP3B.
+
 
 ##### Dasboard Kependudukan
+
+Dinas Komifotiksan dan DP3AKKB sebagai pengelola data kependudukan di tingkat Provinsi Banten telah melakukan koordinasi di dampingi oleh staf dari Bappeda
+
+Koordinasi yang dilakukan karena untuk dapat mempergunakan data kependudukan diperlukan adanya MOU yang merupakan amanat dari peraturan yang dikeluarkan oleh menteri terkait.
+
+Dalam rapat koordinasi tersebut sudah disepakati data - data kependudukan dalam bentuk rekapitulasi yang dapat diberikan kepada publik adalah data yang sudah tervalidasi yang dirilis setiap 6 bulan sekali.
+Sedangkan data yang belum divalidasi untuk yang dirilis setiap bulan hanya dapat diakses oleh unsur Pimpinan Daerah.
+
+
+##### Dasboard Pendidikan
+
+Untuk dapat menampilkan data dapodik diatas secara realtime, Dinas Kominfotiksan telah mengirimkan surat permintaan akses API data dapodik ke Kementrian Pendidikan dan Kebudayaan, dan sudah mendapatkan jawaban alamat surat yang harus di tujukan.
+
+Adapun surat yang ditujukan ke alamat baru yang diberikan kementrian sudah dibuat dan ditandatangani, sedang dalam proses pengiriman dan menunggu jawaban dari kementrian.
+
+Sementara jawaban dari kementrian belum ada, kami tampilkan grafik menggunakan data yang ada di situs dapodik yang dikonversi ke bentuk json.
+
+adapun hasilnya dapat dilihat sebagai berikut:
+
+##### Dasboard Dapodik Data Sekolah
+
+Grafik yang menampilkan jumlah sekolah per wilayah dan jenis nya apakah negeri atau swasta.
+
+[![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png).
