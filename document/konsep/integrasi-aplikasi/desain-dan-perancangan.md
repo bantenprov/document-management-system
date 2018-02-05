@@ -407,21 +407,180 @@ Ada beberapa aplikasi pendukung integrasi dan interoperabilitas pada seluruh apl
 #### Sistem Informasi Jabatan
 Sistem informasi Jabatan mempunyai peranan penting dalam proses integrasi, karena pada sistem inilah kode dan nama Organisasi Perangkat Daerah dibuat dan ditetapkan, kemudian dipublikasikan pada Banten Satu Data,
 
-Adapun aplikasi - aplikasi lain tidak mempunyai wewenang untuk menambah atau mengubah kode dan nama Organisasi Perangkat Daerah.
+Selain itu, kode dan nama jabatan struktural maupun fungsional juga akan dipergunakan sebagai kelompok pengguna (***role***)
 
+Adapun aplikasi - aplikasi lain tidak mempunyai wewenang untuk menambah atau mengubah kode dan nama Organisasi Perangkat Daerah serta Role.
 
 #### Sistem Informasi Kepegawaian
+Sistem Informasi Kepegawaian memiliki peranan penting juga dalam proses integrasi sebagai penyedia utama data dan informasi kepegawaian.
 
-
+Selain informasi kepegawaian juga informasi mengenai pejabat di lingkungan Pemerintah Provinsi Banten yang akan bermanfaat dalam hal pemberian hak akses kepada pengguna aplikasi dari ASN untuk tiap ***role*** yang sudah disiapkan oleh Sistem Informasi Jabatan pada setiap aplikasi.
 
 ### Aplikasi Eksternal
+Selain aplikasi pendukung yang dibuat sendiri oleh Pemerintah Provinsi Banten melalui Organisasi terkait, ada juga aplikasi yang tidak dibangun namun mempunyai peranan yang sanyat penting yakni Sistem Informasi Administrasi Kependudukan.
 
 #### Sistem Informasi Administrasi Kependudukan (SIAK)
+Adalah sistem yang digunakan untuk perekaman data penduduk dengan menggunakan Nomor Induk Kependudukan sebagai ***primary index***.
+
+Sistem Informasi Administrasi Kependudukan (SIAK) adalah suatu sistem informasi yang disusun berdasarkan prosedur-prosedur dan berbasis teknologi informasi dan komunikasi yang bertujuan untuk menata sistem administrasi kependudukan di Indonesia, sistem ini meliputi pendataan penduduk dan pencacatan sipil. Data kependudukan antara lain : Nomor Induk Kependudukan (NIK), Kartu Keluarga (KK), Kartu Tanda Penduduk (KTP), Akta Kelahiran, Akta Kematian, Akta Nikah, dan sebagainya [https://id.wikipedia.org/wiki/Sistem_informasi_administrasi_kependudukan](https://id.wikipedia.org/wiki/Sistem_informasi_administrasi_kependudukan).
 
 #### Sirup
+**Sirup** merupakan aplikasi yang dibuat olehpemerintah pusat dikelola oleh Lembaga Kebijakan Pengadaan Barang/Jasa Pemerintah, Direktorat Perencanaan, Monitoring dan Evaluasi Pengadaan yang beralamat di Gedung LKPP Lantai 6
+Komplek Rasuna Epicentrum Jl. Epicentrum Tengah Lot 11B	Jakarta Selatan nomor telpon : (021) 299 12 450, Fax: (021) 299 12 451 dan Email: helpdesk-pmep@lkpp.go.id.
+
+Proses integrasi yang diharapkan dapat dilakukan adalah :
+1. Bagaimana data yang diinput kedalam **SIMRAL** dapat langsung digunakan oleh sirup tanpa melakukan input ulang.
+2. Bagaimana agar penganggaran yang ada di sirup yang telah direalisasi dapat diakses oleh SIMRAL dan aplikasi lain yang digunakan oleh Pemerintah Provinsi Banten
+3. Bagaimana kode pengenal OPD yang digunakan oleh sistem informasi yang berbeda beda ini dapat diterjemahkan dan dikenal oleh aplikasi lainnya yang dipergunakan di lingkungan Pemerintah Provinsi Banten
+
 
 #### Dapodik
+Data Pokok Pendidikan atau Dapodik adalah sistem pendataan skala nasional yang terpadu, dan merupakan sumber data utama pendidikan nasional, yang merupakan bagian dari Program perancanaan pendidikan nasional dalam mewujudkan insan Indonesia yang Cerdas dan Kompetitif. ([Wikipedia](https://id.wikipedia.org/wiki/Data_pokok_pendidikan))
 
-### Target Pencapaian
+Berikut data yang diambil dari situs dapodik tanggal 5 Pebruari 2018
+
+##### [Dapodik Data Sekolah](http://dapo.dikdasmen.kemdikbud.go.id/sp/1/280000)
+
+
+| No    | Wilayah                | Jml   | N     | S     | Jml   | N     | S   | Jml   | N   | S   | Jml | N   | S   | Jml | N  | S   | Jml | N | S  | 
+|-------|------------------------|-------|-------|-------|-------|-------|-----|-------|-----|-----|-----|-----|-----|-----|----|-----|-----|---|----| 
+| 1     | Kab. Tangerang         | 1.725 | 877   | 848   | 985   | 758   | 227 | 387   | 77  | 310 | 153 | 29  | 124 | 184 | 12 | 172 | 16  | 1 | 15 | 
+| 2     | Kab. Pandeglang        | 1.151 | 995   | 156   | 860   | 850   | 10  | 149   | 114 | 35  | 37  | 18  | 19  | 87  | 12 | 75  | 18  | 1 | 17 | 
+| 3     | Kab. Lebak             | 1.108 | 997   | 111   | 789   | 775   | 14  | 202   | 170 | 32  | 53  | 35  | 18  | 51  | 14 | 37  | 13  | 3 | 10 | 
+| 4     | Kab. Serang            | 1.096 | 832   | 264   | 730   | 705   | 25  | 196   | 92  | 104 | 79  | 26  | 53  | 87  | 9  | 78  | 4   | 0 | 4  | 
+| 5     | Kota Tangerang         | 905   | 394   | 511   | 476   | 338   | 138 | 199   | 32  | 167 | 84  | 15  | 69  | 131 | 9  | 122 | 15  | 0 | 15 | 
+| 6     | Kota tangerang Selatan | 689   | 198   | 491   | 317   | 157   | 160 | 190   | 22  | 168 | 85  | 12  | 73  | 81  | 7  | 74  | 16  | 0 | 16 | 
+| 7     | Kota Serang            | 414   | 271   | 143   | 252   | 224   | 28  | 78    | 29  | 49  | 31  | 8   | 23  | 46  | 8  | 38  | 7   | 2 | 5  | 
+| 8     | Kota Cilegon           | 274   | 171   | 103   | 180   | 150   | 30  | 42    | 12  | 30  | 23  | 5   | 18  | 25  | 4  | 21  | 4   | 0 | 4  | 
+| Total | Total                  | 7.362 | 4.735 | 2.627 | 4.589 | 3.957 | 632 | 1.443 | 548 | 895 | 545 | 148 | 397 | 692 | 75 | 617 | 93  | 7 | 86 | 
+
+
+##### [Dapodik Data Pegawai](http://dapo.dikdasmen.kemdikbud.go.id/pegawai/1/280000)
+
+| No    | Wilayah                | Jml   | L     | P     | Jml   | L     | P   | Jml   | L     | P     | Jml   | L   | P   | Jml   | L   | P   | Jml | L  | P  | 
+|-------|------------------------|-------|-------|-------|-------|-------|-----|-------|-------|-------|-------|-----|-----|-------|-----|-----|-----|----|----| 
+| 1     | Kota Tangerang         | 1.837 | 1.051 | 786   | 533   | 328   | 205 | 593   | 326   | 267   | 291   | 164 | 127 | 410   | 230 | 180 | 10  | 3  | 7  | 
+| 2     | Kab. Tangerang         | 1.747 | 1.013 | 734   | 417   | 270   | 147 | 612   | 348   | 264   | 351   | 206 | 145 | 344   | 185 | 159 | 23  | 4  | 19 | 
+| 3     | Kab. Serang            | 1.257 | 742   | 515   | 487   | 341   | 146 | 384   | 205   | 179   | 226   | 108 | 118 | 159   | 87  | 72  | 1   | 1  | 0  | 
+| 4     | Kab. Pandeglang        | 1.201 | 777   | 424   | 397   | 288   | 109 | 408   | 264   | 144   | 183   | 106 | 77  | 201   | 111 | 90  | 12  | 8  | 4  | 
+| 5     | Kota tangerang Selatan | 1.033 | 556   | 477   | 287   | 157   | 130 | 325   | 173   | 152   | 240   | 128 | 112 | 174   | 97  | 77  | 7   | 1  | 6  | 
+| 6     | Kab. Lebak             | 998   | 640   | 358   | 228   | 182   | 46  | 380   | 238   | 142   | 216   | 121 | 95  | 167   | 94  | 73  | 7   | 5  | 2  | 
+| 7     | Kota Serang            | 704   | 370   | 334   | 171   | 93    | 78  | 224   | 106   | 118   | 116   | 64  | 52  | 184   | 104 | 80  | 9   | 3  | 6  | 
+| 8     | Kota Cilegon           | 515   | 269   | 246   | 111   | 62    | 49  | 167   | 74    | 93    | 98    | 53  | 45  | 138   | 80  | 58  | 1   | 0  | 1  | 
+| Total |                        | 9.292 | 5.418 | 3.874 | 2.631 | 1.721 | 910 | 3.093 | 1.734 | 1.359 | 1.721 | 950 | 771 | 1.777 | 988 | 789 | 70  | 25 | 45 | 
+
+
+##### [Dapodik Data Guru](http://dapo.dikdasmen.kemdikbud.go.id/guru/1/280000)
+
+
+| No    | Wilayah                | Jml    | L      | P      | Jml    | L     | P      | Jml    | L     | P      | Jml   | L     | P     | Jml    | L     | P     | Jml   | L   | P   | 
+|-------|------------------------|--------|--------|--------|--------|-------|--------|--------|-------|--------|-------|-------|-------|--------|-------|-------|-------|-----|-----| 
+| 1     | Kab. Tangerang         | 22.131 | 8.516  | 13.615 | 12.541 | 4.007 | 8.534  | 4.8    | 2.148 | 2.652  | 2.299 | 1.083 | 1.216 | 2.349  | 1.248 | 1.101 | 142   | 30  | 112 | 
+| 2     | Kota Tangerang         | 14.831 | 5.387  | 9.444  | 7.792  | 2.232 | 5.56   | 3.028  | 1.288 | 1.74   | 1.548 | 703   | 845   | 2.287  | 1.129 | 1.158 | 176   | 35  | 141 | 
+| 3     | Kab. Pandeglang        | 13.155 | 5.656  | 7.499  | 8.513  | 3.306 | 5.207  | 2.201  | 1.096 | 1.105  | 836   | 399   | 437   | 1.408  | 773   | 635   | 197   | 82  | 115 | 
+| 4     | Kab. Serang            | 12.035 | 4.867  | 7.168  | 6.793  | 2.396 | 4.397  | 2.715  | 1.204 | 1.511  | 1.282 | 647   | 635   | 1.212  | 612   | 600   | 33    | 8   | 25  | 
+| 5     | Kota tangerang Selatan | 11.777 | 4.496  | 7.281  | 5.911  | 1.848 | 4.063  | 2.778  | 1.215 | 1.563  | 1.614 | 740   | 874   | 1.308  | 653   | 655   | 166   | 40  | 126 | 
+| 6     | Kab. Lebak             | 11.074 | 5.064  | 6.01   | 6.577  | 2.797 | 3.78   | 2.511  | 1.286 | 1.225  | 977   | 532   | 445   | 902    | 416   | 486   | 107   | 33  | 74  | 
+| 7     | Kota Serang            | 6.059  | 1.968  | 4.091  | 2.991  | 764   | 2.227  | 1.281  | 466   | 815    | 633   | 250   | 383   | 1.027  | 452   | 575   | 127   | 36  | 91  | 
+| 8     | Kota Cilegon           | 4.406  | 1.245  | 3.161  | 2.349  | 520   | 1.829  | 855    | 275   | 580    | 530   | 180   | 350   | 619    | 252   | 367   | 53    | 18  | 35  | 
+| Total |                        | 95.468 | 37.199 | 58.269 | 53.467 | 17.87 | 35.597 | 20.169 | 8.978 | 11.191 | 9.719 | 4.534 | 5.185 | 11.112 | 5.535 | 5.577 | 1.001 | 282 | 719 | 
+
+
+##### [Dapodik Data Peserta Didik](http://dapo.dikdasmen.kemdikbud.go.id/pd/1/280000)
+
+| No    | Wilayah                | Jml     | L      | P      | Jml    | L      | P      | Jml    | L     | P     | Jml   | L     | P     | Jml   | L     | P     | Jml | L   | P   | 
+|-------|------------------------|---------|--------|--------|--------|--------|--------|--------|-------|-------|-------|-------|-------|-------|-------|-------|-----|-----|-----| 
+| 1     | Kab. Tangerang         | 39.033  | 20.034 | 18.999 | 30.861 | 15.963 | 14.898 | 1.937  | 960   | 977   | 3.366 | 1.531 | 1.835 | 2.852 | 1.569 | 1.283 | 17  | 11  | 6   | 
+| 2     | Kab. Serang            | 23.238  | 12.01  | 11.228 | 19.803 | 10.437 | 9.366  | 847    | 388   | 459   | 1.818 | 772   | 1.046 | 726   | 387   | 339   | 44  | 26  | 18  | 
+| 3     | Kota Tangerang         | 11.936  | 5.771  | 6.165  | 8.564  | 4.457  | 4.107  | 0      | 0     | 0     | 1.785 | 794   | 991   | 1.462 | 444   | 1.018 | 125 | 76  | 49  | 
+| 4     | Kota tangerang Selatan | 8.54    | 4.41   | 4.13   | 2.646  | 1.364  | 1.282  | 1.952  | 975   | 977   | 576   | 342   | 234   | 2.882 | 1.415 | 1.467 | 484 | 314 | 170 | 
+| 5     | Kab. Lebak             | 7.048   | 3.648  | 3.4    | 3.66   | 1.889  | 1.771  | 1.618  | 841   | 777   | 403   | 195   | 208   | 1.367 | 723   | 644   | 0   | 0   | 0   | 
+| 6     | Kota Serang            | 6.042   | 3.082  | 2.96   | 3.337  | 1.741  | 1.596  | 2.672  | 1.323 | 1.349 | 0     | 0     | 0     | 0     | 0     | 0     | 33  | 18  | 15  | 
+| 7     | Kab. Pandeglang        | 4.778   | 2.574  | 2.204  | 3.546  | 1.87   | 1.676  | 875    | 502   | 373   | 0     | 0     | 0     | 146   | 81    | 65    | 211 | 121 | 90  | 
+| 8     | Kota Cilegon           | 3.131   | 1.571  | 1.56   | 1.635  | 806    | 829    | 1.496  | 765   | 731   | 0     | 0     | 0     | 0     | 0     | 0     | 0   | 0   | 0   | 
+| Total |                        | 103.746 | 53.1   | 50.646 | 74.052 | 38.527 | 35.525 | 11.397 | 5.754 | 5.643 | 7.948 | 3.634 | 4.314 | 9.435 | 4.619 | 4.816 | 914 | 566 | 348 | 
+
 
 #### Simral
+
+Pemerintah Provinsi Banten telah mengambil keputusan untuk menggunakan (Sistem Informasi Perencanaan, Penganggaran, dan Pengelolaan Keuangan Daerah Terpadu (SIMRAL) agar tiap perencanaan pembangunan terintegrasi dengan penganggaran dan pengelolaan keuangan.
+
+[![Simral BPPT](/document/konsep/integrasi-aplikasi/images/mode-simral-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/mode-simral-2018-02-05.png).
+
+### Progess pengerjaan aplikasi
+
+Pada umumnya pekerjaan yang dilaksanakan pada Tahun Anggaran Perubahan 2017 kode kode utama sudah masuk ke server pengembangan aplikasi dan sudah aplikasi bisa dijalankan.
+
+Yang sudah masuk ke server pengembangan aplikasi dan sedang dalam proses pengujian adalah kode - kode yang terkait dengan integrasi aplikasi.
+
+Laporan masing - masing kegiatan disajikan terpisah, disini diuraikan kendala yang dihadapi dalam menyelesaikan pekerjaan tersebut:
+
+#### Dashboard Pimpinan
+##### Dasboard Kepegawaian
+
+Dinas Kominfotiksan telah lama berkoordinasi dengan  
+
+- Kendala yang dihadapi dalam menyelesaikan dashboard kepegawaian ini adalah :
+  - Masih menggunakan koneksi internat untuk melakukan transmisi data dari database server kepegawaian.
+  - Aplikasi simpeg yang mengelola data kepegawaian masih menggunakan framework Code igniter versi 2.x, sedangkan untuk dapat mempergunakan API diperlukan versi 3.x
+  - Koneksi data antara server pengembangan yang ada di Dinas Komunikasi Informatika Statistik dan Persandian dan server Simpeg Di BKD belum stabil, seringkali server BKD tidak dapat diakses oleh server yang ada do kominfo.   
+- Solusi yang diambil
+  - BKD telah memberikan akses terhadap database kepegawaian, dan untuk mempermudah pengambilan data dari server BKD maka kami membuat server development juga pada server BKD untuk menjalankan aplikasi bantu yang mambaca database yang sama namun hanya mempunyai akses baca saja.
+  - Mengusulkan penggunaan IP local secara penuh kepada Pengelola Jaringan di Kominfo, apalagi dengan terlah tersedianya FO di lingkungan KP3B.
+
+
+##### Dasboard Kependudukan
+
+Dinas Komifotiksan dan DP3AKKB sebagai pengelola data kependudukan di tingkat Provinsi Banten telah melakukan koordinasi di dampingi oleh staf dari Bappeda
+
+Koordinasi yang dilakukan karena untuk dapat mempergunakan data kependudukan diperlukan adanya MOU yang merupakan amanat dari peraturan yang dikeluarkan oleh menteri terkait.
+
+Dalam rapat koordinasi tersebut sudah disepakati data - data kependudukan dalam bentuk rekapitulasi yang dapat diberikan kepada publik adalah data yang sudah tervalidasi yang dirilis setiap 6 bulan sekali.
+Sedangkan data yang belum divalidasi untuk yang dirilis setiap bulan hanya dapat diakses oleh unsur Pimpinan Daerah.
+
+
+##### Dasboard Pendidikan
+
+Untuk dapat menampilkan data dapodik diatas secara realtime, Dinas Kominfotiksan telah mengirimkan surat permintaan akses API data dapodik ke Kementrian Pendidikan dan Kebudayaan, dan sudah mendapatkan jawaban alamat surat yang harus di tujukan.
+
+Adapun surat yang ditujukan ke alamat baru yang diberikan kementrian sudah dibuat dan ditandatangani, sedang dalam proses pengiriman dan menunggu jawaban dari kementrian.
+
+Sementara jawaban dari kementrian belum ada, kami tampilkan grafik menggunakan data yang ada di situs dapodik yang dikonversi ke bentuk json.
+
+adapun hasilnya dapat dilihat sebagai berikut:
+
+##### Dasboard Dapodik Data Sekolah
+
+Grafik yang menampilkan jumlah sekolah per jenisnya apakah negeri atau swasta.
+
+[![Dasboard Dapodik Data Sekolah 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png).
+
+Grafik yang menampilkan jumlah sekolah per wilayah kabupaten dan kota.
+
+[![Dasboard Dapodik Data Sekolah 2](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png).
+
+
+Grafik yang menampilkan jumlah sekolah tiap - tiap wilayah kabupaten dan kota.
+
+[![Dasboard Dapodik Data Sekolah 3](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-03-2018-02-05.png).
+
+Grafik tersebut diambil dari tabel diatas, atau yang ditampilkan kembali dalam bentuk images berikut ini:
+
+[![Dapodik Data Sekolah 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-2017-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-2017-02-05.png).
+
+Dapodik Data Sekolah.
+
+[![Dapodik Data Guru 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-guru-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-guru-2018-02-05.png).
+
+Dapodik Data Guru.
+
+[![Dapodik Data Guru 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-pegawai-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-pegawai-2018-02-05.png).
+
+Dapodik Data Pegawai.
+
+
+[![Dapodik Data Peserta Didik 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-peserta-didik-2018-02.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-peserta-didik-2018-02.png).
+
+Dapodik Data Peserta Didik.
+
+
