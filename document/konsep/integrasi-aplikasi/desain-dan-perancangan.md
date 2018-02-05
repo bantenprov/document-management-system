@@ -551,6 +551,15 @@ adapun hasilnya dapat dilihat sebagai berikut:
 
 ##### Dasboard Dapodik Data Sekolah
 
-Grafik yang menampilkan jumlah sekolah per wilayah dan jenis nya apakah negeri atau swasta.
+Grafik yang menampilkan jumlah sekolah per jenisnya apakah negeri atau swasta.
 
 [![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-01-2018-02-05.png).
+
+Grafik yang menampilkan jumlah sekolah per wilayah kabupaten dan kota.
+
+[![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-02-05.png).
+
+
+Grafik yang menampilkan jumlah sekolah tiap - tiap wilayah kabupaten dan kota.
+
+[![Dasboard Dapodik Data Sekolah](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-03-05.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-sekolah-chart-02-2018-03-05.png).
