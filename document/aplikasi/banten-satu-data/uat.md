@@ -343,3 +343,14 @@
 - [ ] push to GitHub
 
 ### 27. 53 2.5.1. Rasio Grup Kesenian per 100.000 penduduk (RGKs);Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2013-2015
+
+> N/A
+
+- [ ] completed json files
+- [ ] test on local server
+- [ ] fix the code
+- [ ] update and redesign component and layout
+- [ ] give route name
+- [ ] give component name
+- [ ] update readme to match
+- [ ] push to GitHub
