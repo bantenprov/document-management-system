@@ -1,4 +1,19 @@
-1. 25 2.1.1. PDRB Atas Dasar Harga Berlaku Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2010-2015 (miliar rupiah)
+# Dashboard Statistik
+
+### 0. Global
+
+- [ ] use breadcrumb to indicate the current page’s location
+
+### 1. 25 2.1.1. PDRB Atas Dasar Harga Berlaku Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2010-2015 (miliar rupiah)
+
+> https://github.com/bantenprov/pdrb-harga-dasar
+
+- [x] update and redesign component and layout
+- [ ] give route name
+- [ ] give component name
+- [ ] update readme to match
+- [ ] push to GitHub
+
 2. 26 2.1.2. PDRB per Kapita Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2010-2015 (juta rupiah)
 3. 27 2.1.3. Pertumbuhan Ekonomi (LPE);Provinsi Banten dan Indonesia Tahun 2011-2016 (persen)
 4. 28 2.1.4. Pertumbuhan Ekonomi (LPE);Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2011-2015 (persen)
