@@ -303,8 +303,7 @@
 - [ ] update readme to match
 - [ ] push to GitHub
 
-### 24. 50 2.3.2. Persentase Balita Gizi Buruk Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2013-2015
-
+### 24. 50 3.2.9. Cakupan Balita Gizi Buruk Mendapat Perawatan Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2013-2015
 > https://github.com/bantenprov/balita-gizi-buruk-mendapat-perawatan
 
 - [ ] completed json files
