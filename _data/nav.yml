@@ -107,10 +107,9 @@
 
 - title: Konsep
   pages:
-    - title: Konsep A
+    - title: Integrasi Aplikasi
       pages:
-        - title: Konsep A 1
-        - title: Konsep A 2
+        - title: Desain dan Perancangan
 
 - title: SOP
   pages:

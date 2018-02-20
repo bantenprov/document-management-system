@@ -13,6 +13,7 @@ toc: true
 {:toc}
 
 ## Integrasi dan Pengujian (UAT) Epormas
+
 Pada laporan ini akan membahas tentang Pengujian dan Integrasi Epormas web dan android, untuk pengujiannya menggunakan User Acceptance Test (UAT).
 
 ### 1 Integrasi
@@ -29,7 +30,9 @@ Application Programming Interface mekanisme terdefinisi dibuat untuk berhubungan
 Dibawah ini adalah contoh method, parameter dan response yang terdapat didalam Epormas:
 
 #### 1.1 Berita
+
 ##### 1.2 Get All Data
+
 [![Tampilan Berita-Get Data All](/document/aplikasi/potret/images/integrasi/44-epormas-api-doc-berita-get-data-all.png)](/document/aplikasi/potret/images/integrasi/44-epormas-api-doc-berita-get-data-all.png)
 
 Pada page ini terdapat method yang berupa tombol **GET** dan link url untuk konten *Get All Data*, method ini digunakan untuk menambahkan data baru aplikasi ke server. Parameter yang terdapat didalam konten ini berisi field, type dan description. Terdapat 2 response didalam page ini yaitu:
@@ -37,6 +40,7 @@ Pada page ini terdapat method yang berupa tombol **GET** dan link url untuk kont
 2. *Error Response* yang ditampilkan dalam "Error 4xx" dan hasilnya akan ditampilkan dalam bentuk Json
 
 ##### 1.3 Request Berita Informasi
+
 [![Tampilan Request Berita Informasi](/document/aplikasi/potret/images/integrasi/45-epormas-api-doc-request-berita.png)](/document/aplikasi/potret/images/integrasi/45-epormas-api-doc-request-berita.png)
 
 Pada page ini terdapat method yang berupa tombol **GET** dan link url untuk konten *Request Berita Informasi*, method ini digunakan untuk menambahkan data baru aplikasi ke server. Parameter yang terdapat didalam konten ini berisi field, type dan description. Terdapat 2 response didalam page ini yaitu:
@@ -44,7 +48,9 @@ Pada page ini terdapat method yang berupa tombol **GET** dan link url untuk kont
 2. *Error Response* yang ditampilkan dalam "Error 4xx" dan hasilnya akan ditampilkan dalam bentuk Json
 
 ### 2 Pengujian atau User Acceptance Test (UAT)
+
 #### 2.1 Epormas web
+
 ##### 2.1.1 Menu Home
 
 | Tampilan    | URL/ Image                               | Ada  | Tidak |
@@ -72,6 +78,7 @@ Dalam tabel ini user dapat melakukan test ketika membuka konten *Map*, apakah su
 Dalam tabel ini user dapat melakukan test ketika membuka konten *Tabel Laporan Warga*, dan untuk contoh *Kategori tentang saran pelebaran jembatan*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.1.4 Menu Buat Laporan
+
 | Tampilan     | URL/ Image                               | Ada  | Tidak |
 | ------------ | ---------------------------------------- | ---- | ----- |
 | Buat Laporan | [![Laporan Warga Banten](/document/aplikasi/potret/images/integrasi/05-epormas-web-buat-laporan-warga-banten.png)](/document/aplikasi/potret/images/integrasi/05-epormas-web-buat-laporan-warga-banten.png) |      |       |
@@ -79,7 +86,9 @@ Dalam tabel ini user dapat melakukan test ketika membuka konten *Tabel Laporan W
 Dalam tabel ini user dapat melakukan test ketika membuka konten *Buat Laporan*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 #### 2.2 Epormas Android
+
 ##### 2.2.1 Tampilan awal
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Awal     | [![Tampilan Setelah Install Aplikasi](/document/aplikasi/potret/images/integrasi/27-epormas-android-install-apk.png)](/document/aplikasi/potret/images/integrasi/27-epormas-android-install-apk.png) |      |       |
@@ -87,6 +96,7 @@ Dalam tabel ini user dapat melakukan test ketika membuka konten *Buat Laporan*, 
 Dalam tabel ini user dapat melakukan test ketika melakukan install aplikasi melalui google playstore dengan mencari kata kunci *Potret Banten* atau dengan kata kunci *Enstra Media* apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.2 Tampilan Setelah Install Aplikasi dan Registrasi
+
 | Tampilan                    | URL/ Image                               | Ada  | Tidak |
 | --------------------------- | ---------------------------------------- | ---- | ----- |
 | Aplikasi Membaca Device     | [![Setelah Install Aplikasi](/document/aplikasi/potret/images/integrasi/28-epormas-android-awal-baca-device.png)](/document/aplikasi/potret/images/integrasi/28-epormas-android-awal-baca-device.png) |      |       |
@@ -99,6 +109,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan install aplikasi mela
 Dalam tabel ini user dapat melakukan test ketika melakukan *Device Install dan membaca device id, Registrasi NIK, Nomor Handphone, Registrasi sekarang dan Upload Foto User* apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.3 Konten Menu
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Menu     | [![Konten Menu](/document/aplikasi/potret/images/integrasi/34-epormas-android-menu.png)](/document/aplikasi/potret/images/integrasi/34-epormas-android-menu.png) |      |       |
@@ -106,6 +117,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan *Device Install dan m
 Dalam tabel ini user dapat melakukan test ketika sudah melakukan registrasi dan melihat *konten menu aplikasi*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.4 Menu Home
+
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Menu Home | [![Kategori Home](/document/aplikasi/potret/images/integrasi/35-epormas-android-menu-home.png)](/document/aplikasi/potret/images/uat/024-tampilan-menu-home.png) |      |       |
@@ -113,6 +125,7 @@ Dalam tabel ini user dapat melakukan test ketika sudah melakukan registrasi dan 
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Home*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.5 Menu Form Online
+
 | Tampilan         | URL/ Image                               | Ada  | Tidak |
 | ---------------- | ---------------------------------------- | ---- | ----- |
 | Menu Form Online | [![Form Online](/document/aplikasi/potret/images/integrasi/36-epormas-android-form-online.png)](/document/aplikasi/potret/images/integrasi/36-epormas-android-form-online.png) |      |       |
@@ -120,6 +133,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Form Online*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.6 Menu Profile User
+
 | Tampilan          | URL/ Image                               | Ada  | Tidak |
 | ----------------- | ---------------------------------------- | ---- | ----- |
 | Menu Profile User | [![Profile User](/document/aplikasi/potret/images/integrasi/37-epormas-android-biodata.png)](/document/aplikasi/potret/images/integrasi/37-epormas-android-biodata.png) |      |       |
@@ -129,6 +143,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Profile User, Biodata, Laporan*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.7 Menu Semua Laporan
+
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
 | Menu Semua Laporan | [![Semua Laporan](/document/aplikasi/potret/images/integrasi/40-epormas-android-menu-semua-laporan.png)](/document/aplikasi/potret/images/integrasi/40-epormas-android-menu-semua-laporan.png) |      |       |
@@ -136,6 +151,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Semua Laporan*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.8 Menu Draft
+
 | Tampilan   | URL/ Image                               | Ada  | Tidak |
 | ---------- | ---------------------------------------- | ---- | ----- |
 | Menu Draft | [![Draft](/document/aplikasi/potret/images/integrasi/41-epormas-android-draft.png)](/document/aplikasi/potret/images/integrasi/41-epormas-android-draft.png) |      |       |
@@ -143,6 +159,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Draft*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.9 Menu Offline
+
 | Tampilan     | URL/ Image                               | Ada  | Tidak |
 | ------------ | ---------------------------------------- | ---- | ----- |
 | Menu Offline | [![Form Offline Jalan Raya](/document/aplikasi/potret/images/integrasi/42-epormas-android-form-offline.png)](/document/aplikasi/potret/images/integrasi/42-epormas-android-form-offline.png) |      |       |
@@ -150,13 +167,15 @@ Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Offline*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.2.10 Menu Social Media
+
 | Tampilan     | URL/ Image                               | Ada  | Tidak |
 | ------------ | ---------------------------------------- | ---- | ----- |
-| Menu Offline | [![Form Offline Jalan Raya](/document/aplikasi/potret/images/integrasi/43-epormas-android-socialmedia.png)](/document/aplikasi/potret/images/integrasi/43-epormas-android-socialmedia.png) |      |       |
+| Menu Social Media | [![Menu Social Media](/document/aplikasi/potret/images/integrasi/43-epormas-android-socialmedia.png)](/document/aplikasi/potret/images/integrasi/43-epormas-android-socialmedia.png) |      |       |
 
 Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *Menu Social Media*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 #### 2.3 Login Admin
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | Login    | [![tampilan-login](/document/aplikasi/potret/images/integrasi/06-epormas-web-login-admin.png)](/document/aplikasi/potret/images/integrasi/06-epormas-web-login-admin.png) |      |       |
@@ -164,6 +183,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan atau melihat konten *
 Dalam tabel ini user dapat melakukan test ketika *Login*, apakah sudah dapat diakses oleh user atau tidak , jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.1 Dashboard Admin
+
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Dashboard | [![Dashboard Admin](/document/aplikasi/potret/images/integrasi/07-epormas-web-dashboard-admin.png)](/document/aplikasi/potret/images/integrasi/07-epormas-web-dashboard-admin.png) |      |       |
@@ -171,13 +191,15 @@ Dalam tabel ini user dapat melakukan test ketika *Login*, apakah sudah dapat dia
 Dalam tabel ini user dapat melakukan test ketika sudah melakukan *login*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.2 Berita
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
-| Berita   | [![Konten Menu Berita](/document/aplikasi/potret/images/uat/09-tampilan-berita.png)](/document/aplikasi/potret/images/uat/09-tampilan-berita.png) |      |       |
+| Berita   | [![Konten Menu Berita](/document/aplikasi/potret/images/integrasi/08-epormas-web-berita.png)](/document/aplikasi/potret/images/integrasi/08-epormas-web-berita.png) |      |       |
 
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu *Berita*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.3 OPD
+
 | Tampilan    | URL/ Image                               | Ada  | Tidak |
 | ----------- | ---------------------------------------- | ---- | ----- |
 | OPD         | [![Konten Menu OPD](/document/aplikasi/potret/images/integrasi/09-epormas-web-opd-list.png)](/document/aplikasi/potret/images/integrasi/09-epormas-web-opd-list.png) |      |       |
@@ -186,6 +208,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu *Berita*
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu OPD dan Add New OPD*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.4 User
+
 | Tampilan | URL/ Image                               | Ada  | Tidak |
 | -------- | ---------------------------------------- | ---- | ----- |
 | User     | [![Konten Menu User](/document/aplikasi/potret/images/integrasi/11-epormas-web-user-list.png)](/document/aplikasi/potret/images/integrasi/integrasi/11-epormas-web-user-list.png) |      |       |
@@ -194,6 +217,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu OPD dan 
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu *User List dan Add User*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.5 Permission
+
 | Tampilan              | URL/ Image                               | Ada  | Tidak |
 | --------------------- | ---------------------------------------- | ---- | ----- |
 | Permission            | [![Konten Menu Permission](/document/aplikasi/potret/images/integrasi/13-epormas-web-permission-list.png)](/document/aplikasi/potret/images/integrasi/13-epormas-web-permission-list.png) |      |       |
@@ -202,6 +226,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu *User Li
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu *Permission List dan Create New Permission*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.6 Konten Menu Role
+
 | Tampilan  | URL/ Image                               | Ada  | Tidak |
 | --------- | ---------------------------------------- | ---- | ----- |
 | Role List | [![Role List](/document/aplikasi/potret/images/integrasi/15-epormas-web-role-list.png)](/document/aplikasi/potret/images/integrasi/15-epormas-web-role-list.png) |      |       |
@@ -210,6 +235,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu *Permiss
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Role List dan Add Role*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.7 Konten Menu Workflows
+
 | Tampilan          | URL/ Image                               | Ada  | Tidak |
 | ----------------- | ---------------------------------------- | ---- | ----- |
 | Workflows List    | [![Workflows List](/document/aplikasi/potret/images/integrasi/17-epormas-web-workflow-list.png)](/document/aplikasi/potret/images/integrasi/17-epormas-web-workflow-list.png) |      |       |
@@ -218,6 +244,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Role Lis
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Workflows List dan Add New Workflows*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.8 Konten Menu State List
+
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
 | State List    | [![State List](/document/aplikasi/potret/images/integrasi/19-epormas-web-state-list.png)](/document/aplikasi/potret/images/integrasi/19-epormas-web-state-list.png) |      |       |
@@ -226,6 +253,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Workflow
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu State List dan Add New State*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.9 Konten Menu Transition List
+
 | Tampilan           | URL/ Image                               | Ada  | Tidak |
 | ------------------ | ---------------------------------------- | ---- | ----- |
 | Transition List    | [![Transition List](/document/aplikasi/potret/images/integrasi/21-epormas-web-transition-list.png)](/document/aplikasi/potret/images/integrasi/21-epormas-web-transition-list.png) |      |       |
@@ -234,6 +262,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu State Li
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Transition List dan Add New Transition*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.10 Konten Menu Workflows Guard
+
 | Tampilan      | URL/ Image                               | Ada  | Tidak |
 | ------------- | ---------------------------------------- | ---- | ----- |
 | Guard List    | [![Guard List](/document/aplikasi/potret/images/integrasi/23-epormas-web-guard-list.png)](/document/aplikasi/potret/images/integrasi/23-epormas-web-guard-list.png) |      |       |
@@ -242,6 +271,7 @@ Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Transiti
 Dalam tabel ini user dapat melakukan test ketika melakukan konten *Menu Guard List dan Add New Guard*, apakah sudah dapat diakses oleh user atau tidak, jika sudah dapat diakses user dapat *ceklis* pada kolom **Ada**, jika belum dapat diakses maka user dapat *ceklis* pada kolom **Tidak**.
 
 ##### 2.3.11 Konten Menu Workflows Attachment
+
 | Tampilan            | URL/ Image                               | Ada  | Tidak |
 | ------------------- | ---------------------------------------- | ---- | ----- |
 | Attachment List     | [![Attachment List](/document/aplikasi/potret/images/integrasi/25-epormas-web-attachment-list.png)](/document/aplikasi/potret/images/integrasi/25-epormas-web-attachment-list.png) |      |       |
