@@ -331,8 +331,8 @@ Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Informas
 7. Implementasi Sistem
   Sistem akan dijalankan *(running)* jika sudah tidak ada permasalahan yang akan ditemukan dalam testing sistem. Akan tetapi tidak menutup kemungkinan jika masih terdapat kekurangan karena terjadinya perubahan peraturan maupun kebijakan yang mengharuskan perancangan ulang.
 
-### 3.8 Hasil
-Berikut ini adalah hasil eksekusi sistem informasi manajemen layanan Kesehatan
+### 3.8 Rancangan
+Berikut ini adalah rancangan eksekusi sistem informasi manajemen penerimaan siswa baru
 
 #### 3.8.1 Tampilan Super Admin
 ##### 3.8.1.1 Login Super Admin
