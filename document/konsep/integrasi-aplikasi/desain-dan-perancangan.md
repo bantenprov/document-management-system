@@ -582,5 +582,3 @@ Dapodik Data Pegawai.
 [![Dapodik Data Peserta Didik 1](/document/konsep/integrasi-aplikasi/images/dapodik-data-peserta-didik-2018-02.png)](/document/konsep/integrasi-aplikasi/images/dapodik-data-peserta-didik-2018-02.png).
 
 Dapodik Data Peserta Didik.
-
-
