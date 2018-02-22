@@ -38,7 +38,7 @@ Adapun penyususan melakukan beberapa penelitian yang diakukan dengan :
 
 penulis mengunakan metode prorotype  untuk melakukan perancangan aplikasi pengaduan berbasis web dan android ini.
 * Ilustrasi Alur Prototyping
-  [![Ilustrasi Alur Prototyping](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171018_alur-prototype.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171018_alur-prototype.png)
+  [![Ilustrasi Alur Prototyping](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_alur-prototype.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_alur-prototype.png)
 
 ### 2.2 Metode Pengumpulan Data
 
