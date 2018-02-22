@@ -38,7 +38,7 @@ Adapun penyususan melakukan beberapa penelitian yang diakukan dengan :
 
 penulis mengunakan metode prorotype  untuk melakukan perancangan aplikasi pengaduan berbasis web dan android ini.
 * Ilustrasi Alur Prototyping
-  [![Ilustrasi Alur Prototyping](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171018_alur-prototype.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171018_alur-prototype.png)
+  [![Ilustrasi Alur Prototyping](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_alur-prototype.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_alur-prototype.png)
 
 ### 2.2 Metode Pengumpulan Data
 
@@ -331,164 +331,85 @@ Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Informas
 7. Implementasi Sistem
   Sistem akan dijalankan *(running)* jika sudah tidak ada permasalahan yang akan ditemukan dalam testing sistem. Akan tetapi tidak menutup kemungkinan jika masih terdapat kekurangan karena terjadinya perubahan peraturan maupun kebijakan yang mengharuskan perancangan ulang.
 
-### 3.8 Hasil
-Berikut ini adalah hasil eksekusi sistem informasi manajemen layanan Kesehatan
+### 3.8 Rancangan
+Berikut ini adalah rancangan eksekusi sistem informasi manajemen penerimaan siswa baru
 
 #### 3.8.1 Tampilan Super Admin
 ##### 3.8.1.1 Login Super Admin
 
-[![Login Super Admin](/document/aplikasi/psb-umum/images/desain-dan-perancangan/?????????????)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/????????????????????)
+[![Login Super Admin](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-login-super-admin.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-login-super-admin.png)
 
 ##### 3.8.1.2 Dashboard Super Admin
 
-[![Dashboard Super Admin](/document/aplikasi/psb-umum/images/desain-dan-perancangan/????????????????)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/???????????????)
+[![Dashboard Super Admin](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-dashboard-super-admin.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-dashboard-super-admin.png)
 
-##### 3.8.1.3 Super Admin Lihat Admin RS
+##### 3.8.1.3 Super Admin Lihat Admin Sekolah
 
-[![Super Admin Lihat Admin RS](/document/aplikasi/psb-umum/images/desain-dan-perancangan/?????????)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/??????????????)
+[![Super Admin Lihat Admin Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-view-admin-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-view-admin-sekolah.png)
 
-##### 3.8.1.4 Super Admin Tambah Admin RS
+##### 3.8.1.4 Super Admin Tambah Admin Sekolah
 
-[![Super Admin Tambah Admin RS](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-superadmin-tambah-admin-rs.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-superadmin-tambah-admin-rs.png)
+[![Super Admin Tambah Admin Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-tambah-admin-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-tambah-admin-sekolah.png)
 
-##### 3.8.1.5 Super Admin Lihat Dokter
+##### 3.8.1.5 Super Admin Lihat Data Sekolah
 
-[![Super Admin Lihat Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-superadmin-tambah-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-superadmin-tambah-dokter.png)
+[![Super Admin Lihat Data Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-view-data-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-view-data-sekolah.png)
 
-#### 3.8.2 Tampilan Admin RS
-##### 3.8.2.1 Login Admin RS
+##### 3.8.1.6 Super Admin Lihat Data Siswa
 
-[![Login Admin RS](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-superadmin-login.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-superadmin-login.png)
+[![Super Admin Lihat Data Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-view-data-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-view-data-siswa.png)
 
-##### 3.8.2.2 Dashboard Admin RS
+##### 3.8.1.6 Super Admin Tambah Data Siswa
 
-[![Dashboard Admin RS](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-dashboard.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-dashboard.png)
+[![Super Admin Tambah Data Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-tambah-data-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-super-admin-tambah-data-siswa.png)
 
-##### 3.8.2.3 Admin RS Lihat Dokter
+#### 3.8.2 Tampilan Admin Sekolah
 
-[![Admin RS Lihat Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-dokter.png)
+##### 3.8.2.1 Login Admin Sekolah
 
-##### 3.8.2.4 Admin RS Tambah Dokter
+[![Login Admin Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-login-admin.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-login-admin.png)
 
-[![Admin RS Tambah Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-dokter.png)
+##### 3.8.2.2 Dashboard Admin Sekolah
 
-##### 3.8.2.5 Admin RS Lihat Dokter Jaga
+[![Dashboard Admin Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-dashboard-admin.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-dashboard-admin.png)
 
-[![Admin RS Lihat Dokter Jaga](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-dokter-jaga.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-dokter-jaga.png)
+##### 3.8.2.3 Admin Sekolah Lihat Data Sekolah
 
-##### 3.8.2.6 Admin RS Tambah Dokter Jaga
+[![Admin Sekolah Liat Data Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-admin-view-data-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-admin-view-data-sekolah.png)
 
-[![Admin RS Tambah Dokter Jaga](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-dokter-jaga.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-dokter-jaga.png)
+##### 3.8.2.4 Admin Sekolah Liat Data Siswa
 
-##### 3.8.2.7 Admin RS Lihat Layanan
+[![Admin Sekolah Liat Data Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-admin-view-data-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-admin-view-data-siswa.png)
 
-[![Admin RS Lihat Layanan](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-layanan.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-layanan.png)
+##### 3.8.2.5 Admin Sekolah Tambah Data Siswa
 
-##### 3.8.2.8 Admin RS Tambah Layanan
+[![Admin Sekolah Tambah Data Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-admin-tambah-data-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-admin-tambah-data-siswa.png)
 
-[![Admin RS Tambah Layanan](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-layanan.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-layanan.png)
+#### 3.8.3 Tampilan Siswa
 
-##### 3.8.2.9 Admin RS Lihat Rumah Sakit
-
-[![Admin RS Lihat Rumah Sakit](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-rumah-sakit.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-rumah-sakit.png)
-
-##### 3.8.2.10 Admin RS Tambah Rumah Sakit
-
-[![Admin RS Tambah Rumah Sakit](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-rumah-sakit.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-rumah-sakit.png)
-
-##### 3.8.2.11 Admin RS Lihat Obat
-
-[![Admin RS Lihat Obat](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-obat.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-lihat-obat.png)
-
-##### 3.8.2.12 Admin RS Tambah Obat
-
-[![Admin RS Tambah Obat](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-obat.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-admin-rs-tambah-obat.png)
-
-#### 3.8.3 Tampilan Pasien
 ##### 3.8.3.1 Tampilan Depan Aplikasi
 
-[![Tampilan Depan Aplikasi](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-depan-aplikasi.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-depan-aplikasi.png)
+[![Tampilan Depan Aplikasi](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-home-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-home-siswa.png)
 
-##### 3.8.3.2 Tampilan Registrasi Pasien
+##### 3.8.3.2 Tampilan Registrasi Siswa
 
-[![Tampilan Registrasi Pasien](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-registrasi.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-registrasi.png)
+[![Tampilan Registrasi Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-sign-up.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-sign-up.png)
 
-##### 3.8.3.3 Tampilan Login Pasien
+##### 3.8.3.3 Tampilan Login Siswa
 
-[![Tampilan Login Pasien](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-login.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-login.png)
+[![Tampilan Login Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-sign-in.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-sign-in.png)
 
-##### 3.8.3.4 Tampilan Halaman Utama Pasien
+##### 3.8.3.4 Tampilan Halaman Utama Siswa
 
-[![Tampilan Halaman Utama Pasien](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-halaman-depan-pasien.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-halaman-depan-pasien.png)
+[![Tampilan Halaman Utama Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-my-account-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-my-account-siswa.png)
 
-##### 3.8.3.5 Tampilan Pasien Lihat Rumah Sakit
+##### 3.8.3.5 Tampilan Siswa Lihat Sekolah
 
-[![Tampilan Pasien Lihat Rumah Sakit](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-page-rs.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-page-rs.png)
+[![Tampilan Siwa Lihat Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-sekolah-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-sekolah-siswa.png)
 
-##### 3.8.3.6 Tampilan Pasien Lihat Detail Rumah Sakit
+##### 3.8.3.6 Tampilan Siswa Lihat Detail Sekolah
 
-[![Tampilan Pasien Lihat Detail Rumah Sakit](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-profile-rumah-sakit.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-profile-rumah-sakit.png)
-
-##### 3.8.3.7 Tampilan Pasien Lihat Dokter Jaga
-
-[![Tampilan Pasien Lihat Dokter Jaga     ](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-dokter-jaga.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-dokter-jaga.png)
-
-##### 3.8.3.8 Tampilan Pasien Lihat Layanan
-
-[![Tampilan Pasien Lihat Layanan](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-layanan.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-layanan.png)
-
-##### 3.8.3.9 Tampilan Pasien Lihat Kamar Inap
-
-[![Tampilan Pasien Lihat Kamar Inap](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-kamar-inap.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-kamar-inap.png)
-
-##### 3.8.3.10 Tampilan Pasien Lihat List Obat
-
-[![Tampilan Pasien Lihat List Obat](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-list-obat.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-list-obat.png)
-
-##### 3.8.3.11 Tampilan Pasien Lihat Obat
-
-[![Tampilan Pasien Lihat Obat](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-obat.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171110_layout-tampilan-view-obat.png)
-
-##### 3.8.3.12 Tampilan Pasien Lihat Dokter
-
-[![Tampilan Pasien Lihat Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-page-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-page-dokter.png)
-
-##### 3.8.3.13 Tampilan Pasien Lihat Profile Dokter
-
-[![Tampilan Pasien Lihat Profile Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-profile-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-profile-dokter.png)
-
-##### 3.8.3.14 Tampilan Pasien Konsultasi
-
-[![Tampilan Pasien Konsultasi](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-konsultasi.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-konsultasi.png)
-
-#### 3.8.4 Tampilan Dokter
-##### 3.8.4.1 Tampilan Depan Aplikasi
-
-[![Tampilan Depan Aplikasi](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-depan-aplikasi.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-depan-aplikasi.png)
-
-##### 3.8.4.2 Tampilan Registrasi Dokter
-
-[![Tampilan Registrasi Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-registrasi.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-registrasi.png)
-
-##### 3.8.4.3 Tampilan Login Dokter
-
-[![Tampilan Login Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-login.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-login.png)
-
-##### 3.8.4.4 Tampilan Halaman Utama Dokter
-
-[![Tampilan Halaman Utama Dokter](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-halaman-depan-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-pasien-halaman-depan-dokter.png)
-
-##### 3.8.4.5 Tampilan Dokter Lihat Jadwal Jaga
-
-[![Tampilan Dokter Lihat Jadwal Jaga](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-profile-dokter.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-profile-dokter.png)
-
-##### 3.8.4.6 Tampilan Dokter Lihat Notifikasi
-
-[![Tampilan Dokter Lihat Notifikasi](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-dokter-view notif.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-dokter-view-notif.png)
-
-##### 3.8.4.7 Tampilan Dokter Lihat Balas Konsultasi
-
-[![Tampilan Dokter Lihat Balas Konsultasi](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-dokter-bales-konsultasi.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/20171108_layout-tampilan-dokter-bales-konsultasi.png)
+[![Tampilan Siswa Lihat Detail Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-profile-sekolah-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-profile-sekolah-siswa.png)
 
 ## 4. PENUTUP
-Dengan adanya pengembangan dari sistem informasi manajemen pelayanan kesehatan ini untuk meningkatkan kinerja sistem yang telah ada dan berjalan sebelumnya menjadi lebih rapih dan tertata sehingga dapat mempermudah dalam pengumpulan informasi dan pengaturan manejemen rumah sakit serta mempermudah masyarakat dalam mencari informasi. Aplikasi ini mempunyai kelebihan untuk memperoleh data yang cepat, tepat dan akurat mengenai info rumah sakit yang terdapat di Pemprov Banten. Sistem ini memberikan kemudahan dalam beberapa hal seperti : pencatatan data rumah sakit, pencatatan data dokter dan kemudahan dalam mencari informasi tentang pelayanan kesehatan.
+Dengan adanya pengembangan dari sistem informasi manajemen pendaftaran siswa baru ini untuk meningkatkan kinerja sistem yang telah ada dan berjalan sebelumnya menjadi lebih rapih dan tertata sehingga dapat mempermudah dalam pengumpulan informasi dan pengaturan manejemen sekolah serta mempermudah masyarakat dalam mencari informasi. Aplikasi ini mempunyai kelebihan untuk memperoleh data yang cepat, tepat dan akurat mengenai info sekolah yang terdapat di Pemprov Banten. Sistem ini memberikan kemudahan dalam beberapa hal seperti : pencatatan data sekolah, pencatatan data siswa dan kemudahan dalam mencari informasi tentang pelayanan pendaftaran siswa baru.
