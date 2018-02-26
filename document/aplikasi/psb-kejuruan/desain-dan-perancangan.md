@@ -316,7 +316,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 [![Deployment Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_deployment-diagram.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_deployment-diagram.png)
 
 ### 3.7 Tahapan Pekerjaan
-Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Informasi Manajemen Aset dan Persediaan Barang adalah sebagai berikut :
+Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Penerimaan Siswa Baru Kejuruan adalah sebagai berikut :
 1. Survey
   Tim pengguna aplikasi akan melakukan survey pendahuluan untuk melihat sejauh mana kebutuhan pengguna akan sistem yang akan dibangun, fasilitas yang akan dibangun, data-data yang akan dibutuhkan, Dll.
 2. Analisis dan perancangan sistem
