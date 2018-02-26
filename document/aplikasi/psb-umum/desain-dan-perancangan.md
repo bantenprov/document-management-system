@@ -1,7 +1,7 @@
 ---
 layout: document
-title: Desain dan Perancangan YANKES
-description: Dokumantsi Desain dan Perancangan informasi layanan kesehatan pada Pemerintah Provinsi Banten.
+title: Desain dan Perancangan PSB Umum
+description: Dokumantsi Desain dan Perancangan Penerimaan Siswa Baru pada Pemerintah Provinsi Banten.
 group: aplikasi
 cat: psb-umum
 toc: true
