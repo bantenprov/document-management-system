@@ -308,7 +308,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 #### 3.6.6 Class Diagram
 
-[![Class Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/????????)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/?????????)
+[![Class Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_class-diagram.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_class-diagram.png)
 
 #### 3.6.7 Technology Stack Diagram
 
