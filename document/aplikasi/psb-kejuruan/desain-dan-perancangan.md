@@ -276,7 +276,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Login](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-login.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-login.png)
 
-###### 3.6.3.2.3 Pasien Lihat Data Sekolah
+###### 3.6.3.2.3 Siswa Lihat Data Sekolah
 
 [![Siswa View Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/2psb-kejuruan_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)
 
