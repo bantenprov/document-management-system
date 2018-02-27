@@ -278,7 +278,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 ###### 3.6.3.2.3 Siswa Lihat Data Sekolah
 
-[![Siswa View Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/2psb-kejuruan_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)
+[![Siswa View Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)
 
 
 ##### 3.6.3.3 Sequence Diagram Siswa
@@ -302,6 +302,9 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Pasien Lihat Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-view-sekolah.png)
 
+##### 3.6.3.5 Flowchart Diagram Siswa
+
+[![Flowchart Diagram Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_flowchart-diagram-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_flowchart-diagram-siswa.png)
 
 #### 3.6.6 Class Diagram
 
