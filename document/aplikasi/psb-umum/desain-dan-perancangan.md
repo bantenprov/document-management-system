@@ -139,7 +139,7 @@ proses perancangan database terdiri dari 6 tahap:
 * Tahap 6, Implementasi sistem database
 
 semakin banyak permintaan kepada aplikasi dapat mempengaruhi data yg terdapat di database. Contoh relasi permintaan aplikasi dengan status dan log
-[![Rancangan Database](/document/aplikasi/psb-umum/images/desain-dan-perancangan/???????????)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/???????????)
+[![Rancangan Database](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-database.jpg)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-database.jpg)
 
 ### 3.6 Perancangan Sistem
 Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language). Menurut Whitten dan Bentley (2007, p.381), Unified Modeling Language adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem  informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang kami gunakan terdiri dari use case diagram, activity diagram, sequence diagram, state chart diagram, class diagram, technology diagram dan deployment diagram.
