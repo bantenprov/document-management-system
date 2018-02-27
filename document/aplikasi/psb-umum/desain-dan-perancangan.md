@@ -277,7 +277,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Login](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_activity-diagram-siswa-login.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_activity-diagram-siswa-login.png)
 
-###### 3.6.3.2.3 Pasien Lihat Data Sekolah
+###### 3.6.3.2.3 Siswa Lihat Data Sekolah
 
 [![Siswa View Data Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/2psb-umum_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_activity-diagram-siswa-view-sekolah.png)
 
@@ -301,7 +301,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 ###### 3.6.3.4.3 Siswa Lihat Data Sekolah
 
-[![Pasien Lihat Data Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-view-sekolah.png)
+[![Siswa Lihat Data Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-view-sekolah.png)
 
 
 #### 3.6.6 Class Diagram
