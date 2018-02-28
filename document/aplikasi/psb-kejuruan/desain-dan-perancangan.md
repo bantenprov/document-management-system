@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Desain dan Perancangan PSB Kejuruan
-description: Dokumantsi Desain dan Perancangan Penerimaan Siswa Baru Kejuruan pada Pemerintah Provinsi Banten.
+description: Dokumentasi Desain dan Perancangan Penerimaan Siswa Baru Kejuruan pada Pemerintah Provinsi Banten.
 group: aplikasi
 cat: psb-kejuruan
 toc: true
