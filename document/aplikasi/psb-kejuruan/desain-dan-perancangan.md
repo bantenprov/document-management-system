@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Desain dan Perancangan PSB Kejuruan
-description: Dokumantsi Desain dan Perancangan Penerimaan Siswa Baru Kejuruan pada Pemerintah Provinsi Banten.
+description: Dokumentasi Desain dan Perancangan Penerimaan Siswa Baru Kejuruan pada Pemerintah Provinsi Banten.
 group: aplikasi
 cat: psb-kejuruan
 toc: true
@@ -138,7 +138,7 @@ proses perancangan database terdiri dari 6 tahap:
 * Tahap 6, Implementasi sistem database
 
 semakin banyak permintaan kepada aplikasi dapat mempengaruhi data yg terdapat di database. Contoh relasi permintaan aplikasi dengan status dan log
-[![Rancangan Database](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/???????????)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/???????????)
+[![Rancangan Database](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-database.jpg)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-database.jpg)
 
 ### 3.6 Perancangan Sistem
 Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language). Menurut Whitten dan Bentley (2007, p.381), Unified Modeling Language adalah kumpulan rancangan diagram untuk membangun sebuah sistem atau aplikasi yang dimana setiap diagram menyediakan sistem  informasi kepada tim pengembang dengan berbagai sudut pandang yang berbeda-beda. UML yang kami gunakan terdiri dari use case diagram, activity diagram, sequence diagram, state chart diagram, class diagram, technology diagram dan deployment diagram.
@@ -276,9 +276,9 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Login](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-login.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-login.png)
 
-###### 3.6.3.2.3 Pasien Lihat Data Sekolah
+###### 3.6.3.2.3 Siswa Lihat Data Sekolah
 
-[![Siswa View Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/2psb-kejuruan_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)
+[![Siswa View Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)
 
 
 ##### 3.6.3.3 Sequence Diagram Siswa
@@ -302,10 +302,13 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Pasien Lihat Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-view-sekolah.png)
 
+##### 3.6.3.5 Flowchart Diagram Siswa
+
+[![Flowchart Diagram Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_flowchart-diagram-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_flowchart-diagram-siswa.png)
 
 #### 3.6.6 Class Diagram
 
-[![Class Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/????????)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/?????????)
+[![Class Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_class-diagram.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_class-diagram.png)
 
 #### 3.6.7 Technology Stack Diagram
 
