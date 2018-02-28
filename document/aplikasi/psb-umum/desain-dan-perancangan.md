@@ -1,7 +1,7 @@
 ---
 layout: document
 title: Desain dan Perancangan PSB Umum
-description: Dokumantsi Desain dan Perancangan Penerimaan Siswa Baru pada Pemerintah Provinsi Banten.
+description: Dokumentasi Desain dan Perancangan Penerimaan Siswa Baru pada Pemerintah Provinsi Banten.
 group: aplikasi
 cat: psb-umum
 toc: true
@@ -14,7 +14,7 @@ Sistem informasi saat ini semakin berkembang pesat membuat semua pekerjaan dikeh
 
 Saat ini prosedur pendaftaran calon siswa baru di Banten khususnya sebagian besar belum berjalan secara efektif dan efisien. Pendaftaran calon siswa baru dengan cara calon siswa harus datang kesekolah dan terlebih dahulu mengambil lembaran formulir. Setelah itu lembaran formulir diisi dengan cara ditulis tangan. Sistem pendaftaran dengan cara pengisian formulir seperti ini sering terjadi masalah yang tidak diinginkan, terkadang tulisan kurang jelas dan ada juga yang kurang lengkap pengisian formulirnya, dan calon siswa baru harus berhadapan dengan antrian panjang bahkan harus berdesak-desakan untuk mendaftarkan diri sebagai calon siswa baru di Banten. Dengan dibangunnya sistem pendaftaran siswa baru berbasis online ini diharapkan dapat mempermudah dan membantu dalam permasalahan diatas
 
-Sekolah merupakan salah satu instansi pelayanan umum yang memerlukan sistem informasi. Informasi tersebut berdampak langsung terhadap kualitas pelayanan pendidikan. Oleh karena itu sekolah memerlukan sebuah sistem-sistem informasi manajemen untuk meningkatkan sistem penerimaan siswa baru yang terintegrasi, akurat dan transparan dengan fungsi utama sekolah kedalam satu sistem terpadu yang tersimpan dalam pusat datebase sehingga dapat membantu masyarakat dalam mencari informasi secara cepat, efisien dan efektif.
+Sekolah merupakan salah satu instansi pelayanan umum yang memerlukan sistem informasi. Informasi tersebut berdampak langsung terhadap kualitas pelayanan pendidikan. Oleh karena itu sekolah memerlukan sebuah sistem-sistem informasi manajemen untuk meningkatkan sistem penerimaan siswa baru yang terintegrasi, akurat dan transparan dengan fungsi utama sekolah kedalam satu sistem terpadu yang tersimpan dalam pusat database sehingga dapat membantu masyarakat dalam mencari informasi secara cepat, efisien dan efektif.
 
 ## DAFTAR ISI
 * Will be replaced with the ToC, excluding the "Contents" header
@@ -24,19 +24,19 @@ Sekolah merupakan salah satu instansi pelayanan umum yang memerlukan sistem info
 
 Perkembangan dibidang teknologi informasi dan komunikasi (TIK) saat ini sangat pesat dan berpengaruh sangat signifikan terhadap pribadi maupun komunitas, segala aktivitas, kehidupan, cara kerja, metode belajar, gaya hidup maupun cara berfikir. Oleh karena itu pemanfaatan Teknologi Informasi dan Komunikasi (TIK) harus diperkenalkan kepada siswa agar mereka mempunyai bekal pengetahuan dan pengalaman yang memadai untuk bisa menerapkan dan menggunakannya dalam kegiatan belajar, bekerja serta berbagai aspek kehidupan sehari-hari.
 
-Melihat semain majunya perkembangan teknologi  sekarang ini, dibutuhkan suatu sistem informasi yang bisa memudahkan serta meningkatkan efisiensi kinerja dalam berbagai hal. Hasil dari sistem informasi yang baik adalah sistem informasi yang memudahkan dan berguna bagi instasi yang menggunakan. Sistem kerja yang tertata sesuai struktur yang ada adalah hal yang bisa meningkatkan kinerja dari suatu instansi.
+Melihat semakin majunya perkembangan teknologi  sekarang ini, dibutuhkan suatu sistem informasi yang bisa memudahkan serta meningkatkan efisiensi kinerja dalam berbagai hal. Hasil dari sistem informasi yang baik adalah sistem informasi yang memudahkan dan berguna bagi instansi yang menggunakan. Sistem kerja yang tertata sesuai struktur yang ada adalah hal yang bisa meningkatkan kinerja dari suatu instansi.
 
-Seiring dengan berkembangnya teknologi informasi dengan pesat dan banyaknya kebutuhan dalam teknologi informasi, dimana banyak instansi yang ingin menggunakan teknologi yang ada secara optimal sesuai kebutuhan mencapai hasil kerja yang baik bagi instansi tersebut. Dengan melihat kebutuhan akses yang luas kepada masyarakat, Sinergitas data antara Dinas Pendidikan dan sekolah-sekolah dalam penyelenggaran penerimaan siswa baru, menyediakan akses informasi yang tepat waktu, dan pada saat yang sama harus bisa memonitor  aktifitas pelayanan serta mengendaliakan biaya operasional. Untuk dapat memenuhi tuntutan ini, sekolah harus memiliki sistem informasi manajemen ( SIM ) terintegrasi yang bisa sharing informasi real-time, tepat dan akurat. Sistem informasi manajemen ini  tidak bisa berjalan secara otomatis apabila tidk didukung sistem perangat lunak (Software Systems) atau sistem enterprise (Enterprise Software)  yang sudah terdaftar dalam server sekolah tersebut.
+Seiring dengan berkembangnya teknologi informasi dengan pesat dan banyaknya kebutuhan dalam teknologi informasi, dimana banyak instansi yang ingin menggunakan teknologi yang ada secara optimal sesuai kebutuhan mencapai hasil kerja yang baik bagi instansi tersebut. Dengan melihat kebutuhan akses yang luas kepada masyarakat, sinergitas data antara Dinas Pendidikan dan sekolah-sekolah dalam penyelenggaraan penerimaan siswa baru, menyediakan akses informasi yang tepat waktu, dan pada saat yang sama harus bisa memonitor  aktifitas pelayanan serta mengendalikan biaya operasional. Untuk dapat memenuhi tuntutan ini, sekolah harus memiliki sistem informasi manajemen ( SIM ) terintegrasi yang bisa sharing informasi real-time, tepat dan akurat. Sistem informasi manajemen ini  tidak bisa berjalan secara otomatis apabila tidak didukung sistem perangat lunak (Software Systems) atau sistem enterprise (Enterprise Software)  yang sudah terdaftar dalam server sekolah tersebut.
 
 ## 2. METODE PENELITIAN
 
-Untuk memperoleh data yang dapat  menunjang aplikasi ini, maka diperlukan data teoritis dan data instansi terkait untuk mendapatkan data dan informasi yang berhubung dengan aplikasi ini.
+Untuk memperoleh data yang dapat menunjang aplikasi ini, maka diperlukan data teoritis dan data instansi terkait untuk mendapatkan data dan informasi yang berhubung dengan aplikasi ini.
 
-Adapun penyususan melakukan beberapa penelitian yang diakukan dengan :
+Adapun penyusun melakukan beberapa penelitian yang diakukan dengan :
 
 ### 2.1 Metode yang Digunakan
 
-penulis mengunakan metode prorotype  untuk melakukan perancangan aplikasi pengaduan berbasis web dan android ini.
+Penulis mengunakan metode prorotype  untuk melakukan perancangan aplikasi pengaduan berbasis web dan android ini.
 * Ilustrasi Alur Prototyping
   [![Ilustrasi Alur Prototyping](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_alur-prototype.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_alur-prototype.png)
 
@@ -58,7 +58,7 @@ Setelah mengetahui masalah yang masyarakat hadapi pada saat melakukan pendaftara
 Berikut adalah delapan aturan emas dalam perancangan user interface  dalam pembuatan aplikasi yang dikemukakan oleh Shneiderman dan Plaisant (2010: 74 ), yaitu:
 
   1. Berusaha untuk konsisten
-  Konsisten serangkaian action harus ada disituaasi yang sama, dalam perancangan User Interface, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
+  Konsisten serangkaian action harus ada disituasi yang sama, dalam perancangan User Interface, konsistensi sangat dianjurkan agar para pengguna tidak akan bingung dengan desain yang kita buat.
 
   2. Kegunaan yang universal
   Mengenali kebutuhan dari berbagai user akan desain untuk kemudahan pemakai seperti misalnya, penggunaan shortcut untuk meningkatkan kecepatan interaksi dengan aplikasi yang kita buat.
@@ -70,7 +70,7 @@ Berikut adalah delapan aturan emas dalam perancangan user interface  dalam pembu
   Urutan tindakan sebaiknya diorganisir dalam suatu kelompok dengan bagian awal, tengah, dan akhir.
 
   5. Prevent Errors
-  Sebiasa mungkin desain aplokasi kita agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalah tersebut.
+  Sebiasa mungkin desain aplikasi kita agar pengguna tidak melakukan kesalahan fatal. Dan apabila pengguna melakukan kesalahan, maka aplikasi harus mendeteksi kesalahan dan menuntun pengguna untuk memperbaiki kesalah tersebut.
 
   6. Memudahkan untuk kembali ke tindakan sebelumnya.
   Hal ini dapat mengurangi kekhawatiran pengguna untuk mengambil tindakan. Karena, apabila terdapat kesalahan pengguna akan mudah kembali ketindakan sebelumnya.
@@ -85,7 +85,7 @@ Berikut adalah delapan aturan emas dalam perancangan user interface  dalam pembu
 
 ### 3.1 Kebutuhan Software dan Hardware
 
-Adapun alat bantu software dan hardware dalam melakukan analisis dan perancangan aadalah sebagai berikut:
+Adapun alat bantu software dan hardware dalam melakukan analisis dan perancangan adalah sebagai berikut:
 
 #### 3.1.1 Software
 
