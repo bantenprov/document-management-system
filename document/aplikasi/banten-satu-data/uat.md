@@ -12,36 +12,36 @@
 - [x] test on local server
 - [x] fix the code
 - [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
+- [ ] give route name
+- [ ] give component name
+- [ ] update readme to match
+- [ ] push to GitHub
 
 ### 2. 26 2.1.2. PDRB per Kapita Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2010-2015 (juta rupiah)
 
 > https://github.com/bantenprov/pdrb-per-kapita
 
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
+- [ ] completed json files
+- [ ] test on local server
+- [ ] fix the code
+- [ ] update and redesign component and layout
+- [ ] give route name
+- [ ] give component name
+- [ ] update readme to match
+- [ ] push to GitHub
 
 ### 3. 27 2.1.3. Pertumbuhan Ekonomi (LPE) Provinsi Banten dan Indonesia Tahun 2011-2016 (persen)
 
 > https://github.com/bantenprov/laju-pertumbuhan-ekonomi-provinsi
 
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
+- [ ] completed json files
+- [ ] test on local server
+- [ ] fix the code
+- [ ] update and redesign component and layout
+- [ ] give route name
+- [ ] give component name
+- [ ] update readme to match
+- [ ] push to GitHub
 
 ### 4. 28 2.1.4. Pertumbuhan Ekonomi (LPE) Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2011-2015 (persen)
 
@@ -353,138 +353,3 @@
 - [ ] give component name
 - [ ] update readme to match
 - [ ] push to GitHub
-
-## Dapodik
-
-### 1. Dapodik Data Sekolah 
-
-> https://github.com/bantenprov/dapodik-data-sekolah
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 2. Dapodik Data Guru 
-
-> https://github.com/bantenprov/dapodik-data-guru
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 3. Dapodik Data Peserta Didik
-
-> https://github.com/bantenprov/dapodik-data-peserta-didik
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-
-### 4. Dapodik Data Pegawai
-
-> https://github.com/bantenprov/dapodik-data-pegawai
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 5. Dapodik Proses Pengiriman
-
-> https://github.com/bantenprov/dapodik-progress-pengiriman
-
-- [ ] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-## Jumlah Penduduk
-
-### 1. Jumlah Penduduk Wajib KTP
-
-> https://github.com/bantenprov/jumlah-penduduk-wajib-ktp
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 2. Jumlah Penduduk Golongan Darah
-
-> https://github.com/bantenprov/jumlah-penduduk-golongan-darah
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 3.  Jumlah Penduduk Jenis Pekerjaan
-
-> https://github.com/bantenprov/jumlah-penduduk-jenis-pekerjaan
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 4.  Jumlah Penduduk Jenis Kelamin
-
-> https://github.com/bantenprov/jumlah-penduduk-jenis-kelamin
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
-
-### 5.  Jumlah Penduduk Tingkat Pendidikan
-
-> https://github.com/bantenprov/jumlah-penduduk-tingkat-pendidikan
-
-- [x] completed json files
-- [x] test on local server
-- [x] fix the code
-- [x] update and redesign component and layout
-- [x] give route name
-- [x] give component name
-- [x] update readme to match
-- [x] push to GitHub
