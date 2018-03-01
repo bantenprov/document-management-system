@@ -12,36 +12,36 @@
 - [x] test on local server
 - [x] fix the code
 - [x] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
+- [x] give route name
+- [x] give component name
+- [x] update readme to match
+- [x] push to GitHub
 
 ### 2. 26 2.1.2. PDRB per Kapita Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2010-2015 (juta rupiah)
 
 > https://github.com/bantenprov/pdrb-per-kapita
 
-- [ ] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
+- [x] completed json files
+- [x] test on local server
+- [x] fix the code
+- [x] update and redesign component and layout
+- [x] give route name
+- [x] give component name
+- [x] update readme to match
+- [x] push to GitHub
 
 ### 3. 27 2.1.3. Pertumbuhan Ekonomi (LPE) Provinsi Banten dan Indonesia Tahun 2011-2016 (persen)
 
 > https://github.com/bantenprov/laju-pertumbuhan-ekonomi-provinsi
 
-- [ ] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
+- [x] completed json files
+- [x] test on local server
+- [x] fix the code
+- [x] update and redesign component and layout
+- [x] give route name
+- [x] give component name
+- [x] update readme to match
+- [x] push to GitHub
 
 ### 4. 28 2.1.4. Pertumbuhan Ekonomi (LPE) Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2011-2015 (persen)
 
