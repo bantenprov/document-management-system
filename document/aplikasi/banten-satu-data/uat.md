@@ -217,8 +217,6 @@
 
 > https://github.com/bantenprov/rata-rata-lama-sekolah
 
-(belum ada src)
-
 - [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
