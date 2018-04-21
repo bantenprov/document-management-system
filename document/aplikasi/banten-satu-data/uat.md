@@ -9,9 +9,9 @@
 > https://github.com/bantenprov/pdrb-harga-dasar
 
 - [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
+- [x] test on local server
+- [x] fix the code
+- [x] update and redesign component and layout
 - [ ] give route name
 - [ ] give component name
 - [ ] update readme to match
@@ -21,7 +21,7 @@
 
 > https://github.com/bantenprov/pdrb-per-kapita
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -34,7 +34,7 @@
 
 > https://github.com/bantenprov/laju-pertumbuhan-ekonomi-provinsi
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -46,8 +46,6 @@
 ### 4. 28 2.1.4. Pertumbuhan Ekonomi (LPE) Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2011-2015 (persen)
 
 > https://github.com/bantenprov/laju-pertumbuhan-ekonomi-kabupaten-kota
-
-(belum ada src)
 
 - [ ] completed json files
 - [ ] test on local server
@@ -62,7 +60,7 @@
 
 > https://github.com/bantenprov/laju-inflasi-menurut-kelompok-pengeluaran
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -73,9 +71,7 @@
 
 ### 6. 30 2.1.6. Laju Inflasi Menurut Kota di Provinsi Banten Tahun 2010-2016 (persen)
 
-> https://github.com/bantenprov/laju-inflasi-menurut-kota
-
-(belum ada src)
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -88,9 +84,7 @@
 
 ### 7. 31 2.1.7. Distribusi Pembagian Pengeluaran per Kapita Versi Bank Dunia dan Indeks Gini Provinsi Banten dengan Indonesia Tahun 2002-2016
 
-> https://github.com/bantenprov/dpp-bank-dunia
-
-(belum ada src)
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -103,7 +97,7 @@
 
 ### 8. 32 2.1.8. Indeks Ketimpangan Regional (Indeks Williamson);di Provinsi Banten Tahun 2010-2015
 
-> https://github.com/bantenprov/indeks-ketimpangan-regional
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -118,7 +112,7 @@
 
 > https://github.com/bantenprov/indikator-kemiskinan-provinsi
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -131,8 +125,6 @@
 
 > https://github.com/bantenprov/indikator-kemiskinan-kabupaten-kota
 
-(belum ada src)
-
 - [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
@@ -144,9 +136,7 @@
 
 ### 11. 35 2.1.11. Garis Kemiskinan, Jumlah dan Persentase Penduduk Tidak Miskin Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2014-2015
 
-> https://github.com/bantenprov/garis-kemiskinan
-
-(belum ada src)
+> NA
 
 - [ ] completed json files
 - [ ] test on local server
@@ -159,9 +149,7 @@
 
 ### 12. 36 2.1.12. Persentase Penyelesaian Tindak Pidana Polda Banten dan Indonesia Tahun 2011-2015
 
-> https://github.com/bantenprov/penyelesaian-tindak-pidana-polda
-
-(belum ada src)
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -174,9 +162,7 @@
 
 ### 13. 37 2.2.1. Angka Melek Huruf (AMH) di Provinsi Banten dan Indonesia Tahun 2010-2015 (persen)
 
-> https://github.com/bantenprov/angka-melek-huruf
-
-(belum ada src)
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -204,7 +190,7 @@
 
 > https://github.com/bantenprov/harapan-lama-sekolah
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -215,7 +201,7 @@
 
 ### 16. 40 2.2.4. Rata-rata Lama Sekolah (RLS) Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2010-2015 (tahun)
 
-> https://github.com/bantenprov/rata-rata-lama-sekolah
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -230,7 +216,7 @@
 
 > https://github.com/bantenprov/angka-partisipasi-kasar
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -243,7 +229,7 @@
 
 > N/A
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -254,9 +240,7 @@
 
 ### 19. 43 2.2.7. Angka Pendidikan Yang Ditamatkan (APT) di Provinsi Banten dan Indonesia Tahun 2011-2016 (persen)
 
-> https://github.com/bantenprov/angka-pendidikan-ditamatkan
-
-(belum ada src)
+> N/A
 
 - [ ] completed json files
 - [ ] test on local server
@@ -284,7 +268,7 @@
 
 > https://github.com/bantenprov/angka-partisipasi-murni
 
-- [x] completed json files
+- [ ] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
@@ -320,7 +304,6 @@
 - [ ] push to GitHub
 
 ### 24. 50 3.2.9. Cakupan Balita Gizi Buruk Mendapat Perawatan Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2013-2015
-
 > https://github.com/bantenprov/balita-gizi-buruk-mendapat-perawatan
 
 - [ ] completed json files
@@ -360,148 +343,9 @@
 
 ### 27. 53 2.5.1. Rasio Grup Kesenian per 100.000 penduduk (RGKs);Menurut Kabupaten/Kota Se-Provinsi Banten Tahun 2013-2015
 
-> https://github.com/bantenprov/rasio-grup-kesenian
-
-(belum ada src)
+> N/A
 
 - [ ] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-## Dapodik
-
-### 1. Dapodik Data Sekolah 
-
-> https://github.com/bantenprov/dapodik-data-sekolah
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 2. Dapodik Data Guru 
-
-> https://github.com/bantenprov/dapodik-data-guru
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 3. Dapodik Data Peserta Didik
-
-> https://github.com/bantenprov/dapodik-data-peserta-didik
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-
-### 4. Dapodik Data Pegawai
-
-> https://github.com/bantenprov/dapodik-data-pegawai
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 5. Dapodik Proses Pengiriman
-
-> https://github.com/bantenprov/dapodik-progress-pengiriman
-
-(belum ada src)
-
-- [ ] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-## Jumlah Penduduk
-
-### 1. Jumlah Penduduk Wajib KTP
-
-> https://github.com/bantenprov/jumlah-penduduk-wajib-ktp
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 2. Jumlah Penduduk Golongan Darah
-
-> https://github.com/bantenprov/jumlah-penduduk-golongan-darah
-
-- [ ] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 3.  Jumlah Penduduk Jenis Pekerjaan
-
-> https://github.com/bantenprov/jumlah-penduduk-jenis-pekerjaan
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 4.  Jumlah Penduduk Jenis Kelamin
-
-> https://github.com/bantenprov/jumlah-penduduk-jenis-kelamin
-
-- [x] completed json files
-- [ ] test on local server
-- [ ] fix the code
-- [ ] update and redesign component and layout
-- [ ] give route name
-- [ ] give component name
-- [ ] update readme to match
-- [ ] push to GitHub
-
-### 5.  Jumlah Penduduk Tingkat Pendidikan
-
-> https://github.com/bantenprov/jumlah-penduduk-tingkat-pendidikan
-
-- [x] completed json files
 - [ ] test on local server
 - [ ] fix the code
 - [ ] update and redesign component and layout
