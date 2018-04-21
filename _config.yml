@@ -20,6 +20,10 @@ exclude:
   - .git/
   - .github/
   - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - Gemfile
   - Gemfile.lock
   - package.json
