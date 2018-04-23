@@ -266,28 +266,82 @@ Berikut ini merupakan tampilan **Edit** Jenis Prestasi:
 [![Edit Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-jenis-prestasi-admin.png)
 
 #### 3.4.12 Tampilan Menu SKTM 
-[![Menu SKTM](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-sktm-admin.png)
 Didalam **menu** ini terdapat data mengenai siswa yang memiliki surat keterangan tidak mampu **SKTM**. Siswa yang memiliki SKTM akan mendapatkan nomor SKTM dan juga nilai yang nantinya akan dikalkulasikan ke menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki SKTM beserta jenisnya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data siswa pemegang SKTM yang telah ada.
 
+Berikut ini merupakan tampilan **Add** SKTM:
+[![Add SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-sktm-admin.png)
+
+Berikut ini merupakan tampilan **Show** SKTM:
+[![Show SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-sktm-admin.png)
+
+Berikut ini merupakan tampilan **Edit** SKTM:
+[![Edit SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sktm-admin.png)
+
 #### 3.4.13 Tampilan Menu Master SKTM 
-[![Menu Master SKTM](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-sktm-admin.png)
 Didalam **menu** ini terdapat daftar data SKTM yang ada. Di menu ini terdapat data jenis SKTM yang tersedia yang dapat dipilih oleh siswa. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data Master SKTM yang telah ada
 
+Berikut ini merupakan tampilan **Add** Master SKTM:
+[![Add Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-sktm-admin.png)
+
+Berikut ini merupakan tampilan **Show** Master SKTM:
+[![Show Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-sktm-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Master SKTM:
+[![Edit Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-sktm-admin.png)
+
 #### 3.4.14 Tampilan Menu Nilai 
-[![Menu Nilai](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-nilai-admin.png)
 Didalam **menu** ini terdapat daftar data nilai siswa yang ada. Di menu ini nilai siswa di dapatkan dari kalkulasi beberapa data yang ada seperti: akademik, SKTM, Prestasi, dan juga zona. Di menu ini admin dapat mengetahui berapa total nilai dan bobot yang didapatkan oleh siswa. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data nilai siswa yang telah ada.
 
+Berikut ini merupakan tampilan **Add** Nilai:
+[![Add Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-nilai-admin.png)
+
+Berikut ini merupakan tampilan **Show** Nilai:
+[![Show Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-nilai-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Nilai:
+[![Edit Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-nilai-admin.png)
+
 #### 3.4.15 Tampilan Menu Akademik 
-[![Menu Akademik](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-akademik-admin.png)
 Didalam **menu** ini terdapat daftar data nilai siswa yang diperoleh dari hasil UN. Di menu ini nilai Un siswa akan dikalkulasikan ke menu **nilai**, yang nantinya akan akan diolah dengan hasil nilai lainnya  yang di dapatkan dari kalkulasi beberapa data yang ada seperti: SKTM, Prestasi, dan juga zona. Di menu ini admin dapat mengetahui berapa nilai UN yang didapat oleh siswa sperti nilai : Bhs. Indonesia, Bhs. Inggris, Matematika, dan juga IPA. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data nilai UN siswa yang telah ada.
 
+Berikut ini merupakan tampilan **Add** Akademik:
+[![Add Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-akademik-admin.png)
+
+Berikut ini merupakan tampilan **Show** Akademik:
+[![Show Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-akademik-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Akademik:
+[![Edit Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-akademik-admin.png)
+
 #### 3.4.16 Tampilan Menu Zona 
-[![Menu Zona](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-zona-admin.png)
 Didalam **menu** ini terdapat data zona siswa dan zona sekolah yang dipilih oleh siswa ketika melakukan pendaftaran. Pada menu ini zona siswa dan sekolah bisa dilihat, sehingga lokasi siswa dan sekolah bisa diketahui. Didalam menu ini zona siswa dan juga sekolah mempengaruhi nilai zona tersebut, yang nantinya akan dikalkulasikan ke dalam menu nilai. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data zona siswa yang telah ada.
 
+Berikut ini merupakan tampilan **Add** Zona:
+[![Add Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-zona-admin.png)
+
+Berikut ini merupakan tampilan **Show** Zona:
+[![Show Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-zona-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Zona:
+[![Edit Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-zona-admin.png)
+
 #### 3.4.17 Tampilan Menu Master Zona 
-[![Menu Master Zona](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-zona-admin.png)
 Didalam **menu** ini terdapat data zona dari setiap wilayah yang ada di seluruh Provinsi Banten. Pada menu ini admin dapat melihat kode zona dari setiap kabupaten dan kota yang ada di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data master zona yang telah ada.
+
+Berikut ini merupakan tampilan **Add** Master Zona:
+[![Add Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-zona-admin.png)
+
+Berikut ini merupakan tampilan **Show** Master Zona:
+[![Show Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-zona-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Master Zona:
+[![Edit Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-zona-admin.png)
 
 ### 3.4 Tampilan Konten Dokter Jaga
 [![Tampilan Konten Dokter Jaga](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-lihat-dokter-jaga.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-lihat-dokter-jaga.png)
