@@ -184,53 +184,108 @@ Berikut ini merupakan tampilan **Show** Prodi Sekolah:
 [![Show Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prodi-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prodi-sekolah-admin.png)
 
 Berikut ini merupakan tampilan **Edit** Prodi Sekolah:
+**APLIKASI MASIH EROR**
 [![Edit Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sekolah-admin.png)
 
 #### 3.4.6 Tampilan Menu Program keahlian 
-[![Menu Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-program-keahlian-admin.png)
 Didalam **menu** ini terdapat data program keahlian yang ditawarkan oleh sekolah SMA dan SMK negri yang terdapat di seluruh wilayah Provinsi Banten. Pada menu ini admin dapat melihat data program keahlian yang terdapat di sekolah SMA dan SMK negri yang terdapat di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data sekolah yang telah ada.
 
+Berikut ini merupakan tampilan **Add** Program Keahlian:
+[![Add Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-program-keahlian-admin.png)
+
+Berikut ini merupakan tampilan **Show** Program Keahlian:
+[![Show Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-program-keahlian-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Program Keahlian:
+[![Edit Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-program-keahlian-admin.png)
+
 #### 3.4.7 Tampilan Menu Kegiatan 
-[![Menu Kegiatan](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-kegiatan-admin.png)
 Didalam **menu** ini terdapat data kegiatan mengenai proses pendaftaran dan seleksi calon siswa baru yang akan mendaftar ke sekolah SMA dan SMK negri yang terdapat di seluruh wilayah Provinsi Banten. Pada menu ini admin dapat melihat data pendaftaran maupun tanggal dilaksanakannya proses kegiatan dan seleksi penerimaan peserta didik baru. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data kegiatan yang telah ada.
 
+Berikut ini merupakan tampilan **Add** Kegiatan:
+[![Add Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-kegiatan-admin.png)
+
+Berikut ini merupakan tampilan **Show** Kegiatan:
+[![Show Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-kegiatan-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Kegiatan:
+[![Edit Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-kegiatan-admin.png)
+
 #### 3.4.8 Tampilan Menu Orang Tua 
-[![Menu Orang Tua](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+[![Menu Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-orang-tua-admin.png)
 Didalam **menu** ini terdapat data orang tua dari siswa yang telah melakukan registrasi. Pada menu ini admin dapat melihat data lengkap orang tua siswa yang telah melakukan registrasi. Didalam menu ini admin dapat melihat data orang tua baik alamatnya, pekerjaan, pendidikan, dan data penunjang lainnya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data orang tua yang telah ada.
 
-#### 3.4.7 Tampilan Menu Prestasi 
-[![Menu Prestasi](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+Berikut ini merupakan tampilan **Add** Orang Tua:
+[![Add Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-orang-tua-admin.png)
+
+Berikut ini merupakan tampilan **Show** Orang Tua:
+[![Show Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-orang-tua-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Orang Tua:
+[![Edit Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-orang-tua-admin.png)
+
+#### 3.4.9 Tampilan Menu Prestasi 
+[![Menu Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-prestasi-admin.png)
 Didalam **menu** ini terdapat data prestasi siswa dari lomba yang telah diikutinya. Setiap lomba memiliki nilai yang berbeda-beda dan akan di kalkulasikan ke dalam menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki prestasi dan lomba yang diikutinya beserta tingkat dan juaranya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data prestasi siswa yang telah ada.
 
-#### 3.4.7 Tampilan Menu Master Prestasi 
-[![Menu Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+Berikut ini merupakan tampilan **Add** Prestasi:
+[![Add Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-prestasi-admin.png)
+
+Berikut ini merupakan tampilan **Show** Prestasi:
+[![Show Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prestasi-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Prestasi:
+[![Edit Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prestasi-admin.png)
+
+#### 3.4.10 Tampilan Menu Master Prestasi 
+[![Menu Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-prestasi-admin.png)
 Didalam **menu** ini terdapat data mengenai prestasi, juara, tingkat, dan jumlah nilai yang didapatkan dari prestasi tersebut. Pada menu ini admin dapat melihat daftar data juara dari mulai tingkat kabupaten sampai tingkat internasional. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data prestasi yang telah ada.
 
-#### 3.4.8 Tampilan Menu Jenis Prestasi 
-[![Menu Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
+Berikut ini merupakan tampilan **Add** Master Prestasi:
+[![Add Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-prestasi-admin.png)
+
+Berikut ini merupakan tampilan **Show** Master Prestasi:
+[![Show Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-prestasi-admin.png)
+
+Berikut ini merupakan tampilan **Edit** Master Prestasi:
+[![Edit Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-prestasi-admin.png)
+
+#### 3.4.11 Tampilan Menu Jenis Prestasi 
+[![Menu Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-jenis-prestasi-admin.png)
 Didalam **menu** ini terdapat daftar data jenis prestasi. Pada menu ini admin dapat melihat daftar jenis prestasi yang tersedia, mulai dari kejuaaraan yang diselenggarakan oleh Kemendikbud sampai kejuaraan yang diselenggarakan oleh Kemenag. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data jeni prestasi yang telah ada.
 
-#### 3.4.9 Tampilan Menu SKTM 
+Berikut ini merupakan tampilan **Add** Jenis Prestasi:
+[![Add Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-jenis-prestasi-admin.png)
+
+Berikut ini merupakan tampilan **Show** Jenis Prestasi:
+[![Show Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-jenis-prestasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-jenis-prestasi.png)
+
+Berikut ini merupakan tampilan **Edit** Jenis Prestasi:
+[![Edit Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-jenis-prestasi-admin.png)
+
+#### 3.4.12 Tampilan Menu SKTM 
 [![Menu SKTM](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
 Didalam **menu** ini terdapat data mengenai siswa yang memiliki surat keterangan tidak mampu **SKTM**. Siswa yang memiliki SKTM akan mendapatkan nomor SKTM dan juga nilai yang nantinya akan dikalkulasikan ke menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki SKTM beserta jenisnya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data siswa pemegang SKTM yang telah ada.
 
-#### 3.4.10 Tampilan Menu Master SKTM 
+#### 3.4.13 Tampilan Menu Master SKTM 
 [![Menu Master SKTM](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
 Didalam **menu** ini terdapat daftar data SKTM yang ada. Di menu ini terdapat data jenis SKTM yang tersedia yang dapat dipilih oleh siswa. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data Master SKTM yang telah ada
 
-#### 3.4.11 Tampilan Menu Nilai 
+#### 3.4.14 Tampilan Menu Nilai 
 [![Menu Nilai](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
 Didalam **menu** ini terdapat daftar data nilai siswa yang ada. Di menu ini nilai siswa di dapatkan dari kalkulasi beberapa data yang ada seperti: akademik, SKTM, Prestasi, dan juga zona. Di menu ini admin dapat mengetahui berapa total nilai dan bobot yang didapatkan oleh siswa. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data nilai siswa yang telah ada.
 
-#### 3.4.11 Tampilan Menu Akademik 
+#### 3.4.15 Tampilan Menu Akademik 
 [![Menu Akademik](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
 Didalam **menu** ini terdapat daftar data nilai siswa yang diperoleh dari hasil UN. Di menu ini nilai Un siswa akan dikalkulasikan ke menu **nilai**, yang nantinya akan akan diolah dengan hasil nilai lainnya  yang di dapatkan dari kalkulasi beberapa data yang ada seperti: SKTM, Prestasi, dan juga zona. Di menu ini admin dapat mengetahui berapa nilai UN yang didapat oleh siswa sperti nilai : Bhs. Indonesia, Bhs. Inggris, Matematika, dan juga IPA. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data nilai UN siswa yang telah ada.
 
-#### 3.4.12 Tampilan Menu Zona 
+#### 3.4.16 Tampilan Menu Zona 
 [![Menu Zona](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
 Didalam **menu** ini terdapat data zona siswa dan zona sekolah yang dipilih oleh siswa ketika melakukan pendaftaran. Pada menu ini zona siswa dan sekolah bisa dilihat, sehingga lokasi siswa dan sekolah bisa diketahui. Didalam menu ini zona siswa dan juga sekolah mempengaruhi nilai zona tersebut, yang nantinya akan dikalkulasikan ke dalam menu nilai. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data zona siswa yang telah ada.
 
-#### 3.4.13 Tampilan Menu Master Zona 
+#### 3.4.17 Tampilan Menu Master Zona 
 [![Menu Master Zona](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)](/document/aplikasi/psb-umum/images/implementasi/20171123_ars-input-dokter.png)
 Didalam **menu** ini terdapat data zona dari setiap wilayah yang ada di seluruh Provinsi Banten. Pada menu ini admin dapat melihat kode zona dari setiap kabupaten dan kota yang ada di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data master zona yang telah ada.
 
