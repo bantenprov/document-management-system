@@ -170,8 +170,7 @@ Berikut ini merupakan tampilan **Show** Prodi Sekolah:
 Di menu ini admin dapat melihat data prodi sekolah yang telah dibuat.
 
 Berikut ini merupakan tampilan **Edit** Prodi Sekolah:
-**APLIKASI MASIH EROR**
-[![Edit Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sekolah-admin.png)
+[![Edit Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prodi-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prodi-sekolah-admin.png)
 Di menu ini admin dapat merubah data prodi sekolah jika dirasa masih ada kesalahan.
 
 #### 2.4.6 Tampilan Menu Program keahlian 
