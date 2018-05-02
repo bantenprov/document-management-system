@@ -510,7 +510,7 @@ Jika sudah diisi semua tekan tombol register dan akan langsung terbuka halaman p
 
 ### 3.3 Tampilan Login Siswa
 
-[![Tampilan Login](/document/aplikasi/layanan-kesehatan/images/implementasi/halaman-login-siswa.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/halaman-login-siswa.png)
+[![Tampilan Login](/document/aplikasi/psb-umum/images/implementasi/halaman-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/halaman-login-siswa.png)
 
 Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan akun yang telah dimiliki sebelumnya. Jika siswa belum mempunyai akun maka siswa bisa melakukan registrasi dahulu di halaman registrasi.
 
@@ -551,7 +551,7 @@ Di form ini siswa harus mengisi identitas lengkap dengan mengisi seluruh field y
 
 [![Form Data Siswa 2](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa2.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa2.png)
 [![Form Data Siswa 3](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa3.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa3.png)
-[![Form Data Siswa 4](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa4.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa4.png)
+[![Form Data Siswa 4](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa-4.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa-4.png)
 
 Pada form ini field Nama Siswa, No KK dan Username akan otomatis terisi, berikut langkah-langkahnya:
 
@@ -572,7 +572,9 @@ Pada form ini field Nama Siswa, No KK dan Username akan otomatis terisi, berikut
 Berikut contoh pilihan field tanggal lahir:
 
 [![Field Tanggal](/document/aplikasi/psb-umum/images/implementasi/tanggal-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/tanggal-lahir.png)
+
 [![Field Bulan](/document/aplikasi/psb-umum/images/implementasi/bulan-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/bulan-lahir.png)
+
 [![Field Tahun](/document/aplikasi/psb-umum/images/implementasi/tahun-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/tahun-lahir.png)
 
 7. Jenis Kelamin: Pada field ini siswa mengisi jenis kelamin dengan cara memilih jenis kelamin yang tersedia, berikut contoh pilihan field jenis kelamin:
@@ -591,7 +593,7 @@ Berikut contoh pilihan field tanggal lahir:
 
 11. Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
 
-[![Field Sekolah Tujuan](/document/aplikasi/psb-umum/images/implementasi/sekolah-tujuan.png.png)](/document/aplikasi/psb-umum/images/implementasi/sekolah-tujuan.png.png)
+[![Field Sekolah Tujuan](/document/aplikasi/psb-umum/images/implementasi/sekolah-tujuan.png)](/document/aplikasi/psb-umum/images/implementasi/sekolah-tujuan.png)
 
 12. Prodi Sekolah: Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka pilihan ini tidak bisa dipilih. Berikut ini merupakan contoh pilihan field prodi sekolah:
 
@@ -632,9 +634,8 @@ Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form 
 
 Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 9 field yang harus diisi yaitu: Nomor Telepon, Nama Ayah, Nama Ibu, Pendidikan Ayah, Pekerjaan Ayah, Pendidikan Ibu, Pekerjaan Ibu, Alamat Orang Tua dan Username.
 
-[![Form Data Orang Tua 2](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
-[![Form Data Orang Tua 3](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
-[![Form Data Orang Tua 4](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
+[![Form Data Orang Tua 2](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua2.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua2.png)
+[![Form Data Orang Tua 3](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua3.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua3.png)
 
 Pada form ini field Username akan otomatis terisi, berikut langkah-langkahnya:
 
@@ -669,7 +670,7 @@ Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form 
 
 [![Form Review](/document/aplikasi/psb-umum/images/implementasi/form-review.png)](/document/aplikasi/psb-umum/images/implementasi/form-review.png)
 
-Di form ini terdapat informasi sesuai dengan apa yang telah diisi oelh siswa. Jika dirasa masih ada beberapa kesalahan maka siswa masih bisa mengeditnya dengan menekan tombol back yang tersedia pada bagian kiri bawah halaman atau juga dengan menekan menu form yang tersedia di bagian atas form dengan cara menekannya, siswa bisa memilih form mana yang kiranya masih terdapat kesalahan pengisian.
+Di form ini terdapat informasi sesuai dengan apa yang telah diisi oleh siswa. Jika dirasa masih ada beberapa kesalahan maka siswa masih bisa mengeditnya dengan menekan tombol back yang tersedia pada bagian kiri bawah halaman atau juga dengan menekan menu form yang tersedia di bagian atas form dengan cara menekannya, siswa bisa memilih form mana yang kiranya masih terdapat kesalahan pengisian.
 
 [![Tombol Back](/document/aplikasi/psb-umum/images/implementasi/tombol-back-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-back-menu-pendaftaran.png)
 
@@ -693,7 +694,7 @@ Pada form ini akan tersedia juga barcode yang bisa di scan menggunakan aplikasi 
 
 [![Barcode](/document/aplikasi/psb-umum/images/implementasi/barcode.png)](/document/aplikasi/psb-umum/images/implementasi/barcode.png)
 
-[![Tombol Print](/document/aplikasi/psb-umum/images/implementasi/tombol-print.png.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-print.png.png)
+[![Tombol Print](/document/aplikasi/psb-umum/images/implementasi/tombol-print.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-print.png)
 
 
 ### 4.1 Tampilan Menu Profile Siswa
@@ -702,7 +703,7 @@ Untuk mengakses menu ini siswa dapat menekan tombol profile yang terdapat pada b
 
 [![Tombol Profile Siswa](/document/aplikasi/psb-umum/images/implementasi/tombol-profile-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-profile-menu-pendaftaran.png)
 
-Pada menu ini siswa dapat melihat profile singkat siswa, seperti Nama, Nomor UN, E-mail, Nilai UN, Nilai Akademik, Nilai Prestasi, SKTM, dan juga Nilai Zona. Pada menu ini siswa bisa melakukan edit profile yang yang terbatas hanya pada alamat E-mail dan penggantian password.
+Pada menu ini siswa dapat melihat profile singkat siswa, seperti Nama, Nomor UN, E-mail, Nilai UN, Nilai Akademik, Nilai Prestasi, SKTM, dan juga Nilai Zona. Pada menu ini siswa bisa melakukan edit profile yang terbatas hanya pada alamat E-mail dan penggantian password.
 
 [![Menu Profile Siswa](/document/aplikasi/psb-umum/images/implementasi/form-profile.png)](/document/aplikasi/psb-umum/images/implementasi/form-profile.png)
 
