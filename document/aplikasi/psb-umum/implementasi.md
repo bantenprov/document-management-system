@@ -491,6 +491,7 @@ Berikut ini adalah tampilan layer mengenai informasi singkat dan asas PPDB pada 
 Disaat menekan tombol **daftar** pada halaman utama, maka akan muncul menu registrasi. Registrasi dilakukan agar siswa mendapatkan akun untuk proses login pendaftaran. Setelah siswa berhasil melakukan proses registrasi, halaman browser akan langsung menampilkan menu pendaftaran dan juga siswa telah mendapatkan akun yang selanjutnya akan bisa digunakan untuk login.
 
 [![Form Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)
+
 Di form ini terdapat 5 **field** yang harus diisi oleh siswa agar mendapatkan akun. Filed yang harus diisi yaitu: Nomor UN, Nomor Kartu Keluarga, E-mail, Password, dan Konfirmasi Password. 
 
 Berikut langkah-langkahnya:
@@ -510,22 +511,27 @@ Jika sudah diisi semua tekan tombol register dan akan langsung terbuka halaman p
 ### 3.3 Tampilan Login Siswa
 
 [![Tampilan Login](/document/aplikasi/layanan-kesehatan/images/implementasi/halaman-login-siswa.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/halaman-login-siswa.png)
+
 Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan akun yang telah dimiliki sebelumnya. Jika siswa belum mempunyai akun maka siswa bisa melakukan registrasi dahulu di halaman registrasi.
 
 [![Form Login Siswa](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)
+
 Di form ini hanya terdapat 2 field yang harus diisi, yaitu Nomor UN dan password. Jika sudah diisi maka akan langsung tampil menu pendaftaran siswa.  
 
 ### 3.4 Tampilan Menu Pendaftaran Siswa
 
 [![Menu Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)
+
 Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan. Dan pada bagian kanan atas halaman terdapat menu profile yang dapat dilihat dan jika di klik akan mengarahkan ke menu profile siswa.
 
 #### 3.4.1 Form Pendaftaran
 
 [![Form Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran.png)
+
 Pada form ini terdapat 3 field yang tersedia yaitu: Tanggal Pendaftaran, Kegiatan, dan Username.
 
 Pada form ini field Tanggal Pendaftaran dan Username akan otomatis terisi, jadi siswa hanya mengisi field kegiatan saja. Field kegiatan diisi dengan memilih jalur pendaftaran yang dituju. Berikut contoh pilihan pada field kegiatan.
+
 [![Field Kegiatan](/document/aplikasi/psb-umum/images/implementasi/kegiatan-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/kegiatan-siswa.png)
 
 Contoh Jika form pendaftaran sudah diisi
@@ -533,12 +539,14 @@ Contoh Jika form pendaftaran sudah diisi
 [![Form Pendaftaran Filled](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran-diisi.png)](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran-diisi.png)
 
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+
 [![Tombol next](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)
 
 
 #### 3.4.2 Form Data Siswa
 
 [![Form Data Siswa](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)
+
 Di form ini siswa harus mengisi identitas lengkap dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 19 field yang harus diisi yaitu: NIK, Nama Siswa, Nomor Kartu Keluarga, Alamat Kartu Keluarga, Tempat Lahir, Tanggal Lahir: Tanggal Bulan Tahun, Jenis Kelamin, Agama, NISN, Tahun Lulus, Sekolah Tujuan, Prodi Sekolah, Provinsi, Kabupaten, Kota, Desa, dan Username.
 
 [![Form Data Siswa 2](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa2.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa2.png)
@@ -615,11 +623,13 @@ Berikut ini merupakan contoh form yang sudah selesai terisi:
 [![Contoh Form Data Siswa Terisi 4](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi4.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi4.png)
 
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+
 [![Tombol Next](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)
 
 #### 3.4.3 Form Data Orang Tua
 
 [![Form Data Orang Tua](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
+
 Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 9 field yang harus diisi yaitu: Nomor Telepon, Nama Ayah, Nama Ibu, Pendidikan Ayah, Pekerjaan Ayah, Pendidikan Ibu, Pekerjaan Ibu, Alamat Orang Tua dan Username.
 
 [![Form Data Orang Tua 2](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
@@ -652,11 +662,13 @@ Berikut ini merupakan contoh form yang sudah selesai terisi:
 [![Contoh Form Data Orang Tua Terisi 2](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi2.png)](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi2.png)
 
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+
 [![Tombol Next](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)
 
 #### 3.4.4 Form Review
 
 [![Form Review](/document/aplikasi/psb-umum/images/implementasi/form-review.png)](/document/aplikasi/psb-umum/images/implementasi/form-review.png)
+
 Di form ini terdapat informasi sesuai dengan apa yang telah diisi oelh siswa. Jika dirasa masih ada beberapa kesalahan maka siswa masih bisa mengeditnya dengan menekan tombol back yang tersedia pada bagian kiri bawah halaman atau juga dengan menekan menu form yang tersedia di bagian atas form dengan cara menekannya, siswa bisa memilih form mana yang kiranya masih terdapat kesalahan pengisian.
 
 [![Tombol Back](/document/aplikasi/psb-umum/images/implementasi/tombol-back-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-back-menu-pendaftaran.png)
