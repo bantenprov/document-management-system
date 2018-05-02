@@ -678,11 +678,13 @@ Di form ini terdapat informasi sesuai dengan apa yang telah diisi oleh siswa. Ji
 
 Jika semua data yang diisi sudah benar maka siswa harus menekan tombol register yang terdapat pada bagian kanan bawah di form review. 
 
-[![Tombol Register](/document/aplikasi/psb-umum/images/implementasi/tombol-register-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-register-menu-pendaftaran.png)
+[![Tombol Register](/document/aplikasi/psb-umum/images/implementasi/tombol-register-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-register-menu-pendaftaran.png) 
 
-Berikut merupakan tampilan sesudah register:
+Jika Registrasi sudah berhasil maka akan tampil pemberitahuan seperti berikut ini:
 
 [![Pop Up Berhasil Registrasi](/document/aplikasi/psb-umum/images/implementasi/pendaftaran-berhasil.png)](/document/aplikasi/psb-umum/images/implementasi/pendaftaran-berhasil.png)
+
+Berikut merupakan tampilan sesudah register:
 
 [![Form Review Registered](/document/aplikasi/psb-umum/images/implementasi/form-review-registered.png)](/document/aplikasi/psb-umum/images/implementasi/form-review-registered.png)
 
