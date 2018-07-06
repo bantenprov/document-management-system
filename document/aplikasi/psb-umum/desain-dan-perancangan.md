@@ -479,9 +479,7 @@ Berikut ini adalah rancangan eksekusi sistem informasi manajemen penerimaan sisw
 
 ### 3.9 Passing Grade
 
-
-
-
+[![Passing Grade](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-passing-grade.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-passing-grade.png)
 
 ## 4. PENUTUP
 Dengan adanya pengembangan dari sistem informasi manajemen pendaftaran siswa baru ini untuk meningkatkan kinerja sistem yang telah ada dan berjalan sebelumnya menjadi lebih rapih dan tertata sehingga dapat mempermudah dalam pengumpulan informasi dan pengaturan manejemen sekolah serta mempermudah masyarakat dalam mencari informasi. Aplikasi ini mempunyai kelebihan untuk memperoleh data yang cepat, tepat dan akurat mengenai info sekolah yang terdapat di Pemprov Banten. Sistem ini memberikan kemudahan dalam beberapa hal seperti : pencatatan data sekolah, pencatatan data siswa dan kemudahan dalam mencari informasi tentang pelayanan pendaftaran siswa baru.
