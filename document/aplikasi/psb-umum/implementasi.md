@@ -15,8 +15,8 @@ toc: true
  ## Implementasi 
 Penerimaan Siswa Baru Umum (PSB Umum) adalah suatu aplikasi yang akan dikeluarkan oleh pemerintah Provinsi Banten untuk mendukung terlaksananya sistem penerimaan calon siswa baru yang lebih baik. Didalam aplikasi ini calon siswa dan orang tua dapat mengakses informasi lengkap mengenai pendaftaran sekolah yang terdapat di Banten, seperti melihat sekolah, kuota siswa, info pendaftaran, seleksi dan informasi - informasi terkait pendaftaran siswa baru yang terdapat di Banten.
 
-### Pengujian Program Aplikasi Super Admin
-<!-- 1. Untuk memulai akses terhadap aplikasi ****psb****. Buka web browser (IE, Mozila Firefox atau yang lainnya).
+<!--### Pengujian Program Aplikasi Super Admin
+ 1. Untuk memulai akses terhadap aplikasi ****psb****. Buka web browser (IE, Mozila Firefox atau yang lainnya).
   [![tampilan-browser](/document/aplikasi/layanan-kesehatan/images/implementasi/01.tampilan-browser.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/01.tampilan-browser.png)
 
 2. Dengan menulis alamat url http://yankes-01.dev.bantenprov.go.id/admin kemudian tekan ****Enter**** pada tombol keyboard atau klik tombol ****Go**** pada browser. Akan muncul tampilan seperti dibawah ini:
@@ -34,8 +34,8 @@ Penerimaan Siswa Baru Umum (PSB Umum) adalah suatu aplikasi yang akan dikeluarka
 contoh penambahan new admin di rumah sakit.
 [![tampilan-superadmin](/document/aplikasi/layanan-kesehatan/images/implementasi/18-admin-baru)](/document/aplikasi/layanan-kesehatan/images/implementasi/18-admin-baru) -->
 
-### Pengujian Program Aplikasi Admin
-<!-- 1. Untuk memulai akses terhadap aplikasi ****psb****. Buka web browser (IE, Mozila Firefox atau yang lainnya).
+<!--### Pengujian Program Aplikasi Admin
+ 1. Untuk memulai akses terhadap aplikasi ****psb****. Buka web browser (IE, Mozila Firefox atau yang lainnya).
   [![tampilan-browser](/document/aplikasi/layanan-kesehatan/images/implementasi/01.tampilan-browser.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/01.tampilan-browser.png)
 
 2. Dengan menulis alamat url http://yankes-01.dev.bantenprov.go.id/admin kemudian tekan ****Enter**** pada tombol keyboard atau klik tombol ****Go**** pada browser. Akan muncul tampilan seperti dibawah ini:
@@ -58,8 +58,8 @@ contoh penambahan new admin di rumah sakit.
   [![tampilan-login](/document/aplikasi/layanan-kesehatan/images/implementasi/24-ruangan-rawat-inap)](/document/aplikasi/layanan-kesehatan/images/implementasi/24-ruangan-rawat-inap)
   [![tampilan-login](/document/aplikasi/layanan-kesehatan/images/implementasi/25-tempat-tidur-pasien)](/document/aplikasi/layanan-kesehatan/images/implementasi/25-tempat-tidur-pasien) -->
 
-### Pengujian Program Aplikasi User
-<!-- 1. Untuk memulai akses terhadap aplikasi ****layanan kesehatan****. Buka web browser (IE, Mozila Firefox atau yang lainnya).
+<!--### Pengujian Program Aplikasi User
+ 1. Untuk memulai akses terhadap aplikasi ****layanan kesehatan****. Buka web browser (IE, Mozila Firefox atau yang lainnya).
   [![tampilan-browser](/document/aplikasi/layanan-kesehatan/images/implementasi/01.tampilan-browser.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/01.tampilan-browser.png)  -->
 
 ## 1. Implementasi 
@@ -70,571 +70,106 @@ Implementasi aplikasi Penerimaan Siswa Baru merupakan hasil perancangan dan desa
 
 ## 2. Menu dan Cara Penggunaan Admin
 
-### 2.1 Tampilan Halaman Utama
-
-[![Halaman Utama](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-utama.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-utama.png)
-
-Disaat membuka aplikasi PSB untuk admin maka akan muncul dua tombol, yaitu tombol **dashboard** dan tombol **daftar**. Disebelah kanan atas terdapat tombol **prinsip utama** dan **login** yang dapat digunakan jika sudah memiliki akun. Tombol prinsip utama akan mengarahkan ke layer asas PPDB dan juga informasi singkat mengenai PPDB.
-
-Berikut ini adalah tampilan layer mengenai informasi singkat dan asas PPDB pada halaman utama:
-
-[![AInformasi Singkat PPDB](/document/aplikasi/psb-umum/images/implementasi/psb-umum_informasi-singkat-ppdb.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_informasi-singkat-ppdb.png)
-
-[![Asas PPDB](/document/aplikasi/psb-umum/images/implementasi/psb-umum_asas-ppdb.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_asas-ppdb.png)
-
-### 2.2 Tampilan Registrasi Admin
-
-[![Registrasi Admin](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-register-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-register-admin.png)
-
-Disaat menekan tombol **daftar** pada halaman utama, maka akan muncul menu registrasi. Disini terdapat 4 **field** yang harus diisi oleh admin agar mendapatkan akun. Filed yang harus diisi yaitu: Username, E-mail, Password, dan Konfirmasi Password. Jika sudah diisi tekan tombol register dan buka alamat E-mail untuk melakukan proses aktivasi akun.
-
-### 2.3 Tampilan Login admin
+### 2.1 Tampilan Login Admin Sekolah
 
 [![Login Admin Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-login-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-login-admin.png)
 
-Di halaman ini akan muncul menu login. Disini hanya terdapat 2 **field** yng harus diisi, yaitu : Username yang sudah di aktivasi melalui E-mail dan juga password yang telah dibuat ketika register. Jika admin belum melakukan registrasi maka admin dapat menekan tombol **register** untuk melakukan registrasi atau **back to home** yang akan mengarahkan ke halaman utama.
+Di halaman ini akan muncul menu login. Disini hanya terdapat 2 **field** yng harus diisi, yaitu : Username dan juga password yang telah dimiliki.
 
-### 2.4 Tampilan Dashboard Admin
+### 2.2 Tampilan Dashboard Admin Sekolah
 
 [![Dashboard Admin](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-dashboard-utama.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-dashboard-utama.png)
 
-Didalam page ini terdapat beberapa list menu yang dapat diolah oleh admin yang akan terintegrasi dengan aplikasi PPDB. Didalam aplikasi admin juga dapat melihat berapa jumlah user yang terdaftar pada aplikasi PPDB dan beberapa data utama dalam bentuk chart grafik dan pie.
+Didalam page ini terdapat beberapa list menu yang dapat diolah oleh admin yang akan terintegrasi dengan aplikasi PPDB.
 
-#### 2.4.1 Tampilan Menu Pendaftaran 
+### 2.3 Tampilan Menu Pendaftaran Admin Sekolah
 
 [![Menu Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-pendaftaran-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-pendaftaran-admin.png)
 
-Didalam **menu** ini terdapat modul pendaftaran, yang didalamnya terdapat data pendaftaran yang telah diinput oleh siswa. Pada menu ini admin dapat mengolah data yang telah ada seperti menambahkan, melihat, mengedit, dan juga menghapus data pendaftaran yang telah ada.
+Didalam **menu** ini terdapat modul pendaftaran, yang didalamnya terdapat data pendaftaran yang telah diinput oleh siswa. Di menu ini admin dapat melakukan verifikasi pada siswa yang telah mendaftar pada sekolah yang dituju, untuk melakukan verifikasi admin dapat menekan tombol show pada data pendaftaran yang telah ada. Setiap siswa yang telah mendaftar akan terlihat statusnya pada tabel pendaftaran. Siswa yang memiliki status **terdaftar** dapat langsung diverifikasi oleh admin.
 
-Berikut ini merupakan tampilan **Add** Pendaftaran:
+[![Siswa Terdaftar](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-siswa-terdaftar.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-siswa-terdaftar.png)
 
-[![Add Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-pendaftaran-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-pendaftaran-admin.png)
+Untuk melakukan verifikasi maka admin sekolah dapat menekan tombol **Ubah** pada siswa yang memiliki status terdaftar.
 
-Di menu ini admin dapat menambahkan data pendaftaran yaitu: Sekolah Tujuan dan Kegiatan.
+[![Form Verifikasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-tombol-ubah.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-tombol-ubah.png)
 
-Berikut ini merupakan tampilan **Show** Pendaftaran:
+Jika form sudah terbuka, maka admin mencocokkan data yang di bawa oleh siswa dan yang terdapat di dalam aplikasi, jika data yang terdapat didalam form dirasa sudah benar maka admin sekolah tinggal merubah status pendaftaran pada form menjadi **Verifikasi** lalu tekan tombol simpan.
 
-[![Show Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-pendaftaran-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-pendaftaran-admin.png)
+[![Form Pendaftaran 1](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-pendaftaran-1.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-pendaftaran-1.png)
+[![Form Pendaftaran 2](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-pendaftaran-2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-pendaftaran-2.png)
 
-Di menu ini admin dapat melihat data pendaftaran yang telah dibuat.
+[![Merubah Status Pendaftaran Menjadi Verifikasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-merubah-status-pendaftaran-menjadi-verifikasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-merubah-status-pendaftaran-menjadi-verifikasi.png)
 
-Berikut ini merupakan tampilan **Edit** Pendaftaran:
+Pada tabel pendaftaran akan terlihat status pendaftaran menjadi **Verifikasi**.
 
-[![Edit Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-pendaftaran-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-pendaftaran-admin.png)
+[![Status Pendaftaran Menjadi Verifikasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-status-pendaftaran-menjadi-verifikasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-status-pendaftaran-menjadi-verifikasi.png)
 
-Di menu ini admin dapat merubah data pendaftaran jika dirasa masih ada kesalahan.
+### 2.4 Pendaftaran Afirmasi
 
+[![Menu Afirmasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-afirmasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-afirmasi.png)
 
-#### 2.4.2 Tampilan Menu Seleksi 
+[![Tabel Afirmasi Masih Kosong](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tabel-afirmasi-masih-kosong.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tabel-afirmasi-masih-kosong.png)
 
-[![Menu Seleksi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-seleksi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-seleksi-admin.png)
+Pendaftaran jalur ini merupakan jalur khusus untuk siswa yang proses pendaftarannya dilakukan oleh admin sekolah. Jalur ini meliputi siswa luar zona, siswa yang datanya tidak terdapat di data Dapodik, dan lain-lain. 
 
-Didalam **menu** ini terdapat modul seleksi. Pada menu ini terdapat data hasil seleksi siswa yang telah melakukan pendaftaran. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data seleksi yang telah ada.
+Untuk siswa yang melakukan pendaftaran di jalur ini maka siswa tidak dapat melakukan pindah sekolah dan hanya dapat melakukan sekali pendaftaran.
 
-Berikut ini merupakan tampilan **Add** Seleksi:
+Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
 
-[![Add Seleksi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-seleksi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-seleksi-admin.png)
+[![Form Jalur Afirmasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi.png)
+[![Form Jalur Afirmasi2](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi2.png)
+[![Form Jalur Afirmasi3](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi3.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi3.png)
 
-Di menu ini admin dapat menambahkan data seleksi yaitu: Pendaftaran, Siswa, dan Nilai.
+Berikut ini merupakan form jalur Afirmasi yang sudah terisi:
 
-Berikut ini merupakan tampilan **Show** Seleksi:
+[![Form Jalur Afirmasi Terisi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi-terisi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi-terisi.png)
+[![Form Jalur Afirmasi Terisi2](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi-terisi2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi-terisi2.png)
+[![Form Jalur Afirmasi Terisi3](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi-terisi3.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-afirmasi-terisi3.png)
 
-[![Show Seleksi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-seleksi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-seleksi-admin.png)
+Jika pengisian sudah selesai maka data akan muncul pada tabel pendaftaran afirmasi:
 
-Di menu ini admin dapat melihat data seleksi yang telah dibuat.
+[![Tabel Pendaftaran Afirmasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-tabel-afirmasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-tabel-afirmasi.png)
 
-Berikut ini merupakan tampilan **Edit** Seleksi:
+### 2.5 Pendaftaran Luar Zona
 
-[![Edit Seleksi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-seleksi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-seleksi-admin.png)
+[![Menu Luar Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-luar-zona.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-luar-zona.png)
 
-Di menu ini admin dapat merubah data seleksi jika dirasa masih ada kesalahan.
+[![Tabel Luar Zona Masih Kosong](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tabel-luar-zona-masih-kosong.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tabel-luar-zona-masih-kosong.png)
 
-#### 2.4.3 Tampilan Menu Siswa 
+Pendaftaran jalur ini merupakan jalur khusus untuk siswa yang proses pendaftarannya dilakukan oleh admin sekolah. Jalur ini meliputi siswa yang memiliki kartu keluarga di Provinsi Banten tetapi datanya tidak terdapat di data Dapodik. 
 
-[![Menu Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-siswa-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-siswa-admin.png)
+Untuk siswa yang melakukan pendaftaran di jalur ini maka siswa tidak dapat melakukan pindah sekolah dan hanya dapat melakukan sekali pendaftaran.
 
-Didalam **menu** ini terdapat data identitas siswa yang telah melakukan pendaftaran. Pada menu ini admin dapat melihat data identitas lengkap dari siswa tersebut. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data siswa yang telah ada.
+Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
 
-Berikut ini merupakan tampilan **Add** Siswa:
+[![Form Jalur Luar Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-luar-zona.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-luar-zona.png)
 
-[![Add Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-siswa-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-siswa-admin.png)
+Berikut ini merupakan form jalur Luar Zona yang sudah terisi:
 
-Di menu ini admin dapat menambahkan data siswa yaitu: Nomor UN, NIK, Nama Siswa, No KK, Alamat KK, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, NISN, Tahun Lulus, Sekolah Tujuan, Prodi Sekolah, Provinsi, Kabupaten/Kota, Kecamatan, dan Kelurahan/Desa. 
+[![Form Jalur Luar Zona Terisi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-luar-zona-terisi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-luar-zona-terisi.png)
 
-Berikut ini merupakan tampilan **Show** Siswa:
+Jika pengisian sudah selesai maka data akan muncul pada tabel pendaftaran Luar Zona:
 
-[![Show Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-siswa-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-siswa-admin.png)
+[![Tabel Pendaftaran Luar Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-tabel-luar-zona.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-tabel-luar-zona.png)
 
-Di menu ini admin dapat melihat data siswa yang telah dibuat.
+### 2.6 Reset Password
 
-Berikut ini merupakan tampilan **Edit** Siswa:
+[![Menu Reset Password](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-reset-password.png)
 
-[![Edit Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-siswa-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-siswa-admin.png)
+Menu ini berfungsi untuk melakukan reset password bagi siswa yang lupa akan login passwordnya. Admin hanya bisa mereset password siswa yang mendaftar ke sekolah dimana admin bekerja (Jika siswa mendaftar ke **SMA Negeri 1 Pandeglang** maka hanya admin sekolah **SMA Negri 1 Pandeglang** yang bisa me-reset password siswa tersebut.
 
-Di menu ini admin dapat merubah data siswa jika dirasa masih ada kesalahan.
+Di menu ini admin bisa merubah password siswa yang kemudian diberikan kepada siswa tersebut.
 
-#### 2.4.4 Tampilan Menu Sekolah 
+Berikut ini merupakan form isian yang harus diisi oleh admin sekolah:
 
-[![Menu Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-sekolah-admin.png)
+[![Form Reset Password](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-reset-password.png)
 
-Didalam **menu** ini terdapat data sekolah SMA dan SMK negri yang terdapat di seluruh wilayah Provinsi Banten. Pada menu ini admin dapat melihat data sekolah SMA dan SMK negri yang terdapat di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data sekolah yang telah ada.
+Berikut ini merupakan form reset password yang sudah terisi:
 
-Berikut ini merupakan tampilan **Add** Sekolah:
+[![Form Reset Password Terisi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-reset-password-terisi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-form-reset-password-terisi.png)
 
-[![Add Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-sekolah-admin.png)
-
-Di menu ini admin dapat menambahkan data sekolah yaitu: Nama Sekolah, NPSN, Jenis Sekolah, Alamat, Provinsi, Kabupaten/Kota, Kecamatan, Kelurahan/Desa, Nomor Telepon, Email, dan Zona.
-
-Berikut ini merupakan tampilan **Show** Sekolah:
-
-[![Show Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-sekolah-admin.png)
-
-Di menu ini admin dapat melihat data sekolah yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Sekolah:
-
-[![Edit Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sekolah-admin.png)
-
-Di menu ini admin dapat merubah data sekolah jika dirasa masih ada kesalahan.
-
-#### 2.4.5 Tampilan Menu Prodi Sekolah 
-
-[![Menu prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-prodi-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-prodi-sekolah-admin.png)
-
-Didalam **menu** ini terdapat data prodi sekolah SMA dan SMK negri yang terdapat di seluruh wilayah Provinsi Banten. Pada menu ini admin dapat melihat data prodi sekolah, program keahlian dan juga kuota siswa pada setiap sekolah SMA dan SMK negri yang terdapat di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data prodi sekolah yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Prodi Sekolah:
-
-[![Add Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-prodi-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-prodi-sekolah-admin.png)
-
-Di menu ini admin dapat menambahkan data prodi sekolah yaitu: Nama Sekolah, Program Keahlian, dan Kuota Siswa.
-
-Berikut ini merupakan tampilan **Show** Prodi Sekolah:
-[![Show Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prodi-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prodi-sekolah-admin.png)
-
-Di menu ini admin dapat melihat data prodi sekolah yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Prodi Sekolah:
-
-[![Edit Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prodi-sekolah-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prodi-sekolah-admin.png)
-
-Di menu ini admin dapat merubah data prodi sekolah jika dirasa masih ada kesalahan.
-
-#### 2.4.6 Tampilan Menu Program keahlian
-
-[![Menu Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-program-keahlian-admin.png)
-
-Didalam **menu** ini terdapat data program keahlian yang ditawarkan oleh sekolah SMA dan SMK negri yang terdapat di seluruh wilayah Provinsi Banten. Pada menu ini admin dapat melihat data program keahlian yang terdapat di sekolah SMA dan SMK negri yang terdapat di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data sekolah yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Program Keahlian:
-
-[![Add Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-program-keahlian-admin.png)
-
-Di menu ini admin dapat menambahkan data program keahlian yaitu: Label dan Keterangan.
-
-Berikut ini merupakan tampilan **Show** Program Keahlian:
-
-[![Show Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-program-keahlian-admin.png)
-
-Di menu ini admin dapat melihat data program keahlian yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Program Keahlian:
-
-[![Edit Program Keahlian](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-program-keahlian-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-program-keahlian-admin.png)
-
-Di menu ini admin dapat merubah data program keahlian jika dirasa masih ada kesalahan.
-
-#### 2.4.7 Tampilan Menu Kegiatan 
-
-[![Menu Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-kegiatan-admin.png)
-
-Didalam **menu** ini terdapat data kegiatan mengenai proses pendaftaran dan seleksi calon siswa baru yang akan mendaftar ke sekolah SMA dan SMK negri yang terdapat di seluruh wilayah Provinsi Banten. Pada menu ini admin dapat melihat data pendaftaran maupun tanggal dilaksanakannya proses kegiatan dan seleksi penerimaan peserta didik baru. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data kegiatan yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Kegiatan:
-
-[![Add Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-kegiatan-admin.png)
-
-Di menu ini admin dapat menambahkan data kegiatan yaitu: Label, Description, Tanggal Mulai, dan Tanggal Selesai.
-
-Berikut ini merupakan tampilan **Show** Kegiatan:
-
-[![Show Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-kegiatan-admin.png)
-
-Di menu ini admin dapat melihat data kegiatan yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Kegiatan:
-
-[![Edit Kegiatan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-kegiatan-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-kegiatan-admin.png)
-
-Di menu ini admin dapat merubah data kegiatan jika dirasa masih ada kesalahan.
-
-#### 2.4.8 Tampilan Menu Orang Tua 
-
-[![Menu Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-orang-tua-admin.png)
-
-Didalam **menu** ini terdapat data orang tua dari siswa yang telah melakukan registrasi. Pada menu ini admin dapat melihat data lengkap orang tua siswa yang telah melakukan registrasi. Didalam menu ini admin dapat melihat data orang tua baik alamatnya, pekerjaan, pendidikan, dan data penunjang lainnya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data orang tua yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Orang Tua:
-
-[![Add Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-orang-tua-admin.png)
-
-Di menu ini admin dapat menambahkan data orang tua yaitu: Nama Siswa, Nomor Telepon, Nama Ayah, Nama Ibu, Pendidikan Ayah, Pekerjaan Ayah, Pendidikan Ibu, Pekerjaan Ibu, Alamat Orang Tua.
-
-Berikut ini merupakan tampilan **Show** Orang Tua:
-
-[![Show Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-orang-tua-admin.png)
-
-Di menu ini admin dapat melihat data orang tua yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Orang Tua:
-
-[![Edit Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-orang-tua-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-orang-tua-admin.png)
-
-Di menu ini admin dapat merubah data orang tua jika dirasa masih ada kesalahan.
-
-#### 2.4.9 Tampilan Menu Prestasi 
-
-[![Menu Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-prestasi-admin.png)
-
-Didalam **menu** ini terdapat data prestasi siswa dari lomba yang telah diikutinya. Setiap lomba memiliki nilai yang berbeda-beda dan akan di kalkulasikan ke dalam menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki prestasi dan lomba yang diikutinya beserta tingkat dan juaranya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data prestasi siswa yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Prestasi:
-
-[![Add Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-prestasi-admin.png)
-
-Di menu ini admin dapat menambahkan data prestasi yaitu: Nama Siswa, Master Prestasi, dan Nama Lomba.
-
-Berikut ini merupakan tampilan **Show** Prestasi:
-
-[![Show Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-prestasi-admin.png)
-
-Di menu ini admin dapat melihat data prestasi yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Prestasi:
-
-[![Edit Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-prestasi-admin.png)
-
-Di menu ini admin dapat merubah data prestasi jika dirasa masih ada kesalahan.
-
-#### 2.4.10 Tampilan Menu Master Prestasi
-
-[![Menu Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-prestasi-admin.png)
-
-Didalam **menu** ini terdapat data mengenai prestasi, juara, tingkat, dan jumlah nilai yang didapatkan dari prestasi tersebut. Pada menu ini admin dapat melihat daftar data juara dari mulai tingkat kabupaten sampai tingkat internasional. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data prestasi yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Master Prestasi:
-
-[![Add Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-prestasi-admin.png)
-
-Di menu ini admin dapat menambahkan data master prestasi yaitu: Jenis Prestasi, Juara, Tingkat, Nilai, dan Kode prestasi.
-
-Berikut ini merupakan tampilan **Show** Master Prestasi:
-
-[![Show Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-prestasi-admin.png)
-
-Di menu ini admin dapat melihat data master prestasi yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Master Prestasi:
-
-[![Edit Master Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-prestasi-admin.png)
-
-Di menu ini admin dapat merubah data master prestasi jika dirasa masih ada kesalahan.
-
-#### 2.4.11 Tampilan Menu Jenis Prestasi 
-
-[![Menu Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-jenis-prestasi-admin.png)
-
-Didalam **menu** ini terdapat daftar data jenis prestasi. Pada menu ini admin dapat melihat daftar jenis prestasi yang tersedia, mulai dari kejuaaraan yang diselenggarakan oleh Kemendikbud sampai kejuaraan yang diselenggarakan oleh Kemenag. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data jeni prestasi yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Jenis Prestasi:
-
-[![Add Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-jenis-prestasi-admin.png)
-
-Di menu ini admin dapat menambahkan data jenis prestasi yaitu: Nama Jenis Prestasi.
-
-Berikut ini merupakan tampilan **Show** Jenis Prestasi:
-
-[![Show Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-jenis-prestasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-jenis-prestasi.png)
-
-Di menu ini admin dapat melihat data jenis prestasi yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Jenis Prestasi:
-
-[![Edit Jenis Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-jenis-prestasi-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-jenis-prestasi-admin.png)
-
-Di menu ini admin dapat merubah data jenis prestasi jika dirasa masih ada kesalahan.
-
-#### 2.4.12 Tampilan Menu SKTM 
-
-[![Menu SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-sktm-admin.png)
-
-Didalam **menu** ini terdapat data mengenai siswa yang memiliki surat keterangan tidak mampu **SKTM**. Siswa yang memiliki SKTM akan mendapatkan nomor SKTM dan juga nilai yang nantinya akan dikalkulasikan ke menu **nilai**. Pada menu ini admin dapat melihat daftar siswa yang memiliki SKTM beserta jenisnya. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data siswa pemegang SKTM yang telah ada.
-
-Berikut ini merupakan tampilan **Add** SKTM:
-
-[![Add SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-sktm-admin.png)
-
-Di menu ini admin dapat menambahkan data SKTM yaitu: Nama Siswa, Kriteria SKTM, dan No SKTM.
-
-Berikut ini merupakan tampilan **Show** SKTM:
-
-[![Show SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-sktm-admin.png)
-
-Di menu ini admin dapat melihat data SKTM yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** SKTM:
-
-[![Edit SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-sktm-admin.png)
-
-Di menu ini admin dapat merubah data SKTM jika dirasa masih ada kesalahan.
-
-#### 2.4.13 Tampilan Menu Master SKTM 
-
-[![Menu Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-sktm-admin.png)
-
-Didalam **menu** ini terdapat daftar data SKTM yang ada. Di menu ini terdapat data jenis SKTM yang tersedia yang dapat dipilih oleh siswa. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data Master SKTM yang telah ada
-
-Berikut ini merupakan tampilan **Add** Master SKTM:
-
-[![Add Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-sktm-admin.png)
-
-Di menu ini admin dapat menambahkan data master SKTM yaitu: Kriteria, Instansi, dan Nilai.
-
-Berikut ini merupakan tampilan **Show** Master SKTM:
-
-[![Show Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-sktm-admin.png)
-
-Di menu ini admin dapat melihat data master SKTM yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Master SKTM:
-
-[![Edit Master SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-sktm-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-sktm-admin.png)
-
-Di menu ini admin dapat merubah data master SKTM jika dirasa masih ada kesalahan.
-
-#### 2.4.14 Tampilan Menu Nilai 
-
-[![Menu Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-nilai-admin.png)
-
-Didalam **menu** ini terdapat daftar data nilai siswa yang ada. Di menu ini nilai siswa di dapatkan dari kalkulasi beberapa data yang ada seperti: akademik, SKTM, Prestasi, dan juga zona. Di menu ini admin dapat mengetahui berapa total nilai dan bobot yang didapatkan oleh siswa. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data nilai siswa yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Nilai:
-
-[![Add Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-nilai-admin.png)
-
-Di menu ini admin dapat menambahkan data nilai yaitu: Nama Siswa, Bobot, Akademik, Prestasi, Zona, dan SKTM.
-
-Berikut ini merupakan tampilan **Show** Nilai:
-
-[![Show Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-nilai-admin.png)
-
-Di menu ini admin dapat melihat data nilai yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Nilai:
-
-[![Edit Nilai](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-nilai-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-nilai-admin.png)
-
-Di menu ini admin dapat merubah data nilai jika dirasa masih ada kesalahan.
-
-#### 2.4.15 Tampilan Menu Akademik 
-
-[![Menu Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-akademik-admin.png)
-
-Didalam **menu** ini terdapat daftar data nilai siswa yang diperoleh dari hasil UN. Di menu ini nilai Un siswa akan dikalkulasikan ke menu **nilai**, yang nantinya akan akan diolah dengan hasil nilai lainnya  yang di dapatkan dari kalkulasi beberapa data yang ada seperti: SKTM, Prestasi, dan juga zona. Di menu ini admin dapat mengetahui berapa nilai UN yang didapat oleh siswa sperti nilai : Bhs. Indonesia, Bhs. Inggris, Matematika, dan juga IPA. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data nilai UN siswa yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Akademik:
-
-[![Add Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-akademik-admin.png)
-
-Di menu ini admin dapat menambahkan data akademik yaitu: Nama Siswa, Bahasa Indonesia, Bahasa Inggris, Matematika, dan IPA.
-
-Berikut ini merupakan tampilan **Show** Akademik:
-
-[![Show Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-akademik-admin.png)
-
-Di menu ini admin dapat melihat data akademik yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Akademik:
-
-[![Edit Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-akademik-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-akademik-admin.png)
-
-Di menu ini admin dapat merubah data akademik jika dirasa masih ada kesalahan.
-
-#### 2.4.16 Tampilan Menu Zona 
-
-[![Menu Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-zona-admin.png)
-
-Didalam **menu** ini terdapat data zona siswa dan zona sekolah yang dipilih oleh siswa ketika melakukan pendaftaran. Pada menu ini zona siswa dan sekolah bisa dilihat, sehingga lokasi siswa dan sekolah bisa diketahui. Didalam menu ini zona siswa dan juga sekolah mempengaruhi nilai zona tersebut, yang nantinya akan dikalkulasikan ke dalam menu nilai. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data zona siswa yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Zona:
-
-[![Add Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-zona-admin.png)
-
-Di menu ini admin dapat menambahkan data zona yaitu: Nama Siswa. Wilayah Zonasi otomatis ter-input ketika admin menambahkan Nama Siswa.
-
-Berikut ini merupakan tampilan **Show** Zona:
-
-[![Show Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-zona-admin.png)
-
-Di menu ini admin dapat melihat data zona yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Zona:
-
-[![Edit Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-zona-admin.png)
-
-Di menu ini admin dapat merubah data zona jika dirasa masih ada kesalahan.
-
-#### 2.4.17 Tampilan Menu Master Zona 
-
-[![Menu Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-master-zona-admin.png)
-
-Didalam **menu** ini terdapat data zona dari setiap wilayah yang ada di seluruh Provinsi Banten. Pada menu ini admin dapat melihat kode zona dari setiap kabupaten dan kota yang ada di Banten. Pada menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data master zona yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Master Zona:
-
-[![Add Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-master-zona-admin.png)
-
-Di menu ini admin dapat menambahkan data master zona yaitu: Tingkat, Kode, dan Label.
-
-Berikut ini merupakan tampilan **Show** Master Zona:
-
-[![Show Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-master-zona-admin.png)
-
-Di menu ini admin dapat melihat data master zona yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Master Zona:
-
-[![Edit Master Zona](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-zona-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-master-zona-admin.png)
-
-Di menu ini admin dapat merubah data master zona jika dirasa masih ada kesalahan.
-
-#### 2.4.18 Tampilan Menu Workflow 
-
-[![Menu Workflow](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-admin.png)
-
-Didalam **menu** ini admin dapat menambahkan data workflow dari proses yang telah ada, baik itu proses pendaftaran maupun proses seleksi. Menu ini merupakan alur kerja dari proses yang telah ada. Pada menu ini admin dapat melihat alur apa saja yang dapat dilakukan oleh Superadmin ataupun admin, seperti: propose, review, dan juga reject. Di menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data workflow yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Workflow:
-
-[![Add Workflow](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-admin.png)
-
-Pada menu add ini admin dapat menambahkan data workflow yang akan di buat dan juga memilih konten workflownya.
-
-Berikut ini merupakan tampilan **Show** Workflow:
-
-[![Show Workflow](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-workflow-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-workflow-admin.png)
-
-Pada menu show ini admin dapat melihat data workflow yang telah di tambahkan. Admin juga dapat menambahkan register workflownya seperti tipe workflow dan tipe kontennya.
-
-Berikut ini merupakan tampilan **Edit** Workflow:
-
-[![Edit Workflow](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-workflow-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-workflow-admin.png)
-
-Pada menu ini admin dapat mengedit data workflow yang telah dibuat. 
-
-Berikut ini merupakan tampilan **Menu** Workflow Transition:
-
-[![Menu Workflow Transition](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-transition-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-transition-admin.png)
-
-Didalam **menu** ini terdapat data workflow dari proses yang telah ada, di menu ini admin dapat melakukan transisi dari data workflow yang telah ditambahkan seperti: propose to propose yaitu usulan dari workflow ini telah dibuat dan juga propose to review yaitu usulan dari workflow akan di minta review. Pada menu ini admin dapat menambahkan deskripsi yang dapat diketik manual ketika menambahkan data transition agar dapat lebih mudah dipahami. Di menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data workflow transition yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Workflow Transition:
-
-[![Add Workflow Transition](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-transition-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-transition-admin.png)
-
-Pada menu add ini admin dapat menambahkan data workflow transition yang akan di buat dan juga menuliskan deskripsi workflow transitionnya.
-
-Berikut ini merupakan tampilan **Edit** Workflow Transition:
-
-[![Edit Workflow Transition](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-workflow-transition-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-workflow-transition-admin.png)
-
-Pada menu ini admin dapat mengedit data workflow transition yang telah dibuat. 
-
-Berikut ini merupakan tampilan **Menu** Workflow State:
-
-[![Menu Workflow State](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-state-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-state-admin.png)
-
-Didalam **menu** ini terdapat status data workflow dari proses yang telah ada, di menu ini admin dapat menambahkan data status dari workflow yang telah dibuat. Jika ada perubahan data admin dapat merubahnya pada menu edit. Di menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data workflow state yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Workflow State:
-
-[![Add Workflow State](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-state-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-state-admin.png)
-
-Pada menu add ini admin dapat menambahkan data workflow state yang akan di buat dan juga menuliskan deskripsi workflow statenya.
-
-Berikut ini merupakan tampilan **Edit** Workflow State:
-
-[![Edit Workflow State](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-workflow-state-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-workflow-state-admin.png)
-
-Pada menu ini admin dapat mengedit data workflow state yang telah dibuat.
-
-Berikut ini merupakan tampilan **Menu** Workflow Guard:
-
-[![Menu Workflow Guard](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-guard-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-workflow-guard-admin.png)
-
-Didalam **menu** ini terdapat data workflow yang telah ada dan telah dilakukan transition. Pada menu ini admin dapat melakukan review ulang pada data workflow yang telah ada atau juga melakukan reject (penolakan) pada data workflow yang telah di tambahkan. Di menu ini admin dapat menambahkan, melihat, mengedit, dan juga menghapus data workflow guard yang telah ada.
-
-Berikut ini merupakan tampilan **Add** Workflow Guard:
-
-[![Add Workflow Guard](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-guard-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-workflow-guard-admin.png)
-
-Pada menu add ini admin dapat menambahkan data workflow guard yang akan di buat dan juga menambah permissionnya seperti propose to review yaitu pengajuan di review ulang atau propose to reject yaitu pengajuan ditolak.
-
-Berikut ini merupakan tampilan **Show** Workflow Guard:
-
-[![Show Workflow Guard](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-workflow-guard-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-workflow-guard-admin.png)
-
-Pada menu ini admin dapat melihat data workflow guard yang telah dibuat.
-
-#### 2.4.19 Tampilan Menu Vue Trust 
-
-[![Menu Role](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-role-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-role-admin.png)
-
-[![Menu Permission](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-permission-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-permission-admin.png)
-
-Didalam **menu** ini terdapat dua sub menu yang tersedia, yaitu role dan permission. Role berfungsi untuk memberikan role (peran) pada user yang telah ada dan memberikannya hak akses terhadap semua menu yang ada sesuai dengan tingkatnya. Hak akses paling tinggi diberikan kepada akun Superadmin. Superadmin dapat melakukan apa saja termasuk memberikan role pada admin lainnya ataupun kepada user biasa. Role yang diberikan kepada admin dan user biasa tentunya sangat berbeda, pada role admin hak akses yang dimiliki lebih banyak dibandingkan hak akses yang dimiliki user biasa.
-
-Berikut ini merupakan tampilan **Add** Role:
-
-[![Add Role](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-role-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-role-admin.png)
-
-Di menu ini Superadmin dapat menambahkan akun yang telah ada untuk nantinya di berikan hak akses sesuai dengan tingkatannya. Pada menu ini admin juga dapat memberikan deskripsi pada akun yang akan ditambahkan rolenya.
-
-Berikut ini merupakan tampilan **Set Permissions** Role:
-
-[![Add Role](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-set-permission-role-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-set-permission-role-admin.png)
-
-Di menu ini Superadmin dapat mengatur permission atau hak akses dari akun yang telah dibuat. Akun tersebut dapat di berikan hak akses sesuai dengan tingkatnya. Setiap akun memiliki hak akses yang berbeda, yang mana dapat ditentukan oleh Superadmin.
-
-Berikut ini merupakan tampilan **Show** Role:
-
-[![Show Role](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-role-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-role-admin.png)
-
-Di menu ini Superadmin dapat melihat data akun yang telah diberikan role, jika role yang diberikan ternyata salah Superadmin dapat menggantinya dengan menekan tombol set permission untuk menggantinya.
-
-Berikut ini merupakan tampilan **Edit** Role:
-
-[![Edit Role](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-role-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-role-admin.png)
-
-Di menu ini Superadmin dapat merubah data akun yang telah ada jika dirasa masih ada yang belum sesuai. Superadmin juga dapat mengganti deskripsinya jika dibutuhkan.
-
-Berikut ini merupakan tampilan **Add** Permission:
-
-[![Add Permission](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-permission-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-add-permission-admin.png)
-
-Di menu ini Superadmin dapat menambahkan kriteria permission yang nantinya akan digunakan. Superadmin juga dapat meunilskan deskripsi agar permission yang diberikan lebih jelas dan detail.
-
-Berikut ini merupakan tampilan **Show** Permission:
-
-[![Show Permission](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-permission-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-show-permission-admin.png)
-
-Di menu ini Superadmin dapat melihat data permission yang telah dibuat.
-
-Berikut ini merupakan tampilan **Edit** Permission:
-
-[![Edit Permission](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-permission-admin.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-edit-permission-admin.png)
-
-Di menu ini Superadmin dapat merubah data permission yang telah ada jika dirasa masih ada yang belum sesuai. Superadmin juga dapat mengganti deskripsinya jika dibutuhkan.
+Setelah siswa menerima password dari admin, maka siswa bisa login ke akunnya dan akan langsung terbuka form reset password di akun siswa tersebut (Untuk melakukan reset password siswa bisa di lihat di **Panduan Siswa**)
 
 ## 3. Menu dan Cara Penggunaan **User** (Siswa)
 
@@ -642,37 +177,48 @@ Di menu ini Superadmin dapat merubah data permission yang telah ada jika dirasa 
 
 [![Halaman Utama](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-utama.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-utama.png)
 
-Disaat membuka aplikasi PSB untuk siswa maka akan muncul dua tombol, yaitu tombol **dashboard** dan tombol **daftar**. Disebelah kanan atas terdapat tombol **prinsip utama** dan **login** yang dapat digunakan jika sudah memiliki akun. Tombol prinsip utama akan mengarahkan ke layer asas PPDB dan juga informasi singkat mengenai PPDB.
+Disaat membuka aplikasi PSB untuk siswa maka akan muncul empat tombol, yaitu tombol **Pendaftaran**, tombol **Informasi & Bantuan**, tombol **Data Pendaftar**, dan tombol **Login**. 
 
-Berikut ini adalah tampilan layer mengenai informasi singkat dan asas PPDB pada halaman utama:
+Berikut ini adalah fungsi tombol yang ada pada halaman utama:
 
-[![AInformasi Singkat PPDB](/document/aplikasi/psb-umum/images/implementasi/psb-umum_informasi-singkat-ppdb.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_informasi-singkat-ppdb.png)
-
-[![Asas PPDB](/document/aplikasi/psb-umum/images/implementasi/psb-umum_asas-ppdb.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_asas-ppdb.png)
+1. Tombol Pendaftaran: Tombol ini akan mengarahkan ke halaman registrasi siswa.
+2. Informasi & Bantuan: Tombol ini akan mengarahkan ke halaman helpdesk Dindik.
+3. Tombol Data Pendaftar: Tombol ini akan mengarahkan ke halaman Passing Grade.
+4. Tombol Login: Tombol ini akan mengarahkan ke halaman login siswa.
 
 ### 3.2 Tampilan Registrasi Siswa
 
 [![Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/halaman-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/halaman-register-siswa.png)
 
-Disaat menekan tombol **daftar** pada halaman utama, maka akan muncul menu registrasi. Registrasi dilakukan agar siswa mendapatkan akun untuk proses login pendaftaran. Setelah siswa berhasil melakukan proses registrasi, halaman browser akan langsung menampilkan menu pendaftaran dan juga siswa telah mendapatkan akun yang selanjutnya akan bisa digunakan untuk login.
+Pada menu ini terdapat form registrasi yang harus diisi oleh siswa. Registrasi dilakukan agar siswa mendapatkan akun untuk proses login pendaftaran. Setelah siswa berhasil melakukan proses registrasi, halaman browser akan langsung menampilkan menu pendaftaran dan juga siswa telah mendapatkan akun yang selanjutnya akan bisa digunakan untuk login.
 
-[![Form Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)
+ [![Form Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)
+ [![Form Registrasi Siswa2](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa2.png)](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa2.png)
 
-Di form ini terdapat 5 **field** yang harus diisi oleh siswa agar mendapatkan akun. Filed yang harus diisi yaitu: Nomor UN, Nomor Kartu Keluarga, E-mail, Password, dan Konfirmasi Password. 
+Di form ini terdapat 7 **field** yang harus diisi oleh siswa agar mendapatkan akun. Filed yang harus diisi yaitu: Nomor UN, Domisili Siswa, Jenis Pendaftaran, Tanggal Lahir, Password, Konfirmasi Password, Captcha. 
 
 Berikut langkah-langkahnya:
 
 1. Nomor UN: Pada field ini siswa harus mengisi Nomor UN yang dimiliki.
 
-2. Nomor KK: Pada field ini nomor yang diisi harus merupakan kartu keluarga yang berdomisili di seluruh wilayah provinsi Banten. Jika memasukkan nomor kartu keluarga yang bukan berdomisili provinsi Banten maka pendaftaran tidak bisa dilakukan.   
+2. Domisili Siswa: Pada field ini siswa harus mengisi domisili dimana siswa tinggal yang sesuai dengan Kartu Keluarga. Domisili ini nantinya menentukan pilihan sekolah yang akan dituju oleh siswa. Domisili terdiri dari Kabupaten/Kota yang terdapat di wilayah Provinsi Banten.
 
-3. E-mail: Pada field ini siswa tidak diwajibkan menginput alamat e-mail yang dimiliki dan hanya bersifat optional. 
+3. Jenis Pendaftaran: Pada field ini terdapat pilihan jalur pendaftaran yang akan dituju oleh siswa. Di field ini terdapat enam pilihan jalur pendaftaran yaitu:
 
-4. Password: Pada field ini siswa harus mengisi password yang akan digunakan untuk login.
+ - Pendaftaran SMA Jalur Prestasi
+ - Pendaftaran SMA Jalur Umum
+ - Pendaftaran SMK Jalur Prestasi
+ - Pendaftaran SMK Jalur Umum
 
-5. Konfirmasi Password: Pada field ini siswa harus mengisi ulang password yang telah diketikkan di field password.
+4. Tanggal Lahir: Pada field ini siswa diharuskan mengisi tanggal lahir siswa sesuai yang tertera pada kartu keluarga. Format yang diisi yaitu: tanggal-bulan-tahun, contoh jika siswa lahir pada tanggal 01 Februari 2003 maka format yang harus diisi yaitu: **010203**.
 
-Jika sudah diisi semua tekan tombol register dan akan langsung terbuka halaman pendaftaran.
+5. Password: Pada field ini siswa harus mengisi password yang akan digunakan untuk login.
+
+6. Konfirmasi Password: Pada field ini siswa harus mengisi ulang password yang telah diketikkan di field password.
+
+7. Captcha: (Diisi dengan hasil dari angka penjumlahan yang tertera dilayar)
+
+Jika sudah diisi semua tekan tombol daftar dan akan langsung terbuka halaman pendaftaran.
 
 ### 3.3 Tampilan Login Siswa
 
@@ -680,271 +226,245 @@ Jika sudah diisi semua tekan tombol register dan akan langsung terbuka halaman p
 
 Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan akun yang telah dimiliki sebelumnya. Jika siswa belum mempunyai akun maka siswa bisa melakukan registrasi dahulu di halaman registrasi.
 
-[![Form Login Siswa](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)
+ [![Form Login Siswa](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)
 
-Di form ini hanya terdapat 2 field yang harus diisi, yaitu Nomor UN dan password. Jika sudah diisi maka akan langsung tampil menu pendaftaran siswa.  
+Di form ini hanya terdapat 3 field yang harus diisi, yaitu Nomor UN, Password, dan Captcha (Diisi dengan hasil dari angka penjumlahan yang tertera dilayar). Jika sudah diisi maka akan langsung tampil menu pendaftaran siswa.  
 
-### 3.4 Tampilan Menu Pendaftaran Siswa
+### 3.4 Tampilan Menu Dashboard Pendaftaran Siswa
 
-[![Menu Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)
+ [![Menu Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)
 
-Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan. Dan pada bagian kanan atas halaman terdapat menu profile yang dapat dilihat dan jika di klik akan mengarahkan ke menu profile siswa.
+Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan.
 
-#### 3.4.1 Form Pendaftaran
+### 3.5 Form Data Siswa
 
-[![Form Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran.png)
+ [![Form Data Siswa](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)
 
-Pada form ini terdapat 3 field yang tersedia yaitu: Tanggal Pendaftaran, Kegiatan, dan Username.
+Di form ini siswa harus melengkapi identitas lengkap dengan mengisi field yang tersedia. Pada form ini terdapat 7 field yang tersedia yaitu: Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, dan NISN.
 
-Pada form ini field Tanggal Pendaftaran dan Username akan otomatis terisi, jadi siswa hanya mengisi field kegiatan saja. Field kegiatan diisi dengan memilih jalur pendaftaran yang dituju. Berikut contoh pilihan pada field kegiatan.
-
-[![Field Kegiatan](/document/aplikasi/psb-umum/images/implementasi/kegiatan-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/kegiatan-siswa.png)
-
-Contoh Jika form pendaftaran sudah diisi
-
-[![Form Pendaftaran Filled](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran-diisi.png)](/document/aplikasi/psb-umum/images/implementasi/form-pendaftaran-diisi.png)
-
-Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
-
-[![Tombol next](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)
-
-
-#### 3.4.2 Form Data Siswa
-
-[![Form Data Siswa](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)
-
-Di form ini siswa harus mengisi identitas lengkap dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 19 field yang harus diisi yaitu: NIK, Nama Siswa, Nomor Kartu Keluarga, Alamat Kartu Keluarga, Tempat Lahir, Tanggal Lahir: Tanggal Bulan Tahun, Jenis Kelamin, Agama, NISN, Tahun Lulus, Sekolah Tujuan, Prodi Sekolah, Provinsi, Kabupaten, Kota, Desa, dan Username.
-
-[![Form Data Siswa 2](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa2.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa2.png)
-[![Form Data Siswa 3](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa3.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa3.png)
-[![Form Data Siswa 4](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa-4.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa-4.png)
-
-Pada form ini field Nama Siswa, No KK dan Username akan otomatis terisi, berikut langkah-langkahnya:
-
-1. NIK: Pada field ini siswa harus mengisi nomor NIK yang dimiliki siswa.
-
-2. Nama Siswa: Pada field ini nama siswa otomatis teriisi.
-
-3. No KK: Pada field ini nomor kartu keluarga akan otomatis teriisi.
-
-4. Alamat KK: Pada field ini siswa harus mengisi alamat sesuai dengan yang tertera pada kartu keluarga.
-
-5. Tempat Lahir: Pada field ini siswa harus mengisi tempat lahir sesuai dengan yang tertera pada kartu keluarga.
-
-6. Tanggal Lahir: Pada pengisian tanggal lahir terdapat tiga field yang harus diisi yaitu tanggal, bulan, dan tahun. Field ini diisi dengan cara memilih tanggal, bulan, dan tahun yang tersedia. 
-
-[![Field Tanggal Lahir](/document/aplikasi/psb-umum/images/implementasi/form-tanggal-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/form-tanggal-lahir.png)
-
-Berikut contoh pilihan field tanggal lahir:
-
-[![Field Tanggal](/document/aplikasi/psb-umum/images/implementasi/tanggal-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/tanggal-lahir.png)
-
-[![Field Bulan](/document/aplikasi/psb-umum/images/implementasi/bulan-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/bulan-lahir.png)
-
-[![Field Tahun](/document/aplikasi/psb-umum/images/implementasi/tahun-lahir.png)](/document/aplikasi/psb-umum/images/implementasi/tahun-lahir.png)
-
-7. Jenis Kelamin: Pada field ini siswa mengisi jenis kelamin dengan cara memilih jenis kelamin yang tersedia, berikut contoh pilihan field jenis kelamin:
-
-[![Field Jenis Kelamin](/document/aplikasi/psb-umum/images/implementasi/jenis-kelamin.png)](/document/aplikasi/psb-umum/images/implementasi/jenis-kelamin.png)
-
-8. Agama: Pada field ini siswa mengisi agama yang dianut dengan cara memilih agama yang tersedia, berikut contoh pilihan field agama:
-
-[![Field Agama](/document/aplikasi/psb-umum/images/implementasi/agama.png)](/document/aplikasi/psb-umum/images/implementasi/agama.png)
-
-9. NISN: Pada field ini siswa mengisi nomor NISN yang dimiliki.
-
-10. Tahun Lulus: Pada field ini siswa mengisi tahun lulus sesuai dengan waktu kelulusan siswa, field ini diisi dengan cara memilih tahun kelulusan yang tersedia. Berikut contoh pilihan field tahun lulus:
-
-[![Field Tahun Lulus](/document/aplikasi/psb-umum/images/implementasi/tahun-lulus.png)](/document/aplikasi/psb-umum/images/implementasi/tahun-lulus.png)
-
-11. Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
-
-[![Field Sekolah Tujuan](/document/aplikasi/psb-umum/images/implementasi/sekolah-tujuan.png)](/document/aplikasi/psb-umum/images/implementasi/sekolah-tujuan.png)
-
-12. Prodi Sekolah: Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka pilihan ini tidak bisa dipilih. Berikut ini merupakan contoh pilihan field prodi sekolah:
-
-[![Field Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/prodi-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/prodi-sekolah.png)
-
-13. Provinsi: Pada Field ini siswa memilih Provinsi dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Provinsi:
-
-[![Field Provinsi](/document/aplikasi/psb-umum/images/implementasi/provinsi.png)](/document/aplikasi/psb-umum/images/implementasi/provinsi.png)
-
-14. Kabupaten: Pada field ini siswa memilih Kabupaten dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Kabupaten:
-
-[![Field Kabupaten](/document/aplikasi/psb-umum/images/implementasi/kabupaten.png)](/document/aplikasi/psb-umum/images/implementasi/kabupaten.png)
-
-15. Kota: Pada field ini siswa memilih Kota dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Kota:
-
-[![Field Kota](/document/aplikasi/psb-umum/images/implementasi/kota.png)](/document/aplikasi/psb-umum/images/implementasi/kota.png)
-
-16. Desa: Pada field ini siswa memilih Desa dimana siswa tinggal. Berikut ini merupakan contoh pilihan field Desa: 
-
-[![Field Desa](/document/aplikasi/psb-umum/images/implementasi/desa.png)](/document/aplikasi/psb-umum/images/implementasi/desa.png)
-
-17. Username: Pada field ini akan terisi otomatis dengan Nomor UN siswa.
+Pada form ini field Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir dan NISN akan otomatis terisi, jadi siswa hanya mengisi field Jenis Kelamin dan Agama saja.
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
-[![Contoh Form Data Siswa Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi1.png)
-[![Contoh Form Data Siswa Terisi 2](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi2.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi2.png)
-[![Contoh Form Data Siswa Terisi 3](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi3.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi3.png)
-[![Contoh Form Data Siswa Terisi 4](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi4.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi4.png)
+ [![Contoh Form Data Siswa Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
-Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+ [![Tombol Simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
 
-[![Tombol Next](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)
-
-#### 3.4.3 Form Data Orang Tua
+#### 3.6 Form Data Orang Tua
 
 [![Form Data Orang Tua](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
 
-Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 9 field yang harus diisi yaitu: Nomor Telepon, Nama Ayah, Nama Ibu, Pendidikan Ayah, Pekerjaan Ayah, Pendidikan Ibu, Pekerjaan Ibu, Alamat Orang Tua dan Username.
+Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 4 field yang harus diisi yaitu: Pendidikan Orang Tua Pekerjaan Ibu, Alamat Orang Tua dan Username.
 
-[![Form Data Orang Tua 2](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua2.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua2.png)
-[![Form Data Orang Tua 3](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua3.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua3.png)
+Berikut langkah pengisiannya:
 
-Pada form ini field Username akan otomatis terisi, berikut langkah-langkahnya:
+1. Nama Orang Tua: Pada field ini siswa mengisi nama orang tua siswa.
 
-1. Nomor Telepon: Pada field ini siswa mengisi nomor telepon yang dimiliki oleh orang tua siswa.
+2. Nomor Telepon: Pada field ini siswa mengisi nomor telepon orang tua siswa yang bisa dihubungi.
 
-2. Nama Ayah: Pada field ini siswa mengisi nama Ayah siswa sesuai yang tertera pada kartu keluarga.
+3. Pendidikan Orang Tua: Pada field ini siswa mengisi pendidikan orang tua siswa.
 
-3. Nama Ibu: Pada field ini siswa mengisi nama Ibu siswa sesuai dengan yang tertera pada kartu keluarga.
-
-4. Pendidikan Ayah: Pada field ini siswa mengisi Pendidikan Ayah siswa sesuai dengan yang tertera pada kartu keluarga.
-
-5. Pekerjaan Ayah: Pada field ini siswa mengisi Pekerjaan Ayah sesuai dengan yang tertera pada kartu keluarga.
-
-6. Pendidikan Ibu: Pada field ini siswa mengisi Pendidikan Ibu siswa sesuai dengan yang tertera pada kartu keluarga.
-
-7. Pekerjaan Ibu: Pada field ini siswa mengisi Pekerjaan Ibu siswa sesuai dengan yang tertera pada kartu keluarga.
-
-8. Alamat Orang Tua: Pada field ini siswa mengisi alamat orang tua siswa sesuai dengan yang tertera pada kartu keluarga.
-
-9. Username: Pada field ini akan terisi otomatis dengan Nomor UN siswa.
+4. Pekerjaan Orang Tua: Pada field ini siswa mengisi Pekerjaan orang tua siswa.
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
-[![Contoh Form Data Orang Tua Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi1.png)
-[![Contoh Form Data Orang Tua Terisi 2](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi2.png)](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi2.png)
+ [![Contoh Form Data Orang Tua Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
-Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol next.
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
 
-[![Tombol Next](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-next-menu-pendaftaran.png)
+### 3.7 Form Alamat
 
-#### 3.4.4 Form Review
+[![Form Alamat](/document/aplikasi/psb-umum/images/implementasi/form-data-alamat.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-alamat.png)
 
-[![Form Review](/document/aplikasi/psb-umum/images/implementasi/form-review.png)](/document/aplikasi/psb-umum/images/implementasi/form-review.png)
+Di form ini siswa harus mengisi alamat siswa yang sesuai dengan Kartu keluarga siswa. Pada form ini terdapat 6 field yang harus diisi yaitu: Nomor KK, Alamat, Provinsi, Kabupaten/Kota, Kecamatan, dan Kelurahan/Desa.
 
-Di form ini terdapat informasi sesuai dengan apa yang telah diisi oleh siswa. Jika dirasa masih ada beberapa kesalahan maka siswa masih bisa mengeditnya dengan menekan tombol back yang tersedia pada bagian kiri bawah halaman atau juga dengan menekan menu form yang tersedia di bagian atas form dengan cara menekannya, siswa bisa memilih form mana yang kiranya masih terdapat kesalahan pengisian.
+Berikut langkah pengisiannya:
 
-[![Tombol Back](/document/aplikasi/psb-umum/images/implementasi/tombol-back-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-back-menu-pendaftaran.png)
+1. Nomor KK: Pada field ini siswa mengisi nomor Kartu Keluarga siswa.
 
-[![Pilih Form](/document/aplikasi/psb-umum/images/implementasi/tombol-pilih-form-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-pilih-form-menu-pendaftaran.png)
+2. Alamat: Pada field ini siswa mengisi alamat siswa sesuai yang tertera di Kartu Keluarga.
 
-Jika semua data yang diisi sudah benar maka siswa harus menekan tombol register yang terdapat pada bagian kanan bawah di form review. 
+3. Provinsi: Field ini akan terisi otomatis dengan Provinsi Banten.
 
-[![Tombol Register](/document/aplikasi/psb-umum/images/implementasi/tombol-register-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-register-menu-pendaftaran.png) 
+4. Kabupaten/Kota: Field ini akan terisi otomatis sesuai pilihan siswa ketika melakukan registrasi.
 
-Jika Registrasi sudah berhasil maka akan tampil pemberitahuan seperti berikut ini:
+5. Kecamatan: Pada field ini siswa mengisi kecamatan dimana siswa tinggal.
 
-[![Pop Up Berhasil Registrasi](/document/aplikasi/psb-umum/images/implementasi/pendaftaran-berhasil.png)](/document/aplikasi/psb-umum/images/implementasi/pendaftaran-berhasil.png)
+6. Kelurahan/Desa: Pada field ini siswa mengisi kelurahan/desa dimana siswa tinggal.
 
-Berikut merupakan tampilan sesudah register:
+Berikut ini merupakan contoh form yang sudah selesai terisi:
 
-[![Form Review Registered](/document/aplikasi/psb-umum/images/implementasi/form-review-registered.png)](/document/aplikasi/psb-umum/images/implementasi/form-review-registered.png)
+ [![Contoh Form Alamat Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-alamat-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-alamat-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
-Jika sudah di tekan maka tampilan review akan berubah dan Nilai UN siswa akan terlihat. 
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
 
-[![Form Review Registered 2](/document/aplikasi/psb-umum/images/implementasi/form-review-registered2.png)](/document/aplikasi/psb-umum/images/implementasi/form-review-registered2.png)
+### 3.8 Form Sekolah Tujuan
 
-Pada form ini akan tersedia juga barcode yang bisa di scan menggunakan aplikasi android. Siswa juga dapat melakukan print out form ini dengan cara menekan tombol print yang tersedia.
+[![Form Sekolah Tujuan](/document/aplikasi/psb-umum/images/implementasi/form-sekolah-tujuan.png)](/document/aplikasi/psb-umum/images/implementasi/form-sekolah-tujuan.png)
 
-[![Barcode](/document/aplikasi/psb-umum/images/implementasi/barcode.png)](/document/aplikasi/psb-umum/images/implementasi/barcode.png)
+Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
 
-[![Tombol Print](/document/aplikasi/psb-umum/images/implementasi/tombol-print.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-print.png)
+Prodi Sekolah: Field ini hanya muncul untuk siswa yang memilih jalur pendaftaran SMK. Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka field ini tidak akan muncul di dalam form. Berikut ini merupakan contoh pilihan field prodi sekolah:
 
+ [![Field Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/prodi-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/prodi-sekolah.png) 
 
-### 4.1 Tampilan Menu Profile Siswa
+### 3.9 Form SKTM
 
-Untuk mengakses menu ini siswa dapat menekan tombol profile yang terdapat pada bagian kanan atas halaman seperti berikut:
+[![Form SKTM](/document/aplikasi/psb-umum/images/implementasi/form-data-sktm.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-sktm.png)
 
-[![Tombol Profile Siswa](/document/aplikasi/psb-umum/images/implementasi/tombol-profile-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-profile-menu-pendaftaran.png)
+Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Umum**. 
 
-Pada menu ini siswa dapat melihat profile singkat siswa, seperti Nama, Nomor UN, E-mail, Nilai UN, Nilai Akademik, Nilai Prestasi, SKTM, dan juga Nilai Zona. Pada menu ini siswa bisa melakukan edit profile yang terbatas hanya pada alamat E-mail dan penggantian password.
+Di form ini siswa harus mengisi data SKTM yang dimiliki oleh siswa. Pada form ini terdapat 3 field yang harus diisi yaitu: SKTM, Nomor SKTM, dan Tanggal Dikeluarkan/Masa Berlaku.
 
-[![Menu Profile Siswa](/document/aplikasi/psb-umum/images/implementasi/form-profile.png)](/document/aplikasi/psb-umum/images/implementasi/form-profile.png)
+Berikut langkah pengisiannya:
 
-Jika siswa ingin mengeditnya bisa dengan menekan tombol edit yang tersedia atau dengan menekan tombol profile dan memilih menu settings. Berikut merupakan contoh tampilan settings:
+1. SKTM: Pada field ini siswa mengisi jenis SKTM yang dimiliki oleh siswa, jika siswa tidak memiliki SKTM maka siswa harus memilih **Tidak Mengajukan SKTM**.
 
-[![Menu Settings](/document/aplikasi/psb-umum/images/implementasi/menu-settings.png)](/document/aplikasi/psb-umum/images/implementasi/menu-settings.png)
+2. Nomor SKTM: Pada field ini siswa mengisi nomor SKTM yang tertera di kartu SKTM Milik siswa, jika siswa tidak memilik SKTM maka diisi dengan "**-**".
 
-[![Menu Settings](/document/aplikasi/psb-umum/images/implementasi/menu-settings2.png)](/document/aplikasi/psb-umum/images/implementasi/menu-settings2.png)
+3. Tanggal Dikeluarkan/Masa Berlaku: Pada field ini siswa mengisi tanggal dikeluarkannya SKTM dan juga masa berlakunya, jika siswa tidak memilik SKTM maka diisi dengan "**-**".
 
+Berikut ini merupakan contoh form yang sudah selesai terisi:
 
+ [![Contoh Form SKTM Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-sktm-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-sktm-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
 
+### 3.10 Form Prestasi
 
+[![Form Prestasi](/document/aplikasi/psb-umum/images/implementasi/form-data-prestasi.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-prestasi.png)
 
+Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Prestasi**. 
 
+Di form ini siswa harus mengisi keterangan prestasi yang dimiliki oleh siswa. Pada form ini terdapat 4 field yang harus diisi yaitu: Jenis Prestasi, Nama Lomba, Juara, dan Tingkat.
 
+Berikut langkah pengisiannya:
 
-<!-- ### 3.5 Tampilan Profile Rumah Sakit
-[![Lihat Profile Rumah Sakit](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_profile-rumah-sakit.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_profile-rumah-sakit.png)
-Didalam **page** ini **user** dapat melihat informasi rumah sakit beserta dengan layanan yang tersedia dirumah sakit.
+1. Jenis Prestasi: Pada field ini siswa memilih jenis prestasi yang dimiliki oleh siswa.
 
-### 3.6 Tampilan Dokter Jaga Rumah Sakit
-[![Lihat List Dokter Jaga Rumah Sakit](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-dokter-jaga-rs.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-dokter-jaga-rs.png)
-Tampilan ini berada didalam **page** profile rumah sakit yang tergabung dalam konten layanan rumah sakit. Disini **user** dapat melihat list dokter jaga rumah sakit beserta info spesialis dokter, hari jaga dan jam jaga.
+2. Nama Lomba: Pada field ini siswa mengisi nama lomba yang diikuti oleh siswa.
 
-### 3.7 Tampilan Layanan Rumah Sakit
-[![Lihat Layanan rumah Sakit](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-layanan-rs.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-layanan-rs.png)
-Tampilan ini berada didalam **page** profile rumah sakit yang tergabung dalam konten layanan rumah sakit. Disini **user** dapat melihat layanan apa saja yang disediakan oleh rumah sakit baik layanan umum maupun layanan oleh dokter.
+3. Juara: Pada field ini siswa mengisi juara yang didapatkan pada perlombaan yang diikuti oleh siswa.
 
-### 3.8 Tampilan Tempat Tidur Rawat Inap Rumah Sakit
-[![Lihat Tempat Inap rumah Sakit](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-tempat-tidur-rs.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-tempat-tidur-rs.png)
-Tampilan ini berada didalam **page** profile rumah sakit yang tergabung dalam konten layanan rumah sakit. Disini **user** dapat melihat ruang kamar inap yang kosongdan jenis kamar nya.
+4. Tingkat: Pada field ini siswa mengisi tingkat perlombaan yang diikuti oleh siswa.
 
-### 3.9 Tampilan Data Dokter
-[![Lihat List dokter](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-dokter.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-dokter.png)
-Ditampilan ini **user** bisa melihat informasi tentang dokter yang terdaftar diaplikasi YANKES dan untuk melihat informasi lebih lengkap **user** dapat memilih tombol "PROFILE" dibawah informasi dokter.
+Berikut ini merupakan contoh form yang sudah selesai terisi:
 
-### 3.10 Tampilan Profile Dokter
-[![lihat profile dokter](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_profile-dokter.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_profile-dokter.png)
-[![lihat profile dokter](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_jadwal-praktek.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_jadwal-praktek.png)
-Ditampilan ini **user** dapat melihat informasi dokter serta jadwal jaga dokter dan terdapat menu konsultasi didalam tampilan ini.
+ [![Contoh Form Prestasi](/document/aplikasi/psb-umum/images/implementasi/data-prestasi-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-prestasi-terisi1.png)
+ 
+Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
-### 3.11 Tampilan Jadwal Praktek Dokter
-[![lihat jadwal praktek dokter](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_jadwal-praktek.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_jadwal-praktek.png)
-Tampilan ini berada didalam tampilan profile dokter, ditampilan ini **user** dapat melihat jadwal jaga dokter yang ingin dilihat.
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
 
-### 3.12 Tampilan Konsultasi Dokter
-[![Lihat Konsultasi](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-konsultasi.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-konsultasi.png)
-Tampilan ini berada didalam tampilan profile dokter, ditampilan ini pasien dapat melakukan konsultasi dengan dokter.
+### 3.11 Form Cetak Formulir
 
-### 3.13 Tampilan Kamar Inap
-[![Lihat Kamar Inap](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-kamar-inap.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-kamar-inap.png)
-[![Lihat Kamar Inap](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-kamar-inap2.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-kamar-inap2.png)
-Didalam tampilan ini **user** dapat melihat list rumah sakit dan kamar rawat inap yang tersedia dirumah sakit tersebut.
+[![Form Cetak Formulir](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir.png)](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir.png)
+[![Form Cetak Formulir2](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir2.png)](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir2.png)
 
-### 3.14 Tampilan News
-[![Lihat News](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-news.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-news.png)
-[![Lihat News](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-news2.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-news2.png)
-Ditampilan ini **user** dapat melihat berita berita terkait yang berada di Provinsi Banten, untuk melihat lebih **detail** tentang berita **user** dapat memilih tombol " READ MORE".
+Form ini akan otomatis terbuka jika semua isian pendaftaran telah selesai terisi. Pada menu ini siswa bisa mencetak formulir berdasarkan data yang telah diisi oleh siswa. Data ini bisa dijadikan bukti bahwa siswa telah melakukan pendaftaran online.
 
-#### 3.13.1 Tampilan Detail News
-[![lihat detail berita](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_lihat-detail-berita.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_lihat-detail-berita.png)
-Ditampilam ini **user** dapat melihat detail berita dari tampilan "NEWS".
+### 3.12 Form Data Nilai UN
 
-### 3.15 Tampilan Blog (Artikel)
-[![Tampilan artikel](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-blog.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-blog.png)
-[![Tampilan artikel](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-blog2.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-blog2.png)
-Didalam tampilan ini **user** dapat melihat artikel-artikel terkait kesehatan yang berada di Provinsi Banten, untuk melihat detail blog **user** dapat memilih tombol "READ MORE".
+[![Form Akademik](/document/aplikasi/psb-umum/images/implementasi/form-akademik.png)](/document/aplikasi/psb-umum/images/implementasi/form-akademik.png)
 
-#### 3.15.1 Tampilan Detail Blog (Artikel)
-[![lihat detail blog](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_lihat-detail-blog.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_lihat-detail-blog.png)
-Didalam tampilan ini **user** dapat melihat detail dari blog (artikel).
+Di form ini terdapat informasi mengenai hasil Nilai UN siswa. Siswa bisa melihat Nilai UN yang didapatkan oleh siswa.
 
-### 3.16 Tampilan Contact
-[![Tampilan Contact](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-contact-us.png)](/document/aplikasi/layanan-kesehatan/images/implementasi/20171124_konten-contact-us.png)
-Didalam tampilan ini **user** dapat melihat informasi tentang pengembang aplikasi YANKES serta dapat menghubungi pengembang.  -->
+### 3.13 Tampilan Menu Pindah Sekolah
+
+[![Form Pindah Sekolah](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah.png)
+
+**Pindah Sekolah Merupakan** menu yang di sediakan didalam aplikasi PPDB Online agar siswa yang tidak lulus dalam passing grade pada sekolah tertentu dapat melakukan pindah ke sekolah lain. Siswa dapat melakukan perpindahan sekolah berulang kali sampai siswa mendapatkan kursi pada sekolah yang ingin ditujunya. Untuk mengakses menu ini siswa harus menunggu verifikasi pendaftaran dari admin sekolah. Ketika admin sekolah telah melakukan verifikasi pendaftaran maka siswa tidak dapat merubah seluruh data yang telah di buat siswa di dalam form pendaftaran. Untuk melakukan perpindahan sekolah berikut adalah langkah-langkahnya:
+
+1. Tekan tombol **Add Data** pada form pindah sekolah
+ 
+ [![Tombol Add Data](/document/aplikasi/psb-umum/images/implementasi/tombol-add-data.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-add-data.png)
+
+2. Lalu isi form pindah sekolah:
+
+ - Kabupaten/Kota: Diisi dengan wilayah sekolah yang ingin dituju oleh siswa (Pilihan ini hanya untuk siswa yang memilih jalur pendaftaran SMK).
+
+ - Nama Sekolah: Diisi dengan sekolah yang ingin di tuju.
+
+ - Program Studi: Diisi dengan program studi yang diinginkan (Pilihan ini hanya untuk siswa yang memilih jalur pendaftaran SMK).
+
+ - Jika pengisian sudah selesai maka tekan tombol **Simpan**.
+
+Untuk siswa yang mendaftar ke jalur pendaftaran **SMK** maka siswa tersebut bisa melakukan pindah sekolah ke sekolah lainnya tetapi dengan program keahlian yang sama sesuai paket keahlian yang ada di sekolah tujuan yang baru. 
+
+ [![Form pindah sekolah terisi](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah-terisi.png)](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah-terisi.png)
+
+Berikut ini adalah hasil dari perpindahan sekolah yang telah dilakukan oleh siswa:
+
+Sebelum melakukan perpindahan sekolah (Pada contoh ini sekolah terakhir yang dituju siswa adalah **SMK Negeri 1 Kragilan**):
+
+[![Sebelum Melakukan Perpindahan Sekolah](/document/aplikasi/psb-umum/images/implementasi/form-sebelum-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/form-sebelum-pindah-sekolah.png)
+
+Setelah melakukan perpindahan sekolah:
+
+[![Setelah Melakukan Perpindahan Sekolah](/document/aplikasi/psb-umum/images/implementasi/form-setelah-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/form-setelah-pindah-sekolah.png)
+
+### 3.14 Tampilan Lupa Password
+ 
+[![Tampilan Lupa Password](/document/aplikasi/psb-umum/images/implementasi/reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/reset-password.png)
+
+Menu lupa password adalah fasilitas yang disediakan untuk siswa ketika siswa lupa akan password yang dimilikinya. Untuk mengakses halaman ini, siswa harus menghubungi admin sekolah dimana siswa mendaftar. Jika sudah menghubungi admin sekolah, maka admin sekolah akan mereset password login siswa. Lalu siswa mengakses halaman login sesuai dengan **Nomor UN** yang dimiliki dan password yang telah diberikan oleh admin sekolah. Setelah login berhasil maka akan muncul form untuk merubah password yang baru. Berikut merupakan contoh form ganti password:
+
+[![Form Lupa Password](/document/aplikasi/psb-umum/images/implementasi/form-reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/form-reset-password.png)
+
+Di form ini siswa memasukkan password yang baru, yang nantinya bisa di pakai untuk login selanjutnya.
+
+### 3.15 Passing Grade
+
+Passing Grade adalah batas nilai minimal yang dipakai sebagai salah satu acuan untuk memilih sekolah yang akan dituju. 
+
+Passing Grade akan menentukan apakah siswa di terima di sekolah yang ditujunya atau tidak. Metode seleksi seperti ini di gunakan agar siswa dapat bersaing dengan adil sesuai dengan nilai **Akademik** yang dimilki oleh siswa tersebut.  Acuan penilaian seperti ini memungkinkan siswa yang memiliki nilai akademik yang tinggi dapat memilih sekolah yang ingin ditujunya, ketentuan kelulusan berdasarkan jumlah kuota sekolah tersebut dan jumlah siswa yang mendaftar diurutkan nilainya dari yang paling besar sampai yang paling kecil. Jika nama urutan siswa melewati jumlah kuota yang tersedia, maka siswa tersebut di anggap tidak lulus.
+
+Untuk mengakses halaman passing grade langkahnya yaitu buka halaman PPDB Online, lalu pilih tombol **Pengumuman** pada halaman utama:
+
+ [![Tombol Pengumuman](/document/aplikasi/psb-umum/images/implementasi/tombol-pengumuman.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-pengumuman.png)
+
+halaman-utama-passing-grade.png
+
+Berikut ini adalah gambar halaman Passing Grade:
+
+ [![Passing Grade](/document/aplikasi/psb-umum/images/implementasi/halaman-utama-passing-grade.png)](/document/aplikasi/psb-umum/images/implementasi/halaman-utama-passing-grade.png)
+
+Berikut ini adalah gambar halaman Passing Grade SMA Zona Kabupaten Pandeglang:
+
+ [![Passing Grade SMA](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-sma-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-sma-kab-pandeglang.png)
+
+Daftar sekolah SMA yang berada di zona Kabupaten Pandeglang:
+
+ [![List SMA Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang.png)
+ [![List SMA Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang2.png)
+
+Daftar siswa yang dinyatakan lulus di salah satu Sekolah SMA di zona Kabupaten Pandeglang:
+
+ [![Daftar Siswa Yang Lulus di Salah Satu SMA di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang.png)
+ [![Daftar Siswa Yang Lulus di Salah Satu SMA di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang2.png)
+
+Berikut ini adalah gambar halaman Passing Grade SMK Zona Kabupaten Pandeglang:
+
+ [![Passing Grade SMK](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-smk-kab-pandeglang.png)
+
+Daftar sekolah SMK yang berada di zona Kabupaten Pandeglang:
+
+ [![List SMK Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-smk-kab-pandeglang.png)
+
+Daftar jurusan yang terdapat di sekolah SMK yang berada di zona Kabupaten Pandeglang:
+
+ [![List jurusan SMK Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-jurusan-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-jurusan-smk-kab-pandeglang.png)
+
+Daftar siswa yang dinyatakan lulus di salah satu Sekolah SMK di zona Kabupaten Pandeglang:
+
+ [![Daftar Siswa Yang Lulus di Salah Satu SMK di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-smk-kab-pandeglang.png)
+ [![Daftar Siswa Yang Lulus di Salah Satu SMK di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-smk-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-smk-pandeglang2.png)
+
