@@ -188,12 +188,12 @@ Berikut ini adalah fungsi tombol yang ada pada halaman utama:
 
 ### 3.2 Tampilan Registrasi Siswa
 
-[![Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/halaman-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/halaman-register-siswa.png)
+[![Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-register-siswa.png)
 
 Pada menu ini terdapat form registrasi yang harus diisi oleh siswa. Registrasi dilakukan agar siswa mendapatkan akun untuk proses login pendaftaran. Setelah siswa berhasil melakukan proses registrasi, halaman browser akan langsung menampilkan menu pendaftaran dan juga siswa telah mendapatkan akun yang selanjutnya akan bisa digunakan untuk login.
 
- [![Form Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa.png)
- [![Form Registrasi Siswa2](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa2.png)](/document/aplikasi/psb-umum/images/implementasi/form-register-siswa2.png)
+ [![Form Registrasi Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-register-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-register-siswa.png)
+ [![Form Registrasi Siswa2](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-register-siswa2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-register-siswa2.png)
 
 Di form ini terdapat 7 **field** yang harus diisi oleh siswa agar mendapatkan akun. Filed yang harus diisi yaitu: Nomor UN, Domisili Siswa, Jenis Pendaftaran, Tanggal Lahir, Password, Konfirmasi Password, Captcha. 
 
@@ -222,23 +222,23 @@ Jika sudah diisi semua tekan tombol daftar dan akan langsung terbuka halaman pen
 
 ### 3.3 Tampilan Login Siswa
 
-[![Tampilan Login](/document/aplikasi/psb-umum/images/implementasi/halaman-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/halaman-login-siswa.png)
+[![Tampilan Login](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-login-siswa.png)
 
 Untuk masuk ke halaman pendaftaran siswa di haruskan login dahulu menggunakan akun yang telah dimiliki sebelumnya. Jika siswa belum mempunyai akun maka siswa bisa melakukan registrasi dahulu di halaman registrasi.
 
- [![Form Login Siswa](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-login-siswa.png)
+ [![Form Login Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-login-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-login-siswa.png)
 
 Di form ini hanya terdapat 3 field yang harus diisi, yaitu Nomor UN, Password, dan Captcha (Diisi dengan hasil dari angka penjumlahan yang tertera dilayar). Jika sudah diisi maka akan langsung tampil menu pendaftaran siswa.  
 
 ### 3.4 Tampilan Menu Dashboard Pendaftaran Siswa
 
- [![Menu Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/menu-pendaftaran.png)
+ [![Menu Pendaftaran](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_menu-pendaftaran.png)
 
 Didalam halaman ini, siswa dapat melakukan pendaftaran ke sekolah yang akan ditujunya. Untuk melakukan proses pendaftaran siswa di haruskan mengisi form-form yang telah disediakan.
 
 ### 3.5 Form Data Siswa
 
- [![Form Data Siswa](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-siswa.png)
+ [![Form Data Siswa](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-siswa.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-siswa.png)
 
 Di form ini siswa harus melengkapi identitas lengkap dengan mengisi field yang tersedia. Pada form ini terdapat 7 field yang tersedia yaitu: Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir, Jenis Kelamin, Agama, dan NISN.
 
@@ -246,15 +246,15 @@ Pada form ini field Nomor UN, Nama Siswa, Tempat Lahir, Tanggal Lahir dan NISN a
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
- [![Contoh Form Data Siswa Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-siswa-terisi1.png)
+ [![Contoh Form Data Siswa Terisi 1](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-siswa-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-siswa-terisi1.png)
  
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
- [![Tombol Simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
+ [![Tombol Simpan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)
 
 #### 3.6 Form Data Orang Tua
 
-[![Form Data Orang Tua](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-orang-tua.png)
+[![Form Data Orang Tua](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-orang-tua.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-orang-tua.png)
 
 Di form ini siswa harus mengisi identitas orang tua dengan mengisi seluruh field yang tersedia. Pada form ini terdapat 4 field yang harus diisi yaitu: Pendidikan Orang Tua Pekerjaan Ibu, Alamat Orang Tua dan Username.
 
@@ -270,15 +270,15 @@ Berikut langkah pengisiannya:
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
- [![Contoh Form Data Orang Tua Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-orang-tua-terisi1.png)
+ [![Contoh Form Data Orang Tua Terisi 1](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-orang-tua-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-orang-tua-terisi1.png)
  
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
- [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)
 
 ### 3.7 Form Alamat
 
-[![Form Alamat](/document/aplikasi/psb-umum/images/implementasi/form-data-alamat.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-alamat.png)
+[![Form Alamat](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-alamat.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-alamat.png)
 
 Di form ini siswa harus mengisi alamat siswa yang sesuai dengan Kartu keluarga siswa. Pada form ini terdapat 6 field yang harus diisi yaitu: Nomor KK, Alamat, Provinsi, Kabupaten/Kota, Kecamatan, dan Kelurahan/Desa.
 
@@ -298,25 +298,25 @@ Berikut langkah pengisiannya:
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
- [![Contoh Form Alamat Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-alamat-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-alamat-terisi1.png)
+ [![Contoh Form Alamat Terisi 1](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-alamat-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-alamat-terisi1.png)
  
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
- [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)
 
 ### 3.8 Form Sekolah Tujuan
 
-[![Form Sekolah Tujuan](/document/aplikasi/psb-umum/images/implementasi/form-sekolah-tujuan.png)](/document/aplikasi/psb-umum/images/implementasi/form-sekolah-tujuan.png)
+[![Form Sekolah Tujuan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-sekolah-tujuan.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-sekolah-tujuan.png)
 
 Sekolah Tujuan: Pada field ini siswa mengisi sekolah yang nantinya akan dituju oleh siswa. Pada field ini terdapat list sekolah yang dapat dituju oleh siswa, list sekolah akan muncul sesuai dengan jalur pendaftaran yang dipilih siswa pada form pendaftaran. Jika pada form pendaftaran siswa memilih jalur SMA maka pada list hanya akan muncul sekolah SMA, begitu juga dengan SMK, jika pada form pendaftaran memilih jalur SMK maka hanya akan muncul sekolah SMK. Berikut ini merupakan contoh pilihan field sekolah:
 
 Prodi Sekolah: Field ini hanya muncul untuk siswa yang memilih jalur pendaftaran SMK. Pada field ini siswa memilih prodi yang ditawarkan oleh sekolah, jika sekolah yang dipilih tidak memiliki prodi khusus maka field ini tidak akan muncul di dalam form. Berikut ini merupakan contoh pilihan field prodi sekolah:
 
- [![Field Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/prodi-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/prodi-sekolah.png) 
+ [![Field Prodi Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_prodi-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_prodi-sekolah.png) 
 
 ### 3.9 Form SKTM
 
-[![Form SKTM](/document/aplikasi/psb-umum/images/implementasi/form-data-sktm.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-sktm.png)
+[![Form SKTM](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-sktm.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-sktm.png)
 
 Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Umum**. 
 
@@ -332,15 +332,15 @@ Berikut langkah pengisiannya:
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
- [![Contoh Form SKTM Terisi 1](/document/aplikasi/psb-umum/images/implementasi/data-sktm-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-sktm-terisi1.png)
+ [![Contoh Form SKTM Terisi 1](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-sktm-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-sktm-terisi1.png)
  
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
- [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)
 
 ### 3.10 Form Prestasi
 
-[![Form Prestasi](/document/aplikasi/psb-umum/images/implementasi/form-data-prestasi.png)](/document/aplikasi/psb-umum/images/implementasi/form-data-prestasi.png)
+[![Form Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-prestasi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-data-prestasi.png)
 
 Form ini hanya tersedia bagi siswa yang memilih pendaftaran jalur **Prestasi**. 
 
@@ -358,34 +358,34 @@ Berikut langkah pengisiannya:
 
 Berikut ini merupakan contoh form yang sudah selesai terisi:
 
- [![Contoh Form Prestasi](/document/aplikasi/psb-umum/images/implementasi/data-prestasi-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/data-prestasi-terisi1.png)
+ [![Contoh Form Prestasi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-prestasi-terisi1.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_data-prestasi-terisi1.png)
  
 Jika field yang dibutuhkan sudah diisi maka siswa bisa melanjutkan mengisi form selanjutnya dengan menekan tombol simpan.
 
- [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-simpan-menu-pendaftaran.png)
+ [![Tombol simpan](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-simpan-menu-pendaftaran.png)
 
 ### 3.11 Form Cetak Formulir
 
-[![Form Cetak Formulir](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir.png)](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir.png)
-[![Form Cetak Formulir2](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir2.png)](/document/aplikasi/psb-umum/images/implementasi/form-cetak-formulir2.png)
+[![Form Cetak Formulir](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-cetak-formulir.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-cetak-formulir.png)
+[![Form Cetak Formulir2](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-cetak-formulir2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-cetak-formulir2.png)
 
 Form ini akan otomatis terbuka jika semua isian pendaftaran telah selesai terisi. Pada menu ini siswa bisa mencetak formulir berdasarkan data yang telah diisi oleh siswa. Data ini bisa dijadikan bukti bahwa siswa telah melakukan pendaftaran online.
 
 ### 3.12 Form Data Nilai UN
 
-[![Form Akademik](/document/aplikasi/psb-umum/images/implementasi/form-akademik.png)](/document/aplikasi/psb-umum/images/implementasi/form-akademik.png)
+[![Form Akademik](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-akademik.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-akademik.png)
 
 Di form ini terdapat informasi mengenai hasil Nilai UN siswa. Siswa bisa melihat Nilai UN yang didapatkan oleh siswa.
 
 ### 3.13 Tampilan Menu Pindah Sekolah
 
-[![Form Pindah Sekolah](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah.png)
+[![Form Pindah Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-pindah-sekolah.png)
 
 **Pindah Sekolah Merupakan** menu yang di sediakan didalam aplikasi PPDB Online agar siswa yang tidak lulus dalam passing grade pada sekolah tertentu dapat melakukan pindah ke sekolah lain. Siswa dapat melakukan perpindahan sekolah berulang kali sampai siswa mendapatkan kursi pada sekolah yang ingin ditujunya. Untuk mengakses menu ini siswa harus menunggu verifikasi pendaftaran dari admin sekolah. Ketika admin sekolah telah melakukan verifikasi pendaftaran maka siswa tidak dapat merubah seluruh data yang telah di buat siswa di dalam form pendaftaran. Untuk melakukan perpindahan sekolah berikut adalah langkah-langkahnya:
 
 1. Tekan tombol **Add Data** pada form pindah sekolah
  
- [![Tombol Add Data](/document/aplikasi/psb-umum/images/implementasi/tombol-add-data.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-add-data.png)
+ [![Tombol Add Data](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-add-data.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-add-data.png)
 
 2. Lalu isi form pindah sekolah:
 
@@ -399,25 +399,25 @@ Di form ini terdapat informasi mengenai hasil Nilai UN siswa. Siswa bisa melihat
 
 Untuk siswa yang mendaftar ke jalur pendaftaran **SMK** maka siswa tersebut bisa melakukan pindah sekolah ke sekolah lainnya tetapi dengan program keahlian yang sama sesuai paket keahlian yang ada di sekolah tujuan yang baru. 
 
- [![Form pindah sekolah terisi](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah-terisi.png)](/document/aplikasi/psb-umum/images/implementasi/form-pindah-sekolah-terisi.png)
+ [![Form pindah sekolah terisi](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-pindah-sekolah-terisi.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-pindah-sekolah-terisi.png)
 
 Berikut ini adalah hasil dari perpindahan sekolah yang telah dilakukan oleh siswa:
 
 Sebelum melakukan perpindahan sekolah (Pada contoh ini sekolah terakhir yang dituju siswa adalah **SMK Negeri 1 Kragilan**):
 
-[![Sebelum Melakukan Perpindahan Sekolah](/document/aplikasi/psb-umum/images/implementasi/form-sebelum-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/form-sebelum-pindah-sekolah.png)
+[![Sebelum Melakukan Perpindahan Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-sebelum-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-sebelum-pindah-sekolah.png)
 
 Setelah melakukan perpindahan sekolah:
 
-[![Setelah Melakukan Perpindahan Sekolah](/document/aplikasi/psb-umum/images/implementasi/form-setelah-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/form-setelah-pindah-sekolah.png)
+[![Setelah Melakukan Perpindahan Sekolah](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-setelah-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-setelah-pindah-sekolah.png)
 
 ### 3.14 Tampilan Lupa Password
  
-[![Tampilan Lupa Password](/document/aplikasi/psb-umum/images/implementasi/reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/reset-password.png)
+[![Tampilan Lupa Password](/document/aplikasi/psb-umum/images/implementasi/psb-umum_reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_reset-password.png)
 
 Menu lupa password adalah fasilitas yang disediakan untuk siswa ketika siswa lupa akan password yang dimilikinya. Untuk mengakses halaman ini, siswa harus menghubungi admin sekolah dimana siswa mendaftar. Jika sudah menghubungi admin sekolah, maka admin sekolah akan mereset password login siswa. Lalu siswa mengakses halaman login sesuai dengan **Nomor UN** yang dimiliki dan password yang telah diberikan oleh admin sekolah. Setelah login berhasil maka akan muncul form untuk merubah password yang baru. Berikut merupakan contoh form ganti password:
 
-[![Form Lupa Password](/document/aplikasi/psb-umum/images/implementasi/form-reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/form-reset-password.png)
+[![Form Lupa Password](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-reset-password.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_form-reset-password.png)
 
 Di form ini siswa memasukkan password yang baru, yang nantinya bisa di pakai untuk login selanjutnya.
 
@@ -429,42 +429,42 @@ Passing Grade akan menentukan apakah siswa di terima di sekolah yang ditujunya a
 
 Untuk mengakses halaman passing grade langkahnya yaitu buka halaman PPDB Online, lalu pilih tombol **Pengumuman** pada halaman utama:
 
- [![Tombol Pengumuman](/document/aplikasi/psb-umum/images/implementasi/tombol-pengumuman.png)](/document/aplikasi/psb-umum/images/implementasi/tombol-pengumuman.png)
+ [![Tombol Pengumuman](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-pengumuman.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_tombol-pengumuman.png)
 
 halaman-utama-passing-grade.png
 
 Berikut ini adalah gambar halaman Passing Grade:
 
- [![Passing Grade](/document/aplikasi/psb-umum/images/implementasi/halaman-utama-passing-grade.png)](/document/aplikasi/psb-umum/images/implementasi/halaman-utama-passing-grade.png)
+ [![Passing Grade](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-utama-passing-grade.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_halaman-utama-passing-grade.png)
 
 Berikut ini adalah gambar halaman Passing Grade SMA Zona Kabupaten Pandeglang:
 
- [![Passing Grade SMA](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-sma-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-sma-kab-pandeglang.png)
+ [![Passing Grade SMA](/document/aplikasi/psb-umum/images/implementasi/psb-umum_daftar-sekolah-sma-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_daftar-sekolah-sma-kab-pandeglang.png)
 
 Daftar sekolah SMA yang berada di zona Kabupaten Pandeglang:
 
- [![List SMA Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang.png)
- [![List SMA Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-sma-kab-pandeglang2.png)
+ [![List SMA Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-sma-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-sma-kab-pandeglang.png)
+ [![List SMA Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-sma-kab-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-sma-kab-pandeglang2.png)
 
 Daftar siswa yang dinyatakan lulus di salah satu Sekolah SMA di zona Kabupaten Pandeglang:
 
- [![Daftar Siswa Yang Lulus di Salah Satu SMA di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang.png)
- [![Daftar Siswa Yang Lulus di Salah Satu SMA di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-pandeglang2.png)
+ [![Daftar Siswa Yang Lulus di Salah Satu SMA di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-kab-pandeglang.png)
+ [![Daftar Siswa Yang Lulus di Salah Satu SMA di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-kab-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-kab-pandeglang2.png)
 
 Berikut ini adalah gambar halaman Passing Grade SMK Zona Kabupaten Pandeglang:
 
- [![Passing Grade SMK](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/daftar-sekolah-smk-kab-pandeglang.png)
+ [![Passing Grade SMK](/document/aplikasi/psb-umum/images/implementasi/psb-umum_daftar-sekolah-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_daftar-sekolah-smk-kab-pandeglang.png)
 
 Daftar sekolah SMK yang berada di zona Kabupaten Pandeglang:
 
- [![List SMK Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-smk-kab-pandeglang.png)
+ [![List SMK Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-smk-kab-pandeglang.png)
 
 Daftar jurusan yang terdapat di sekolah SMK yang berada di zona Kabupaten Pandeglang:
 
- [![List jurusan SMK Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-jurusan-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/list-sekolah-jurusan-smk-kab-pandeglang.png)
+ [![List jurusan SMK Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-jurusan-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_list-sekolah-jurusan-smk-kab-pandeglang.png)
 
 Daftar siswa yang dinyatakan lulus di salah satu Sekolah SMK di zona Kabupaten Pandeglang:
 
- [![Daftar Siswa Yang Lulus di Salah Satu SMK di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-smk-kab-pandeglang.png)
- [![Daftar Siswa Yang Lulus di Salah Satu SMK di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-smk-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/siswa-yang-lulus-kab-smk-pandeglang2.png)
+ [![Daftar Siswa Yang Lulus di Salah Satu SMK di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-smk-kab-pandeglang.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-smk-kab-pandeglang.png)
+ [![Daftar Siswa Yang Lulus di Salah Satu SMK di Kab Pandeglang](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-kab-smk-pandeglang2.png)](/document/aplikasi/psb-umum/images/implementasi/psb-umum_siswa-yang-lulus-kab-smk-pandeglang2.png)
 
