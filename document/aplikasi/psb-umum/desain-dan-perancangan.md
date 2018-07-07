@@ -275,7 +275,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 ###### 3.6.2.4.11 Admin Ubah Password Siswa
 
-[![Admin Ubah Password Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-admin-verifikasi-data-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-admin-verifikasi-data-siswa.png)
+[![Admin Ubah Password Siswa](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-admin-ubah-password-siswa.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-admin-ubah-password-siswa.png)
 
 #### 3.6.3 Siswa
 
@@ -331,10 +331,6 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Login](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-login.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-login.png)
 
-###### 3.6.3.4.2 Siswa Login
-
-[![Siswa Login](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-login.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-login.png)
-
 ###### 3.6.3.4.3 Siswa Isi Form Identitas
 
 [![Siswa Isi Form Identitas](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-isi-form-identitas.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-isi-form-identitas.png)
@@ -351,7 +347,7 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Cetak Formulir Pendaftaran](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-mencetak-formulir-pendaftaran.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-mencetak-formulir-pendaftaran.png)
 
-###### 3.6.3.4.6 Siswa Pindah Sekolah
+###### 3.6.3.4.7 Siswa Pindah Sekolah
 
 [![Siswa Pindah Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_state-chart-diagram-siswa-pindah-sekolah.png)
 
@@ -473,7 +469,7 @@ Berikut ini adalah rancangan eksekusi sistem informasi manajemen penerimaan sisw
 
 [![Tampilan Siswa Isi Form Pendaftaran](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-isi-form-pendaftaran.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-isi-form-pendaftaran.png)
 
-##### 3.8.3.7 Tampilan Siswa Pindah Sekolah Sekolah
+##### 3.8.3.7 Tampilan Siswa Pindah Sekolah
 
 [![Tampilan Siswa Pindah Sekolah](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-pindah-sekolah.png)](/document/aplikasi/psb-umum/images/desain-dan-perancangan/psb-umum_rancangan-halaman-siswa-pindah-sekolah.png)
 

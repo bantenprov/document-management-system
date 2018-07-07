@@ -217,6 +217,14 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Admin Input Data Orang Tua](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-admin-input-data-orang-tua.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-admin-input-data-orang-tua.png)
 
+###### 3.6.2.2.10 Admin Verifikasi Data Siswa
+
+[![Admin Verifikasi Data Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-admin-verifikasi-data-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-admin-verifikasi-data-siswa.png)
+
+###### 3.6.2.2.11 Admin Ubah Password Siswa
+
+[![Admin Ubah Password Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-admin-ubah-password-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-admin-ubah-password-siswa.png)
+
 
 ##### 3.6.2.3 Sequence Diagram Admin
 
@@ -260,6 +268,14 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Admin Input Data Orang Tua](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-admin-input-data-orang-tua.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-admin-input-data-orang-tua.png)
 
+###### 3.6.2.4.10 Admin Verifikasi Data Siswa
+
+[![Admin Verifikasi Data Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-admin-verifikasi-data-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-admin-verifikasi-data-siswa.png)
+
+###### 3.6.2.4.11 Admin Ubah Password Siswa
+
+[![Admin Ubah Password Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-admin-ubah-password-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-admin-ubah-password-siswa.png)
+
 #### 3.6.3 Siswa
 
 ##### 3.6.3.1 Use Case Diagram Siswa
@@ -276,9 +292,25 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Login](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-login.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-login.png)
 
-###### 3.6.3.2.3 Siswa Lihat Data Sekolah
+###### 3.6.3.2.3 Siswa Isi Form Identitas
+
+[![Siswa Siswa Isi Form Identitas](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-isi-form-dentitas.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-isi-form-dentitas.png)
+
+###### 3.6.3.2.4 Siswa Lihat Data Sekolah
 
 [![Siswa View Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-view-sekolah.png)
+
+###### 3.6.3.2.5 Siswa Memilih Sekolah Tujuan
+
+[![Siswa Memilih Sekolah Tujuan](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-memilih-sekolah-tujuan.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-memilih-sekolah-tujuan.png)
+
+###### 3.6.3.2.6 Siswa Cetak Formulir Pendaftaran
+
+[![Siswa Cetak Formulir Pendaftaran](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-cetak-formulir-pendaftaran.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-cetak-formulir-pendaftaran.png)
+
+###### 3.6.3.2.7 Siswa Pindah Sekolah
+
+[![Siswa Pindah Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-pindah-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_activity-diagram-siswa-pindah-sekolah.png)
 
 
 ##### 3.6.3.3 Sequence Diagram Siswa
@@ -298,23 +330,45 @@ Permodelan rancangan sistem yang dgunakan adalah UML (Unified Modeling Language)
 
 [![Siswa Login](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-login.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-login.png)
 
-###### 3.6.3.4.3 Siswa Lihat Data Sekolah
+###### 3.6.3.4.3 Siswa Isi Form Identitas
+
+[![Siswa Isi Form Identitas](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-isi-form-identitas.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-isi-form-identitas.png)
+
+###### 3.6.3.4.4 Siswa Lihat Data Sekolah
 
 [![Pasien Lihat Data Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-view-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-view-sekolah.png)
 
-##### 3.6.3.5 Flowchart Diagram Siswa
+###### 3.6.3.4.5 Siswa Memilih Sekolah Tujuan
+
+[![Siswa Memilih Sekolah Tujuan](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-memilih-sekolah-tujuan.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-memilih-sekolah-tujuan.png)
+
+###### 3.6.3.4.6 Siswa Cetak Formulir Pendaftaran
+
+[![Siswa Cetak Formulir Pendaftaran](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-mencetak-formulir-pendaftaran.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-mencetak-formulir-pendaftaran.png)
+
+###### 3.6.3.4.7 Siswa Pindah Sekolah
+
+[![Siswa Pindah Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-pindah-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_state-chart-diagram-siswa-pindah-sekolah.png)
+
+##### 3.6.3.5 Sequence Diagram User
+
+###### 3.6.3.5.1 User Melihat Passing Grade
+
+[![User Melihat Passing Grade](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_sequence-diagram-user-view-passing-grade.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_sequence-diagram-user-view-passing-grade.png)
+
+##### 3.6.3.6 Flowchart Diagram Siswa
 
 [![Flowchart Diagram Siswa](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_flowchart-diagram-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_flowchart-diagram-siswa.png)
 
-#### 3.6.6 Class Diagram
+#### 3.6.4 Class Diagram
 
 [![Class Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_class-diagram.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_class-diagram.png)
 
-#### 3.6.7 Technology Stack Diagram
+#### 3.6.5 Technology Stack Diagram
 
 [![Technology Stack Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_technology-stack-diagram.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_technology-stack-diagram.png)
 
-#### 3.6.8 Deployment Diagram
+#### 3.6.6 Deployment Diagram
 
 [![Deployment Diagram](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_deployment-diagram.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_deployment-diagram.png)
 
@@ -329,7 +383,7 @@ Langkah atau tahapan yang dilakukan dalam mengembangkan aplikasi Sistem Penerima
 5. Testing Sistem
   Sistem yang telah selesai dibuat akan diuji coba menggunakan data test sebelum sistem dijalankan. Dalam uji coba sistem ini akan diterapkan metode *prototyping* yaitu jika terjadi kesalahan/kekurangan baik proses ataupun output sistem, maka kesalahan tersebut akan diperbaiki/ditambahkan.
 6. Pelatihan *(training)*
-  Pelatihan ini diberikan kepada operator pada satuan kerja dan operator serta administrator pada bagian kelengkapan/badan pengelola keuangan daerah. Pelatihan yang diberikan kepada operator meliputi penggunaan aplikasi dan *trobleshooting* secara umum, sedangkan pelatihan yang diberikan administrator meliputi penggunaan program secara keseluruhan, struktur database,sinkronisasi data dan *trobleshooting* secara mendetail.
+  Pelatihan ini diberikan kepada operator pada satuan kerja dan operator serta administrator pada setiap admin sekolah. Pelatihan yang diberikan kepada operator meliputi penggunaan aplikasi dan *trobleshooting* secara umum, sedangkan pelatihan yang diberikan administrator meliputi penggunaan program secara keseluruhan, struktur database,sinkronisasi data dan *trobleshooting* secara mendetail.
 7. Implementasi Sistem
   Sistem akan dijalankan *(running)* jika sudah tidak ada permasalahan yang akan ditemukan dalam testing sistem. Akan tetapi tidak menutup kemungkinan jika masih terdapat kekurangan karena terjadinya perubahan peraturan maupun kebijakan yang mengharuskan perancangan ulang.
 
@@ -409,9 +463,17 @@ Berikut ini adalah rancangan eksekusi sistem informasi manajemen penerimaan sisw
 
 [![Tampilan Siwa Lihat Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-sekolah-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-sekolah-siswa.png)
 
-##### 3.8.3.6 Tampilan Siswa Lihat Detail Sekolah
+##### 3.8.3.6 Tampilan Siswa Isi Form Pendaftaran
 
-[![Tampilan Siswa Lihat Detail Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-profile-sekolah-siswa.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-profile-sekolah-siswa.png)
+[![Tampilan Siswa Isi Form Pendaftaran](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-siswa-isi-form-pendaftaran.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-siswa-isi-form-pendaftaran.png)
+
+##### 3.8.3.7 Tampilan Siswa Pindah Sekolah
+
+[![Tampilan Siswa Pindah Sekolah](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-siswa-pindah-sekolah.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-siswa-pindah-sekolah.png)
+
+### 3.9 Passing Grade
+
+[![Passing Grade](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-passing-grade.png)](/document/aplikasi/psb-kejuruan/images/desain-dan-perancangan/psb-kejuruan_rancangan-halaman-passing-grade.png)
 
 ## 4. PENUTUP
 Dengan adanya pengembangan dari sistem informasi manajemen pendaftaran siswa baru ini untuk meningkatkan kinerja sistem yang telah ada dan berjalan sebelumnya menjadi lebih rapih dan tertata sehingga dapat mempermudah dalam pengumpulan informasi dan pengaturan manejemen sekolah serta mempermudah masyarakat dalam mencari informasi. Aplikasi ini mempunyai kelebihan untuk memperoleh data yang cepat, tepat dan akurat mengenai info sekolah yang terdapat di Pemprov Banten. Sistem ini memberikan kemudahan dalam beberapa hal seperti : pencatatan data sekolah, pencatatan data siswa dan kemudahan dalam mencari informasi tentang pelayanan pendaftaran siswa baru.
